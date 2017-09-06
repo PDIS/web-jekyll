@@ -3,17 +3,19 @@ layout: default
 ---
 
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center orange-text">{{ site.title }}</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">{{ content }}</h5>
+    <div class="row teal darken-4 valign-wrapper">
+      <div class="col s12 m5 push-m7">
+          <h1 class="header center orange-text">{{ site.title }}</h1>
+          <div class="row center">
+            <h5 class="header col s12 light white-text">{{ content }}</h5>
+          </div>
+          <div class="row center">
+            <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+          </div>
       </div>
-        
-      <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      <div class="col s12 m7 pull-m5 no-padding" style='line-height:0'>
+        <img src="/images/pdis-team.jpg" alt="PDIS team" class="responsive-img center"/>
       </div>
-      <br><br>
 
     </div>
   </div>
@@ -52,7 +54,7 @@ layout: default
       </div>
 
     </div>
-      
+
     </div>
     <div style="background: #ddd">
     <div class="container last-post">
@@ -70,7 +72,7 @@ layout: default
           <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
         </li>
         {% endfor %}
-        </ul>  
+        </ul>
     </section>
     </div>
 </div>
