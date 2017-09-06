@@ -12,6 +12,8 @@ collections: # create posts folder other than _posts
   projects:
     output: true
     permalink: /:collection/:path/
+  tracks:
+    output: true
 
 sass:
     style: compressed
