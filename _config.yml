@@ -1,8 +1,8 @@
-title: Starter Template
-author: Panoramedia
-email: panoramedia@gmail.com
+title: 公共數位創新空間
+author: PDIS
+email: hello@pdis.tw
 description: > # this means to ignore newlines until "baseurl:"
-  A Site Starter Materialize Templates for Jekyll
+  A Site of PDIS
 
 baseurl: '/'
 twitter_username: TaiwanPDIS
