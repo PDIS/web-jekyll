@@ -8,5 +8,10 @@ baseurl: '/'
 twitter_username: TaiwanPDIS
 github_username:  pdis
 
+collections: # create posts folder other than _posts
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 sass:
     style: compressed
