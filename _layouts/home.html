@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="section no-pad-bot" id="index-banner">
-  <div class="row" style="background:url(/images/pdis-team.jpg) center; background-size:cover;">
+  <div class="row" style="background:url(/images/pdis-team.jpg) center bottom; background-size:cover;">
     <div class="col s12 m5 offset-m7 teal darken-4">
-      <div class="container section" style="padding-right:25%;">
+      <div class="container section" style="padding-right:7vw;">
         <h1 class="header orange-text">{{ site.title }}</h1>
         <h5 class="header light white-text">{{ content }}</h5>
         <h3>
@@ -21,41 +21,21 @@ layout: default
     <h3 class="center">
       讓我們來幫幫你！
     </h3>
-    <h6 class='center flow-text'>
+    <h6 class='center flow-text container'>
       As an office within the General Services Administration, we know how to work with government. Work with us to plan successful projects, build custom software, get better results with vendors, or learn how to work in new ways.
     </h6>
     <!--   Icon Section   -->
     <div class="row">
+      {% for feature in site.data.features limit:3 %}
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center teal-text"><i class="material-icons">flash_on</i></h2>
-          <h5 class="center">閃電布丁</h5>
+          <h2 class="center teal-text"><i class="material-icons">{{ feature.icon }}</i></h2>
+          <h5 class="center">{{ feature.title }}</h5>
 
-          <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.
-            Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          <p class="light">{{ feature.desc }}</p>
         </div>
       </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center teal-text"><i class="material-icons">group</i></h2>
-          <h5 class="center">使用者體驗</h5>
-
-          <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components
-            and animations that provide more feedback to users. Additionally, a single underlying responsive system across
-            all platforms allow for a more unified user experience.</p>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center teal-text"><i class="material-icons">settings</i></h2>
-          <h5 class="center">工作最佳化</h5>
-
-          <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are
-            also always open to feedback and can answer any questions a user may have about Materialize.</p>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
@@ -66,19 +46,19 @@ layout: default
       近期專案
     </h3>
     <div class="row">
-      {% for post in site.projects limit:3 %}
+      {% for project in site.projects limit:3 %}
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
             <img src="images/pdis-team.jpg" alt='project img'>
-            <span class="card-title">Card Title</span>
           </div>
           <div class="card-content">
+            <span class="card-title">{{ project.title }}</span>
             <p>I am a very simple card. I am good at containing small bits of information.
             I am convenient because I require little markup to use effectively.</p>
           </div>
           <div class="card-action">
-            <a href="{{ post.url | relative_url }}">This is a link</a>
+            <a href="{{ project.url | relative_url }}">This is a link</a>
           </div>
         </div>
       </div>
@@ -96,7 +76,7 @@ layout: default
       {% for post in site.posts %}
       <a class="collection-item avatar grey-text text-darken-4" href="{{ post.url | relative_url }}">
         {% assign date_format = site.minima.date_format | default: "%m/%d" %}
-        <div class="date-post orange">{{ post.date | date: date_format }}</div>
+        <div class="date-post orange circle">{{ post.date | date: date_format }}</div>
         <span class="title">{{ post.title | escape }}</span>
         <p>
           {{ post.content | truncatewords: 10 }}
