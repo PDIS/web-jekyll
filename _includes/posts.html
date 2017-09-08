@@ -1,0 +1,20 @@
+<div class="container last-post">
+  <section>
+    <h3 class="center">
+      最新日誌
+    </h3>
+    <div class="collection">
+      {% for post in site.posts %}
+      <a class="collection-item avatar grey-text text-darken-4" href="{{ post.url | relative_url }}">
+        {% assign date_format = site.minima.date_format | default: "%m/%d" %}
+        <div class="date-post orange circle">{{ post.date | date: date_format }}</div>
+        <span class="title">{{ post.title | escape }}</span>
+        <p>
+          {{ post.content | truncatewords: 20 }}
+        </p>
+        <span class="secondary-content"><i class="material-icons">navigate_next</i></span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+</div>

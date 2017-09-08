@@ -6,11 +6,7 @@ layout: default
   <div class="row" style="background:url(/images/pdis-team.jpg) center bottom; background-size:cover;">
     <div class="col s12 m5 offset-m7 teal darken-4">
       <div class="container section" style="padding-right:7vw;">
-        <h1 class="header orange-text">{{ site.title }}</h1>
-        <h5 class="header light white-text">{{ content }}</h5>
-        <h3>
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal accent-4">第一類接觸 <i class="material-icons right">send</i> </a>
-        </h3>
+        {{ content }}
       </div>
     </div>
   </div>
@@ -19,19 +15,18 @@ layout: default
 <div class="container">
   <div class="section">
     <h3 class="center">
-      讓我們來幫幫你！
+      {{ site.data.features.title }}
     </h3>
-    <h6 class='center flow-text container'>
-      As an office within the General Services Administration, we know how to work with government. Work with us to plan successful projects, build custom software, get better results with vendors, or learn how to work in new ways.
+    <h6 class='flow-text container'>
+      {{ site.data.features.desc }}
     </h6>
     <!--   Icon Section   -->
     <div class="row">
-      {% for feature in site.data.features limit:3 %}
+      {% for feature in site.data.features.list limit:3 %}
       <div class="col s12 m4">
         <div class="icon-block">
           <h2 class="center teal-text"><i class="material-icons">{{ feature.icon }}</i></h2>
           <h5 class="center">{{ feature.title }}</h5>
-
           <p class="light">{{ feature.desc }}</p>
         </div>
       </div>
@@ -40,50 +35,6 @@ layout: default
   </div>
 </div>
 
-<div class="container last-post">
-  <section>
-    <h3 class="center">
-      近期專案
-    </h3>
-    <div class="row">
-      {% for project in site.projects limit:3 %}
-      <div class="col s12 m4">
-        <div class="card">
-          <div class="card-image">
-            <img src="images/pdis-team.jpg" alt='project img'>
-          </div>
-          <div class="card-content">
-            <span class="card-title">{{ project.title }}</span>
-            <p>I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="{{ project.url | relative_url }}">This is a link</a>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-</div>
+{% include projects.html %}
 
-<div class="container last-post">
-  <section>
-    <h3 class="center">
-      最新日誌
-    </h3>
-    <div class="collection">
-      {% for post in site.posts %}
-      <a class="collection-item avatar grey-text text-darken-4" href="{{ post.url | relative_url }}">
-        {% assign date_format = site.minima.date_format | default: "%m/%d" %}
-        <div class="date-post orange circle">{{ post.date | date: date_format }}</div>
-        <span class="title">{{ post.title | escape }}</span>
-        <p>
-          {{ post.content | truncatewords: 10 }}
-        </p>
-        <span class="secondary-content"><i class="material-icons">navigate_next</i></span>
-      </a>
-      {% endfor %}
-    </div>
-  </section>
-</div>
+{% include posts.html %}

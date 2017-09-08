@@ -1,0 +1,52 @@
+<div class="container last-post">
+  <section>
+    <h3 class="center">
+      近期專案
+    </h3>
+
+    {% if page.layout == 'home' %}
+
+    <div class="row">
+      {% for project in site.projects limit:3 %}
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/pdis-team.jpg" alt='project img'>
+          </div>
+          <div class="card-content">
+            <span class="card-title">{{ project.title }}</span>
+            {{ project.excerpt | truncate: 100 }}
+          </div>
+          <div class="card-action">
+            <a href="{{ project.url | relative_url }}">This is a link</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    {% else %}
+
+      <div class="row">
+        {% for project in site.projects %}
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/pdis-team.jpg" alt='project img'>
+            </div>
+            <div class="card-content">
+              <span class="card-title">{{ project.title }}</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="{{ project.url | relative_url }}">This is a link</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+    {% endif %}
+  </section>
+</div>
