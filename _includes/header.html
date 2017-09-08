@@ -9,7 +9,7 @@
     {% assign page_paths = site.header_pages | default: default_paths %}
 
       <ul class="hide-on-med-and-down">
-        <li><a href="{{ '/' | relative_url }}" class='teal-text'>Home </a></li>
+        <li><a href="{{ '/' | relative_url }}" class='teal-text'> <i class="material-icons">home</i> </a></li>
         {% if page_paths %}
             {% for path in page_paths %}
                 {% assign my_page = site.pages | where: "path", path | first %}

@@ -1,40 +1,27 @@
-  <footer class="page-footer teal darken-4">
-
-    <div class="container">
-      <div class="row">
-        <div class="col l3 s12">
-          <h5 class="white-text">相關連結</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">資訊公開</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l6 s12">
-          <h5 class="white-text">關於 PDIS</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-        </div>
+<footer class="page-footer teal darken-4">
+  <div class="container">
+    <div class="row">
+      <div class="col l3 s12">
+        <h5 class="white-text">{{ site.data.informations.ref.title }}</h5>
+        <ul>
+          {% for link in site.data.informations.ref.list %}
+          <li><a class="white-text" href="{{ link.url }}">{{ link.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">{{ site.data.informations.info.title }}</h5>
+        <ul>
+          {% for link in site.data.informations.info.list %}
+          <li><a class="white-text" href="{{ link.url }}">{{ link.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col l6 s12">
+        <h5 class="white-text">{{ site.data.informations.about.title }}</h5>
+        <p class="grey-text text-lighten-4">{{ site.data.informations.about.desc }}</p>
       </div>
     </div>
+  </div>
 
-    <div class="footer-copyright">
-        <div class="container">
-            <div>
-                Made by <a target="_blank" class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-                <span style="text-align: right; float: right">
-                Powered by <a target="_blank" href="http://jekyllrb.com/" class="orange-text text-lighten-3">Jekyll</a>
-                </span>
-            </div>
-        </div>
-    </div>
 </footer>

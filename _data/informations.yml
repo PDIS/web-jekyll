@@ -1,0 +1,29 @@
+ref:
+  title: 相關連結
+  list:
+  - name: PDIS 討論區
+    url: 'https://talk.pdis.nat.gov.tw/'
+  - name: PDIS 網站原始碼
+    url: 'https://github.com/PDIS/web-jekyll'
+  - name: Sandstorm Tools
+    url: 'https://github.com/PDIS/tools-manage-sandstorm'
+  - name: API Sketches
+    url: 'https://github.com/PDIS/swagger_file'
+
+info:
+  title: 資訊公開
+  list:
+  - name: 數位經濟法規線上討論平台
+    url: 'https://vtaiwan.tw/'
+  - name: 公共政策網路參與平臺
+    url: 'http://join.gov.tw/'
+  - name: Facebook
+    url: 'https://www.facebook.com/shu.w.zhengwei'
+  - name: Twitter
+    url: 'https://twitter.com/TaiwanPDIS'
+  - name: YouTube
+    url: 'https://www.youtube.com/channel/UCExDf4hkbSU-pmJcyT_sDtg'
+
+about:
+  title: 關於 PDIS
+  desc: We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.
