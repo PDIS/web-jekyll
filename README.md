@@ -6,6 +6,7 @@
 4. install `jekyll` by `gem`
 5. run `jekyll serve`
 6. open `127.0.0.1:4000`
+7. push to github results to automatically render a static site for you
 
 # 檔案結構 Structure
 ## 文章 Text
