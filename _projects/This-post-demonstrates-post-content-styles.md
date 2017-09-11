@@ -1,6 +1,6 @@
 ---
 layout: post
-title: date + This post demonstrates post content styles
+title: This post demonstrates post content styles
 categories: junk
 author: "Bart Simpson"
 meta: "Springfield"
