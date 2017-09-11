@@ -1,10 +1,12 @@
 ---
 layout: default
+color: light-blue
+bgcolor: light-blue darken-4
 ---
 
 <div class="section no-pad-bot" id="index-banner">
   <div class="row" style="background:url(/images/pdis-team.jpg) center bottom; background-size:cover;">
-    <div class="col s12 m5 offset-m7 teal darken-4">
+    <div class="col s12 m5 offset-m7 {{ layout.bgcolor }}">
       <div class="container section" style="padding-right:7vw;">
         {{ content }}
       </div>
@@ -25,7 +27,7 @@ layout: default
       {% for feature in site.data.features.list limit:3 %}
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center teal-text"><i class="material-icons">{{ feature.icon }}</i></h2>
+          <h2 class="center {{ layout.color }}-text"><i class="material-icons">{{ feature.icon }}</i></h2>
           <h5 class="center">{{ feature.title }}</h5>
           <p class="light">{{ feature.desc }}</p>
         </div>

@@ -1,4 +1,6 @@
-<footer class="page-footer teal darken-4">
+{% assign bgcolor = include.bgcolor | default: 'teal darken-4' %}
+
+<footer class="page-footer {{ bgcolor }}">
   <div class="container">
     <div class="row">
       <div class="col l3 s12">
