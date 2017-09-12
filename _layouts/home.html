@@ -1,7 +1,7 @@
 ---
 layout: default
-color: light-blue
-bgcolor: light-blue darken-4
+color: cyan-text
+bgcolor: teal
 ---
 
 <div class="section no-pad-bot" id="index-banner">
@@ -27,7 +27,7 @@ bgcolor: light-blue darken-4
       {% for feature in site.data.features.list limit:3 %}
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center {{ layout.color }}-text"><i class="material-icons">{{ feature.icon }}</i></h2>
+          <h2 class="center {{ layout.color }}"><i class="material-icons">{{ feature.icon }}</i></h2>
           <h5 class="center">{{ feature.title }}</h5>
           <p class="light">{{ feature.desc }}</p>
         </div>

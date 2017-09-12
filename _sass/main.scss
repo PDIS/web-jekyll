@@ -3,6 +3,18 @@
 html {
   font-family: "Roboto", "Microsoft JhengHei", 'Heiti TC', sans-serif;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  >div {
+    flex: 1 0 auto;
+  }
+  >nav,
+  >footer {
+    flex: 0 0 auto;
+  }
+}
 h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
 }

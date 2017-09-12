@@ -8,7 +8,7 @@
   <div class="row">
     {% for project in site.projects limit:3 %}
     <div class="col s12 m4">
-      <div class="card">
+      <div class="card hoverable">
         <div class="card-image">
           <img src="/images/pdis-team.jpg" alt='project img'>
         </div>
@@ -32,7 +32,7 @@
   {% for project in site.projects %}
     {% cycle '<div class="row">', '', '' %}
       <div class="col s12 m4">
-        <div class="card">
+        <div class="card hoverable">
           <div class="card-image">
             <img src="/images/pdis-team.jpg" alt='project img'>
           </div>

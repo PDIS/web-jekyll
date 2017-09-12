@@ -1,16 +1,22 @@
+---
+bg: brown lighten-5
+headcolor: teal-text
+footcolor: grey-text text-darken-2
+footbgcolor: cyan lighten-5
+---
+
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {% include head.html %}
 
-  <body class="brown lighten-5">
+  <body class="{{ layout.bg }}">
 
-    {% include header.html color='light-blue' %}
-
+    {% include header.html color=layout.headcolor %}
 
         {{ content }}
 
-    {% include footer.html bgcolor='light-blue darken-4' %}
+    {% include footer.html color=layout.footcolor bgcolor=layout.footbgcolor %}
 
     {% include script.html %}
 

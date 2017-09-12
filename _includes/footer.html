@@ -1,27 +1,28 @@
+{% assign color = include.color | default: 'white-text' %}
 {% assign bgcolor = include.bgcolor | default: 'teal darken-4' %}
 
 <footer class="page-footer {{ bgcolor }}">
   <div class="container">
     <div class="row">
       <div class="col l3 s12">
-        <h5 class="white-text">{{ site.data.informations.ref.title }}</h5>
+        <h5 class="{{ color }}">{{ site.data.informations.ref.title }}</h5>
         <ul>
           {% for link in site.data.informations.ref.list %}
-          <li><a class="white-text" href="{{ link.url }}">{{ link.name }}</a></li>
+          <li><a class="{{ color }}" href="{{ link.url }}">{{ link.name }}</a></li>
           {% endfor %}
         </ul>
       </div>
       <div class="col l3 s12">
-        <h5 class="white-text">{{ site.data.informations.info.title }}</h5>
+        <h5 class="{{ color }}">{{ site.data.informations.info.title }}</h5>
         <ul>
           {% for link in site.data.informations.info.list %}
-          <li><a class="white-text" href="{{ link.url }}">{{ link.name }}</a></li>
+          <li><a class="{{ color }}" href="{{ link.url }}">{{ link.name }}</a></li>
           {% endfor %}
         </ul>
       </div>
       <div class="col l6 s12">
-        <h5 class="white-text">{{ site.data.informations.about.title }}</h5>
-        <p class="grey-text text-lighten-4">{{ site.data.informations.about.desc }}</p>
+        <h5 class="{{ color }}">{{ site.data.informations.about.title }}</h5>
+        <p class="{{ color }}">{{ site.data.informations.about.desc }}</p>
       </div>
     </div>
   </div>

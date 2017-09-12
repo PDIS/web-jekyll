@@ -1,4 +1,4 @@
-{% assign color = include.color | default: 'teal' %}
+{% assign color = include.color | default: 'teal-text' %}
 
 <nav class="transparent z-depth-0" role="navigation">
     <div class="nav-wrapper container">
@@ -14,12 +14,12 @@
 
       <!-- Menu -->
       <ul class="hide-on-med-and-down">
-        <li><a href="{{ '/' | relative_url }}" class='{{ color }}-text'> <i class="material-icons">home</i> </a></li>
+        <li><a href="{{ '/' | relative_url }}" class='{{ color }}'> <i class="material-icons">home</i> </a></li>
         {% if page_paths %}
             {% for path in page_paths %}
                 {% assign my_page = site.pages | where: "path", path | first %}
                 {% if my_page.title %}
-                <li><a href="{{ my_page.url | relative_url }}" class='{{ color }}-text'>{{ my_page.title | escape }}</a></li>
+                <li><a href="{{ my_page.url | relative_url }}" class='{{ color }}'>{{ my_page.title | escape }}</a></li>
                 {% endif %}
             {% endfor %}
         {% endif %}
@@ -28,17 +28,17 @@
 
       <!-- Sidebar and Hamburger menu -->
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="{{ '/' | relative_url }}" class='{{ color }}-text'>Home</a></li>
+        <li><a href="{{ '/' | relative_url }}" class='{{ color }}'>Home</a></li>
         {% if page_paths %}
             {% for path in page_paths %}
                 {% assign my_page = site.pages | where: "path", path | first %}
                 {% if my_page.title %}
-                <li><a href="{{ my_page.url | relative_url }}" class='{{ color }}-text'>{{ my_page.title | escape }}</a></li>
+                <li><a href="{{ my_page.url | relative_url }}" class='{{ color }}'>{{ my_page.title | escape }}</a></li>
                 {% endif %}
             {% endfor %}
         {% endif %}
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse {{ color }}-text"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse {{ color }}"><i class="material-icons">menu</i></a>
       <!--  -->
 
     </div>
