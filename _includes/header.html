@@ -15,14 +15,23 @@
       <!-- Menu -->
       <ul class="hide-on-med-and-down">
         <li><a href="{{ '/' | relative_url }}" class='{{ color }}'> <i class="material-icons">home</i> </a></li>
-        {% if page_paths %}
+      <!--   {% if page_paths %}
             {% for path in page_paths %}
                 {% assign my_page = site.pages | where: "path", path | first %}
                 {% if my_page.title %}
                 <li><a href="{{ my_page.url | relative_url }}" class='{{ color }}'>{{ my_page.title | escape }}</a></li>
                 {% endif %}
             {% endfor %}
-        {% endif %}
+        {% endif %} -->
+        <li><a href="/guide/" class='{{ color }}'>設計原則</a></li>
+        <li><a href="/posts/" class='{{ color }}'>blog</a></li>
+        <li><a href="/projects/" class='{{ color }}'>專案</a></li>
+        <li class="drop"><a class='{{ color }}'>Drop</a>
+                <ul>
+                  <li><a href="http://www.g.com"class='{{ color }}'>Art</a></li>
+                  <li><a href="http://www.g.com"class='{{ color }}'>Coding</a></li>
+                </ul>
+              </li>
       </ul>
       <!--  -->
 
