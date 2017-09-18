@@ -1,6 +1,6 @@
 <div class="last-post">
   <section>
-    <h3 class="center">
+    <h3 class="center tk-source-han-sans-traditional">
       最新日誌
     </h3>
     <div class="collection">
@@ -10,7 +10,7 @@
         <div class="date-post orange circle">{{ post.date | date: date_format }}</div>
         <span class="title">{{ post.title | escape }}</span>
         <p>
-          {{ post.content | truncate: 70 }}
+          {{ post.excerpt | truncate: 100 | strip_html }}
         </p>
         <span class="secondary-content grey-text"><i class="material-icons">navigate_next</i></span>
       </a>

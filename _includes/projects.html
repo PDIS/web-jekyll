@@ -1,5 +1,5 @@
 <section>
-  <h3 class="center">
+  <h3 class="center tk-source-han-sans-traditional">
     近期專案
   </h3>
 
@@ -16,7 +16,7 @@
           </div>
           <div class="card-content">
             <span class="card-title">{{ project.title }}</span>
-            {{ project.excerpt | truncate: 100 }}
+            {{ project.excerpt | truncate: 100 | strip_html }}
           </div>
           <div class="card-action">
               <a href="{{ project.url | relative_url }}">
@@ -42,7 +42,7 @@
           </div>
           <div class="card-content">
             <span class="card-title">{{ project.title }}</span>
-            {{ project.excerpt | truncate: 100 }}
+            {{ project.excerpt | truncate: 100 | strip_html }}
           </div>
           <div class="card-action">
             <a href="{{ project.url | relative_url }}">
