@@ -19,3 +19,6 @@ collections: # create posts folder other than _posts
 
 sass:
     style: compressed
+
+plugins:
+    - jekyll-admin
