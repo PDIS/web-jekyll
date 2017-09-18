@@ -21,6 +21,8 @@
     - 首頁區塊資訊
   - navigation.yml (working)
     - 導覽列項目
+  - aboutus.json
+    - 關於我們
 - /_config.yml
   - 首頁標頭資訊
 
