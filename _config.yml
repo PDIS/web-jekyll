@@ -5,6 +5,7 @@ lang: zh-tw
 description: > # this means to ignore newlines until "baseurl:"
   我⁠們協⁠助政⁠府⁠部⁠會提⁠升數⁠位⁠服⁠務⁠品⁠質。
 
+image: /images/pdis-team.jpg
 twitter_username: TaiwanPDIS
 github_username:  pdis
 permalink: pretty
