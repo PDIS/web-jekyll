@@ -1,7 +1,7 @@
 {% for nav in site.data.nav %}
   {% if nav.items %}
   <!-- nested -->
-  <li class='drop'><a class='{{ color }}'>{{ nav.title }}</a>
+  <li class='drop'><a class='{{ color }}'>{{ nav.title }}<span class="material-icons" style="vertical-align:middle">expand_more</span></a>
     <ul>
       {% for item in nav.items %}
       <li><a href='{{ item.link | relative_url }}' class='{{ color }}'>{{ item.title }}</a></li>
