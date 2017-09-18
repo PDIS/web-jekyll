@@ -10,7 +10,7 @@
         <div class="date-post orange circle">{{ post.date | date: date_format }}</div>
         <span class="title">{{ post.title | escape }}</span>
         <p>
-          {{ post.content | truncatewords: 20 }}
+          {{ post.content | truncate: 70 }}
         </p>
         <span class="secondary-content grey-text"><i class="material-icons">navigate_next</i></span>
       </a>
