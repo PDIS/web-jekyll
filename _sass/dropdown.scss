@@ -21,7 +21,7 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
       background-color: #efebe9;
       position: absolute;
       left: 0;
-      // top: 3em;
+      width: 100%;
       transition: all 0.3s ease;
       transform: scale(0);
       transform-origin: 0 0;
@@ -31,7 +31,6 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
         width: 100%;
         a {
           width: 100%;
-          padding: 1em 18px;
           display: inline-block;
           white-space: pre;
           box-sizing: border-box;
