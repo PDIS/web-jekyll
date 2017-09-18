@@ -1,7 +1,12 @@
 @charset "utf-8";
 
+$font: "Roboto", "Microsoft JhengHei", 'Heiti TC', sans-serif;
+$font-sans: "source-han-sans-traditional", "Microsoft JhengHei", 'Heiti TC', sans-serif;
+$font-serif: "source-han-serif-tc", "Microsoft JhengHei", 'Heiti TC', sans-serif;
+/* or you can use 'tk-source-han-sans-traditional', 'tk-source-han-serif-tc' as className */
+
 html {
-  font-family: "Roboto", "Microsoft JhengHei", 'Heiti TC', sans-serif;
+  font-family: $font;
 }
 body {
   min-height: 100vh;
@@ -16,7 +21,10 @@ body {
   }
 }
 h1, h2, h3, h4, h5, h6 {
-    -webkit-font-smoothing: antialiased;
+  font-family: $font-serif;
+}
+p {
+  font-family: $font-sans;
 }
 
 /* posts */
