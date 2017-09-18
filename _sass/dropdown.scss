@@ -17,6 +17,7 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
   .drop {
     position: relative;
     ul {
+      z-index: 1000;
       background-color: #efebe9;
       position: absolute;
       left: 0;
