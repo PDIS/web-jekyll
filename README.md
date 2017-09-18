@@ -9,30 +9,32 @@
 7. push to github results to automatically render a static site for you
 
 # 檔案結構 Structure
-## 文章 Text
+## 單篇文章 Text
 - /_posts/
+  - 日誌
 - /_projects/
+  - 專案
 
-## 資料 Data
+## 站內資料 Data
 - /_data/
+  - features.yml
+    - 首頁區塊資訊
+  - navigation.yml (working)
+    - 導覽列項目
 - /_config.yml
+  - 首頁標頭資訊
 
-## 頁面 Page
+## 頁面版型 Page
 - /_layouts/
+  - 版型可用之嵌入內容
 - /_includes/
+  - page 可用之版型
 - /pages/
+  - 各頁 page
 - /index.html
+  - 首頁 page
 
 ---
-
-# Jekyll Materialize Starter Template v0.1
-
-*A Site Starter Materialize Templates.
-
-The theme is a fork of the [minima][1]
-
-![minima theme preview](/screenshot.png)
-
 
 # License
 
