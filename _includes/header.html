@@ -15,14 +15,6 @@
       <!-- Menu -->
       <ul class="hide-on-med-and-down">
         <li><a href="{{ '/' | relative_url }}" class='{{ color }}'> <i class="material-icons">home</i> </a></li>
-      <!--   {% if page_paths %}
-            {% for path in page_paths %}
-                {% assign my_page = site.pages | where: "path", path | first %}
-                {% if my_page.title %}
-                <li><a href="{{ my_page.url | relative_url }}" class='{{ color }}'>{{ my_page.title | escape }}</a></li>
-                {% endif %}
-            {% endfor %}
-        {% endif %} -->
         <li><a href="/guide/" class='{{ color }}'>關於我們</a></li>
         <li class="drop"><a class='{{ color }}'>我們怎麼做</a>
           <ul>
@@ -31,12 +23,12 @@
         </li>
 
         <li class="drop"><a class='{{ color }}'>我們做了什麼</a>
-                <ul>
-                  <li><a href="/projects/"class='{{ color }}'>專案</a></li>
-                  <li><a href="/blog/"class='{{ color }}'>工作日誌</a></li>
-                  <li><a href="/track/"class='{{ color }}'>工作紀錄</a></li>
-                </ul>
-              </li>
+          <ul>
+            <li><a href="/projects/"class='{{ color }}'>專案</a></li>
+            <li><a href="/blog/"class='{{ color }}'>工作日誌</a></li>
+            <li><a href="/track/"class='{{ color }}'>工作紀錄</a></li>
+          </ul>
+        </li>
       </ul>
       <!--  -->
 
