@@ -8,6 +8,7 @@
     <meta property="og:title" content="{{ page.title | default: site.title }}" >
     <meta property="og:url" content="{{ page.url | default: site.url }}">
     <meta property="og:image" content="{{ page.image | default: site.image }}">
+    <meta property="og:type" content="article">
     <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
