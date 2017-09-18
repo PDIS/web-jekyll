@@ -19,7 +19,7 @@
 - /_data/
   - features.yml
     - 首頁區塊資訊
-  - navigation.yml (working)
+  - nav.yml
     - 導覽列項目
   - aboutus.json
     - 關於我們

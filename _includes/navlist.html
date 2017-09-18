@@ -1,0 +1,15 @@
+{% for nav in site.data.nav %}
+  {% if nav.items %}
+  <!-- nested -->
+  <li class='drop'><a class='{{ color }}'>{{ nav.title }}</a>
+    <ul>
+      {% for item in nav.items %}
+      <li><a href='{{ item.link | relative_url }}' class='{{ color }}'>{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% else %}
+  <!-- single -->
+  <li><a href="{{ nav.link | relative_url }}" class="{{ color }}">{{ nav.icon | default: nav.title }}</a></li>
+  {% endif %}
+{% endfor %}

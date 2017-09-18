@@ -1,0 +1,20 @@
+- title: Home
+  link: /
+  icon: <i class="material-icons">home</i>
+
+- title: 關於我們
+  link: /guide
+
+- title: 我們怎麼做
+  items:
+  - title: 工具
+    link: /tools
+
+- title: 我們做了什麼
+  items:
+  - title: 專案
+    link: /projects
+  - title: 工作日誌
+    link: /blog
+  - title: 工作紀錄
+    link: /track
