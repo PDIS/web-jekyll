@@ -1,20 +1,17 @@
-title: 讓我們幫你
+title: 我們能幫你做什麼
 desc: 
 list:
 - icon: flash_on
-  title: 想知道為什麼叫做「閃電布丁」嗎?
-  desc: >
-    測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試
+  title:協助數位政委督導業務
+  desc: >開放政府、社會企業、青年諮詢委員會、數位經濟法規調適(vTaiwan)
+    
 
 - icon: group
-  title: 使用者體驗
-  desc: >
-    By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components
-    and animations that provide more feedback to users. Additionally, a single underlying responsive system across
-    all platforms allow for a more unified user experience.
+  title: 促進行政數位化
+  desc: >透過收集民眾意見後規劃設計，協助各部會單位改善軟體、平台、系統和網站，達成「自動化」、「結構化」、「視覺化」。
+    
 
 - icon: settings
-  title: 工作最佳化
+  title: 參與式治理
   desc: >
-    We have provided detailed documentation as well as specific code examples to help new users get started. We are
-    also always open to feedback and can answer any questions a user may have about Materialize.
+    導引民間專業進入公部門，建立原有社群與政府的對話溝通管道，促成連結在地、台灣和世界的網絡。
