@@ -21,4 +21,4 @@ sass:
     style: compressed
 
 plugins:
-    - jekyll-admin
+    jekyll-admin
