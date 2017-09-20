@@ -21,10 +21,10 @@
     - 首頁區塊資訊
   - nav.yml
     - 導覽列項目
-  - aboutus.json
-    - 關於我們
-- /_config.yml
-  - 首頁標頭資訊
+  - aboutus.json
+    - 關於我們
+  - /_config.yml
+    - 首頁大標資訊
 
 ## 頁面版型 Page
 - /_layouts/
