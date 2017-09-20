@@ -24,7 +24,7 @@
   - aboutus.json
     - 關於我們
   - /_config.yml
-    - 首頁大標資訊
+    - 首頁大標資訊
 
 ## 頁面版型 Page
 - /_layouts/
