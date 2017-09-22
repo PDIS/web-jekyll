@@ -8,25 +8,7 @@
   <div class="row">
     {% assign i_projects = site.projects | reverse %}
       {% for project in i_projects limit:3 %}
-      <!-- project block -->
-      <div class="col s12 m4">
-        <div class="card hoverable">
-          <div class="card-image">
-            <img src="{{ project.image }}" alt='project img'>
-          </div>
-          <div class="card-content">
-            <span class="card-title">{{ project.title }}</span>
-            {{ project.excerpt | truncate: 100 | strip_html }}
-          </div>
-          <div class="card-action">
-              <a href="{{ project.url | relative_url }}">
-                Read more
-                <i class="material-icons" style='vertical-align:bottom;'>send</i>
-              </a>
-          </div>
-        </div>
-      </div>
-      <!-- block end -->
+        {% include project.html project=project %}
     {% endfor %}
   </div>
 
@@ -34,25 +16,7 @@
 
   {% for project in site.projects reversed %}
     {% cycle '<div class="row">', '', '' %}
-      <!-- project block -->
-      <div class="col s12 m4">
-        <div class="card hoverable">
-          <div class="card-image">
-            <img src="{{ project.image }}" alt='project img'>
-          </div>
-          <div class="card-content">
-            <span class="card-title">{{ project.title }}</span>
-            {{ project.excerpt | truncate: 100 | strip_html }}
-          </div>
-          <div class="card-action">
-            <a href="{{ project.url | relative_url }}">
-              Read more
-              <i class="material-icons" style='vertical-align:bottom;'>send</i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- block end -->
+      {% include project.html project=project %}
     {% cycle '', '', '</div>' %}
   {% endfor %}
 

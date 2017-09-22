@@ -18,7 +18,7 @@
 ## 站內資料 Data
 - /_data/
   - features.yml
-    - 首頁區塊資訊
+    - 首頁區塊資訊 [圖示樣式可參考][1]
   - nav.yml
     - 導覽列項目
   - aboutus.json
@@ -28,7 +28,7 @@
 
 ## 頁面版型 Page
 - /_layouts/
-  - 版型可用之嵌入內容
+  - 版型可用之嵌入內容 [色碼可參考][2]
 - /_includes/
   - page 可用之版型
 - /pages/
@@ -36,16 +36,6 @@
 - /index.html
   - 首頁 page
 
----
 
-# License
-
-The theme is available as open source under the terms of the [MIT License][2].
-
-[Materialize][3] a  modern responsive front-end framework based on Material Design
-
-Copyright © 2017 Marco Damiani. Powered by <a href="http://jekyllrb.com">Jekyll</a>
-
-[1]: https://github.com/jekyll/minima
-[2]: https://opensource.org/licenses/MIT
-[3]: http://materializecss.com/
+[1]: http://materializecss.com/icons.html
+[2]: http://materializecss.com/color.html
