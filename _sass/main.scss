@@ -7,6 +7,7 @@ $font-serif: "source-han-serif-tc", "Microsoft JhengHei", 'Heiti TC', sans-serif
 
 html {
   font-family: $font;
+  font-size: 16px;
 }
 body {
   min-height: 100vh;
@@ -25,9 +26,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
   font-family: $font-sans;
-  line-height: 1.7em;
+  line-height: 1.5;
   text-align: justify;
   text-justify: ideographic;
+  a {
+    border-bottom: solid #aaa 1px;
+    transition: all .3s ease;
+    &:hover {
+      border-bottom: solid #777 2px;
+    }
+  }
 }
 
 /* posts */
@@ -78,9 +86,7 @@ h1.page-title {
 .icon-block .material-icons {
 	font-size: inherit;
 }
-.last-post {
-    padding: 10px 0 15px;
-}
+
 .last-post .collection .collection-item.avatar>.date-post {
     position: absolute;
     width: 54px;
@@ -92,11 +98,5 @@ h1.page-title {
     vertical-align: middle;
     background: #ad1457;
     color: #fff;
-    text-align: center;
-}
-
-/* 404 page */
-
-.txt-center {
     text-align: center;
 }

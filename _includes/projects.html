@@ -1,24 +1,26 @@
-<section>
-  <h3 class="center">
-    近期專案
-  </h3>
+<div class='section'>
+  <section>
+    <h3 class="center">
+      近期專案
+    </h3>
 
-  {% if page.layout == 'home' %}
+    {% if page.layout == 'home' %}
 
-  <div class="row">
-    {% assign i_projects = site.projects | reverse %}
-      {% for project in i_projects limit:3 %}
+    <div class="row">
+      {% assign i_projects = site.projects | reverse %}
+        {% for project in i_projects limit:3 %}
+          {% include project.html project=project %}
+      {% endfor %}
+    </div>
+
+    {% else %}
+
+    {% for project in site.projects reversed %}
+      {% cycle '<div class="row">', '', '' %}
         {% include project.html project=project %}
+      {% cycle '', '', '</div>' %}
     {% endfor %}
-  </div>
 
-  {% else %}
-
-  {% for project in site.projects reversed %}
-    {% cycle '<div class="row">', '', '' %}
-      {% include project.html project=project %}
-    {% cycle '', '', '</div>' %}
-  {% endfor %}
-
-  {% endif %}
-</section>
+    {% endif %}
+  </section>
+</div>
