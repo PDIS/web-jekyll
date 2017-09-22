@@ -8,7 +8,7 @@
         <h5 class="{{ color }}">{{ site.data.informations.ref.title }}</h5>
         <ul>
           {% for link in site.data.informations.ref.list %}
-          <li><a class="{{ color }}" href="{{ link.url }}">{{ link.name }}</a></li>
+          <li><p><a class="{{ color }}" href="{{ link.url }}">{{ link.name }}</a></p></li>
           {% endfor %}
         </ul>
       </div>
@@ -16,7 +16,7 @@
         <h5 class="{{ color }}">{{ site.data.informations.info.title }}</h5>
         <ul>
           {% for link in site.data.informations.info.list %}
-          <li><a class="{{ color }}" href="{{ link.url }}">{{ link.name }}</a></li>
+          <li><p><a class="{{ color }}" href="{{ link.url }}">{{ link.name }}</a></p></li>
           {% endfor %}
         </ul>
       </div>
@@ -28,13 +28,10 @@
   </div>
 
   <div class="footer-copyright {{ bgcolor }}">
-      <div class="container">
-          <div class="{{ color }}" style="text-align:center">
-              Made by <a target="_blank" class="orange-text" href="https://github.com/PDIS/web-jekyll">PDIS</a>
-             <!--  <span style="text-align: right; float: right">
-                Powered by <a target="_blank" href="http://jekyllrb.com/" class="orange-text text-lighten-3">Jekyll</a>
-              </span> -->
-          </div>
-      </div>
+    <div class="container center">
+      <code class="{{ color }}">
+          Made by <a target="_blank" class="orange-text" href="https://github.com/PDIS/web-jekyll">PDIS</a>
+      </code>
+    </div>
   </div>
 </footer>
