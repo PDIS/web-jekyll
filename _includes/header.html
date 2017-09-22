@@ -9,7 +9,7 @@
       </a>
       <!--  -->
 
-      <!-- Menu -->
+      <!-- Menu nav -->
       <ul class="hide-on-med-and-down">
         {% include navlist.html color=color %}
       </ul>
@@ -18,7 +18,7 @@
       {% assign default_paths = site.pages | map: "path" %}
       {% assign page_paths = site.header_pages | default: default_paths %}
 
-      <!-- Sidebar and Hamburger menu -->
+      <!-- Side nav and Hamburger menu -->
       <ul id="nav-mobile" class="side-nav">
         {% include navlist.html color=color %}
       </ul>
