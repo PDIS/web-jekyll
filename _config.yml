@@ -7,6 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
 image: /images/pdis-team.jpg
 twitter_username: TaiwanPDIS
 github_username:  pdis
+google_analytics: UA-106951256-1
 permalink: pretty
 
 collections: # create posts folder other than _posts
