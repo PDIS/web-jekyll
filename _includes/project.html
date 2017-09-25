@@ -9,5 +9,10 @@
         {{ project.excerpt | truncate: 100 | strip_html }}
       </p>
     </div>
+    <div class="card-action">
+      <span class="right">
+        {{ project.date | date: "%Y-%m-%d" }}
+      </span>
+    </div>
   </a>
 </div>
