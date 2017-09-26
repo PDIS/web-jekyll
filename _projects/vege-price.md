@@ -1,12 +1,11 @@
 ---
 layout: post
 title: 跟菜價有關的資訊通通都放在這裡！
-permalink: vege-price
 excerpt: 要如何應用資訊技術，整合各部會掌握的資訊，而這些資訊也必須轉化為結構化的開放資料，才能在不增加現有部會業務目標下，日復一日即時提供民眾資訊。
 image: >-
   https://talk.pdis.nat.gov.tw/uploads/default/optimized/1X/e7195235320075761407c7dca028aa242cbb6b82_1_690x268.jpg
-date: '2017-04-06'
 author: Mark
+date: 2017-04-06
 ---
 
 ## 緣起：菜價為什麼波動？
