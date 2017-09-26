@@ -24,12 +24,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-serif;
 }
+h1, h2, h3 {
+  font-weight: 700;
+}
 p {
   font-family: $font-sans;
   line-height: 1.7;
   margin-bottom: 0.5em;
-  text-align: justify;
-  text-justify: ideographic;
   a {
     position: relative;
     word-break: keep-all;
