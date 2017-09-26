@@ -23,7 +23,7 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
       left: 0;
       width: 100%;
       transition: all 0.3s ease;
-      transform: scale(0);
+      transform: scaleY(0);
       transform-origin: 0 0;
       box-shadow: $shadow;
       li {
@@ -42,7 +42,7 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
     }
     &:hover {
       ul {
-        transform: scale(1);
+        transform: scaleY(1);
       }
     }
   }
