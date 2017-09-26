@@ -1,9 +1,8 @@
 ---
 layout: post
-title: 創造更好的報稅軟體
-excerpt: 如何讓報稅軟體更好？來看看PDIS在工作坊中的成果，以及與會者的心得。
+title: 創造更好的報稅軟體 (draft)
+excerpt: 來看看PDIS在工作坊中的成果，以及與會者的心得。
 image: https://talk.pdis.nat.gov.tw/uploads/default/original/1X/4fc996db908da9ff4674044e42792ac42d3defaf.JPG
-date: 2017-09-01
 author: 雨蒼
 ---
 
