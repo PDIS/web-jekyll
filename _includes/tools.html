@@ -1,0 +1,21 @@
+<div class='section'>
+    <section>
+      <h3 class="center">
+        我們常用的工具
+      </h3>
+      <div class="">
+        {% for tool in site.data.tools %}
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel row">
+                <span class="col l6 m12 s12">
+                    {{ tool.content | markdownify}}
+                </span>
+                <img class="col l6 m12 s12" src="{{tool.image}}" alt="">
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+</div>
