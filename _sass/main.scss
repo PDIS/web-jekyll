@@ -133,3 +133,21 @@ h1.page-title {
     color: #fff;
     text-align: center;
 }
+
+.dimmable{
+  background-blend-mode: darken;
+  transition: background-color 0.8s ease-out;
+  span{
+    color: rgba(0, 0, 0, 0) !important;
+  }
+}
+
+.dimmable:hover{
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.80) !important;
+  transition: background-color 0.8s ease-out;
+  span{
+    color: white !important;
+  }
+}
+
