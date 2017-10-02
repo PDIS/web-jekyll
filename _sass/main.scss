@@ -82,31 +82,6 @@ p {
   }
 }
 
-/* Guide page */
-
-h1.page-title {
-  font-weight: 500;
-  font-size: 2.3em;
-  text-align: center;
-  color: #29b6f6;
-}
-.shadow-demo {
-    background-color: #26a69a;
-    width: 100px;
-    height: 100px;
-    margin: 20px auto;
-}
-.col.grid-example {
-    border: 1px solid #eee;
-    margin: 7px 0;
-    text-align: center;
-    line-height: 50px;
-    font-size: 28px;
-    background-color: tomato;
-    color: white;
-    padding: 0;
-}
-
 /* Home page */
 
 .collection .collection-item.avatar {
@@ -129,10 +104,11 @@ h1.page-title {
     display: inline-block;
     padding: 16px 0;
     vertical-align: middle;
-    background: #ad1457;
     color: #fff;
     text-align: center;
 }
+
+/* about-us page */
 
 .dimmable{
   background-blend-mode: darken;
