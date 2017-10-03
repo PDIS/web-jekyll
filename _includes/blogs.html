@@ -2,9 +2,6 @@
 
 <div class="posts section">
   <section>
-    <h3 class="center">
-      工作誌
-    </h3>
     <div class="collection">
 
       {% if page.layout == 'home' %}
@@ -12,14 +9,15 @@
       {% endif %}
 
       {% for post in posts %}
-      <a class="collection-item avatar white-text center dim" href="{{ post.url | relative_url }}" style="background:url('{{ post.image }}') center / cover">
-        {% assign date_format = site.minima.date_format | default: "%m/%d" %}
+      <a class="collection-item white-text center dim" href="{{ post.url | relative_url }}" style="background:url('{{ post.image }}') center / cover">
         <h3 class="title">{{ post.title | escape }}</h3>
+        <div class='date'>
+          <i class="tiny material-icons" style='vertical-align:middle'>access_time</i>
+          {{ post.date | date: "%Y-%m-%d" }}
+        </div>
         <p>
           {{ post.excerpt | truncate: 100 | strip_html }}
         </p>
-        <!-- <div class="date-post orange circle">{{ post.date | date: date_format }}</div> -->
-        <!-- <span class="secondary-content white-text"><i class="material-icons">navigate_next</i></span> -->
       </a>
       {% endfor %}
 
