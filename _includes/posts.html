@@ -1,18 +1,20 @@
-<div class="last-post section">
+{% assign posts = include.posts | default: site.posts %}
+
+<div class="posts section">
   <section>
     <h3 class="center">
       最新日誌
     </h3>
     <div class="collection">
-      {% for post in site.posts %}
-      <a class="collection-item avatar grey-text text-darken-4" href="{{ post.url | relative_url }}">
+      {% for post in posts %}
+      <a class="collection-item avatar white-text center dim" href="{{ post.url | relative_url }}" style="background:url('{{ post.image }}') center / cover">
         {% assign date_format = site.minima.date_format | default: "%m/%d" %}
-        <div class="date-post orange circle">{{ post.date | date: date_format }}</div>
-        <h3 class="title" style='margin:0 0 1rem 0;font-size:150%;'>{{ post.title | escape }}</h3>
+        <h3 class="title">{{ post.title | escape }}</h3>
         <p>
           {{ post.excerpt | truncate: 100 | strip_html }}
         </p>
-        <span class="secondary-content grey-text"><i class="material-icons">navigate_next</i></span>
+        <!-- <div class="date-post orange circle">{{ post.date | date: date_format }}</div> -->
+        <!-- <span class="secondary-content white-text"><i class="material-icons">navigate_next</i></span> -->
       </a>
       {% endfor %}
     </div>
