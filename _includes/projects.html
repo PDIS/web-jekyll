@@ -5,21 +5,33 @@
     </h3>
 
     {% if page.layout == 'home' %}
+      {% assign projects = site.categories.project | slice: 0,3 %}
+    {% else %}
+      {% assign projects = site.categories.project %}
+    {% endif %}
 
     <div class="row">
-      {% for project in site.categories.project limit:3 %}
-        {% include project.html project=project %}
+      {% for project in projects %}
+
+        <div class="col s12 m4">
+          <a href='{{ project.url | relative_url }}' class="card grey-text text-darken-4 hoverable" style='display:block'>
+            <div class="card-image" style='height:15rem;background:url("{{ project.image | default: site.image }}") center / cover no-repeat'>
+            </div>
+            <div class="card-content">
+              <span class="new badge" data-badge-caption="">
+                {{ project.date | date: "%Y-%m-%d" }}
+              </span>
+              <h3 class="card-title" style='margin-top:0'>{{ project.title }}</h3>
+              <p>
+                {{ project.excerpt | truncate: 100 | strip_html }}
+              </p>
+            </div>
+          </a>
+        </div>
+        {% cycle '', '', </div><div class="row">' %}
+
       {% endfor %}
     </div>
 
-    {% else %}
-
-    {% for project in site.categories.project %}
-      {% cycle '<div class="row">', '', '' %}
-        {% include project.html project=project %}
-      {% cycle '', '', '</div>' %}
-    {% endfor %}
-
-    {% endif %}
   </section>
 </div>
