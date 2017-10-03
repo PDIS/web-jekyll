@@ -84,10 +84,6 @@ p {
 
 /* Home page */
 
-.collection .collection-item.avatar {
-  padding-right: 30px;
-}
-
 .icon-block {
   padding: 0 15px;
 }
@@ -95,7 +91,13 @@ p {
 	font-size: inherit;
 }
 
-.last-post .collection .collection-item.avatar>.date-post {
+.posts .collection .collection-item.avatar {
+  padding: 5em 72px;
+  .title {
+    margin:0 0 1rem 0;
+    font-size:150%;
+  }
+  >.date-post {
     position: absolute;
     width: 54px;
     height: 54px;
@@ -106,6 +108,14 @@ p {
     vertical-align: middle;
     color: #fff;
     text-align: center;
+  }
+  &.dim {
+    background-blend-mode: multiply;
+    background-color: gray !important;
+    &:hover {
+      background-color: white !important;
+    }
+  }
 }
 
 /* about-us page */

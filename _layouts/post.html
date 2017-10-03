@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="container">
-    <div class="section">
+  <div class="section">
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
@@ -13,7 +13,9 @@ layout: default
             {{ page.date | date: date_format }}
           </time>
           {% if page.author %}
-            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+            • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span itemprop="name">{{ page.author }}</span>
+            </span>
           {% endif %}</p>
       </header>
 
@@ -25,6 +27,11 @@ layout: default
         {% include disqus_comments.html %}
       {% endif %}
     </article>
-    </div>
+  </div>
 </div>
-<script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script>
+
+<div class="container">
+  {% include posts.html posts=site.related_posts %}
+</div>
+
+<!-- <script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script> -->
