@@ -6,6 +6,11 @@
       工作誌
     </h3>
     <div class="collection">
+
+      {% if page.layout == 'home' %}
+        {% assign posts = posts | slice: 0,3 %}
+      {% endif %}
+
       {% for post in posts %}
       <a class="collection-item avatar white-text center dim" href="{{ post.url | relative_url }}" style="background:url('{{ post.image }}') center / cover">
         {% assign date_format = site.minima.date_format | default: "%m/%d" %}
@@ -17,6 +22,7 @@
         <!-- <span class="secondary-content white-text"><i class="material-icons">navigate_next</i></span> -->
       </a>
       {% endfor %}
+
     </div>
   </section>
 </div>
