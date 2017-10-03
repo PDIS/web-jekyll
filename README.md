@@ -11,9 +11,8 @@
 # 檔案結構 Structure
 ## 單篇文章 Text
 - /_posts/
-  - 日誌
-- /_projects/
-  - 專案
+  - 日誌 (category: blog)
+  - 專案 (category: project)
 
 ## 站內資料 Data
 - /_data/
@@ -23,8 +22,14 @@
     - 導覽列項目
   - aboutus.json
     - 關於我們
-  - /_config.yml
-    - 首頁大標資訊
+  - informations.yml
+    - 置底連結文字
+  - tracks.json
+    - 工作紀錄頁面
+  - tools.yml
+    - 工具頁面
+- /_config.yml
+  - 首頁大標資訊
 
 ## 頁面版型 Page
 - /_layouts/
@@ -35,7 +40,6 @@
   - 各頁 page
 - /index.html
   - 首頁 page
-
 
 [1]: http://materializecss.com/icons.html
 [2]: http://materializecss.com/color.html
