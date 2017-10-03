@@ -4,4 +4,24 @@ title: 工具
 permalink: /tools/
 ---
 
-{% include tools.html %}
+<div class='section'>
+  <section>
+    <h3 class="center">
+      我們常用的工具
+    </h3>
+    <div class="">
+      {% for tool in site.data.tools %}
+      <div class="row">
+        <div class="col s12">
+          <div class="card-panel row">
+            <div class="col l5 {% cycle 'push-l7', '' %} s12">
+              {{ tool.content | markdownify }}
+            </div>
+            <img class="col l7 {% cycle 'pull-l5', '' %} s12" src="{{ tool.image }}" alt="">
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
