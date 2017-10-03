@@ -5,7 +5,7 @@ excerpt: 要如何應用資訊技術，整合各部會掌握的資訊，而這�
 image: >-
   https://talk.pdis.nat.gov.tw/uploads/default/optimized/1X/e7195235320075761407c7dca028aa242cbb6b82_1_690x268.jpg
 author: Mark
-date: 2017-04-06
+category: project
 ---
 
 ## 緣起：菜價為什麼波動？
