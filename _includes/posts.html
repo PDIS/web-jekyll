@@ -1,9 +1,9 @@
-{% assign posts = include.posts | default: site.posts %}
+{% assign posts = include.posts | default: site.categories.blog %}
 
 <div class="posts section">
   <section>
     <h3 class="center">
-      最新日誌
+      工作誌
     </h3>
     <div class="collection">
       {% for post in posts %}

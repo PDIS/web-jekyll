@@ -12,13 +12,5 @@ github_username:  pdis
 google_analytics: UA-106951256-1
 permalink: pretty
 
-collections: # create posts folder other than _posts
-  projects:
-    output: true
-    permalink: /:collection/:path/
-  tracks:
-    output: true
-    permalink: /:collection/:path/
-
 sass:
     style: compressed
