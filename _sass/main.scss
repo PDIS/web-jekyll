@@ -92,23 +92,14 @@ p {
 	font-size: inherit;
 }
 
-.posts .collection .collection-item.avatar {
-  padding: 5em 72px;
+.posts .collection .collection-item {
+  padding: 5em 1em;
   .title {
-    margin:0 0 1rem 0;
-    font-size:150%;
+    margin: 0 0 1rem 0;
+    font-size: 150%;
   }
-  >.date-post {
-    position: absolute;
-    width: 54px;
-    height: 54px;
-    overflow: hidden;
-    left: 10px;
-    display: inline-block;
-    padding: 16px 0;
-    vertical-align: middle;
-    color: #fff;
-    text-align: center;
+  .date {
+    font-family: monospace;
   }
   &.dim {
     background-blend-mode: multiply;
