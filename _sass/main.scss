@@ -32,7 +32,7 @@ p {
   line-height: 1.7;
   a {
     position: relative;
-    word-break: keep-all;
+    // word-break: keep-all;
     border-bottom: 1px dashed salmon;
     color: initial;
     &::after {
