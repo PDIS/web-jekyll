@@ -3,16 +3,20 @@
 
     {% for user in site.data.aboutus %}
       {% cycle '<div class="row">', '', '' %}
+
       <div class="col s12 m4">
-        <a href='{{ user.wiselike }}' target="_blank" class="card grey-text text-darken-4 hoverable" style='display:block'>
-          <div class="card-image dimmable" style='height:25rem;background:url("{{ user.avatar }}") center / cover no-repeat'>
-            <!-- <img src="{{ project.image | default: site.image }}" alt='project img'/> -->
-            <span class="card-title">{{user.content}}</span>
-            <br>
-            <span class="card-title" style="top:0px">{{user.name}}</span>
+        <div class="card">
+          <div class="card-image">
+            <img src="{{ user.avatar }}" alt="{{ user.name }}">
+            <a href="{{ user.wiselike }}" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red accent-1"><i class="material-icons">send</i></a>
           </div>
-        </a>
+          <div class="card-content">
+            <span class="card-title">{{ user.name }}</span>
+            {{ user.content }}
+          </div>
+        </div>
       </div>
+
       {% cycle 'end': '', '', '</div>' %}
     {% endfor %}
     {% cycle 'end': '', '</div>', '</div>' %}
