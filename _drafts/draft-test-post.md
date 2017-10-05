@@ -1,17 +1,43 @@
 ---
 layout: post
-title: 創造更好的報稅軟體 (draft)
-excerpt: 來看看PDIS在工作坊中的成果，以及與會者的心得。
-image: https://images.unsplash.com/photo-1484199408980-5918a796a53f?dpr=1&auto=compress,format&fit=crop&w=1199&h=776&q=80&cs=tinysrgb&crop=&bg=
+title: test post
+excerpt: test excerpt
+image: https://talk.pdis.nat.gov.tw/uploads/default/original/1X/aa164bc9532be1e62cbcf144dcb297ab0e926478.jpg
 author: 雨蒼
 category: blog
 ---
+PDIS 的 re:architect 林書漾於 2017 年 9 月初訪美，參與 Our Urban Future Symposium，演講「Democracy from the Future: Taiwan」（[投影片](https://issuu.com/pdis.tw/docs/democracy_from_the_future_-_our_urb){:target="_blank"}），並在演講前後與 Grinnell College 大學的師生們、其他講者們交流各國經驗。
 
-後做親立下平就處從方事你星情於像語反完不自總可、斯遠高你了們有品不；大雨謝，想們政合修實。化老強，近舉獎來古失什業素光像的各，在以筆新水，一她許一心基來長事再了土，開麼生，間利麼受而受復小不客……個展兩年件放不法待海漸是接音手義量。子不類可音建。
+<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/aa164bc9532be1e62cbcf144dcb297ab0e926478.jpg">
 
-{% comment %}
-Might you have an include in your theme? Why not try it here!
-{% include my-themes-great-include.html %}
-{% endcomment %}
+這次交流的內容，主要包含台灣從 318 運動後，怎麼開始推動開放政府的歷程。林書漾以 Uber 案為例，描述 g0v 社群發起的 [vTaiwan](https://vtaiwan.tw){:target="_blank"} 專案，如何透過 [Pol.is](https://pol.is/){:target="_blank"} 等新技術，搭配網實整合的會議流程，落實多方利益關係人的討論。
 
-色河滿極接方選須重？畫坐特以：見了健程統的內；經要孩……她興取觀樣打大頭，除散分四回……兩因為，他景由邊過何熱眼想美民目只各。
+與會者主要是資訊與政治、經濟相關學系的學生，以及對開放政府特別有興趣及有研究的政治學者。此外，也有包括歷史系、古典政治學系的教授參與其中。
+
+<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/b865c53f08197b3bf1098f11194dfe9cd24cc352.jpg">
+
+林書漾說，在分享後，收到不少與會者的回饋。許多學生沒有聽過 318 運動，第一次聽到這些故事，感到很有趣；甚至也有人以為 PDIS 就是做 Pol.is 的團隊。不過，最多的討論，還是在「人」與「機器」的關係。
+
+在加入 PDIS 前，林書漾曾在歐洲求學、工作過幾年，在那期間曾經參與過「Museum of the Future」的策展，探討人類願意讓機器做哪些決定？人與機器之間該如何互助？展覽的最後，他們做了假想的未來政府決策中心，運用 AI 運算政府執政中的各種政策與議題，再讓人去決定 AI 無法決定的議題。
+
+比如說，如果為了減少失業率，讓更多人可以來城市工作，因此要建設高速公路。可是經過計算，這條高速公路可能會讓經濟成長 5%，但同時也減少附近森林 5% 的動物。究竟這條高速公路要蓋還是不蓋？這樣的道德、價值衡量，就需要讓人來介入。
+
+<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/f9bf2ce4542c8a89665e695df47ead1e2456d8de.jpg">
+
+林書漾認為，許多傳統的觀點上把機器與人當成競爭的關係，認為機器會取代部分人類的工作，這樣的觀點也被放入了對 AI 的觀點當中。不過，在 PDIS 與唐鳳一起工作的這段時間，她發現唐鳳並不認為機器與人只有競爭關係，更多的是協作的想像，也就是機器如何與人一起完成工作。
+
+在林書漾的觀察中，Grinnell 的師生對於可以用信任與協作的方式發展人與機器人的關係感到相當新奇。但也有不少人對這樣的說法提出質疑，也有人認為這聽起來像不可能實現的烏托邦世界。
+
+<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/f95ad59eaf6781aefca1d6ff7630bd3d8ba93c70.jpg">
+
+對於這個問題，林書漾的回答是「but that doesn't stop us from trying」，她認為只要透過不斷的嘗試，總有可能會出現運作成功的環境，在適當的政體與公民素養，讓人類有機會與機器一起協作，從而找出民主的出路。
+
+過往沒有網路的時候，每個議題都要花很多時間來討論。在雅典式民主裡，就是透過某一群符合特定標準的公民來決定市政，雖然每個問題都花很久的時間來討論，這是所謂的直接式民主，每位公民都有直接參與市政的權利與管道，並且他們的意見被完全尊重、會經過其他公民充分討論。但隨著政治體制的改變，後來逐漸變成代議制度。網路蓬勃發展後，很多學者開始思考有沒有讓直接民主實現的可能。林書漾舉例，Pol.is 就是其中的一種可能，嘗試在 AI 與機器學習的幫助下，更有效率的促成多位使用者或是大眾一起討論問題的情境。
+
+網路時代，許多技術對於社會的影響會比以往能夠影響的層面更大、更廣，可是我們的現況是，法律的改變速度跟不上科技的進步，自然就會有越來越多法規不合時宜。林書漾說，透過 vTaiwan 的架構，台灣嘗試讓民意可以在更早的階段影響政策的形成，也讓政府機關能提早應對來自新科技的挑戰。
+
+唐鳳指出，台灣在 vTaiwan 與 Join 平台上做出了很多嘗試。雖然公務人員對「先期參與、後期課責」的認同程度，由於各國文化不同而有所差異，但 vTaiwan 與 Join 平台的存在本身，就能讓許多其他國家的人們思考：「既然台灣可以，我們為什麼做不到？」
+
+同時，在這些平台上對於 SayIt 逐字稿、Pol.is 等科技的使用方式，也是許多國際社群的參考標的。唐鳳舉例，包括英國、法國等各級政府等都開始思考，如何運用這些平台來連結年輕人，重建世代之間的信任？
+
+唐鳳認為，隨著科技的進步，資訊的流動有了不同的樣貌。這些創新，又會進一步支撐跨世代的協作。今日的民主已經不是只有投票選舉。PDIS 會持守民主的基礎價值、降低政策參與的門檻，與全世界共同協作，一方面降低公務人員的負荷，另一方面也讓政策能夠更符合民眾的需求。
