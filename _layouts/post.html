@@ -13,10 +13,16 @@ layout: default
             {{ page.date | date: date_format }}
           </time>
           {% if page.author %}
-            • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span itemprop="name">{{ page.author }}</span>
-            </span>
-          {% endif %}</p>
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">{{ page.author }}</span>
+          </span>
+          {% endif %}
+        </p>
+        <ul class="tags">
+          {% for tag in page.tags %}
+          <li><a href="/tags#{{ tag  | cgi_escape }}" class="tag">{{ tag }}</a></li>
+          {% endfor %}
+        </ul>
       </header>
 
       <div class="post-content" itemprop="articleBody">
