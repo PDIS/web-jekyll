@@ -17,7 +17,7 @@ PDIS 面對的問題是要如何應用資訊技術，整合各部會掌握的資
 
 <figure>
 <img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/5015eddc4eda94de720c93cc36a2adf22c50e736.jpg" alt="產量與消費量推估">
-<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/ForecastProductMarket">產量與消費量推估</a></figcaption>
+<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/ForecastProductMarket" target="_blank">產量與消費量推估</a></figcaption>
 </figure>
 
 ## 廣納意見、釐清問題、確認目標
@@ -34,7 +34,7 @@ PDIS 面對的問題是要如何應用資訊技術，整合各部會掌握的資
 
 <figure>
 <img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/973f65c4757badccaf07de0461a831af643db8ad.jpg" alt="超供數量評估及低價持續期推估">
-<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/ForecastOverAndBelow">超供數量評估及低價持續期推估</a></figcaption>
+<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/ForecastOverAndBelow" target="_blank">超供數量評估及低價持續期推估</a></figcaption>
 </figure>
 
 ## 製作快速可交付原型，早期發現潛在問題
@@ -51,7 +51,7 @@ PDIS 著手將批發市場與零售市場價格的歷史資訊以網頁方式呈
 
 <figure>
 <img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/85d27948a8679200d932a2fab318f172af100ce5.jpg" alt="重要產區氣象資料">
-<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/CWBData/CWBData">重要產區氣象資料</a></figcaption>
+<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/CWBData/CWBData" target="_blank">重要產區氣象資料</a></figcaption>
 </figure>
 
 ## 原型定位
@@ -74,7 +74,7 @@ PDIS 先行一步為未來廠商設想在交接此平台時能夠讓容易接手
 
 <figure>
 <img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/ba0bd99c7108effe01ed0b7aea062a685f01942a.jpg" alt="臺北主要批發市場交易行情">
-<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/MarketPriceWeight">臺北主要批發市場交易行情</a></figcaption>
+<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/MarketPriceWeight" target="_blank">臺北主要批發市場交易行情</a></figcaption>
 </figure>
 
 ## 跨領域專業共同協商、解決問題
@@ -92,7 +92,7 @@ PDIS 先行一步為未來廠商設想在交接此平台時能夠讓容易接手
 
 <figure>
 <img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/76bbb6d9fa91ccb3a1b38b57ba7bc3544dfb3626.jpg" alt="自選項目組合查詢">
-<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/PDIS/PDIS">自選項目組合查詢</a></figcaption>
+<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/PDIS/PDIS" target="_blank">自選項目組合查詢</a></figcaption>
 </figure>
 
 ## 持續追蹤、持續改善
