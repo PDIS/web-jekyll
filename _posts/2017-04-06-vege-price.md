@@ -15,7 +15,10 @@ PDIS 面對的問題是要如何應用資訊技術，整合各部會掌握的資
 
 於是我們開始思考，民眾是如何理解「菜價」本身的資訊，日常會需要怎麼樣的資訊，政府單位又是如何透露相關資訊，媒體是如何報導，最後才影響了整個菜價波動，又或著是「預期心理」造成不良的結果？
 
-[<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/5015eddc4eda94de720c93cc36a2adf22c50e736.jpg" width="690" height="332">](http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/ForecastProductMarket)
+<figure>
+<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/5015eddc4eda94de720c93cc36a2adf22c50e736.jpg" alt="產量與消費量推估">
+<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/ForecastProductMarket">產量與消費量推估</a></figcaption>
+</figure>
 
 ## 廣納意見、釐清問題、確認目標
 
@@ -29,7 +32,10 @@ PDIS 面對的問題是要如何應用資訊技術，整合各部會掌握的資
 
 為了盡快推動資料公開與整合，快速製作出原型應用、證明其可行性，展現資料的價值，是最直接的做法。
 
-[<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/973f65c4757badccaf07de0461a831af643db8ad.jpg" width="690" height="411">](http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/ForecastOverAndBelow)
+<figure>
+<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/973f65c4757badccaf07de0461a831af643db8ad.jpg" alt="超供數量評估及低價持續期推估">
+<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/ForecastOverAndBelow">超供數量評估及低價持續期推估</a></figcaption>
+</figure>
 
 ## 製作快速可交付原型，早期發現潛在問題
 
@@ -43,7 +49,10 @@ PDIS 著手將批發市場與零售市場價格的歷史資訊以網頁方式呈
 
 經由這樣的過程，也同時發現這些有用的資訊，卻沒有方便利用的開放格式，甚至並非在各部會入口網站可以直接找到。幸好農委會的朋友及社群專家們，提供完整的資訊來源，才得以順利整合。
 
-[<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/85d27948a8679200d932a2fab318f172af100ce5.jpg" width="690" height="296">](http://bipub.afa.gov.tw/AFABI_Open/CWBData/CWBData)
+<figure>
+<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/85d27948a8679200d932a2fab318f172af100ce5.jpg" alt="重要產區氣象資料">
+<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/CWBData/CWBData">重要產區氣象資料</a></figcaption>
+</figure>
 
 ## 原型定位
 在原型製作的過程中，PDIS 討論出了製作此原型的五個定位，以確保後續實作此系統的廠商可以作為參考或就此為基底向上開發：
@@ -63,7 +72,10 @@ PDIS 先行一步為未來廠商設想在交接此平台時能夠讓容易接手
 #### 5. 承載量可負荷大量查詢
 因為預計此平台的在汛期前後的查詢量會比平常流量多，為因應大量使用者查詢而造成系統無法承載的問題，我們在製作此原型時，也奠基在可以輕易提高乘載量的 CDN 架構上，比照交通部 PTX 平台，以每日100萬次查詢的流量作為參考標準。
 
-[<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/ba0bd99c7108effe01ed0b7aea062a685f01942a.jpg" width="690" height="379">](http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/MarketPriceWeight)
+<figure>
+<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/ba0bd99c7108effe01ed0b7aea062a685f01942a.jpg" alt="臺北主要批發市場交易行情">
+<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/MarketPriceWeight">臺北主要批發市場交易行情</a></figcaption>
+</figure>
 
 ## 跨領域專業共同協商、解決問題
 在 2017 年 3 月 3 日的菜價整合平台會議中，農委會農糧署展現專業知識，設計 6 + 1 種決策情境，PDIS 則提供專業的資訊架構建議。
@@ -78,7 +90,10 @@ PDIS 先行一步為未來廠商設想在交接此平台時能夠讓容易接手
 
 各級主管機關也可以增添優質的資訊視覺化呈現效果，對於事件解說、政策溝通，可以增添更多說服及解釋的利器。
 
-[<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/76bbb6d9fa91ccb3a1b38b57ba7bc3544dfb3626.jpg" width="690" height="335">](http://bipub.afa.gov.tw/AFABI_Open/PDIS/PDIS)
+<figure>
+<img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/76bbb6d9fa91ccb3a1b38b57ba7bc3544dfb3626.jpg" alt="自選項目組合查詢">
+<figcaption><a href="http://bipub.afa.gov.tw/AFABI_Open/PDIS/PDIS">自選項目組合查詢</a></figcaption>
+</figure>
 
 ## 持續追蹤、持續改善
 
