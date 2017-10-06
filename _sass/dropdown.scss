@@ -1,50 +1,47 @@
-$grey: #9e9e9e;
-$plum: #8e44ad;
+$grey: #efebe9;
 $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
 
-.nav {
-    margin-left: 20%;
-    > li {
-      display: inline-block;
-      padding: 1em 18px;
-      cursor: pointer;
-      &:hover {
-        background: lighten($grey, 30%);
-      }
-    }
-  }
+// .nav {
+//   margin-left: 20%;
+//   > li {
+//     display: inline-block;
+//     padding: 1em 18px;
+//     cursor: pointer;
+//     &:hover {
+//       background: lighten($grey, 30%);
+//     }
+//   }
+// }
 
-  .drop {
-    position: relative;
-    ul {
-      z-index: 1000;
-      background-color: #efebe9;
-      position: absolute;
-      left: 0;
+.drop {
+  position: relative;
+  ul {
+    z-index: 1000;
+    background-color: $grey;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s ease;
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    box-shadow: $shadow;
+    li {
+      display: block;
       width: 100%;
-      transition: all 0.3s ease;
-      transform: scaleY(0);
-      transform-origin: 0 0;
-      box-shadow: $shadow;
-      li {
-        display: block;
+      a {
         width: 100%;
-        a {
-          width: 100%;
-          display: inline-block;
-          white-space: pre;
-          box-sizing: border-box;
-          &:hover {
-            background-color: rgba(0,0,0,0.1);
-          }
+        display: inline-block;
+        white-space: pre;
+        box-sizing: border-box;
+        &:hover {
+          background-color: lighten($grey, 30%);
         }
       }
     }
-    &:hover {
-      ul {
-        transform: scaleY(1);
-      }
+  }
+  &:hover {
+    ul {
+      transform: scaleY(1);
     }
   }
-
-  //---------------------------------------------
+}

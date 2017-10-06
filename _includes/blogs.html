@@ -4,7 +4,7 @@
   <section>
     <div class="collection">
 
-      {% if page.layout == 'home' %}
+      {% if page.url == '/' %}
         {% assign posts = posts | slice: 0,3 %}
       {% endif %}
 
