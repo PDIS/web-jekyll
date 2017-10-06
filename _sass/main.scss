@@ -33,11 +33,10 @@ p, span {
   a {
     position: relative;
     word-break: break-word;
-    border-bottom: 1px dashed salmon;
-    color: initial;
+    border-bottom: 1px solid gray;
     &::after {
       content: '';
-      border: 1px solid salmon;
+      border: 1px solid teal;
       position: absolute;
       bottom: -1px;
       left: 0;
@@ -49,6 +48,9 @@ p, span {
       transform: scale(1)
     }
   }
+}
+a {
+  color: dimgray;
 }
 
 /* post layout */
