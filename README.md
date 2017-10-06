@@ -4,9 +4,15 @@
 2. install `chocolatey`
 3. install `ruby` by `choco`
 4. install `jekyll` by `gem`
-5. run `jekyll serve`
-6. open `127.0.0.1:4000`
-7. push to github results to automatically render a static site for you
+5. run `jekyll serve` or `jekyll serve --drafts`
+6. open browser to `127.0.0.1:4000`
+
+push to github results to automatically render a static site for you
+
+## mac
+1. install `jekyll` by `gem`
+2. run `jekyll serve` or `jekyll serve --drafts`
+3. open browser to `127.0.0.1:4000`
 
 # 檔案結構 Structure
 ## 單篇文章 Text
