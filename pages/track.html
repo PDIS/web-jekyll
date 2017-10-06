@@ -8,21 +8,33 @@ permalink: /track/
 
   <ul class="collection">
     {% for track in site.data.tracks %}
-    <li class="collection-item avatar">
-      <i class="material-icons circle" title="{{ track.id }}">folder</i>
-      <h6 class="title">{{ track.title }}</h6>
-      <p style="font-family:monospace;">{{ track.date }}</p>
-      {% for tag in track.tags %}
-        <div class="chip">{{ tag }}</div>
-      {% endfor %}
-      <div>
+    <div class="row collection-item">
+
+      <div class="col s12 m3 l2">
+        {% for tag in track.tags %}
+          <div class="chip">
+            {{ tag }}
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="col s12 m5 l6">
+        <h5 class="title">{{ track.title }}</h5>
+        <p title="{{ track.id }}">
+          <i class="material-icons" style='vertical-align:bottom' title="{{ track.id }}">access_time</i>
+          {{ track.date }}
+        </p>
+      </div>
+
+      <div class="col s12 m4 l4">
         {% for item in track.content %}
           {% for link in item %}
           <a href='{{ link[1] }}' class="waves-effect waves-light btn" style="margin-bottom:.5ch;">{{ link[0] }}</a>
           {% endfor %}
         {% endfor %}
       </div>
-    </li>
+
+    </div>
     {% endfor %}
   </ul>
 
