@@ -1,19 +1,64 @@
 ---
-layout: home
+layout: default
 cta_button: 聯絡我們
+color: cyan-text
+bgcolor: teal
 btn_color: cyan
-image: /images/pdis-team.jpg
 ---
 
-<h1 class="header white-text" style="width:275px;text-align:justify;line-height:1.2;">
-  {{ site.title }}
-</h1>
-<p class="header light white-text flow-text">
-  {{ site.description }}
-</p>
-<div class='section'>
-  <a href="http://pdis.tw" id="download-button" class="btn-large waves-effect waves-light {{ page.btn_color }}">
-    {{ page.cta_button }}
-    <i class="material-icons right">send</i>
-  </a>
+<div class="section no-pad-bot" id="index-banner">
+  <div class="row" style="background:url('{{ site.image }}') center bottom / cover;">
+    <div class="col s12 l5 offset-l7 {{ page.bgcolor }}">
+      <div class="container section" style="padding-right:7vw;">
+
+        <h1 class="header white-text" style="width:275px;text-align:justify;line-height:1.2;">
+          {{ site.title }}
+        </h1>
+
+        <p class="header light white-text flow-text">
+          {{ site.description }}
+        </p>
+
+        <div class='section'>
+          <a href="/contact" id="download-button" class="btn-large waves-effect waves-light {{ page.btn_color }}">
+            {{ page.cta_button }}
+            <i class="material-icons right">send</i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="section">
+    <h3 class="center">
+      {{ site.data.features.title }}
+    </h3>
+    <!--   Icon Section   -->
+    <div class="row">
+      {% for feature in site.data.features.list limit:3 %}
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center {{ page.color }}"><i class="material-icons">{{ feature.icon }}</i></h2>
+          <h5 class="center">{{ feature.title }}</h5>
+          <p class="light">{{ feature.desc }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="blue-grey lighten-5">
+  <div class="container">
+    <h3 class="center">專案</h3>
+    {% include projects.html %}
+  </div>
+</div>
+
+<div class="container">
+  <h3 class="center">工作誌</h3>
+  {% include blogs.html %}
 </div>
