@@ -11,10 +11,10 @@
       {% for post in posts %}
       <a class="collection-item white-text center dim" href="{{ post.url | relative_url }}" style="background:url('{{ post.image }}') center / cover">
         <h3 class="title">{{ post.title | escape }}</h3>
-        <div class='date'>
+        <p>
           <i class="tiny material-icons" style='vertical-align:middle'>access_time</i>
           {{ post.date | date: "%Y-%m-%d" }}
-        </div>
+        </p>
         <p>
           {{ post.excerpt | truncate: 100 | strip_html }}
         </p>

@@ -52,6 +52,14 @@ p, span {
 a {
   color: dimgray;
 }
+footer {
+  .footer-copyright i{
+    transition: all .1s ease;
+    &:hover {
+      text-shadow: dimgray 0 3px 10px;
+    }
+  }
+}
 
 /* post layout */
 
@@ -102,19 +110,19 @@ a {
 
 .posts .collection .collection-item {
   padding: 5em 1em;
-  .title {
-    margin: 0 0 1rem 0;
-    font-size: 150%;
-  }
-  .date {
-    font-family: monospace;
-  }
   &.dim {
     background-blend-mode: multiply;
     background-color: gray !important;
     &:hover {
       background-color: white !important;
     }
+  }
+  .title {
+    margin: 0 0 1rem 0;
+    font-size: 150%;
+  }
+  >* {
+    text-shadow: black 0px 0px 5px;
   }
 }
 
