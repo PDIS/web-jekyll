@@ -1,10 +1,11 @@
 ---
 layout: post
-title: test post
+title: test post (draft)
 excerpt: test excerpt
 image: https://images.unsplash.com/photo-1484199408980-5918a796a53f?dpr=1&auto=compress,format&fit=crop&w=1199&h=776&q=80&cs=tinysrgb&crop=&bg=
 author: 雨蒼
 category: blog
+tags: [test, 測試]
 ---
 PDIS 的 re:architect 林書漾於 2017 年 9 月初訪美，參與 Our Urban Future Symposium，演講「Democracy from the Future: Taiwan」（[投影片](https://issuu.com/pdis.tw/docs/democracy_from_the_future_-_our_urb){:target="_blank"}），並在演講前後與 Grinnell College 大學的師生們、其他講者們交流各國經驗。
 
