@@ -20,7 +20,7 @@ layout: default
         </p>
         <ul class="tags">
           {% for tag in page.tags %}
-          <li><a href="/tags#{{ tag  | cgi_escape }}" class="tag">{{ tag }}</a></li>
+          <li><a href="/tags/#{{ tag | cgi_escape }}" class="tag">{{ tag }}</a></li>
           {% endfor %}
         </ul>
       </header>
