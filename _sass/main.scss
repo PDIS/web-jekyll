@@ -53,15 +53,10 @@ p {
     }
   }
 }
-a {
+a:not(.btn-large):not(.btn) {
   color: dimgray;
-}
-footer {
-  .footer-copyright i{
-    transition: all .1s ease;
-    &:hover {
-      text-shadow: dimgray 0 3px 10px;
-    }
+  &:hover {
+    color: gray;
   }
 }
 
