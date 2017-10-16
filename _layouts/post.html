@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+
+{% if page.image %}
+<div class="post-image" style="background:url('{{ page.image }}') center / cover"></div>
+{% endif %}
+
 <div class="container">
   <div class="section">
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -35,5 +40,3 @@ layout: default
     </article>
   </div>
 </div>
-
-<!-- <script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script> -->
