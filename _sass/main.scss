@@ -114,19 +114,25 @@ footer {
 
 .posts .collection .collection-item {
   padding: 5em 1em;
-  &.dim {
-    background-blend-mode: multiply;
-    background-color: gray !important;
-    &:hover {
-      background-color: white !important;
-    }
-  }
   .title {
     margin: 0 0 1rem 0;
     font-size: 150%;
   }
   >* {
     text-shadow: black 0px 0px 5px;
+  }
+}
+
+.projects .card .card-image {
+  height: 15rem;
+}
+
+.dim {
+  transition: all .3s ease;
+  background-blend-mode: multiply;
+  background-color: gray !important;
+  &:hover {
+    background-color: white !important;
   }
 }
 
