@@ -38,8 +38,7 @@ permalink: /tags/
       <div class="section">
         {% assign this_word = tag_words[item] %}
         <h5 id="{{ this_word | cgi_escape }}">
-          {{ this_word }}
-          <span class='new badge'>{{ site.tags[this_word].size }}</span>
+          {{ this_word }} | 共{{ site.tags[this_word].size }}篇
         </h5>
         {% for post in site.tags[this_word] %}
         {% if post.title != null %}
