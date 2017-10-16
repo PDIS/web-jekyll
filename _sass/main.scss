@@ -67,6 +67,10 @@ footer {
 
 /* post layout */
 
+.post-image {
+  margin: 1em 0 0 0;
+  height: 20rem;
+}
 .post-header {
   text-align: center;
   h1.post-title {
@@ -78,13 +82,15 @@ footer {
   }
 }
 .post-content {
-  h2, h4 {
+  h2 {
     font-size: 2rem;
   }
   h4 {
     font-size: 1.5rem;
   }
-  p {
+  p, h2, h4 {
+    max-width: 768px;
+    margin: 2em auto;
     img {
       max-width: 100%;
       height: auto;
@@ -94,11 +100,6 @@ footer {
     img {
       max-width: 100%;
       height: auto;
-    }
-  }
-  ul {
-    li {
-      list-style: square;
     }
   }
 }
