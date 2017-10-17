@@ -1,7 +1,7 @@
 <div class='projects section'>
   <section>
 
-    {% if page.layout == 'home' %}
+    {% if page.url == '/' %}
       {% assign projects = site.categories.project | slice: 0,3 %}
     {% else %}
       {% assign projects = site.categories.project %}
@@ -29,6 +29,15 @@
 
       {% endfor %}
     </div>
+
+    {% if page.url == '/' %}
+    <div class='center section'>
+      <a href="/projects" class="btn-large waves-effect waves-light cyan">
+        更多專案
+        <i class="material-icons right">send</i>
+      </a>
+    </div>
+    {% endif %}
 
   </section>
 </div>
