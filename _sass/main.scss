@@ -177,3 +177,36 @@ a:not(.btn-large):not(.btn):not(.tag) {
   }
 }
 
+/* tracks page */
+
+.collection {
+  border: 0;
+  &::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: .5ch;
+    width: 2px;
+    height: 100%;
+    background: gray;
+    margin-top: 2em;
+  }
+  .row {
+    margin-left: 1em;
+  }
+  .title {
+    margin: 0;
+  }
+  .group-date {
+    margin: 1em 0;
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 1ch;
+      height: 1ch;
+      border-radius: 50%;
+      background-color: gray;
+      margin-right: 1ch;
+    }
+  }
+}
