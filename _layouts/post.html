@@ -20,7 +20,8 @@ layout: default
           {% if page.author %}
           <div itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name" class='chip'>
-              <img src="/images/pdis-logo-final-inverse.png" alt="author">
+              {% assign author = site.data.aboutus | where:"name", page.author %}
+              <img src="{{ author[0].avatar | default: site.logo }}" alt="author">
               {{ page.author }}
             </span>
           </div>
