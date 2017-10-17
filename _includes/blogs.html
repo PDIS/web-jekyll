@@ -1,11 +1,11 @@
-{% assign posts = include.posts | default: site.categories.blog %}
-
 <div class="posts section">
   <section>
-    <div class="collection">
 
+    <div class="collection">
       {% if page.url == '/' %}
-        {% assign posts = posts | slice: 0,3 %}
+        {% assign posts = site.categories.blog | slice: 0,3 %}
+      {% else %}
+        {% assign posts = site.categories.blog %}
       {% endif %}
 
       {% for post in posts %}
@@ -21,7 +21,16 @@
         </p>
       </a>
       {% endfor %}
-
     </div>
+
+    {% if page.url == '/' %}
+    <div class='center section'>
+      <a href="/blog" class="btn-large waves-effect waves-light cyan">
+        更多工作誌
+        <i class="material-icons right">send</i>
+      </a>
+    </div>
+    {% endif %}
+
   </section>
 </div>
