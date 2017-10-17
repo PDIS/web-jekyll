@@ -18,9 +18,12 @@ layout: default
             {{ page.date | date: date_format }}
           </time>
           {% if page.author %}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span itemprop="name">{{ page.author }}</span>
-          </span>
+          <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name" class='chip'>
+              <img src="/images/pdis-logo-final-inverse.png" alt="author">
+              {{ page.author }}
+            </span>
+          </div>
           {% endif %}
         </p>
         <ul class="tags">
@@ -34,9 +37,6 @@ layout: default
         {{ content }}
       </div>
 
-      {% if site.disqus.shortname %}
-        {% include disqus_comments.html %}
-      {% endif %}
     </article>
   </div>
 </div>

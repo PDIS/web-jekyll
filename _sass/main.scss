@@ -53,7 +53,7 @@ p {
     }
   }
 }
-a:not(.btn-large):not(.btn) {
+a:not(.btn-large):not(.btn):not(.tag) {
   color: dimgray;
   &:hover {
     color: gray;
@@ -150,27 +150,30 @@ a:not(.btn-large):not(.btn) {
   padding: 0;
   li {
     display: inline;
+    &:last-child .tag {
+      margin: 0;
+    }
   }
-}
-.tag {
-  background: #767676;
-  color: #FFF;
-  display: inline-block;
-  line-height: 1.5;
-  padding: 0 2ch;
-  position: relative;
-  margin: 0 3ch .5em 0;
-  transition: all .2s ease;
-  &:hover {
-    background: darkgray;
-  }
-  .n_tag {
-    background: teal;
+  .tag {
+    background: #767676;
+    color: #FFF;
     display: inline-block;
-    height: 100%;
-    position: absolute;
-    left: 100%;
-    padding: 0 1ch;
+    line-height: 1.5;
+    padding: 0 2ch;
+    position: relative;
+    margin: 0 3ch .5em 0;
+    transition: all .2s ease;
+    &:hover {
+      background: darkgray;
+    }
+    .n_tag {
+      background: teal;
+      display: inline-block;
+      height: 100%;
+      position: absolute;
+      left: 100%;
+      padding: 0 1ch;
+    }
   }
 }
 
