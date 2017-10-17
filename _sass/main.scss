@@ -60,6 +60,15 @@ a:not(.btn-large):not(.btn) {
   }
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: salmon;
+}
+::selection {
+  color: white;
+  background: salmon;
+}
+
 /* post layout */
 
 .post-image {
