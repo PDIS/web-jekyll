@@ -48,7 +48,7 @@ permalink: /tags/
               {{ post.title }}
             </span>
             <span class="col m3 s12 right-align">
-              {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+              {% assign date_format = site.minima.date_format | default: "%Y年%m月%d日" %}
               {{ post.date | date: date_format  }}
             </span>
           </a>
