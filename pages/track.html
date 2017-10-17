@@ -6,36 +6,38 @@ permalink: /track/
 
 <div class="section">
 
-  <ul class="collection">
+  <div class="collection">
     {% for track in site.data.tracks %}
-    <div class="row collection-item">
 
+    {% if track.date != l_track_date %}
+    <div class='group-date'>{{ track.date }}</div>
+    {% endif %}
+
+    <div class="row collection-item">
       <div class="col s12 m3 l2">
         {% for tag in track.tags %}
-          <div class="chip">
-            {{ tag }}
-          </div>
+        <div class="chip">
+          {{ tag }}
+        </div>
         {% endfor %}
       </div>
 
       <div class="col s12 m5 l6">
         <h5 class="title">{{ track.title }}</h5>
-        <p title="{{ track.id }}">
-          <i class="material-icons" style='vertical-align:bottom' title="{{ track.id }}">access_time</i>
-          {{ track.date }}
-        </p>
       </div>
 
       <div class="col s12 m4 l4">
-        {% for item in track.content %}
-          {% for link in item %}
-          <a href='{{ link[1] }}' class="waves-effect waves-light btn" style="margin-bottom:.5em;">{{ link[0] }}</a>
-          {% endfor %}
+      {% for item in track.content %}
+        {% for link in item %}
+        <a href='{{ link[1] }}' class="waves-effect waves-light btn" style="margin-bottom:.5em;">{{ link[0] }}</a>
         {% endfor %}
+      {% endfor %}
       </div>
-
     </div>
+
+    {% assign l_track_date = track.date %}
     {% endfor %}
-  </ul>
+
+  </div>
 
 </div>
