@@ -19,11 +19,11 @@ layout: default
           </time>
           {% if page.author %}
           <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span itemprop="name" class='chip'>
-              {% assign author = site.data.aboutus | where:"name", page.author %}
+            {% assign author = site.data.aboutus | where:"name", page.author %}
+            <a href="{{ author[0].wiselike | default: '/contact' }}" target="_blank" itemprop="name" class='chip'>
               <img src="{{ author[0].avatar | default: site.logo }}" alt="author">
               {{ page.author }}
-            </span>
+            </a>
           </div>
           {% endif %}
         </p>
