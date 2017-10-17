@@ -2,8 +2,8 @@
   link: /
   icon: <i class="material-icons">home</i>
 
-- title: 關於我們
-  link: /aboutus
+- title: 聯絡我們
+  link: /contact
 
 - title: 我們怎麼做
   items:

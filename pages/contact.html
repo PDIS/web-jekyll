@@ -4,3 +4,49 @@ title: 聯絡我們
 permalink: /contact/
 ---
 
+<section class='section'>
+  <div class="row">
+    <div class="col s12 m5 offset-m2 center">
+      <h4>讓我們一起來改善<br>政府的使用者體驗～</h4>
+      <p>Use the button below to email us about the problem you’d like to solve, and we’ll set up a time to talk and answer your questions. As fellow federal employees, we want to make sure you find the team that’s best suited to your situation, even if it isn’t 18F. After our initial conversations, we’ll recommend a path to success, whether it’s with 18F, another office in GSA, or a private vendor. Either way, 18F has short, low-cost options to help prepare your team to find the right solution.</p>
+      <div class='section'>
+        <a href="mailto:hello@pdis.tw" class='disabled btn-large waves-effect waves-light cyan'>寄信過來</a>
+      </div>
+    </div>
+
+    <div class="col s12 m3 teal white-text">
+      <h5>心中有計畫了嗎？</h5>
+      <p>想知道 PDIS 可以如何協助你，歡迎來信聯絡我們由設計師、工程師及專案顧問組成的團隊！</p>
+
+      <h5>其他聯絡方式</h5>
+      <ul>
+        <li>媒體相關：press@pdis.tw</li>
+        <li>綜合疑難雜症：hello@pdis.tw</li>
+        <li>Twitter: @TaiwanPDIS</li>
+        <li>GitHub: pdis</li>
+        <li>RSS Feed</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class='section'>
+  {% for user in site.data.aboutus %}
+  {% cycle '<div class="row">', '', '' %}
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ user.avatar }}" alt="{{ user.name }}">
+          <a href="{{ user.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
+        </div>
+        <div class="card-content">
+          <span class="card-title">{{ user.name }}</span>
+          {{ user.content }}
+        </div>
+      </div>
+    </div>
+  {% cycle 'end': '', '', '</div>' %}
+  {% endfor %}
+
+  {% cycle 'end': '', '</div>', '</div>' %}
+</section>
