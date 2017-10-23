@@ -34,7 +34,8 @@ permalink: /contact/
 </section>
 
 <section class='section'>
-  {% for user in site.data.aboutus %}
+  {% assign users = site.data.aboutus | sort: 'content', 'last' %}
+  {% for user in users %}
   {% cycle '<div class="row">', '', '' %}
     <div class="col s12 m4">
       <div class="card">
