@@ -4,30 +4,48 @@ cta_button: 聯絡我們
 color: cyan-text
 bgcolor: teal
 btn_color: cyan
+image: /images/pdis-team.jpg
 ---
 
 <div class="section no-pad-bot" id="index-banner">
-  <div class="row" style="background:url('{{ site.image }}') center bottom / cover;">
-    <div class="cta-block col s12 l4 offset-l7 {{ page.bgcolor }}">
-      <div class="container">
+  <div class="carousel carousel-slider">
 
-        <h1 class="header white-text" style="width:275px;text-align:justify;line-height:1.2;">
+    <div class="carousel-fixed-item right-align">
+      <div class="cta-block {{ page.bgcolor }} left-align">
+        <h1 class="header white-text">
           {{ site.title }}
         </h1>
-
-        <p class="header light white-text">
+        <p class="light white-text">
           {{ site.description }}
         </p>
-
         <div class='section'>
           <a href="/contact" id="download-button" class="btn-large waves-effect waves-light {{ page.btn_color }}">
             {{ page.cta_button }}
             <i class="material-icons right">send</i>
           </a>
         </div>
-
       </div>
     </div>
+
+    <div class="carousel-item center" style="background:url('images/pdis-team.jpg') center / cover">
+      <h4>開放政府—沙威瑪</h4>
+      <p>一段關於愛與 PO 制度的短片</p>
+      <a class='btn-floating btn-large waves-effect waves-light cyan' href="https://www.facebook.com/shu.w.zhengwei/videos/225723507918927/" target="_blank">
+        <i class="material-icons">play_arrow</i>
+      </a>
+    </div>
+
+    <div class="carousel-item center" style="background:url('images/pdis-team.jpg') center / cover">
+      <h4>PDIS 賀歲拜年迎新春</h4>
+      <p>教你如何料理一道開放政府大火鍋！</p>
+      <a class='btn-floating btn-large waves-effect waves-light cyan' href="https://www.facebook.com/shu.w.zhengwei/videos/161981934293085/" target="_blank">
+        <i class="material-icons">play_arrow</i>
+      </a>
+    </div>
+
+    <div class="carousel-item center" style="background:url('images/pdis-team.jpg') center / cover">
+    </div>
+
   </div>
 </div>
 
