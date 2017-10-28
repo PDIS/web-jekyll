@@ -2,15 +2,18 @@
 <script src="{{ 'js/jquery.min.js' | relative_url }}"></script>
 <script src="{{ 'js/materialize.min.js' | relative_url }}"></script>
 <script src="{{ 'js/init.js' | relative_url }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/js/swiper.min.js"></script>
 
 <script>
-  $('.carousel').carousel({
-    duration: 100,
-    dist: 0,
-    // shift: 0,
-    // padding: 0,
-    // fullWidth: true,
-    indicators: true,
-    // noWrap: false
-  })
+var mySwiper = new Swiper ('.swiper-container', {
+  direction: 'horizontal',
+  loop: false,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+})
 </script>
