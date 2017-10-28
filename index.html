@@ -8,45 +8,47 @@ image: /images/pdis-team.jpg
 ---
 
 <div class="section no-pad-bot" id="index-banner">
-  <div class="carousel carousel-slider">
+  
+  <div class="cta-block teal">
+    <h1 class="header white-text">
+      {{ site.title }}
+    </h1>
+    <p class="light white-text">
+      {{ site.description }}
+    </p>
+    <div class='section'>
+      <a href="/contact" id="download-button" class="btn-large waves-effect waves-light {{ page.btn_color }}">
+        {{ page.cta_button }}
+        <i class="material-icons right">send</i>
+      </a>
+    </div>
+  </div>
 
-    <div class="carousel-fixed-item right-align">
-      <div class="cta-block {{ page.bgcolor }} left-align">
-        <h1 class="header white-text">
-          {{ site.title }}
-        </h1>
-        <p class="light white-text">
-          {{ site.description }}
-        </p>
-        <div class='section'>
-          <a href="/contact" id="download-button" class="btn-large waves-effect waves-light {{ page.btn_color }}">
-            {{ page.cta_button }}
-            <i class="material-icons right">send</i>
-          </a>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!-- should read slides from data -->
+      <div class="swiper-slide">
+        <img src="{{ page.image }}" alt="" srcset="">
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="iframeWrapper">
+          <iframe allowtransparency="true" scrolling="no" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshu.w.zhengwei%2Fvideos%2F225723507918927%2F%3Fl%3D598307961771178061&amp;show_text=false&amp;show_captions=true&amp;appId" frameborder="0"></iframe>
         </div>
       </div>
-    </div>
+      
+      <div class="swiper-slide">
+        <div class="iframeWrapper">
+          <iframe allowtransparency="true" scrolling="no" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshu.w.zhengwei%2Fvideos%2F161981934293085%2F%3Fl%3D598307961771178061&amp;show_text=false&amp;show_captions=true&amp;appId" frameborder="0"></iframe>
+        </div>
+      </div>
 
-    <div class="carousel-item center" style="background:url('images/pdis-team.jpg') center / cover">
-      <h4>開放政府—沙威瑪</h4>
-      <p>一段關於愛與 PO 制度的短片</p>
-      <a class='btn-floating btn-large waves-effect waves-light cyan' href="https://www.facebook.com/shu.w.zhengwei/videos/225723507918927/" target="_blank">
-        <i class="material-icons">play_arrow</i>
-      </a>
     </div>
-
-    <div class="carousel-item center" style="background:url('images/pdis-team.jpg') center / cover">
-      <h4>PDIS 賀歲拜年迎新春</h4>
-      <p>教你如何料理一道開放政府大火鍋！</p>
-      <a class='btn-floating btn-large waves-effect waves-light cyan' href="https://www.facebook.com/shu.w.zhengwei/videos/161981934293085/" target="_blank">
-        <i class="material-icons">play_arrow</i>
-      </a>
-    </div>
-
-    <div class="carousel-item center" style="background:url('images/pdis-team.jpg') center / cover">
-    </div>
-
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
   </div>
+  
 </div>
 
 <div class="container">
