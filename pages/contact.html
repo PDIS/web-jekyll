@@ -34,8 +34,7 @@ permalink: /contact/
 </section>
 
 <section class='section'>
-  <h3 class="center">現任成員</h3>
-  <br/>
+  <h3 class="center" style="line-height: 3em;">現任成員</h3>
   {% assign users = site.data.aboutus | where:"status","working" %}
   {% assign lastuser = users | last %}
   {% for i in (1..users.size) %}
@@ -64,9 +63,7 @@ permalink: /contact/
   </div>
   {% endif %}
   {% endfor %}
-  <br/>
-  <h3 class="center">前任成員</h3>
-  <br/>
+  <h3 class="center" style="line-height: 3em;">前任成員</h3>
   {% assign interns = site.data.aboutus | where:"status","leave" %}
   {% for intern in interns %}
   {% cycle '<div class="row">','','' %}
@@ -84,9 +81,7 @@ permalink: /contact/
     </div>
   {% cycle 'end': '', '', '</div>' %}
   {% endfor %}
-  <br/>
-  <h3 class="center">青年學生體檢政府網站專案見習生</h3>
-  <br/>
+  <h3 class="center" style="line-height: 3em;">青年學生體檢政府網站專案見習生</h3>
   {% assign interns = site.data.aboutus | where:"status","intern" %}
   {% for intern in interns %}
   {% cycle '<div class="row">','','' %}
