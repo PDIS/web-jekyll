@@ -56,12 +56,10 @@ permalink: /contact/
       </div>
     </div>
   {% assign rowend = i | modulo:3 %}
-  {% if rowend == 0 %}
+  {% if rowend == 0 or users[u].name == lastuser.name %}
   </div>
   {% endif %}
-  {% if users[u].name == lastuser.name %}
-  </div>
-  {% endif %}
+
   {% endfor %}
   </section>
 
