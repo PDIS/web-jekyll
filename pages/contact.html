@@ -35,6 +35,7 @@ permalink: /contact/
 
 <section class='section'>
   <h3 class="center">現任成員</h3>
+  <br/>
   {% assign users = site.data.aboutus | where:"status","working" %}
   {% assign lastuser = users | last %}
   {% for i in (1..users.size) %}
