@@ -34,23 +34,72 @@ permalink: /contact/
 </section>
 
 <section class='section'>
-  {% assign users = site.data.aboutus | sort: 'content', 'last' %}
-  {% for user in users %}
-  {% cycle '<div class="row">', '', '' %}
+  <h3 class="center">現任成員</h3>
+  {% assign users = site.data.aboutus | where:"status","working" %}
+  {% assign lastuser = users | last %}
+  {% for i in (1..users.size) %}
+  {% assign u = i | minus:1 %}
+  {% assign rowstart = i | modulo:3 %}
+  {% if rowstart == 1 %}
+  <div class="row">
+    {% endif %}
     <div class="col s12 m4">
       <div class="card">
         <div class="card-image">
-          <img src="{{ user.avatar }}" alt="{{ user.name }}">
-          <a href="{{ user.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
+          <img src="{{ users[u].avatar }}" alt="{{ users[u].name }}">
+          <a href="{{ users[u].wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
         </div>
         <div class="card-content">
-          <span class="card-title">{{ user.name }}</span>
-          {{ user.content }}
+          <span class="card-title">{{ users[u].name }}</span>
+          {{ users[u].content }}
+        </div>
+      </div>
+    </div>
+  {% assign rowend = i | modulo:3 %}
+  {% if rowend == 0 %}
+  </div>
+  {% endif %}
+  {% if users[u].name == lastuser.name %}
+  </div>
+  {% endif %}
+  {% endfor %}
+
+  <h3 class="center">青年學生體檢政府網站專案見習生</h3>
+  {% assign interns = site.data.aboutus | where:"status","intern" %}
+  {% for intern in interns %}
+  {% cycle '<div class="row">','','' %}
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ intern.avatar }}" alt="{{ intern.name }}">
+          <a href="{{ intern.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
+        </div>
+        <div class="card-content">
+          <span class="card-title">{{ intern.name }}</span>
+          {{ intern.content }}
         </div>
       </div>
     </div>
   {% cycle 'end': '', '', '</div>' %}
   {% endfor %}
 
-  {% cycle 'end': '', '</div>', '</div>' %}
+  <h3 class="center">前任成員</h3>
+  {% assign interns = site.data.aboutus | where:"status","leave" %}
+  {% for intern in interns %}
+  {% cycle '<div class="row">','','' %}
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ intern.avatar }}" alt="{{ intern.name }}">
+          <a href="{{ intern.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
+        </div>
+        <div class="card-content">
+          <span class="card-title">{{ intern.name }}</span>
+          {{ intern.content }}
+        </div>
+      </div>
+    </div>
+  {% cycle 'end': '', '', '</div>' %}
+  {% endfor %}
+  
 </section>
