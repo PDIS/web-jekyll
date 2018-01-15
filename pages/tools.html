@@ -8,11 +8,13 @@ permalink: /tools/
   <section>
     <div class="">
       {% for tool in site.data.tools %}
-      <div class="row valign-wrapper">
+      <div class="row">
         <div class="col l7 {% cycle 'push-l5', '' %} s12">
           {{ tool.content | markdownify }}
         </div>
-        <img class="col l5 {% cycle 'pull-l7', '' %} s12" src="{{ tool.image }}" alt="tool image">
+        <div class="col l5 {% cycle 'pull-l7', '' %} s12">
+          <img  src="{{ tool.image }}" alt="tool image">
+        </div>
       </div>
       {% endfor %}
     </div>
