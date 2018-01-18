@@ -79,18 +79,35 @@ img {
   position: absolute;
   z-index: 100;
   right: 0;
+  height: 100%;
   display: inline-block;
-  width: 475px;
+  width: 320px;
   max-width: 100%;
-  padding: 0 5vw;
+  padding: 3vw 1vw;
+  background-color: rgba(0,0,0,0.6);
+  line-height: 0;
   .header {
     width: 275px;
     text-align: justify;
     line-height: 1.2;
   }
-  @media screen and (max-width: 768px) {
-    position: relative;
+  @media screen and (max-width: 1280px) {
+    width: 280px;
+    .header {
+      width: 275px;
+      text-align: center;
+      line-height: 1.2;
+      font-size: 2.5rem; 
+    }
   }
+  @media screen and (max-width: 993px) {
+    display: none;
+  }
+}
+
+.cta-block:hover {
+  transition: all .5s ease;
+  background-color: rgba(0,0,0,0.8);
 }
 
 .swiper-container {
