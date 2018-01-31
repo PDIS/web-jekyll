@@ -7,51 +7,53 @@ btn_color: cyan
 image: /images/pdis-team.jpg
 ---
 
-<div class="section no-pad-bot" id="index-banner">
-  
-  <div class="cta-block teal">
-    <h1 class="header white-text">
-      {{ site.title }}
-    </h1>
-    <p class="light white-text">
-      {{ site.description }}
-    </p>
-    <div class='section'>
-      <a href="/contact" id="download-button" class="btn-large waves-effect waves-light {{ page.btn_color }}">
-        {{ page.cta_button }}
-        <i class="material-icons right">send</i>
-      </a>
-    </div>
-  </div>
-
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <!-- should read slides from data -->
-      <div class="swiper-slide">
-        <img src="{{ page.image }}" alt="" srcset="">
-      </div>
-      
-      <div class="swiper-slide">
-        <div class="iframeWrapper">
-          <iframe allowtransparency="true" scrolling="no" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshu.w.zhengwei%2Fvideos%2F225723507918927%2F%3Fl%3D598307961771178061&amp;show_text=false&amp;show_captions=true&amp;appId" frameborder="0"></iframe>
-        </div>
-      </div>
-      
-      <div class="swiper-slide">
-        <div class="iframeWrapper">
-          <iframe allowtransparency="true" scrolling="no" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshu.w.zhengwei%2Fvideos%2F161981934293085%2F%3Fl%3D598307961771178061&amp;show_text=false&amp;show_captions=true&amp;appId" frameborder="0"></iframe>
-        </div>
-      </div>
-
-    </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  </div>
-  
-</div>
 
 <div class="container">
+
+
+
+    <div class="section no-pad-bot" id="index-banner" >
+        <div class="swiper-container" style="width:100%;">
+            <div class="cta-block">
+                <h1 class="header white-text">
+                  {{ site.title }}
+                </h1>
+                <p class="light white-text">
+                  {{ site.description }}
+                </p>
+                <div style="position:absolute;bottom:1rem">
+                  <a href="/contact" id="download-button" class="btn-large waves-effect waves-light {{ page.btn_color }}">
+                    {{ page.cta_button }}
+                    <i class="material-icons right">send</i>
+                  </a>
+                </div>
+              </div>
+          <div class="swiper-wrapper">
+            <!-- should read slides from data -->
+            <div class="swiper-slide">
+              <img src="{{ page.image }}" alt="" srcset="">
+            </div>
+            
+            <div class="swiper-slide">
+              <div class="iframeWrapper">
+                <iframe allowtransparency="true" scrolling="no" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshu.w.zhengwei%2Fvideos%2F225723507918927%2F%3Fl%3D598307961771178061&amp;show_text=false&amp;show_captions=true&amp;appId" frameborder="0"></iframe>
+              </div>
+            </div>
+            
+            <div class="swiper-slide">
+              <div class="iframeWrapper">
+                <iframe allowtransparency="true" scrolling="no" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshu.w.zhengwei%2Fvideos%2F161981934293085%2F%3Fl%3D598307961771178061&amp;show_text=false&amp;show_captions=true&amp;appId" frameborder="0"></iframe>
+              </div>
+            </div>
+      
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        
+      </div>
+
   <div class="section">
     <h3 class="center">
       {{ site.data.features.title }}
