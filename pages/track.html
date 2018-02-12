@@ -8,9 +8,9 @@ permalink: /track/
 
   <div class="collection">
     {% for track in site.data.tracks %}
-
+<div class='track-item'>
     {% if track.date != l_track_date %}
-    <div class='group-date'>{{ track.date }}</div>
+    <div class='group-date' style='font-size: 18px;'>{{ track.date }}</div>
     {% endif %}
 
     <div class="row collection-item">
@@ -29,12 +29,12 @@ permalink: /track/
       <div class="col s12 m4 l4">
       {% for item in track.content %}
         {% for link in item %}
-        <a href='{{ link[1] }}' class="waves-effect waves-light btn" style="margin-bottom:.5em;">{{ link[0] }}</a>
+        <a href='{{ link[1] }}' class="waves-effect waves-light btn" style="margin-bottom:.5em;width:165px;">{{ link[0] }}</a>
         {% endfor %}
       {% endfor %}
       </div>
     </div>
-
+  </div>
     {% assign l_track_date = track.date %}
     {% endfor %}
 
