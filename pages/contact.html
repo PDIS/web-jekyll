@@ -42,9 +42,11 @@ permalink: /contact/
           <img src="{{ users[u].avatar }}" alt="{{ users[u].name }}">
           <a href="{{ users[u].wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
         </div>
-        <div class="card-content">
+        <div class="card-content"  title='{{ users[u].content }}'>
           <span class="card-title">{{ users[u].name }}</span>
-          {{ users[u].content }}
+         
+            {{ users[u].content }}
+       
         </div>
       </div>
     </div>
