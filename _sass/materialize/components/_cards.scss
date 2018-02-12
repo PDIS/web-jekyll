@@ -141,7 +141,7 @@
   .card-content {
     padding: $card-padding;
     border-radius: 0 0 2px 2px;
-
+    overflow: hidden;text-overflow: ellipsis; white-space: nowrap;width: 100%;
     p {
       margin: 0;
       color: inherit;
