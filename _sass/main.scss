@@ -212,7 +212,7 @@ img {
   li {
     display: inline;
     &:last-child .tag {
-      margin: 0;
+      // margin: 0;
     }
   }
   .tag {
@@ -220,15 +220,16 @@ img {
     color: #FFF;
     display: inline-block;
     line-height: 1.5;
-    padding: 0 2ch;
+    padding: 0px 2ch;
     position: relative;
-    margin: 0 3ch .5em 0;
+    margin: 0 3ch 1.5vh 0px;
     transition: all .2s ease;
     &:hover {
       background: darkgray;
     }
     .n_tag {
       background: teal;
+      margin: -10px;
       display: inline-block;
       height: 100%;
       position: absolute;
