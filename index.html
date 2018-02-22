@@ -18,13 +18,13 @@ image: /images/pdis-team.jpg
           <div class="swiper-wrapper">
             <!-- should read slides from data -->
             <div class="swiper-slide">
-              <div class="contain">
-              <img src="{{ page.image }}" alt="" srcset="" style="width:75%">
+              <div class="contain" style="overflow: hidden;">
+              <img src="{{ page.image }}" alt="" srcset="" class="team-img">
               <div class="cta-block">
                   <h1 class="header white-text">
                     {{ site.title }}
                   </h1>
-                  <p class="light white-text">
+                  <p class="light white-text" style="font-size: 1.3vw;">
                     {{ site.description }}
                   </p>
                   <div>
