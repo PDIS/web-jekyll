@@ -4,6 +4,59 @@ title: 工作紀錄
 permalink: /track/
 ---
 
+<script>
+
+  var tagsmap = {};
+  function GetMap()
+  {//產生tag
+    var tags=document.getElementsByClassName("chip");
+    
+    for(var i=0;i<tags.length;i++)
+    {
+      var tagitrm=tags[i].innerHTML .trim();
+      if( tagitrm in tagsmap)
+      {
+        tagsmap[tagitrm]=tagsmap[tagitrm]+1;
+      }
+      else
+      {
+        tagsmap[tagitrm]=1;
+      }
+    }
+    var tagHtml='';
+
+
+    for (var i in tagsmap) {
+      tagHtml+=` <li>
+        <span>
+          <a href="#" class="tag">
+            `+i+`
+            <span class="n_tag">`+tagsmap[i]+`</span>
+          </a>
+        </span>
+      </li>`;
+    }
+    console.log(tagHtml)
+    
+    document.getElementById("tags").innerHTML=(`  <ul class="tags">`+tagHtml+'</ul>');
+
+
+
+  }
+
+
+  document.addEventListener('DOMContentLoaded', function(){ 
+    GetMap();
+}, false);
+
+</script>
+
+<div class="section container center">
+  <div id="tags">
+
+  </div>
+</div>
+
 <div class="tracks section">
 
   <div class="collection">
