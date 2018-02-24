@@ -42,11 +42,11 @@ permalink: /contact/
           <img src="{{ users[u].avatar }}" alt="{{ users[u].name }}">
           <a href="{{ users[u].wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
         </div>
-        <div class="card-content"  title='{{ users[u].content }}'>
+        <div class="card-content-fixed"  title='{{ users[u].content }}'>
           <span class="card-title">{{ users[u].name }}</span>
-         
+
             {{ users[u].content }}
-       
+
         </div>
       </div>
     </div>
@@ -74,7 +74,7 @@ permalink: /contact/
           <img src="{{ exs[u].avatar }}" alt="{{ exs[u].name }}">
           <a href="{{ exs[u].wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
         </div>
-        <div class="card-content">
+        <div class="card-content-fixed">
           <span class="card-title">{{ exs[u].name }}</span>
           {{ exs[u].content }}
         </div>
@@ -86,7 +86,7 @@ permalink: /contact/
     {% endif %}
   {% endfor %}
   </section>
-  
+
   <h3 class="center">專案見習生</h3>
   <section class='section'>
   {% assign interns = site.data.aboutus | where:"status","intern" %}
@@ -98,7 +98,7 @@ permalink: /contact/
           <img src="{{ intern.avatar }}" alt="{{ intern.name }}">
           <a href="{{ intern.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
         </div>
-        <div class="card-content">
+        <div class="card-content-fixed">
           <span class="card-title">{{ intern.name }}</span>
           {{ intern.content }}
         </div>
