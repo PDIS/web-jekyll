@@ -141,11 +141,12 @@
   .card-content {
     padding: $card-padding;
     border-radius: 0 0 2px 2px;
-    overflow: hidden;text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
     // white-space: nowrap;
     width: 100%;
     // line-height: 0;
-    height:140px;
+    // height:140px;
     p {
       margin: 0;
       color: inherit;
@@ -159,15 +160,21 @@
       line-height: 32px;
       margin-bottom: 8px;
       overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 100%;
+      text-overflow: ellipsis;
+    // white-space: nowrap;
+      width: 100%;
 
       i {
         line-height: 32px;
       }
     }
   }
+
+
+.card-content-fixed{
+  @extend .card-content;
+    height: 140px;
+}
 
   .card-action {
     &:last-child {
