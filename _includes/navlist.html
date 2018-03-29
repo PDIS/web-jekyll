@@ -17,17 +17,14 @@
 <li>
   <div class="search-wrapper">
     <input id="search" class="search-box" placeholder="Search" value="">
-    <i id="searchbutton" class="material-icons" onclick="javascript:location.href='/search/?q='+search[0].value+search[1].value">search</i>
+    <i class="material-icons search-button" onclick="search(this)">search</i>
     <div class="search-results"></div>
   </div>
 </li>
 
 <script>
-  // search.value = new URL(window.location.href).searchParams.get("q");
-  document.getElementById("search").addEventListener("keyup", function(event) {
-    event.preventDefault();
-    if (event.keyCode === 13) {
-      searchbutton[0].click();
-    }
-  });
+  function search(clicked){
+    q = $(clicked).siblings('.search-box')[0].value;
+    window.location.href = "/search/?q="+q;
+  }
 </script>
