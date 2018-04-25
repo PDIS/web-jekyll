@@ -13,3 +13,18 @@
   <li><a href="{{ nav.link | relative_url }}" class="{{ color }}">{{ nav.icon | default: nav.title }}</a></li>
   {% endif %}
 {% endfor %}
+
+<li>
+  <div class="search-wrapper">
+    <input id="search" class="search-box" placeholder="Search" value="">
+    <i class="material-icons search-button" onclick="search(this)">search</i>
+    <div class="search-results"></div>
+  </div>
+</li>
+
+<script>
+  function search(clicked){
+    q = $(clicked).siblings('.search-box')[0].value;
+    window.location.href = "/search/?q="+q;
+  }
+</script>
