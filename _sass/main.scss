@@ -81,7 +81,7 @@ img {
     width:100%;
     position: absolute;
   }
- 
+
 }
 
 .cta-block {
@@ -144,6 +144,10 @@ img {
 .post-image {
   margin: 1em 0 0 0;
   height: 20rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 .post-header {
   text-align: center;
@@ -311,4 +315,3 @@ img {
     }
   }
 }
-
