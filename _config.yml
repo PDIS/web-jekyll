@@ -7,7 +7,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 logo: /images/pdis-logo-final-inverse.png
 image: /images/pdis-team.jpg
-
+plugins:
+  - jekyll-feed
 permalink: /:categories/:title/
 sass:
   style: compressed
