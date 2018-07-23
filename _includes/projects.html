@@ -32,8 +32,8 @@
 
     {% if page.url == '/' %}
     <div class='center section'>
-      <a href="/project" class="btn-large waves-effect waves-light cyan">
-        更多專案
+      <a href="{{'project' | relative_url }}" class="btn-large waves-effect waves-light cyan">
+        {% t site.more %}{% t site.project %}
         <i class="material-icons right">send</i>
       </a>
     </div>
