@@ -1,6 +1,5 @@
 ---
 layout: default
-cta_button: 聯絡我們
 color: cyan-text
 bgcolor: teal
 btn_color: cyan
@@ -22,14 +21,14 @@ image: /images/pdis-team.jpg
               <img src="{{ page.image }}" alt="" srcset="" class="team-img">
               <div class="cta-block">
                   <h1 class="header white-text">
-                    {{ site.title }}
+                    {% t site.title %}
                   </h1>
                   <p class="light white-text" style="font-size: 1.3vw;">
-                    {{ site.description }}
+                    {% t site.description %}
                   </p>
                   <div>
                     <a href="/contact" id="download-button" class="btn-large waves-effect waves-light {{ page.btn_color }}">
-                      {{ page.cta_button }}
+                      {% t site.contact %}
                       <i class="material-icons right">send</i>
                     </a>
                   </div>
@@ -60,31 +59,43 @@ image: /images/pdis-team.jpg
 
   <div class="section">
     <h3 class="center">
-      {{ site.data.features.title }}
+      {% t features.title %}
     </h3>
     <!--   Icon Section   -->
     <div class="row">
-      {% for feature in site.data.features.list limit:3 %}
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center {{ page.color }}"><i class="material-icons">{{ feature.icon }}</i></h2>
-          <h5 class="center">{{ feature.title }}</h5>
-          <p class="light">{{ feature.desc }}</p>
+          <h2 class="center {{ page.color }}"><i class="material-icons">{% t features.item1.icon %}</i></h2>
+          <h5 class="center">{% t features.item1.title %}</h5>
+          <p class="light">{% t features.item1.content %}</p>
         </div>
       </div>
-      {% endfor %}
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center {{ page.color }}"><i class="material-icons">{% t features.item2.icon %}</i></h2>
+          <h5 class="center">{% t features.item2.title %}</h5>
+          <p class="light">{% t features.item2.content %}</p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center {{ page.color }}"><i class="material-icons">{% t features.item3.icon %}</i></h2>
+          <h5 class="center">{% t features.item3.title %}</h5>
+          <p class="light">{% t features.item3.content %}</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="blue-grey lighten-5">
   <div class="container">
-    <h3 class="center">專案</h3>
+    <h3 class="center">{% t site.project %}</h3>
     {% include projects.html %}
   </div>
 </div>
 
 <div class="container">
-  <h3 class="center">工作誌</h3>
+  <h3 class="center">{% t site.blog %}</h3>
   {% include blogs.html %}
 </div>
