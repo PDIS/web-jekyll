@@ -1,13 +1,15 @@
 ---
 layout: page
-title: 我們常用的工具
 permalink: /tools/
 ---
-
+{% capture toolset %}{% t tools.list %}{% endcapture %}
+{% assign tools = toolset | split:"}" %}
+<h1 class="center" style="font-size:2.8em;">{% t tools.title %}</h1>
 <div class='section'>
   <section>
     <div class="">
-      {% for tool in site.data.tools %}
+      {% for toolstring in tools%}
+      {% assign tool = toolstring | append: '}' | eval_string %}
       <div class="row">
         <div class="col l7 {% cycle 'push-l5', '' %} s12">
           {{ tool.content | markdownify }}
