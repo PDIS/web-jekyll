@@ -5,8 +5,8 @@
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
-        <h5 class="{{ color }}">{{ site.data.informations.about.title }}</h5>
-        <p class="{{ color }}">{{ site.data.informations.about.desc }}</p>
+        <h5 class="{{ color }}">{% t about.title %}</h5>
+        <p class="{{ color }}">{% t site.description %}</p>
         <div class='about-logos' style="letter-spacing:1ch;">
           <a href="//pdis.tw"> <img alt="logo" class="circle hoverable" src="{{ site.logo }}" style="width:3rem;vertical-align:bottom;"> </a>
           <a href="//www.youtube.com/PdisTwGov" target="_blank"> <i class="fa fa-3x fa-youtube-play"></i> </a>
@@ -16,18 +16,24 @@
         </div>
       </div>
       <div class="col l3 s12">
-        <h5 class="{{ color }}">{{ site.data.informations.ref.title }}</h5>
+        <h5 class="{{ color }}">{% t ref.title %}</h5>
         <ul>
-          {% for link in site.data.informations.ref.list %}
-          <li><p><a class="{{ color }}" href="{{ link.url }}">{{ link.name }}</a></p></li>
+          {% capture refset %}{% t ref.list %}{% endcapture %}
+          {% assign refs = refset | split:"}" %}
+          {% for linkstring in refs %}
+            {% assign link = linkstring | append: '}' | eval_string %}
+            <li><p><a class="{{ color }}" href="{{ link.url }}">{{ link.name }}</a></p></li>
           {% endfor %}
         </ul>
       </div>
       <div class="col l3 s12">
-        <h5 class="{{ color }}">{{ site.data.informations.info.title }}</h5>
+        <h5 class="{{ color }}">{% t info.title %}</h5>
         <ul>
-          {% for link in site.data.informations.info.list %}
-          <li><p><a class="{{ color }}" href="{{ link.url }}">{{ link.name }}</a></p></li>
+          {% capture infoset %}{% t info.list %}{% endcapture %}
+          {% assign infos = infoset | split:"}" %}
+          {% for linkstring in infos %}
+            {% assign link = linkstring | append: '}' | eval_string %}
+            <li><p><a class="{{ color }}" href="{{ link.url }}">{{ link.name }}</a></p></li>
           {% endfor %}
         </ul>
       </div>
