@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.4.1
+script:
+- bundle exec jekyll build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: "$GITHUB_TOKEN"
+  local_dir: _site
+env:
+  global:
+    secure: OFtnsTIJJ5WDoryH0ZuWe+XzPjdRIfXzhljoOm7Z3C0Atq4wos7wQX0LfB7x/7GYl2xh71gtrHtVkktUzvelLXurC/dMHRksqN123JOo2o1kuO9xd+oysoyO90WVmdyaqVJMYCpcE5oEFoa46hYnrqDGu1k19aWaCGTtHT/7Z3Cv6pgU+9k1/64EFB0gmAqhEWliyarjen3jXNqUDjJu3LtUA8A1O/NUSQQ9Pi6KxjLjfpQer14NUwYupWeT564HhNwdlEf1R9y+C1tcQqiVHPlCbW4a32BCMyQAU2mc1Hof/5T+Nm0yRh4zJxfZV+hsUgdzK/R7iH6BIL068lodglOwRVhG9ojZ6OsSC7GhR5Jhd9Hp53C24NeJ+iJ7e2WY40BD0BGJqjIf4HnglRs7x3l1rWl3AdwAw4E03F3hjVn07IjxUk+TukDO7Rq1MNfmZUl5wD4O+22tm6USi+la3LHJgK/zJlADrhHjzHOb19uV9pPSRgadxcygYgyd353oGVGez10FbT3XvY30gNDocwDpkCrOdhhbHovpn9lAhPk4NLpLUL7qknKIiJvyNFLg69duo0yv8f2EJ7D5Wy1p43DX/irkEkKUDP7ocxzzFy6c/RCB7i1YWufNCQqdTj6zuOUtsAhCza4ggJi5djOXDKYpDzkLOKav2jU4W/xJgM0=
