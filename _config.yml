@@ -16,7 +16,7 @@ google_analytics: UA-106951256-1
 
 # --------- i18n settings ---------
 languages: ["en", "zh-TW"]
-exclude_from_localizations: ["assets", "CNAME"]
+exclude_from_localizations: ["assets", "CNAME","fonts"]
 defaultLang: en
 languageNames:
   zh-TW: 繁體中文
