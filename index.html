@@ -8,9 +8,6 @@ image: /images/pdis-team.jpg
 
 
 <div class="container">
-
-
-
     <div class="section no-pad-bot" id="index-banner" >
         <div class="swiper-container" style="width:100%">
 
@@ -20,7 +17,7 @@ image: /images/pdis-team.jpg
               <div class="contain" style="overflow: hidden;line-height: 0;">
               <img src="{{ page.image | relative_url }}" alt="" srcset="" class="team-img">
               <div class="cta-block">
-                  <h1 class="header white-text">
+                  <h1 class="header white-text notranslate">
                     {% t site.title %}
                   </h1>
                   <p class="light white-text" style="font-size: 1.3vw;">
@@ -29,7 +26,7 @@ image: /images/pdis-team.jpg
                   <div>
                     <a href="/contact" id="download-button" class="btn-large waves-effect waves-light {{ page.btn_color }}">
                       {% t site.contact %}
-                      <i class="material-icons right">send</i>
+                      <i class="material-icons right notranslate">send</i>
                     </a>
                   </div>
                 </div>
@@ -63,27 +60,17 @@ image: /images/pdis-team.jpg
     </h3>
     <!--   Icon Section   -->
     <div class="row">
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center {{ page.color }}"><i class="material-icons">{% t features.item1.icon %}</i></h2>
-          <h5 class="center">{% t features.item1.title %}</h5>
-          <p class="light">{% t features.item1.content %}</p>
+      {% capture features %}{% t features.list %}{% endcapture %}
+      {% assign features = features | eval_array %}
+      {% for feature in features %}
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center {{ page.color }}"><i class="material-icons notranslate">{{ feature.icon }}</i></h2>
+            <h5 class="center">{{ feature.title }}</h5>
+            <p class="light">{{ feature.content }}</p>
+          </div>
         </div>
-      </div>
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center {{ page.color }}"><i class="material-icons">{% t features.item2.icon %}</i></h2>
-          <h5 class="center">{% t features.item2.title %}</h5>
-          <p class="light">{% t features.item2.content %}</p>
-        </div>
-      </div>
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center {{ page.color }}"><i class="material-icons">{% t features.item3.icon %}</i></h2>
-          <h5 class="center">{% t features.item3.title %}</h5>
-          <p class="light">{% t features.item3.content %}</p>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
