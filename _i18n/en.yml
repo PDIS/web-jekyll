@@ -15,10 +15,10 @@ site:
 #---------------------------------------------------------------------------------------------------
 
 features:
-  title: What can we do for you？
+  title: What do we do ？
   list: 
     - icon: flash_on
-      title: Work of Digital Minister
+      title: Work of <br>Digital Minister
       content: Digital Minister is in charge of open government, social enterprises, and youth council.
     - icon: group
       title: Digital <br>Administration
