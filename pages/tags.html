@@ -1,9 +1,10 @@
 ---
 layout: page
-title: 標籤分類
 permalink: /tags/
 ---
 
+
+<h1 class="center" style="font-size:2.8em;">{% t site.blog_tags %}</h1>
 <!-- Get the tag name for every tag on the site and set them to the `site_tags` variable. -->
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 

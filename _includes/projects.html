@@ -1,3 +1,7 @@
+{% if page.url != '/' %}
+<h1 class="center" style="font-size:2.8em;">{% t site.project %}</h1>
+{% endif %}
+
 <div class='projects section'>
   <section>
 
@@ -32,9 +36,9 @@
 
     {% if page.url == '/' %}
     <div class='center section'>
-      <a href="/project" class="btn-large waves-effect waves-light cyan">
-        更多專案
-        <i class="material-icons right">send</i>
+      <a href="{{'project' | relative_url }}" class="btn-large waves-effect waves-light cyan">
+        {% t site.more %}{% t site.project %}
+        <i class="material-icons right notranslate">send</i>
       </a>
     </div>
     {% endif %}

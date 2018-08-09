@@ -98,8 +98,11 @@ img {
   .header {
     width: 13vw;
     text-align: justify;
-    font-size: 3.2vw;
+    font-size: 2.4vw;
     line-height: 1.2;
+  }
+  .header:lang(zh-TW){
+    font-size: 3.2vw;
   }
   // @media screen and (max-width: 1280px) {
   //   width: 144px;
@@ -314,4 +317,11 @@ img {
       right: 30px;
     }
   }
+}
+
+.translate-widget {
+    position: fixed;
+    right: 10px;
+    top: calc(100vh - 25px);
+    z-index: 99999;
 }
