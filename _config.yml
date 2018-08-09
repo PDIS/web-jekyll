@@ -10,13 +10,15 @@ permalink: /:categories/:title/
 sass:
   style: compressed
 
+exclude: ["package.json", "articles_translate.js", "README.md", "Gemfile", "Gemfile.lock"]
+
 twitter_username: TaiwanPDIS
 github_username: pdis
 google_analytics: UA-106951256-1
 
 # --------- i18n settings ---------
 languages: ["en", "zh-TW"]
-exclude_from_localizations: ["assets", "CNAME", "fonts", "images"]
+exclude_from_localizations: ["assets", "CNAME", "fonts", "images", "favicon.ico", "js"]
 defaultLang: en
 languageNames:
   zh-TW: 繁體中文
