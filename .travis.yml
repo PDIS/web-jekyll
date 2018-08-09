@@ -2,8 +2,7 @@ language: ruby
 rvm:
 - 2.4.1
 script:
-- node -v
-- npm -v
+- npm install
 - bundle exec jekyll build
 deploy:
   provider: pages

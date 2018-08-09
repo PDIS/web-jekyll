@@ -1,0 +1,24 @@
+{
+  "name": "web-jekyll",
+  "version": "1.0.0",
+  "description": "1. clone this repo 2. install `chocolatey` 3. install `ruby` by `choco` 4. install `jekyll` by `gem` 5. run `jekyll serve` or `jekyll serve --drafts` 6. open browser to `127.0.0.1:4000`",
+  "main": "articles_translate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark19891107/web-jekyll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mark19891107/web-jekyll/issues"
+  },
+  "homepage": "https://github.com/mark19891107/web-jekyll#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^1.1.0",
+    "json2yaml": "^1.1.0",
+    "yaml-front-matter": "^4.0.0"
+  }
+}
