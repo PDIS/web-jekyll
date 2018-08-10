@@ -2,18 +2,10 @@ language: ruby
 rvm:
  - 2.4.1
 before_script:
- - git config --global user.email "auto-translate@pdis.tw"
- - git config --global user.name "auto-translate"
- - git config --global push.default simple
- - git clone --depth 1 --branch master https://$GITHUB_TOKEN@github.com/PDIS/web-jekyll
  - openssl aes-256-cbc -K $encrypted_2fb15357d122_key -iv $encrypted_2fb15357d122_iv
-  -in GCP.json.enc -out web-jekyll/GCP.json -d
- - cd web-jekyll
+  -in GCP.json.enc -out GCP.json -d
  - npm install
  - node articles_translate.js
- - git add .
- - git commit -m 'articles_translate' --allow-empty
- - git push --quiet
 script:
  - bundle exec jekyll build
 deploy:
