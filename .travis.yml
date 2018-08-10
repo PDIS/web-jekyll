@@ -6,7 +6,7 @@ before_script:
  - node articles_translate.js
  - git add .
  - git commit -m 'articles_translate'
- - git push
+ - git push origin HEAD:master
 script:
  - bundle exec jekyll build
 deploy:
