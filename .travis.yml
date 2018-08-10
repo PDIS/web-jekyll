@@ -1,10 +1,14 @@
 language: ruby
 rvm:
-- 2.4.1
+ - 2.4.1
+before_script:
+ - npm install
+ - node articles_translate.js
+ - git add .
+ - git commit -m 'articles_translate'
+ - git push
 script:
-- npm install
-- node articles_translate.js
-- bundle exec jekyll build
+ - bundle exec jekyll build
 deploy:
   provider: pages
   skip_cleanup: true
