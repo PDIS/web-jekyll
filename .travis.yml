@@ -2,11 +2,16 @@ language: ruby
 rvm:
  - 2.4.1
 before_script:
+ - git config --global user.email "auto-translate@pdis.tw"
+ - git config --global user.name "auto-translate"
+ - git config --global push.default simple
+ - git clone --depth 1 --branch master https://$GITHUB_TOKEN@github.com/PDIS/web-jekyll
+ - cd web-jekyll
  - npm install
  - node articles_translate.js
  - git add .
  - git commit -m 'articles_translate'
- - git push origin HEAD:master
+ - git push --quiet
 script:
  - bundle exec jekyll build
 deploy:
