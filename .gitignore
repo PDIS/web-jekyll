@@ -5,3 +5,4 @@ _site
 *.gem
 node_modules/
 package-lock.json
+GCP.json
