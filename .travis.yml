@@ -12,7 +12,7 @@ before_script:
  - npm install
  - node articles_translate.js
  - git add .
- - git commit -m 'articles_translate'
+ - git commit -m 'articles_translate' --allow-empty
  - git push --quiet
 script:
  - bundle exec jekyll build
