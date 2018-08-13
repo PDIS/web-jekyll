@@ -2,7 +2,7 @@ jobs:
   include:
 ##### translate stage - Check if there have articles need to translate #####
     - stage: translate
-      if: sender !~ auto_translate
+      if: commit_message !~ /(auto translate)/
       language: node_js
       node_js: 8.9.1
       script:
