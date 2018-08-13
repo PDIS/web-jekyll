@@ -2,7 +2,7 @@ jobs:
   include:
 ##### translate stage - Check if there have articles need to translate #####
     - stage: translate
-      if: sender != auto-translate
+      if: sender != "auto-translate"
       language: node_js
       node_js: 8.9.1
       script:
@@ -21,7 +21,7 @@ jobs:
 
 ##### deploy stage - Deploy to gh-pages #####
     - stage: deploy
-      if: sender = auto-translate
+      if: sender = "auto-translate"
       rvm: 2.4.1
       script:
         - bundle exec jekyll build
