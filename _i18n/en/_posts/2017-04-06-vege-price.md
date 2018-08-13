@@ -64,7 +64,7 @@ The integration of information can be said to be the selling point of this platf
 #### 3. Open source code, platform interface information conforms to open data standards
 and the entire prototype platform is completely open source, so that community friends have the opportunity to work together in the future, so that people who are interested in expressing opinions can Respond directly to the program, let the folk masters who are interested in assisting development or self-development have programs to refer to. 
 
-#### 4. Platform expansion
+#### 4. Platform scalability
 PDIS is the first step for future manufacturers to make it easy to take over when handing over this platform. Therefore, the scalability of future information integration platform is retained in design and technology. . 
 
 #### 5. The load capacity can load a large number of queries
