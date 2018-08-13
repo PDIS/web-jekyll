@@ -21,6 +21,7 @@ jobs:
 
 ##### deploy stage - Deploy to gh-pages #####
     - stage: deploy
+      if: commit_message ~= /(auto translate)/
       rvm: 2.4.1
       script:
         - bundle exec jekyll build
