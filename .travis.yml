@@ -7,7 +7,7 @@ jobs:
       node_js: 8.9.1
       script:
         - git remote set-url origin https://$GITHUB_TOKEN@github.com/pdis/web-jekyll
-        - git branch
+        - git checkout master
         - npm install
         - node articles_translate.js
         - git config --global user.email "auto-translate@pdis.tw"
