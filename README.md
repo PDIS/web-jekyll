@@ -1,6 +1,6 @@
 # 建置環境 Development
 ## windows
-1. clone this repo
+1. git clone --recurse-submodules https://github.com/PDIS/web-jekyll
 2. install `chocolatey`
 3. install `ruby` by `choco`
 4. install `jekyll` by `gem`
