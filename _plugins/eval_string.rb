@@ -1,9 +1,9 @@
 module Jekyll
-    module EvalString
-      def eval_string(text)
-        eval(text)
-      end
+  module EvalString
+    def eval_string(text)
+      eval(text)
     end
   end
-  
-  Liquid::Template.register_filter(Jekyll::EvalString)
+end
+
+Liquid::Template.register_filter(Jekyll::EvalString)
