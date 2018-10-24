@@ -21,7 +21,7 @@ jobs:
 
 ##### deploy stage - Deploy to gh-pages #####
     - stage: deploy
-      if: commit_message ~= /(auto translate)/
+      if: commit_message ~= /(auto translate)|(update tracks.json)/
       rvm: 2.4.1
       script:
         - bundle exec jekyll build
