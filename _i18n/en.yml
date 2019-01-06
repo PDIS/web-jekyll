@@ -121,7 +121,7 @@ ref:
     url: 'https://github.com/PDIS/swagger_file'
 
 info:
-  title: Informations
+  title: Links
   list:
   - name: vTaiwan.tw
     url: 'https://vtaiwan.tw/'
