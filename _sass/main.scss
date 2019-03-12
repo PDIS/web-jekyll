@@ -165,7 +165,7 @@ img {
 .post-content {
   p, ol, ul, h1, h2, h3, h4, h5, h6 {
     max-width: 768px;
-    margin: 2em auto 1em auto;
+    margin: 1em auto 1em auto;
   }
   li {
     margin-top: 1em;
@@ -178,6 +178,16 @@ img {
       width: 100%;
       height: auto;
     }
+  }
+}
+
+.site {
+  text-align: center; 
+  border-top: 1px solid #999; 
+  padding-top: 1em; 
+  font-size: small;
+  img {
+    vertical-align: middle;
   }
 }
 
