@@ -1,18 +1,18 @@
 # 建置環境 Development
 ## windows
 1. git clone --recurse-submodules https://github.com/PDIS/web-jekyll
-2. install `chocolatey`
-3. install `ruby` by `choco`
-4. install `jekyll` by `gem`
-5. run `jekyll serve` or `jekyll serve --drafts`
-6. open browser to `127.0.0.1:4000`
-
-push to github results to automatically render a static site for you
+2. install `ruby`
+3. install RubyInstaller Devkit `ridk install`
+4. `gem install jekyll bundler`
+5. `bundler install`
+6. run `jekyll serve` or `jekyll serve --drafts`
+7. open browser to `127.0.0.1:4000`
 
 ## mac
-1. install `jekyll` by `gem`
-2. run `jekyll serve` or `jekyll serve --drafts`
-3. open browser to `127.0.0.1:4000`
+1. git clone --recurse-submodules https://github.com/PDIS/web-jekyll
+2. install `jekyll` by `gem`
+3. run `jekyll serve` or `jekyll serve --drafts`
+4. open browser to `127.0.0.1:4000`
 
 # 檔案結構 Structure
 ## 單篇文章 Text
@@ -50,3 +50,6 @@ push to github results to automatically render a static site for you
 
 [1]: http://materializecss.com/icons.html
 [2]: http://materializecss.com/color.html
+
+# 其他 Others
+- 支援 i18n
