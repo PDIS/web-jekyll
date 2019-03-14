@@ -1,6 +1,7 @@
 author: PDIS
 email: hello@pdis.tw
 lang: zh-TW
+url: https://pdis.nat.gov.tw
 baseurl: "" # the subpath of your site, e.g. /blog
 logo: /images/pdis-logo-final-inverse.png
 image: /images/pdis-team.jpg

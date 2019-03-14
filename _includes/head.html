@@ -18,7 +18,7 @@
     <meta name="description" content="{% t site.description %}" />
     {% endif %}
 
-    <meta property="og:url" content="{{ page.url | default: site.url }}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
     <meta property="og:image" content="{{ page.image | default: site.image }}">
     <meta property="og:type" content="article">
 
