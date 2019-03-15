@@ -228,13 +228,13 @@ img {
 
 .tags {
   list-style: none;
-  margin: 30px 0;
+  // margin: 30px 0;
   overflow: hidden;
   padding: 0;
   li {
     display: inline;
     &:last-child .tag {
-      // margin: 0;
+      margin: 0 0 1.5vh 0;
     }
   }
   .tag {
@@ -242,7 +242,7 @@ img {
     color: #FFF;
     display: inline-block;
     line-height: 1.5;
-    padding: 0px 2ch;
+    padding: 0px 1ch;
     position: relative;
     margin: 0 3ch 1.5vh 0px;
     transition: all .2s ease;
@@ -251,11 +251,11 @@ img {
     }
     .n_tag {
       background: teal;
-      margin: -10px;
+      margin: 0 -1ch 0 0;
       display: inline-block;
       height: 100%;
-      position: absolute;
-      left: 100%;
+      // position: absolute;
+      // left: 100%;
       padding: 0 1ch;
     }
   }
@@ -279,7 +279,7 @@ img {
     margin-left: 1em;
   }
   .title {
-    margin: 0 0 .5em 0;
+    margin: 0;
   }
   .group-date {
     margin: 1em 0;
