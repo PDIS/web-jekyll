@@ -7,7 +7,7 @@ logo: /images/pdis-logo-final-inverse.png
 image: /images/pdis-team.jpg
 plugins:
   - jekyll-feed
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 sass:
   style: compressed
 
@@ -24,3 +24,14 @@ defaultLang: en
 languageNames:
   zh-TW: 繁體中文
   en: English
+
+# ---------- pagination settings ----------
+categories:
+  pagination: 5
+  generate_all: false
+  directory: '.'
+  layout: blogs.html
+  first_page: index.html
+  details:
+    blog:
+      title: Blogs

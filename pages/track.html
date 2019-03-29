@@ -6,91 +6,84 @@ permalink: /track/
 
 <script>
 
-  var tagsmap = {};
-  function GetMap()
-  {//產生tag
-    var tags=document.getElementsByClassName("chip");
-    
-    for(var i=0;i<tags.length;i++)
+var tagsmap = {};
+function GetMap()
+{//產生tag
+  var tags=document.getElementsByClassName("chip");
+  
+  for(var i=0;i<tags.length;i++)
+  {
+    var tagitrm=tags[i].innerHTML.trim();
+    if( tagitrm in tagsmap)
     {
-      var tagitrm=tags[i].innerHTML .trim();
-      if( tagitrm in tagsmap)
-      {
-        tagsmap[tagitrm]=tagsmap[tagitrm]+1;
-      }
-      else
-      {
-        tagsmap[tagitrm]=1;
-      }
+      tagsmap[tagitrm]=tagsmap[tagitrm]+1;
     }
-    var tagHtml='';
-
-
-    for (var i in tagsmap) {
-      tagHtml+=` <li>
-        <span>
-          <a href="#" class="tag">
-            `+i+`
-            <span class="n_tag">`+tagsmap[i]+`</span>
-          </a>
-        </span>
-      </li>`;
+    else
+    {
+      tagsmap[tagitrm]=1;
     }
-    console.log(tagHtml)
-    
-    document.getElementById("tags").innerHTML=(`  <ul class="tags">`+tagHtml+'</ul>');
-
-
-
   }
+  var tagHtml='';
+  
+  for (var i in tagsmap) {
+    tagHtml+=` <li>
+      <span>
+        <a href="#" class="tag">
+          `+i+`
+          <span class="n_tag">`+tagsmap[i]+`</span>
+        </a>
+      </span>
+    </li>`;
+  }
+  console.log(tagHtml)
+  
+  document.getElementById("tags").innerHTML=(`  <ul class="tags">`+tagHtml+'</ul>');
+}
 
-
-  document.addEventListener('DOMContentLoaded', function(){ 
-    GetMap();
+document.addEventListener('DOMContentLoaded', function(){ 
+  GetMap();
 }, false);
 
 </script>
 
 <div class="section container center">
-  <div id="tags">
-
-  </div>
+  <div id="tags"></div>
 </div>
 
 <div class="tracks section">
-
+  
   <div class="collection">
     {% for track in site.data.tracks %}
-<div class='track-item'>
-    {% if track.date != l_track_date %}
-    <div class='group-date' style='font-size: 18px;'>{{ track.date }}</div>
-    {% endif %}
-
-    <div class="row collection-item" style="border-bottom: 1.5px solid #efebe9;">
-      <div class="col s12 m3 l2">
-        {% for tag in track.tags %}
-        <div class="chip">
-          {{ tag }}
+    <div class='track-item'>
+      {% if track.date != l_track_date %}
+      <div class='group-date' style='font-size: 18px;'>{{ track.date }}</div>
+      {% endif %}
+      
+      <div class="row collection-item" style="border-bottom: 1.5px solid #efebe9;">
+        <div class="col s12 m3 l2">
+          {% for tag in track.tags %}
+          <div class="chip">
+            {{ tag }}
+          </div>
+          {% endfor %}
         </div>
-        {% endfor %}
-      </div>
-
-      <div class="col s12 m5 l6">
-        <h5 class="title">{{ track.title }}</h5>
-      </div>
-
-      <div class="col s12 m4 l4">
-      {% for item in track.content %}
-        {% for link in item %}
-        <a href='{{ link[1] }}' class="waves-effect waves-light btn" style="margin-bottom:.5em;width:165px;">{{ link[0] }}</a>
-        {% endfor %}
-      {% endfor %}
+        
+        <div class="col s12 m5 l6">
+          <h5 class="title">{{ track.title }}</h5>
+        </div>
+        
+        <div class="col s12 m4 l4">
+          {% for item in track.content %}
+          {% for link in item %}
+          <a href='{{ link[1] }}' class="waves-effect waves-light btn">{{ link[0] }}</a>
+          {% endfor %}
+          {% endfor %}
+        </div>
       </div>
     </div>
-  </div>
     {% assign l_track_date = track.date %}
     {% endfor %}
-
+    
   </div>
 
 </div>
