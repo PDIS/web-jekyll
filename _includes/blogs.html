@@ -39,15 +39,15 @@
       <div class="row">
         <div class="col s4 center">
           {% if page.prevUrl %}
-          <a href="{{ page.prevUrl | prepend: site.baseurl }}" class="btn-large waves-effect waves-light cyan">prev</a>
+          <a href="{{ page.prevUrl | prepend: site.baseurl | replace: '.html', '/' }}" class="btn-large waves-effect waves-light cyan">prev</a>
           {% endif %}
         </div>
         <div class="col s4 center">
-          {{ page.number }}
+          {{ page.number }} / {{ page.pages }}
         </div>
         <div class="col s4 center">
           {% if page.nextUrl %}
-          <a href="{{ page.nextUrl | prepend: site.baseurl }}" class="btn-large waves-effect waves-light cyan">next</a>
+          <a href="{{ page.nextUrl | prepend: site.baseurl | replace: '.html', '/' }}" class="btn-large waves-effect waves-light cyan">next</a>
           {% endif %}
         </div>
       </div>
