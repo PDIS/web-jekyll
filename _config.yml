@@ -7,7 +7,7 @@ logo: /images/pdis-logo-final-inverse.png
 image: /images/pdis-team.jpg
 plugins:
   - jekyll-feed
-# permalink: /:categories/:title/
+permalink: /:categories/:title/
 sass:
   style: compressed
 
