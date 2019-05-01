@@ -282,7 +282,7 @@
     "status": "intern"
   },
   {
-    "wiselike": "",
+    "wiselike": "https://wiselike.tw/#/user/yiwenchan",
     "name": "詹壹雯",
     "avatar": "https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/315yiwenchan/240/10653_1.png",
     "status": "working"
@@ -296,6 +296,12 @@
   {
     "wiselike": "",
     "name": "王少芸",
+    "avatar": "https://i.imgur.com/6otLPNO.jpg",
+    "status": "working"
+  },
+  {
+    "wiselike": "",
+    "name": "蔡玉琪",
     "avatar": "https://i.imgur.com/6otLPNO.jpg",
     "status": "working"
   }
