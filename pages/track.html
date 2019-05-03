@@ -3,62 +3,85 @@ layout: page
 title: 工作紀錄
 permalink: /track/
 ---
-
+{% assign tracksByDate = site.data.tracks | group_by:"date" %}
 <script>
 
-var tagsmap = {};
-function GetMap()
-{//產生tag
-  var tags=document.getElementsByClassName("chip");
+function getMap(){ // 產生tag
   
-  for(var i=0;i<tags.length;i++)
+  var tagsmap = {};
+  var tags = document.getElementsByClassName("chip");
+  for(let tag = 0; tag < tags.length; tag++) 
   {
-    var tagitrm=tags[i].innerHTML.trim();
-    if( tagitrm in tagsmap)
+    let tagtrim = tags[tag].innerHTML.trim();
+    if(tagtrim in tagsmap) // counting tag's number
     {
-      tagsmap[tagitrm]=tagsmap[tagitrm]+1;
+      tagsmap[tagtrim] = tagsmap[tagtrim] + 1;
     }
     else
     {
-      tagsmap[tagitrm]=1;
+      tagsmap[tagtrim] = 1;
     }
   }
-  var tagHtml='';
-  
-  for (var i in tagsmap) {
-    tagHtml+=` <li>
+
+  var tagHtml = '<ul class="tags">';
+  for (let tagIndex in tagsmap) {
+    tagHtml +=`
+    <li>
       <span>
-        <a href="#" class="tag">
-          `+i+`
-          <span class="n_tag">`+tagsmap[i]+`</span>
+        <a href="#" class="tag" onClick="tagFilter(this, '${tagIndex}')">
+          ${tagIndex}
+          <span class="n_tag">${tagsmap[tagIndex]}</span>
         </a>
       </span>
     </li>`;
   }
-  console.log(tagHtml)
+  tagHtml += '</ul>'
   
-  document.getElementById("tags").innerHTML=(`  <ul class="tags">`+tagHtml+'</ul>');
+  document.getElementById("tagsBlock").innerHTML = tagHtml;
+}
+
+function tagFilter(element, tag) {
+
+  if(!$(element).hasClass('highlight')) {
+    // highlight tag
+    $('.tag').removeClass('highlight')
+    $(element).addClass('highlight')
+
+    // activate filtering(hide items) when a tag was clicked
+    $('.track-item').hide()
+    $('.track-item').has(`.chip:contains(${tag})`).show(function () {
+      $(this).children('.collection-item').hide()
+      $(this).children('.collection-item').has(`.chip:contains(${tag})`).show()
+    })
+  }
+  else {
+    // reset filtering
+    $('.tag').removeClass('highlight')
+    $('.track-item').show()
+    $('collection-item').show()
+  }
 }
 
 document.addEventListener('DOMContentLoaded', function(){ 
-  GetMap();
+  getMap();
 }, false);
 
 </script>
 
 <div class="section container center">
-  <div id="tags"></div>
+  <div id="tagsBlock"></div>
 </div>
 
 <div class="tracks section">
   
   <div class="collection">
-    {% for track in site.data.tracks %}
+    {% for dateGroup in tracksByDate %}
     <div class='track-item'>
-      {% if track.date != l_track_date %}
-      <div class='group-date' style='font-size: 18px;'>{{ track.date }}</div>
-      {% endif %}
       
+      <!-- start a new date markup -->
+      <div class="group-date" style="font-size: 18px;">{{ dateGroup.name }}</div>
+      
+      {% for track in dateGroup.items %}
       <div class="row collection-item" style="border-bottom: 1.5px solid #efebe9;">
         <div class="col s12 m3 l2">
           {% for tag in track.tags %}
@@ -74,14 +97,15 @@ document.addEventListener('DOMContentLoaded', function(){
         
         <div class="col s12 m4 l4">
           {% for item in track.content %}
-          {% for link in item %}
-          <a href='{{ link[1] }}' class="waves-effect waves-light btn">{{ link[0] }}</a>
-          {% endfor %}
+            {% for link in item %}
+            <a href='{{ link[1] }}' class="waves-effect waves-light btn">{{ link[0] }}</a>
+            {% endfor %}
           {% endfor %}
         </div>
       </div>
+      {% endfor %}
     </div>
-    {% assign l_track_date = track.date %}
+
     {% endfor %}
     
   </div>
