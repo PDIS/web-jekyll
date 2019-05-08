@@ -239,6 +239,9 @@ img {
   }
   .tag {
     background: #767676;
+    &.highlight {
+      background: darkred;
+    }
     color: #FFF;
     display: inline-block;
     line-height: 1.5;
