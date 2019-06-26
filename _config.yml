@@ -10,7 +10,7 @@ plugins:
 permalink: /:categories/:title/
 sass:
   style: compressed
-
+future: true
 exclude: ["package.json", "articles_translate.js", "README.md", "Gemfile", "Gemfile.lock", "package-lock.json", "node_modules", "GCP.json"]
 
 twitter_username: TaiwanPDIS
