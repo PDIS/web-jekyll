@@ -3,14 +3,14 @@
 1. git clone --recurse-submodules https://github.com/PDIS/web-jekyll
 2. install `ruby`
 3. install RubyInstaller Devkit `ridk install`
-4. `gem install jekyll bundler`
+4. `gem install jekyll bundler jekyll-feed`
 5. `bundler install`
 6. run `jekyll serve` or `jekyll serve --drafts`
 7. open browser to `127.0.0.1:4000`
 
 ## mac
 1. git clone --recurse-submodules https://github.com/PDIS/web-jekyll
-2. install `jekyll` by `gem`
+2. `gem install jekyll bundler jekyll-feed`
 3. run `jekyll serve` or `jekyll serve --drafts`
 4. open browser to `127.0.0.1:4000`
 
