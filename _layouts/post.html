@@ -39,7 +39,11 @@ layout: default
       </div>
 
       <div class="site">
-        {% t site.cc %}
+        {% if page.cc %}
+          {% t page.cc %}
+        {% else page.cc %}
+          {% t site.cc %}
+        {% endif %}
       </div>
 
 	  </article>
