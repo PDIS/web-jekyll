@@ -172,6 +172,10 @@ img {
     font-family: $font-sans;
     line-height: 1.7;
   }
+  ul li {
+    list-style-type: disc !important;
+    margin-left: 1em;
+  }
   figure{
     margin: 1em 0;
     img {
