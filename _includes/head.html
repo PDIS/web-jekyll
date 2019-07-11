@@ -13,6 +13,10 @@
     {% if page.excerpt %}
     <meta property="og:description" content="{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta name="description" content="{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
+    <meta property="twitter:description" content="{{ page.excerpt | strip_html | normalize_whitespace | escape }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@audreyt">
+    <meta name="twitter:image" content="{{ page.image | default: site.image }}">
     {% else %}    
     <meta property="og:description" content="{% t site.description %}">
     <meta name="description" content="{% t site.description %}" />
@@ -21,6 +25,8 @@
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
     <meta property="og:image" content="{{ page.image | default: site.image }}">
     <meta property="og:type" content="article">
+
+    <meta name="twitter:site" content="@TaiwanPDIS">
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
