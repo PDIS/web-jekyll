@@ -30,12 +30,15 @@ features:
     - icon: flash_on
       title: 數位政委督導業務
       content: 協辦開放政府、社會企業、青年事務。
+      link: https://po.pdis.nat.gov.tw/zh-TW/
     - icon: group
       title: 促進行政數位化
       content: 協助各部會單位收集民眾意見後規劃設計，改善軟體、平台、系統和網站，達成「自動化」、「結構化」、「視覺化」的目標。
+      link: https://ci.taiwan.gov.tw/
     - icon: settings
       title: 參與式治理
       content: 導引民間專業進入公部門，建立原有社群與政府的對話溝通管道，促成連結在地、台灣和世界的網絡。
+      link: https://presidential-hackathon.taiwan.gov.tw/
 
 #---------------------------------------------------------------------------------------------------
 
