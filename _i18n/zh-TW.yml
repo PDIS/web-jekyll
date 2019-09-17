@@ -126,12 +126,12 @@ ref:
 info:
   title: 資訊公開
   list:
-  - name: 公共政策網路參與平臺
-    url: 'http://join.gov.tw/'
-  - name: 社會創新平台
+  - name: 社會創新平臺
     url: 'https://si.taiwan.gov.tw/'
   - name: 行政院青年諮詢委員會
     url: 'https://advisory.yda.gov.tw/'
+  - name: 公共政策網路參與平臺
+    url: 'http://join.gov.tw/'
   - name: 數位經濟法規線上討論平台
     url: 'https://vtaiwan.tw/'
   - name: Facebook
