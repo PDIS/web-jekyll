@@ -21,7 +21,11 @@
           </span>
         </p>
         <p class='container'>
-          {{ post.excerpt | truncate: 100 | strip_html }}
+           {% if site.is_fullwidth %}
+               {{ post.excerpt | truncate: 100 | strip_html }}
+           {% else %}
+               {{ post.excerpt | truncate: 200 | strip_html }}
+           {% endif %}
         </p>
       </a>
       {% endfor %}
