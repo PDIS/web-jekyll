@@ -2,8 +2,7 @@
 
 $font: "Roboto", "Microsoft JhengHei", 'PingFangTC', sans-serif;
 $font-sans: "Helvetica Neue", "Helvetica", "source-han-sans-traditional", "Microsoft JhengHei", 'PingFangTC', sans-serif;
-$font-serif: "Palatino", "Times New Roman", "source-han-serif-tc", "PMingLiU", 'STSongti-TC', serif;
-/* or you can use 'tk-source-han-sans-traditional', 'tk-source-han-serif-tc' as className */
+// $font-serif: "Palatino", "Times New Roman", "source-han-serif-tc", "PMingLiU", 'STSongti-TC', serif;
 
 html {
   font-family: $font;
@@ -22,7 +21,7 @@ body {
   }
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: $font-serif;
+  font-family: $font-sans;
 }
 h1, h2, h3 {
   font-weight: 700;
