@@ -4,6 +4,7 @@ $font: "Roboto", "Microsoft JhengHei", 'PingFangTC', sans-serif;
 $font-sans: "Helvetica Neue", "Helvetica", "source-han-sans-traditional", "Microsoft JhengHei", 'PingFangTC', sans-serif;
 // $font-serif: "Palatino", "Times New Roman", "source-han-serif-tc", "PMingLiU", 'STSongti-TC', serif;
 $mobile-breakpoint: 993px;
+$post-max-width: 768px;
 
 html {
   font-family: $font;
@@ -94,12 +95,11 @@ img {
   }
 }
 .post-content {
-  p, ol, ul, h1, h2, h3, h4, h5, h6 {
-    max-width: 768px;
-    margin: 1em auto 1em auto;
+  p, ol, ul, h1, h2, h3, h4, h5, h6, hr {
+    max-width: $post-max-width;
+    margin: .5em auto;
   }
   li {
-    margin-top: 1em;
     font-family: $font-sans;
     line-height: 1.7;
   }
@@ -114,11 +114,16 @@ img {
       height: auto;
     }
   }
+  hr {
+    border: solid 1px gray;
+    border-width: 1px 0 0 0;
+  }
 }
 
-.site {
+.cc {
   text-align: center; 
   border-top: 1px solid #999; 
+  margin: 3rem 0;
   padding-top: 1em; 
   font-size: small;
   img {
