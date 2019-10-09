@@ -3,6 +3,7 @@
 $font: "Roboto", "Microsoft JhengHei", 'PingFangTC', sans-serif;
 $font-sans: "Helvetica Neue", "Helvetica", "source-han-sans-traditional", "Microsoft JhengHei", 'PingFangTC', sans-serif;
 // $font-serif: "Palatino", "Times New Roman", "source-han-serif-tc", "PMingLiU", 'STSongti-TC', serif;
+$mobile-breakpoint: 993px;
 
 html {
   font-family: $font;
@@ -70,75 +71,6 @@ img {
 ::selection {
   color: white;
   background: salmon;
-}
-
-/* index page */
-.team-img
-{
-  width:75%;
-  @media screen and (max-width: 993px) {
-    width:100%;
-    position: absolute;
-  }
-
-}
-
-.cta-block {
-  position: absolute;
-  z-index: 100;
-  right: 0;
-  height: 100%;
-  display: inline-block;
-  width: 19%;
-  // max-width: 100%;
-   padding: 3%;
-  background-color: rgb(97, 98, 102);
-  line-height: 0;
-  .header {
-    width: 13vw;
-    text-align: justify;
-    font-size: 2.4vw;
-    line-height: 1.2;
-  }
-  .header:lang(zh-TW){
-    font-size: 3.2vw;
-  }
-  // @media screen and (max-width: 1280px) {
-  //   width: 144px;
-  //   .header {
-  //     width: 148px;
-  //     text-align: center;
-  //     line-height: 1;
-  //     font-size: 2rem;
-  //   }
-  // }
-  @media screen and (max-width: 993px) {
-    display: none;
-  }
-}
-
-.cta-block:hover {
-  transition: all .5s ease;
-  background-color: rgba(0,0,0,0.8);
-}
-
-.swiper-container {
-
-  .iframeWrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    // padding-top: 25px;
-    height: 0;
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: 0;
-      overflow: hidden;
-    }
-  }
 }
 
 /* post layout */
@@ -311,7 +243,7 @@ img {
 .search-wrapper {
   position: relative;
   padding: 0 15px;
-  @media screen and (max-width:993px)
+  @media screen and (max-width:$mobile-breakpoint)
   {
     padding: 0 30px;
   }
@@ -327,7 +259,7 @@ img {
     height: 2rem;
     line-height: initial;
     color: #424242;
-    @media screen and (max-width:993px)
+    @media screen and (max-width:$mobile-breakpoint)
     {
       top: 10px;
       right: 30px;

@@ -1,0 +1,81 @@
+.swiper-container {
+  .swiper-wrapper {
+    .swiper-slide {
+      overflow: hidden;
+    }
+    .iframeWrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      // padding-top: 25px;
+      height: 0;
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        overflow: hidden;
+      }
+    }
+    /* first slide */
+    .contain {
+      @media screen and (max-width: $mobile-breakpoint) {
+        padding-bottom: 56.25%; /* 16:9 */
+      }
+      .team-img {
+        width:75%;
+        @media screen and (max-width: $mobile-breakpoint) {
+          width: 100%;
+          position: absolute;
+        }
+      }
+      .cta-block {
+        position: absolute;
+        z-index: 100;
+        right: 0;
+        height: 100%;
+        display: inline-block;
+        width: 19%;
+        // max-width: 100%;
+        padding: 3%;
+        background-color: rgb(97, 98, 102);
+        line-height: 0;
+        .header {
+          width: 13vw;
+          text-align: justify;
+          font-size: 2.4vw;
+          line-height: 1.2;
+        }
+        .header:lang(zh-TW){
+          font-size: 3.2vw;
+        }
+        @media screen and (max-width: $mobile-breakpoint) {
+          visibility: hidden;
+        }
+        &:hover {
+          transition: all .5s ease;
+          background-color: rgba(0,0,0,0.8);
+        }
+      }
+    }
+  }
+  .swiper-controll {
+    margin: 1em 0 0 0;
+    .swiper-pagination-bullets {
+      position: relative;
+      display: inline-block;
+      .swiper-pagination-bullet {
+        margin: 0 4px;
+      }
+    }
+    .swiper-button-prev, .swiper-button-next {
+      position: static;
+      display: inline-block;
+      vertical-align: bottom;
+      width: 1.2em;
+      height: 1.2em;
+      background-size: auto;
+    }
+  }
+}
