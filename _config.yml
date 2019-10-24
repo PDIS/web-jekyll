@@ -7,6 +7,7 @@ logo: /images/pdis-logo-final-inverse.png
 image: /images/pdis-team.jpg
 plugins:
   - jekyll-feed
+  - jekyll-get-json
 permalink: /:categories/:title/
 sass:
   style: compressed
@@ -35,3 +36,8 @@ categories:
   details:
     blog:
       title: Blogs
+
+# ---------- get json api ----------
+jekyll_get_json:
+  - data: tracks_json
+    json: 'https://talk.pdis.nat.gov.tw/uploads/tracks.json'
