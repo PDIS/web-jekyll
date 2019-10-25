@@ -3,12 +3,9 @@ layout: page
 title: 工作紀錄
 permalink: /track/
 ---
-{% if site.data.tracks_json %}
-{% assign tracks = site.data.tracks_json %}
-{% else %}
-{% assign tracks = site.data.tracks %}
-{% endif %}
-{% assign tracksByDate = tracks | group_by:"date" %}
+{% assign tracks = site.data.tracks_json | default: site.data.tracks %}
+{% assign tracksByDate = tracks | group_by: "date" %}
+
 <script>
 
 function getMap(){ // 產生tag
