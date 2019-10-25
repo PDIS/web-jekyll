@@ -40,4 +40,5 @@ categories:
 # ---------- get json api ----------
 jekyll_get_json:
   - data: tracks_json
-    json: 'https://talk.pdis.nat.gov.tw/assets/tracks.json'
+    json: 'https://talk.pdis.nat.gov.tw/api/tracks.json'
+    cache: true
