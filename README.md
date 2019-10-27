@@ -28,7 +28,7 @@
     - 首頁區塊資訊 [圖示樣式可參考][1]
   - nav.yml
     - 導覽列項目
-  - aboutus.json
+  - authors.json
     - 關於我們
   - informations.yml
     - 置底連結文字

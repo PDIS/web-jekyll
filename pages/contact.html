@@ -22,83 +22,63 @@ permalink: /contact/
 
 <h3 class="center">{% t contact-us.current-members %}</h3>
 <section class='section'>
-  {% assign users = site.data.aboutus | where:"status","working" %}
-  {% assign lastuser = users | last %}
-  {% for i in (1..users.size) %}
-  {% assign u = i | minus:1 %}
-  {% assign rowstart = i | modulo:3 %}
-  {% if rowstart == 1 %}
+  {% assign people = site.data.authors | where:"status","working" %}
   <div class="row">
-    {% endif %}
+    {% for person in people %}
     <div class="col s12 m4">
       <div class="card">
         <div class="card-image">
-          <img src="{{ users[u].avatar }}" alt="{{ users[u].name }}">
-          <a href="{{ users[u].wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
+          <img src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}">
+          <a href="{{ person.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
         </div>
-        <div class="card-content-fixed"  title='{{ users[u].content }}'>
-          <span class="card-title">{{ users[u].name }}</span>
-
-            {{ users[u].content }}
-
+        <div class="card-content-fixed" title='{{ person.content }}'>
+          <span class="card-title">{{ person.name }}</span>
+            {{ person.content }}
         </div>
       </div>
     </div>
-  {% assign rowend = i | modulo:3 %}
-  {% if rowend == 0 or users[u].name == lastuser.name %}
+    {% endfor %}
   </div>
-  {% endif %}
+</section>
 
-  {% endfor %}
-  </section>
-
-  <h3 class="center">{% t contact-us.former-members %}</h3>
-  <section class='section'>
-  {% assign exs = site.data.aboutus | where:"status","leave" %}
-  {% assign lastuser = exs | last %}
-  {% for i in (1..exs.size) %}
-  {% assign u = i | minus:1 %}
-  {% assign rowstart = i | modulo:3 %}
-  {% if rowstart == 1 %}
+<h3 class="center">{% t contact-us.former-members %}</h3>
+<section class='section'>
+  {% assign people = site.data.authors | where:"status","leave" %}
   <div class="row">
-    {% endif %}
+    {% for person in people %}
     <div class="col s12 m4">
       <div class="card">
         <div class="card-image">
-          <img src="{{ exs[u].avatar }}" alt="{{ exs[u].name }}">
-          <a href="{{ exs[u].wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
+          <img src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}">
+          <a href="{{ person.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
         </div>
-        <div class="card-content-fixed">
-          <span class="card-title">{{ exs[u].name }}</span>
-          {{ exs[u].content }}
+        <div class="card-content-fixed" title='{{ person.content }}'>
+          <span class="card-title">{{ person.name }}</span>
+            {{ person.content }}
         </div>
       </div>
     </div>
-    {% assign rowend = i | modulo:3 %}
-    {% if rowend == 0 or exs[u].name == lastuser.name %}
-    </div>
-    {% endif %}
-  {% endfor %}
-  </section>
+    {% endfor %}
+  </div>
+</section>
 
-  <h3 class="center">{% t contact-us.former-interns %}</h3>
-  <section class='section'>
-  {% assign interns = site.data.aboutus | where:"status","intern" %}
-  {% for intern in interns %}
-  {% cycle '<div class="row">','','' %}
+<h3 class="center">{% t contact-us.former-interns %}</h3>
+<section class='section'>
+  {% assign people = site.data.authors | where:"status","intern" %}
+  <div class="row">
+    {% for person in people %}
     <div class="col s12 m4">
       <div class="card">
         <div class="card-image">
-          <img src="{{ intern.avatar }}" alt="{{ intern.name }}">
-          <a href="{{ intern.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
+          <img src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}">
+          <a href="{{ person.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
         </div>
-        <div class="card-content-fixed">
-          <span class="card-title">{{ intern.name }}</span>
-          {{ intern.content }}
+        <div class="card-content-fixed" title='{{ person.content }}'>
+          <span class="card-title">{{ person.name }}</span>
+            {{ person.content }}
         </div>
       </div>
     </div>
-  {% cycle 'end': '', '', '</div>' %}
-  {% endfor %}
-
+    {% endfor %}
+  </div>
 </section>

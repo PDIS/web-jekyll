@@ -12,26 +12,29 @@ layout: default
 
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-        <p class="post-meta">
+        <div class="post-meta">
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {% assign date_format = site.minima.date_format | default: "%Y/%m/%d" %}
             {{ page.date | date: date_format }}
           </time>
-          {% if page.author %}
-          <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-            {% assign author = site.data.aboutus | where:"name", page.author %}
-            <a href="{{ author[0].wiselike | default: '/contact' }}" target="_blank" itemprop="name" class='chip'>
-              <img src="{{ author[0].avatar | default: site.logo }}" alt="author">
-              {{ page.author }}
-            </a>
-          </div>
-          {% endif %}
-        </p>
-        <ul class="tags">
-          {% for tag in page.tags %}
-          <li><a href="{{ 'tags/' | relative_url }}#{{ tag | cgi_escape }}" class="tag">{{ tag }}</a></li>
-          {% endfor %}
-        </ul>
+          <ul class="authors">
+            {% assign authors_name = page.author | split: "、" %}
+            {% for author_name in authors_name %}
+              {% assign author = site.data.authors[author_name] %}
+              <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a href="{{ author.wiselike | default: '/contact' }}" target="_blank" itemprop="name" class='chip'>
+                  <img src="{{ author.avatar | default: site.logo }}" alt="author">
+                  {{ author_name }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+          <ul class="tags">
+            {% for tag in page.tags %}
+            <li><a href="{{ 'tags/' | relative_url }}#{{ tag | cgi_escape }}" class="tag">{{ tag }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
       </header>
 
       <div class="post-content" itemprop="articleBody">
