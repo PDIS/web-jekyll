@@ -2,44 +2,23 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 
-    {% if page.title %}
-    <title>{{page.title}}</title>
-    <meta property="og:title" content="{{page.title}}">
-    {% else %}
+    {% if !page.title %}
     <title>{% t site.title %}</title>
-    <meta property="og:title" content="{% t site.title %}">
-    {% endif %}
-
-    {% if page.excerpt %}
-    <meta property="og:description" content="{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <meta name="description" content="{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
-    <meta property="twitter:description" content="{{ page.excerpt | strip_html | normalize_whitespace | escape }}">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@audreyt">
-    <meta name="twitter:image" content="{{ page.image | default: site.image }}">
-    {% else %}    
-    <meta property="og:description" content="{% t site.description %}">
     <meta name="description" content="{% t site.description %}" />
+    <meta property="og:title" content="{% t site.title %}">
+    <meta property="og:description" content="{% t site.description %}">
+    <meta property="twitter:title" content="{% t site.title %}" />
     {% endif %}
-
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
-    <meta property="og:image" content="{{ page.image | default: site.image }}">
-    <meta property="og:type" content="article">
-
-    <meta name="twitter:site" content="@TaiwanPDIS">
-
+    {% seo %}
+    
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/css/swiper.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="/assets/materialize.css" />
     <link rel="stylesheet" type="text/css" media="screen,projection" href="/assets/main.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="/fonts/material-design-icons/material-icons.css">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
     {% feed_meta %}
-    <!-- webfonts -->
-    <script src="https://use.fontawesome.com/e7b4292f28.js"></script>
-
-    {% include google-analytics.html %}
     
+    <script src="https://use.fontawesome.com/e7b4292f28.js"></script>
+    {% include google-analytics.html %}
 </head>
