@@ -2,7 +2,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 
-    {% if !page.title %}
+    {% if page.title == nil %}
     <title>{% t site.title %}</title>
     <meta name="description" content="{% t site.description %}" />
     <meta property="og:title" content="{% t site.title %}">
