@@ -93,11 +93,14 @@ img {
   time {
     font-size: 0.9em;
   }
+  li {
+    display: inline;
+  }
 }
 .post-content {
   p, ol, ul, h1, h2, h3, h4, h5, h6, hr {
     max-width: $post-max-width;
-    margin: .5em auto;
+    margin: 1em auto .5em auto;
   }
   li {
     font-family: $font-sans;
