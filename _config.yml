@@ -5,22 +5,49 @@ url: https://pdis.nat.gov.tw
 baseurl: "" # the subpath of your site, e.g. /blog
 logo: /images/pdis-logo-final-inverse.png
 image: /images/pdis-team.jpg
+google_analytics: UA-106951256-1
 plugins:
   - jekyll-feed
   - jekyll-get-json
+  - jekyll-seo-tag
 permalink: /:categories/:title/
 sass:
   style: compressed
 future: true
-exclude: ["package.json", "articles_translate.js", "README.md", "Gemfile", "Gemfile.lock", "package-lock.json", "node_modules", "GCP.json", "yarn.lock"]
+exclude: 
+  - ".sass-cache/"
+  - "package.json"
+  - "articles_translate.js"
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "package-lock.json"
+  - "node_modules/"
+  - "GCP.json"
+  - "yarn.lock"
 
-twitter_username: TaiwanPDIS
-github_username: pdis
-google_analytics: UA-106951256-1
+twitter:
+  username: TaiwanPDIS
+  card: summary_large_image
+facebook:
+  admins: 100014438376965
+social:
+  name: PDIS
+  links:
+    - https://twitter.com/TaiwanPDIS
+    - https://www.facebook.com/shu.w.zhengwei
+    - https://github.com/pdis
+google_site_verification: GcU-8YY9Ge7vzEuq_VXSWhG4phoqEEZirFYlh3Ti_4A
 
 # --------- i18n settings ---------
 languages: ["en", "zh-TW"]
-exclude_from_localizations: ["assets", "CNAME", "fonts", "images", "favicon.ico", "js"]
+exclude_from_localizations: 
+  - "assets"
+  - "CNAME"
+  - "fonts"
+  - "images"
+  - "favicon.ico"
+  - "js"
 defaultLang: en
 languageNames:
   zh-TW: 繁體中文
@@ -41,4 +68,3 @@ categories:
 jekyll_get_json:
   - data: tracks_json
     json: 'https://talk.pdis.nat.gov.tw/api/tracks.json'
-    cache: true
