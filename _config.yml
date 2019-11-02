@@ -26,6 +26,7 @@ exclude:
   - "GCP.json"
   - "yarn.lock"
 
+google_site_verification: uxXHtWt7-XyZrPJb9BznXlKOOKklt1D_TAIv1UW8VhM
 twitter:
   username: TaiwanPDIS
   card: summary_large_image
