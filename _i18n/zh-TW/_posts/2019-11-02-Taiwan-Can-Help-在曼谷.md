@@ -2,7 +2,7 @@
 layout: post
 title: 蘋果專欄：Taiwan Can Help 在曼谷
 excerpt: 探討的重點，不僅是「我們做了什麼」，更是「我們怎麼一起做」。
-image: https://talk.pdis.nat.gov.tw/uploads/default/original/2X/f/f50428cabfed29d9ff4add66e64ef83e8e167b41.jpeg
+image: https://talk.pdis.nat.gov.tw/uploads/default/original/2X/6/66f950eecd95b45469cbb174f3f7d4dee281c484.jpeg
 author: 唐鳳、黃子維
 category: blog
 tags:
