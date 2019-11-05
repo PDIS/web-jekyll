@@ -28,15 +28,15 @@ contact-us:
 features:
   title: What do we do ？
   list: 
-    - icon: flash_on
+    - icon: people_outline
       title: Work of <br>Digital Minister
       content: Digital Minister is in charge of open government, social innovation, and youth engagement.
       link: https://po.pdis.nat.gov.tw/en/
-    - icon: group
+    - icon: cloud_queue
       title: Digital <br>Administration
       content: We work with ministries and departments to provide digital services with better efficiency through automated process, structured data and meaningful visualization.
-      link: https://ci.taiwan.gov.tw/index_ne.aspx
-    - icon: settings
+      link: https://ci.taiwan.gov.tw/index_en.aspx
+    - icon: all_inclusive
       title: Participatory Governance
       content: We offer guide to private sectors, establish dialogue channels between community, and facilitate peer network for local, national and international partners.
       link: https://presidential-hackathon.taiwan.gov.tw/en/
