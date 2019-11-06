@@ -15,11 +15,10 @@
       {% for post in posts %}
       <a class="collection-item white-text center dim" href="{{ post.url | relative_url }}" style="background:url('{{ post.image }}') center / cover">
         <h3 class="title">{{ post.title | escape }}</h3>
-        <p style='display:inline-block'>
-          <span class="new badge" data-badge-caption="" style='margin:0'>
+        <i class="material-icons tiny">event</i>
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {{ post.date | date: "%Y-%m-%d" }}
-          </span>
-        </p>
+        </time>
         <p class='container'>
            {% if site.is_fullwidth %}
                {{ post.excerpt | truncate: 100 | strip_html }}
