@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function(){
         <div class="col s12 m4 l4">
           {% for item in track.content %}
             {% for link in item %}
-            <a href='{{ link[1] }}' class="waves-effect waves-light btn">{{ link[0] }}</a>
+            <a href='{{ link[1] }}' target="_blank" class="waves-effect waves-light btn">{{ link[0] }}</a>
             {% endfor %}
           {% endfor %}
         </div>
