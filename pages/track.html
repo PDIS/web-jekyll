@@ -9,7 +9,6 @@ permalink: /track/
 <script>
 
 function getMap(){ // 產生tag
-  
   var tagsmap = {};
   var tags = document.getElementsByClassName("chip");
   for(let tag = 0; tag < tags.length; tag++) 
@@ -24,7 +23,6 @@ function getMap(){ // 產生tag
       tagsmap[tagtrim] = 1;
     }
   }
-
   var tagHtml = '<ul class="tags">';
   for (let tagIndex in tagsmap) {
     tagHtml +=`
@@ -38,17 +36,14 @@ function getMap(){ // 產生tag
     </li>`;
   }
   tagHtml += '</ul>'
-  
   document.getElementById("tagsBlock").innerHTML = tagHtml;
 }
 
 function tagFilter(element, tag) {
-
   if(!$(element).hasClass('highlight')) {
     // highlight tag
     $('.tag').removeClass('highlight')
     $(element).addClass('highlight')
-
     // activate filtering(hide items) when a tag was clicked
     $('.track-item').hide()
     $('.track-item').has(`.chip:contains(${tag})`).show(function () {
@@ -66,6 +61,9 @@ function tagFilter(element, tag) {
 
 document.addEventListener('DOMContentLoaded', function(){ 
   getMap();
+  // get tooltips
+  var elems = document.querySelectorAll('.tooltipped');
+  var instances = M.Tooltip.init(elems, options);
 }, false);
 
 </script>
@@ -75,16 +73,13 @@ document.addEventListener('DOMContentLoaded', function(){
 </div>
 
 <div class="tracks section">
-  
   <div class="collection">
     {% for dateGroup in tracksByDate %}
     <div class='track-item'>
-      
       <!-- start a new date markup -->
-      <div class="group-date" style="font-size: 18px;">{{ dateGroup.name }}</div>
-      
+      <div class="group-date" style="font-size:18px;">{{ dateGroup.name }}</div>
       {% for track in dateGroup.items %}
-      <div class="row collection-item" style="border-bottom: 1.5px solid #efebe9;">
+      <div class="row collection-item valign-wrapper" style="flex-wrap:wrap; border-bottom:1.5px solid #efebe9;">
         <div class="col s12 m3 l2">
           {% for tag in track.tags %}
           <div class="chip">
@@ -92,24 +87,30 @@ document.addEventListener('DOMContentLoaded', function(){
           </div>
           {% endfor %}
         </div>
-        
         <div class="col s12 m5 l6">
           <h5 class="title">{{ track.title }}</h5>
         </div>
-        
         <div class="col s12 m4 l4">
           {% for item in track.content %}
             {% for link in item %}
-            <a href='{{ link[1] }}' target="_blank" class="waves-effect waves-light btn">{{ link[0] }}</a>
+              {% case link[0] %}
+                {% when "Youtube" %}
+                <a href='{{link[1]}}' target="_blank" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating red"><i class="material-icons">videocam</i></a>
+                {% when "Transcript" %}
+                <a href='{{link[1]}}' target="_blank" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating cyan"><i class="material-icons">edit</i></a>
+                {% when "Docs" %}
+                <a href='{{link[1]}}' target="_blank" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating lime"><i class="material-icons">book</i></a>
+                {% when "Board" %}
+                <a href='{{link[1]}}' target="_blank" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating amber"><i class="material-icons">dashboard</i></a>
+                {% else %}
+                <a href='{{link[1]}}' target="_blank" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating"><i class="material-icons">link</i></a>
+              {% endcase %}
             {% endfor %}
           {% endfor %}
         </div>
       </div>
       {% endfor %}
     </div>
-
     {% endfor %}
-    
   </div>
-
 </div>
