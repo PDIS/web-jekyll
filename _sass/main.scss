@@ -113,6 +113,10 @@ img {
     list-style-type: disc !important;
     margin-left: 1em;
   }
+  iframe:not([width]){
+    width: 100%;
+    height: 600px;
+  }
   figure{
     margin: 1em 0;
     img {
