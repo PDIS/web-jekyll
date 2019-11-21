@@ -141,28 +141,14 @@
   .card-content {
     padding: $card-padding;
     border-radius: 0 0 2px 2px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    // white-space: nowrap;
-    width: 100%;
-    // line-height: 0;
-    // height:140px;
+
     p {
       margin: 0;
-      color: inherit;
-      overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 100%;
     }
     .card-title {
       display: block;
       line-height: 32px;
       margin-bottom: 8px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    // white-space: nowrap;
-      width: 100%;
 
       i {
         line-height: 32px;
@@ -170,19 +156,13 @@
     }
   }
 
-
-.card-content-fixed{
-  @extend .card-content;
-    height: 140px;
-}
-
   .card-action {
     &:last-child {
       border-radius: 0 0 2px 2px;
     }
-    position: relative;
-    background-color: inherit;
+    background-color: inherit; // Use inherit to inherit color classes
     border-top: 1px solid rgba(160,160,160,.2);
+    position: relative;
     padding: 16px $card-padding;
 
     a:not(.btn):not(.btn-large):not(.btn-floating) {
@@ -212,15 +192,4 @@
       display: block;
     }
   }
-
-  // .card-proj-content{
-  //   white-space: normal;
-  //   text-overflow: ellipsis;
-  //   display: -webkit-box;
-  //   line-height: 25px;
-  //   max-height: 30px;
-  //   -webkit-line-clamp: 2;
-  //   -webkit-box-orient: vertical;
-  //   font-family: "source-han-sans-traditional","Microsoft JhengHei","PingFangTC",sans-serif;
-  // }
 }

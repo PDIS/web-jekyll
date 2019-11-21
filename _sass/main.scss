@@ -82,7 +82,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  height: 30rem;
+  height: 50rem;
+  @media screen and (max-width:$mobile-breakpoint){
+    height: 30rem;
+  }
 }
 .post-header {
   text-align: center;
