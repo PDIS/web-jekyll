@@ -117,17 +117,27 @@ img {
     width: 100%;
     height: 600px;
   }
+  iframe {
+    display: block;
+    margin: 1em auto;
+  }
   figure{
-    margin: 1em 0;
+    margin: 1em auto;
     img {
       width: 100%;
       height: auto;
+    }
+    figcaption {
+      font-style: italic;
     }
   }
   blockquote {
     padding-left: 0;
     background-color: white;
     box-shadow: grey 1px 3px 5px;
+    p {
+      padding: 1em;
+    }
   }
   hr {
     border: solid 1px gray;
