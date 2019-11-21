@@ -20,9 +20,9 @@ site:
 contact-us:
   title: Is there a plan?<br>Let us do it together
   description: If you would like to try a collaborative meeting or improve the digital experience in your work business, please contact the PDIS team and we will contact you as soon as possible.
-  current-members: Current Members
-  former-members: Former Members
-  former-interns: Former Interns
+  current: Current Members
+  former: Former Members
+  intern: Former Interns
   mail-us: E-mail us now
 
 features:
