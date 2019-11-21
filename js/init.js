@@ -1,20 +1,12 @@
 /* init of Materialize */
-(function($){
-  $(function(){
-    $('.button-collapse').sideNav();
-    $('.carousel').carousel();
-    $('#cssmenu').prepend('<div id="menu-button">Menu</div>');
-    $('#cssmenu #menu-button').on('click', function(){
-      var menu = $(this).next('ul');
-      if (menu.hasClass('open')) {
-        menu.removeClass('open');
-      }
-      else {
-        menu.addClass('open');
-      }
-    });
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+document.addEventListener('DOMContentLoaded', function() {
+  /* sidenav */
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems);
+  /* tooltips */
+  var elems = document.querySelectorAll('.tooltipped');
+  var instances = M.Tooltip.init(elems);
+});
 
 /* init of Swiper */
 var mySwiper = new Swiper ('.swiper-container', {
