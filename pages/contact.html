@@ -13,7 +13,7 @@ memberList:
     <div class="col s12 m8 offset-m2">
       <h4>{% t contact-us.title %}</h4>
       <p>{% t contact-us.description %}</p>
-      <div class='section'>
+      <div class='about-logos section'>
         <a class='btn-large waves-effect waves-light cyan' href="mailto:hello@pdis.tw">{% t contact-us.mail-us %}<i class="material-icons right">mail</i></a>
         <a class="btn-floating btn-large waves-effect waves-circle cyan" href="//www.youtube.com/PdisTwGov" target="_blank"> <i class="fa fa-3x fa-youtube-play"></i> </a>
         <a class="btn-floating btn-large waves-effect waves-circle cyan" href="//github.com/pdis/web-jekyll" target="_blank"> <i class="fa fa-3x fa-github"></i> </a>
@@ -30,7 +30,7 @@ memberList:
   {% assign people = site.data.authors | where:"status",status %}
   <div class="row">
     {% for person in people %}
-    <div class="col s12 m4 l3">
+    <div class="col s12 m4 xl3">
       <div class="card">
         <div class="card-image waves-effect waves-block waves-light">
           <img class="activator" src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}">

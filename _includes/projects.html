@@ -14,27 +14,29 @@
     <div class="row">
       {% for project in projects %}
 
-        <div class="col s12 m4">
-          <a href='{{ project.url | relative_url }}' class="card grey-text text-darken-4 hoverable" style='display:block'>
-            <div class="card-image dim" style='background:url("{{ project.image | default: site.image }}") center / cover no-repeat'>
-              <span class="badge white-text" data-badge-caption="">
+        <div class="col s12 m6 l4">
+          <div class="card grey-text text-darken-4 hoverable">
+            <a href='{{ project.url | relative_url }}'>
+              <div class="card-image dim" style='background:url("{{ project.image | default: site.image }}") center / cover no-repeat'>
+                <span class="card-title" title='{{ project.title }}'>{{ project.title }}</span>
+              </div>
+            </a>
+            <div class="card-content">
+              <span class="badge new" data-badge-caption="">
                 <i class="material-icons tiny">event</i>
                 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                   {{ project.date | date: "%Y-%m-%d" }}
                 </time>
               </span>
-            </div>
-            <div class="card-content">
-              <h3 class="card-title" title='{{ project.title }}' style='margin-top:0;font-weight: bold;'>{{ project.title }}</h3>
               <div class='card-proj-content' title='{{ project.excerpt | truncate: 100 | strip_html }}'>
                 {% if site.is_fullwidth %}
-                    {{ project.excerpt | truncate: 100 | strip_html }}
+                {{ project.excerpt | truncate: 100 | strip_html }}
                 {% else %}
-                    {{ project.excerpt | truncate: 200 | strip_html }}
+                {{ project.excerpt | truncate: 200 | strip_html }}
                 {% endif %}
               </div>
             </div>
-          </a>
+          </div>
         </div>
         {% cycle '', '', </div><div class="row">' %}
 

@@ -14,12 +14,14 @@
 
       {% for post in posts %}
       <a class="collection-item white-text center dim" href="{{ post.url | relative_url }}" style="background:url('{{ post.image }}') center / cover">
-        <h3 class="title">{{ post.title | escape }}</h3>
-        <i class="material-icons tiny">event</i>
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        <span class="new badge right" data-badge-caption="">
+          <i class="material-icons tiny">event</i>
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {{ post.date | date: "%Y-%m-%d" }}
-        </time>
-        <p class='container'>
+          </time>
+        </span>
+        <h5 class="title">{{ post.title | escape }}</h5>
+        <p class='content container'>
            {% if site.is_fullwidth %}
                {{ post.excerpt | truncate: 100 | strip_html }}
            {% else %}
@@ -30,30 +32,30 @@
       {% endfor %}
     </div>
 
-    <div class='section'>
+    <div class='section center'>
     {% if page.url == '/' %}
-      <div class="center">
+      <div>
         <a href="{{'/blog'| relative_url }}" class="btn waves-effect waves-light cyan">
           {% t site.more %}{% t site.blog %}
           <i class="material-icons right notranslate">send</i>
         </a>
       </div>
     {% else %}
-      <div class="row">
-        <div class="col s4 center">
+      <ul class="pagination">
+        <li class="waves-effect">
           {% if page.prevUrl %}
-          <a href="{{ page.prevUrl | prepend: site.baseurl | replace: 'index.html', '' | replace: '.html', '/' }}" class="btn waves-effect waves-light cyan">prev</a>
+          <a href="{{ page.prevUrl | prepend: site.baseurl | replace: 'index.html', '' | replace: '.html', '/' }}" class="btn-flat waves-effect"><i class="material-icons">navigate_before</i></a>
           {% endif %}
-        </div>
-        <div class="col s4 center">
-          {{ page.number }} / {{ page.pages }}
-        </div>
-        <div class="col s4 center">
+        </li>
+        <li>
+            {{ page.number }} / {{ page.pages }}
+        </li>
+        <li class="waves-effect">
           {% if page.nextUrl %}
-          <a href="{{ page.nextUrl | prepend: site.baseurl | replace: '.html', '/' }}" class="btn waves-effect waves-light cyan">next</a>
+          <a href="{{ page.nextUrl | prepend: site.baseurl | replace: '.html', '/' }}" class="btn-flat waves-effect"><i class="material-icons">navigate_next</i></a>
           {% endif %}
-        </div>
-      </div>
+        </li>
+      </ul>
     {% endif %}
     </div>
 

@@ -55,7 +55,7 @@ languageNames:
 
 # ---------- pagination settings ----------
 categories:
-  pagination: 5
+  pagination: 10
   generate_all: false
   directory: '.'
   layout: blogs.html
