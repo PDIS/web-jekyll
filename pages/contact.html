@@ -2,6 +2,10 @@
 layout: page
 title: 聯絡我們
 permalink: /contact/
+memberList:
+  - current
+  - former
+  - intern
 ---
 
 <section class='section'>
@@ -10,75 +14,38 @@ permalink: /contact/
       <h4>{% t contact-us.title %}</h4>
       <p>{% t contact-us.description %}</p>
       <div class='section'>
-        <a href="mailto:hello@pdis.tw" class='btn-large waves-effect waves-light cyan'>{% t contact-us.mail-us %}</a>
-        <a class="btn-floating btn-large cyan" href="//www.youtube.com/PdisTwGov" target="_blank"> <i class="fa fa-3x fa-youtube-play"></i> </a>
-        <a class="btn-floating btn-large cyan" href="//github.com/pdis/web-jekyll" target="_blank"> <i class="fa fa-3x fa-github"></i> </a>
-        <a class="btn-floating btn-large cyan" href="//www.facebook.com/shu.w.zhengwei" target="_blank"> <i class="fa fa-3x fa-facebook-square"></i> </a>
-        <a class="btn-floating btn-large cyan" href="//twitter.com/TaiwanPDIS" target="_blank"> <i class="fa fa-3x fa-twitter-square"></i> </a>
+        <a class='btn-large waves-effect waves-light cyan' href="mailto:hello@pdis.tw">{% t contact-us.mail-us %}<i class="material-icons right">mail</i></a>
+        <a class="btn-floating btn-large waves-effect waves-circle cyan" href="//www.youtube.com/PdisTwGov" target="_blank"> <i class="fa fa-3x fa-youtube-play"></i> </a>
+        <a class="btn-floating btn-large waves-effect waves-circle cyan" href="//github.com/pdis/web-jekyll" target="_blank"> <i class="fa fa-3x fa-github"></i> </a>
+        <a class="btn-floating btn-large waves-effect waves-circle cyan" href="//www.facebook.com/shu.w.zhengwei" target="_blank"> <i class="fa fa-3x fa-facebook-square"></i> </a>
+        <a class="btn-floating btn-large waves-effect waves-circle cyan" href="//twitter.com/TaiwanPDIS" target="_blank"> <i class="fa fa-3x fa-twitter-square"></i> </a>
       </div>
     </div>
   </div>
 </section>
 
-<h3 class="center">{% t contact-us.current-members %}</h3>
+{% for status in page.memberList %}
+<h3 class="center">{% t contact-us.{{status}} %}</h3>
 <section class='section'>
-  {% assign people = site.data.authors | where:"status","working" %}
+  {% assign people = site.data.authors | where:"status",status %}
   <div class="row">
     {% for person in people %}
-    <div class="col s12 m4">
+    <div class="col s12 m4 l3">
       <div class="card">
-        <div class="card-image">
-          <img src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}">
-          <a href="{{ person.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}">
         </div>
-        <div class="card-content-fixed" title='{{ person.content }}'>
-          <span class="card-title">{{ person.name }}</span>
-            {{ person.content }}
+        <div class="card-content">
+          <span class="card-title">{{ person.name }}<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title">{{ person.name }}<i class="material-icons right">close</i></span>
+          <p>{{ person.content }}</p>
+          <a href="{{ person.wiselike }}" target="_blank" class="btn-large btn-floating waves-effect waves-circle"><i class="material-icons">send</i></a>
         </div>
       </div>
     </div>
     {% endfor %}
   </div>
 </section>
-
-<h3 class="center">{% t contact-us.former-members %}</h3>
-<section class='section'>
-  {% assign people = site.data.authors | where:"status","leave" %}
-  <div class="row">
-    {% for person in people %}
-    <div class="col s12 m4">
-      <div class="card">
-        <div class="card-image">
-          <img src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}">
-          <a href="{{ person.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
-        </div>
-        <div class="card-content-fixed" title='{{ person.content }}'>
-          <span class="card-title">{{ person.name }}</span>
-            {{ person.content }}
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</section>
-
-<h3 class="center">{% t contact-us.former-interns %}</h3>
-<section class='section'>
-  {% assign people = site.data.authors | where:"status","intern" %}
-  <div class="row">
-    {% for person in people %}
-    <div class="col s12 m4">
-      <div class="card">
-        <div class="card-image">
-          <img src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}">
-          <a href="{{ person.wiselike }}" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light cyan"><i class="material-icons">send</i></a>
-        </div>
-        <div class="card-content-fixed" title='{{ person.content }}'>
-          <span class="card-title">{{ person.name }}</span>
-            {{ person.content }}
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</section>
+{% endfor %}

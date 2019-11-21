@@ -20,9 +20,9 @@ site:
 contact-us:
   title: 心中有計畫了嗎？<br>讓我們一起動手做
   description: 如果你希望在工作業務中嘗試進行協作會議或改善數位體驗，歡迎聯絡PDIS小組，我們會儘速和你聯絡。
-  current-members: 現任成員
-  former-members: 前任成員
-  former-interns: 專案見習生
+  current: 現任成員
+  former: 前任成員
+  intern: 專案見習生
   mail-us: 寄信過來
 
 features:
