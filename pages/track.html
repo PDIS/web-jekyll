@@ -8,71 +8,80 @@ permalink: /track/
 
 <script>
 
-function getMap(){ // 產生tag
-  var tagsmap = {};
-  var tags = document.getElementsByClassName("chip");
-  for(let tag = 0; tag < tags.length; tag++) 
-  {
-    let tagtrim = tags[tag].innerHTML.trim();
-    if(tagtrim in tagsmap) // counting tag's number
-    {
-      tagsmap[tagtrim] = tagsmap[tagtrim] + 1;
-    }
-    else
-    {
-      tagsmap[tagtrim] = 1;
-    }
+function getMap(){
+  document.querySelector("#tagsBlock .tags").innerHTML = ''
+  // counting tag's number
+  let tagsmap = {}
+  document.querySelectorAll(".chip").forEach(chip => {
+    let chipName = chip.innerHTML.trim()
+    if(chipName in tagsmap) tagsmap[chipName]++
+    else tagsmap[chipName] = 1
+  })
+  // generate tags
+  let fragments = document.createDocumentFragment()
+  for(let tagIndex in tagsmap) {
+    let text = document.createTextNode(tagIndex)
+    let span = document.createElement('span')
+    span.classList.add('n_tag')
+    span.innerHTML = tagsmap[tagIndex]
+    let a = document.createElement('a')
+    a.href = '#'
+    a.classList.add('tag')
+    a.addEventListener('click', (e) => tagFilter(e, tagIndex))
+    a.appendChild(text)
+    a.appendChild(span)
+    let li = document.createElement('li')
+    li.appendChild(a)
+    fragments.appendChild(li)
   }
-  var tagHtml = '<ul class="tags">';
-  for (let tagIndex in tagsmap) {
-    tagHtml +=`
-    <li>
-      <span>
-        <a href="#" class="tag" onClick="tagFilter(this, '${tagIndex}')">
-          ${tagIndex}
-          <span class="n_tag">${tagsmap[tagIndex]}</span>
-        </a>
-      </span>
-    </li>`;
-  }
-  tagHtml += '</ul>'
-  document.getElementById("tagsBlock").innerHTML = tagHtml;
+  document.querySelector("#tagsBlock .tags").appendChild(fragments)
 }
 
-function tagFilter(element, tag) {
-  if(!$(element).hasClass('highlight')) {
+function tagFilter(e, term) {
+  if(!e.target.classList.contains('highlight')) {
     // highlight tag
-    $('.tag').removeClass('highlight')
-    $(element).addClass('highlight')
-    // activate filtering(hide items) when a tag was clicked
-    $('.track-item').hide()
-    $('.track-item').has(`.chip:contains(${tag})`).show(function () {
-      $(this).children('.collection-item').hide()
-      $(this).children('.collection-item').has(`.chip:contains(${tag})`).show()
+    document.querySelectorAll('.tag').forEach(tag => tag.classList.remove('highlight'))
+    e.target.classList.add('highlight')
+    // activate filtering
+    document.querySelectorAll('.track-item').forEach(item => item.style.display = 'none')
+    let matches = [...document.querySelectorAll('.collection-item')].filter(item => {
+      item.style.display = 'none'
+      return [...item.querySelectorAll('.chip')].some(chip => chip.innerHTML.includes(term))
+    })
+    matches.forEach(match => {
+      match.style.display = ''
+      match.parentElement.style.display = ''
     })
   }
   else {
+    document.querySelectorAll('.tag').forEach(tag => tag.classList.remove('highlight'))
     // reset filtering
-    $('.tag').removeClass('highlight')
-    $('.track-item').show()
-    $('collection-item').show()
+    document.querySelectorAll('.collection-item').forEach(match => {
+      match.style.display = ''
+      match.parentElement.style.display = ''
+    })
   }
 }
-
 function searchFilter(e){
   let term = e.value.trim()
   if(term){
     // activate filtering
-    $('.track-item').hide()
-    $('.track-item').has(`.title:contains(${term})`).show(function () {
-      $(this).children('.collection-item').hide()
-      $(this).children('.collection-item').has(`.title:contains(${term})`).show()
+    document.querySelectorAll('.track-item').forEach(item => item.style.display = 'none')
+    let matches = [...document.querySelectorAll('.collection-item')].filter(item => {
+      item.style.display = 'none'
+      return item.querySelector('.title').innerHTML.toLowerCase().includes(term.toLowerCase())
+    })
+    matches.forEach(match => {
+      match.style.display = ''
+      match.parentElement.style.display = ''
     })
   }
   else{
     // reset filtering
-    $('.track-item').show()
-    $('collection-item').show()
+    document.querySelectorAll('.collection-item').forEach(match => {
+      match.style.display = ''
+      match.parentElement.style.display = ''
+    })
   }
 }
 
@@ -83,7 +92,9 @@ document.addEventListener('DOMContentLoaded', function(){
 </script>
 
 <div class="section container center">
-  <div id="tagsBlock"></div>
+  <div id="tagsBlock">
+    <ul class="tags"></ul>
+  </div>
   <div class="searchBlock input-field">
     <i class="material-icons prefix">search</i>
     <input id="search_filter" type="text" onchange="searchFilter(this)">
