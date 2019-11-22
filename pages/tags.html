@@ -44,7 +44,7 @@ permalink: /tags/
         {% for post in site.tags[this_word] %}
         {% if post.title != null %}
         <div class="collection">
-          <a href="{{ post.url }}" class="row collection-item grey-text text-darken-3">
+          <a href="{{ post.url | relative_url }}" class="row collection-item grey-text text-darken-3">
             <span class="col m9 s12">
               {{ post.title }}
             </span>

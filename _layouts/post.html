@@ -52,21 +52,21 @@ layout: default
 
     <div class="navigate row">
       <div class="col s12 m6">
-        {% if page.next_in_category != nil %}
-        <a href="{{page.next_in_category.url | append: site.url}}">
-          <div class="card-panel white-text dim" style="background: url('{{page.next_in_category.image}}') center / cover">
+        {% if page.previous_in_category != nil %}
+        <a href="{{page.previous_in_category.url | relative_url}}">
+          <div class="card-panel white-text dim" style="background: url('{{page.previous_in_category.image}}') center / cover">
             <i class="left medium material-icons">navigate_before</i>
-            <h6>{{page.next_in_category.title}}</h6>
+            <h6>{{page.previous_in_category.title}}</h6>
           </div>
         </a>
         {% endif %}
       </div>
       <div class="col s12 m6">
-        {% if page.previous_in_category != nil %}
-        <a href="{{page.previous_in_category.url | append: site.url}}">
-          <div class="card-panel white-text dim" style="background: url('{{page.previous_in_category.image}}') center / cover">
+        {% if page.next_in_category != nil %}
+        <a href="{{page.next_in_category.url | relative_url}}">
+          <div class="card-panel white-text dim" style="background: url('{{page.next_in_category.image}}') center / cover">
             <i class="right medium material-icons">navigate_next</i>
-            <h6>{{page.previous_in_category.title}}</h6>
+            <h6>{{page.next_in_category.title}}</h6>
           </div>
         </a>
         {% endif %}
