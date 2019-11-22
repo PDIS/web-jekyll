@@ -9,7 +9,6 @@ layout: default
 <div class="container">
   <div class="section">
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="post-desc container">{{ page.excerpt | strip_html }}</p>
@@ -45,11 +44,34 @@ layout: default
       <div class="cc">
         {% if page.cc %}
           {% t page.cc %}
-        {% else page.cc %}
+        {% else %}
           {% t site.cc %}
         {% endif %}
       </div>
+    </article>
 
-	  </article>
+    <div class="navigate row">
+      <div class="col s12 m6">
+        {% if page.next_in_category != nil %}
+        <a href="{{page.next_in_category.url | append: site.url}}">
+          <div class="card-panel white-text dim" style="background: url('{{page.next_in_category.image}}') center / cover">
+            <i class="left medium material-icons">navigate_before</i>
+            <h6>{{page.next_in_category.title}}</h6>
+          </div>
+        </a>
+        {% endif %}
+      </div>
+      <div class="col s12 m6">
+        {% if page.previous_in_category != nil %}
+        <a href="{{page.previous_in_category.url | append: site.url}}">
+          <div class="card-panel white-text dim" style="background: url('{{page.previous_in_category.image}}') center / cover">
+            <i class="right medium material-icons">navigate_next</i>
+            <h6>{{page.previous_in_category.title}}</h6>
+          </div>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+
   </div>
 </div>
