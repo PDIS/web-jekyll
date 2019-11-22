@@ -58,7 +58,7 @@ categories:
   pagination: 10
   generate_all: false
   directory: '.'
-  layout: blogs.html
+  layout: category.html
   first_page: index.html
   details:
     blog:
