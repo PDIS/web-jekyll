@@ -44,7 +44,7 @@
       <ul class="pagination">
         <li class="waves-effect">
           {% if page.prevUrl %}
-          <a href="{{ page.prevUrl | prepend: site.baseurl | replace: 'index.html', '' | replace: '.html', '/' }}" class="btn-flat waves-effect"><i class="material-icons">navigate_before</i></a>
+          <a href="{{ page.prevUrl | relative_url | replace: 'index.html', '' | replace: '.html', '/' }}" class="btn-flat waves-effect"><i class="material-icons">navigate_before</i></a>
           {% endif %}
         </li>
         <li>
@@ -52,7 +52,7 @@
         </li>
         <li class="waves-effect">
           {% if page.nextUrl %}
-          <a href="{{ page.nextUrl | prepend: site.baseurl | replace: '.html', '/' }}" class="btn-flat waves-effect"><i class="material-icons">navigate_next</i></a>
+          <a href="{{ page.nextUrl | relative_url | replace: '.html', '/' }}" class="btn-flat waves-effect"><i class="material-icons">navigate_next</i></a>
           {% endif %}
         </li>
       </ul>
