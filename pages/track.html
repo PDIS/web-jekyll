@@ -59,6 +59,23 @@ function tagFilter(element, tag) {
   }
 }
 
+function searchFilter(e){
+  let term = e.value.trim()
+  if(term){
+    // activate filtering
+    $('.track-item').hide()
+    $('.track-item').has(`.title:contains(${term})`).show(function () {
+      $(this).children('.collection-item').hide()
+      $(this).children('.collection-item').has(`.title:contains(${term})`).show()
+    })
+  }
+  else{
+    // reset filtering
+    $('.track-item').show()
+    $('collection-item').show()
+  }
+}
+
 document.addEventListener('DOMContentLoaded', function(){ 
   getMap();
 }, false);
@@ -67,6 +84,11 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <div class="section container center">
   <div id="tagsBlock"></div>
+  <div class="searchBlock input-field">
+    <i class="material-icons prefix">search</i>
+    <input id="search_filter" type="text" onchange="searchFilter(this)">
+    <label for="search_filter">Search Title</label>
+  </div>
 </div>
 
 <div class="tracks section">
