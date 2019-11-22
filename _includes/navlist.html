@@ -48,8 +48,8 @@
 </li>
 
 <script>
-  function search(clicked) {
-    q = $(clicked).siblings('.search-box')[0].value;
+  function search(e) {
+    q = e.previousElementSibling.value;
     window.location.href = "{{ 'search' | relative_url }}/?q=" + q;
   }
 </script>

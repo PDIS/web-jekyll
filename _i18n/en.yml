@@ -136,12 +136,6 @@ info:
     url: 'http://join.gov.tw/'
   - name: vTaiwan.tw
     url: 'https://vtaiwan.tw/'
-  - name: Facebook
-    url: 'https://www.facebook.com/shu.w.zhengwei'
-  - name: Twitter
-    url: 'https://twitter.com/TaiwanPDIS'
-  - name: YouTube
-    url: 'https://www.youtube.com/channel/UCExDf4hkbSU-pmJcyT_sDtg'
 
 about:
   title: About PDIS
