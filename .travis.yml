@@ -2,7 +2,7 @@ jobs:
   include:
 ##### translate stage - Check if there have articles need to translate #####
     - stage: translate
-      if: commit_message !~ /(auto translate)|(update tracks.json)/
+      if: commit_message !~ /(update tracks.json)|(skip-tr)/
       language: node_js
       node_js: 8.9.1
       script:
@@ -13,7 +13,7 @@ jobs:
         - git config --global user.email "auto_translate@pdis.tw"
         - git config --global user.name "auto_translate"
         - git add .
-        - git commit -m 'auto translate' --allow-empty
+        - git commit -m 'auto translate (skip-tr)' --allow-empty
         - git push origin master
       before_install:
       - openssl aes-256-cbc -K $encrypted_2fb15357d122_key -iv $encrypted_2fb15357d122_iv
@@ -21,7 +21,7 @@ jobs:
 
 ##### deploy stage - Deploy to gh-pages #####
     - stage: deploy
-      if: commit_message ~= /(auto translate)|(update tracks.json)/
+      if: commit_message ~= /(update tracks.json)|(skip-tr)/
       rvm: 2.4.1
       script:
         - bundle exec jekyll build
