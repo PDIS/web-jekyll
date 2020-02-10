@@ -30,7 +30,6 @@ jobs:
         skip_cleanup: true
         github_token: "$GITHUB_TOKEN"
         local_dir: _site
-        keep_history: true
 env:
   global:
     - secure: LADl6lzwBcY8haGEt+ag+Dn88VxsBAEMC7d+YArmpBLmmPOgystf7tCzv1E6eJKydXW9EWHDHTdvGgowuqMfDcMIFo6R+HhG50mma/XQUQbuZqB0bf/1wtZM5IlcsjL9LkpP2Fg73ibB/NvPRw+jpfj77WDmJBTu3PgSXpegEhGWoLve/afV7w0VdgE5Sc9CdOcxi7l/NQfYv2cUbRw/HQ7hO7HuI3QqYbZV+ogBLhF6emC/8JmwfkDLIcFLJGxNycXc2sBXABvxdsDRxncPhkfAusNPfdlwXM/39+kIIlRwZGPcu+55OSc1nBoQjaQ9sDeijBFvYkXLUFJbYu0EjW3wpCpLSeP8L1Wxrkzs4oisQR7UZDBFB1skjn0/IOxXgOtcRpvFvkF30c4q3wJG2ERXxr/CjtFFCTC4cQl3B/NHmzbzqc7SZGF3p953g5mym7H26dPpTAG8CcrFqAgh294SJxz94aw8TlLE5VP6fYH8Jh9K5h1zDa9/lVzHmEsyyG2EoKZlI75C3k5w8SIqClCJBs/CYbimIZjI5CvtJPCWCbKseOimObujyJI3f+zKRoYLYgcQdyDVUhemcB71nNy9x6veEUxMPr4vx4Q23MfcFxEmPMl3OfrrWamCnFnERUP3nm8eh0QbxXxO774XEFZjttCTFx50V3tnEUELWd4=
