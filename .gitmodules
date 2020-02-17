@@ -1,6 +1,3 @@
 [submodule "_plugins/multiple-languages"]
 	path = _plugins/multiple-languages
 	url = https://github.com/mark19891107/jekyll-multiple-languages-plugin
-[submodule "_plugins/jekyll-category-pagination"]
-	path = _plugins/jekyll-category-pagination
-	url = https://github.com/codestacks/jekyll-category-pagination.git
