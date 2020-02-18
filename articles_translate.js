@@ -35,6 +35,9 @@ async function main() {
 
     for (let i = 0; i < filenames.length ; i++) {
 
+        /* ignore archived directories */
+        if(fs.lstatSync(`${postsFolder}/${filenames[i]}`).isDirectory()) continue
+
         fs.copyFileSync(`${postsFolder}/${filenames[i]}`, `${zhTWPostsFolder}/${filenames[i]}`)
 
         if (fs.existsSync(`${enPostsFolder}/${filenames[i]}`)) {
