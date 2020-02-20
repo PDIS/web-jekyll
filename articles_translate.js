@@ -35,8 +35,34 @@ async function main() {
 
     for (let i = 0; i < filenames.length ; i++) {
 
-        /* ignore archived directories */
-        if(fs.lstatSync(`${postsFolder}/${filenames[i]}`).isDirectory()) continue
+        /* check if directories */
+        let path = `${postsFolder}/${filenames[i]}`
+        if (fs.lstatSync(path).isDirectory()) {
+            let dir = filenames[i]
+            /* loop all files in directories */
+            for (let sub_file of fs.readdirSync(path)) {
+                sub_path = path + `/${sub_file}`
+                /* copy file */
+                fs.copyFileSync(sub_path, `${zhTWPostsFolder}/${dir}/${sub_file}`)
+                /* ignore if eng ver exist */
+                if (fs.existsSync(`${enPostsFolder}/${dir}/${sub_file}`)) {}
+                else {
+                    let post = yamlFront.loadFront(fs.readFileSync(sub_path))
+                    let enPost = await translateArticle(post.__content.replace(/\n/g, '||'), 'en')
+                    /* remove space in URL added by tranlate */
+                    enPost = enPost.replace(/(\|\|)/g, '\n')
+                                    .replace(/(\[ )/g, '[')
+                                    .replace(/(] \()/g, '](')
+                                    .replace(/(\]\])/g, ']') 
+                                    .replace(/\]\(.*\)/g, match => match.toLowerCase())
+                    let post_config = await translateYamlFronts(post, 'en')
+                    /* copy translated file */
+                    fs.writeFileSync(`${enPostsFolder}/${dir}/${sub_file}`, `${post_config}---\n${enPost}`)
+                    console.log(`${sub_file} Done.`)
+                }
+            }
+            continue
+        }
 
         fs.copyFileSync(`${postsFolder}/${filenames[i]}`, `${zhTWPostsFolder}/${filenames[i]}`)
 
