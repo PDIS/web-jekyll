@@ -1,9 +1,45 @@
 ---
-layout: default
+bg: brown lighten-5
+headcolor: grey-text text-darken-3
+footcolor: grey-text text-darken-3
+footbgcolor: teal lighten-4
 ---
 
-<div class="container">
-  <div class="section">
-    {{ content }}
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  
+  <head>
+    <title>{% t page.title %}</title>
+    <meta name="generator" content="Jekyll v3.8.6" />
+    <meta property="og:title" content="{% t page.title %}" />
+    <meta name="author" content="PDIS" />
+    <meta property="og:locale" content="zh_TW" />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="{% t page.title %}" />
+    <meta name="twitter:site" content="@TaiwanPDIS" />
+    <meta name="twitter:creator" content="@PDIS" />
+    <meta property="fb:admins" content="100014438376965" />
+    <meta name="google-site-verification" content="uxXHtWt7-XyZrPJb9BznXlKOOKklt1D_TAIv1UW8VhM" />
+    <script type="application/ld+json">{"headline":"{% t page.title %}","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/pdis-logo-final-inverse.png"},"name":"PDIS"},"url":"{{ page.url | absolute_url }}","author":{"@type":"Person","name":"PDIS"},"@type":"WebPage","@context":"https://schema.org"}</script>
+    {% include head.html %}
+  </head>
+  
+  <body class="{{ layout.bg }}">
+    
+    {% include nav.html color=layout.headcolor %}
+    
+    <div class="container">
+      <div class="section">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html color=layout.footcolor bgcolor=layout.footbgcolor %}
+
+    {% include script.html %}
+
+  </body>
+
+</html>

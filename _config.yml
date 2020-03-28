@@ -63,7 +63,7 @@ categories:
   first_page: index.html
   details:
     blog:
-      title: Blogs
+      title: site.blog
 
 # ---------- get json api ----------
 jekyll_get_json:
