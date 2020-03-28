@@ -8,7 +8,10 @@ footbgcolor: teal lighten-4
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  {% include head.html %}
+  <head>
+    {% seo %}
+    {% include head.html %}
+  </head>
 
   <body class="{{ layout.bg }}">
 
