@@ -59,7 +59,7 @@ image: /images/pdis-team.jpg
     <h3 class="center">
       {% t features.title %}
     </h3>
-    <p class="center subtitle"> {% t features.subtitle %}</p>
+    <p class="center subtitle">{% t features.subtitle %}</p>
     <!--   Icon Section   -->
     <div class="row">
       {% capture features %}{% t features.list %}{% endcapture %}
@@ -69,7 +69,7 @@ image: /images/pdis-team.jpg
         <div class="icon-block">
           <h2 class="center {{ page.color }}"><i class="material-icons notranslate">{{ feature.icon }}</i></h2>
           <h5 class="center">{{ feature.title }}</h5>
-          <p class="light">{{ feature.content }}</p>
+          <!--           <p class="light">{{ feature.content }}</p> -->
           <div class="center">
             <a href="{{ feature.link }}" target="_blank" class="btn waves-effect waves-light {{ page.btn_color }}">
               {% t site.more %}
