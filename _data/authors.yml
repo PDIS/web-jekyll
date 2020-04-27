@@ -6,6 +6,7 @@
     status: current
     twitter: audreyt
     name: 唐鳳
+    name_en: Audrey Tang
 張皓婷:
     wiselike: 'https://wiselike.tw/#/user/haoting'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/haoting/240/10766_2.png'
@@ -69,6 +70,7 @@
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/jokeum/800/581_1.png'
     status: current
     name: 簡就可
+    name_en: Joke Chien
 Mark:
     content: 好熱！好熱！
     wiselike: 'https://wiselike.tw/#/user/markdai'
@@ -114,6 +116,7 @@ Mark:
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/stpeng/800/659_1.png'
     status: current
     name: 彭筱婷
+    name_en: Sheau-Tyng Peng
 展銘:
     content: 我不是長頸鹿  我不是長頸鹿   我不是長頸鹿
     wiselike: 'https://wiselike.tw/#/user/targee'
@@ -130,6 +133,7 @@ Mark:
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/zach/800/589_1.png'
     status: current
     name: 黃子維
+    name_en: Zach Huang
 雨蒼:
     content: 自由軟體工作者、公民記者
     wiselike: 'https://wiselike.tw/#/user/billy3321'
