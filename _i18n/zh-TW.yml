@@ -27,6 +27,7 @@ contact-us:
 
 features:
   title: 我們能幫你做什麼？
+  subtitle: 「PDIS協助政府部會提升數位服務品質，以服務設計思維優化公務體系的流程和工具，並導引公部門採納社會創新，與民間社群協作，進而促成連結臺灣和世界的生態系。」
   list: 
     - icon: people_outline
       title: 數位政委督導業務

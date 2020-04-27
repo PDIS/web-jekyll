@@ -8,71 +8,77 @@ image: /images/pdis-team.jpg
 
 
 <div class="container">
-    <div class="section no-pad-bot" id="index-banner" >
-        <div class="swiper-container" style="width:100%">
-          <div class="swiper-wrapper">
-            <!-- should read slides from data -->
-            <div class="swiper-slide">
-              <div class="contain" style="overflow: hidden;line-height: 0;">
-                <img src="{{ page.image }}" alt="" srcset="" class="team-img">
-                <div class="cta-block">
-                  <h1 class="header white-text notranslate">
-                    {% t site.title %}
-                  </h1>
-                  <p class="light white-text" style="font-size: 1.3vw;">
-                    {% t site.description %}
-                  </p>
-                  <div>
-                    <a href="{{ 'contact' | relative_url }}" id="download-button" class="btn-large waves-effect waves-light {{ page.btn_color }}">
-                      {% t site.contact %}
-                      <i class="material-icons right notranslate">mail_outline</i>
-                    </a>
-                  </div>
-                </div>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="swiper-container" style="width:100%">
+      <div class="swiper-wrapper">
+        <!-- should read slides from data -->
+        <div class="swiper-slide">
+          <div class="contain" style="overflow: hidden;line-height: 0;">
+            <img src="{{ page.image }}" alt="" srcset="" class="team-img">
+            <div class="cta-block">
+              <h1 class="header white-text notranslate">
+                {% t site.title %}
+              </h1>
+              <p class="light white-text" style="font-size: 1.3vw;">
+                {% t site.description %}
+              </p>
+              <div>
+                <a href="{{ 'contact' | relative_url }}" id="download-button"
+                  class="btn-large waves-effect waves-light {{ page.btn_color }}">
+                  {% t site.contact %}
+                  <i class="material-icons right notranslate">mail_outline</i>
+                </a>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="iframeWrapper">
-                <iframe allowtransparency="true" scrolling="no" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshu.w.zhengwei%2Fvideos%2F225723507918927%2F%3Fl%3D598307961771178061&amp;show_text=false&amp;show_captions=true&amp;appId" frameborder="0"></iframe>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="iframeWrapper">
-                <iframe allowtransparency="true" scrolling="no" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshu.w.zhengwei%2Fvideos%2F161981934293085%2F%3Fl%3D598307961771178061&amp;show_text=false&amp;show_captions=true&amp;appId" frameborder="0"></iframe>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-controll center">
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
           </div>
         </div>
-
+        <div class="swiper-slide">
+          <div class="iframeWrapper">
+            <iframe allowtransparency="true" scrolling="no"
+              src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshu.w.zhengwei%2Fvideos%2F225723507918927%2F%3Fl%3D598307961771178061&amp;show_text=false&amp;show_captions=true&amp;appId"
+              frameborder="0"></iframe>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="iframeWrapper">
+            <iframe allowtransparency="true" scrolling="no"
+              src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshu.w.zhengwei%2Fvideos%2F161981934293085%2F%3Fl%3D598307961771178061&amp;show_text=false&amp;show_captions=true&amp;appId"
+              frameborder="0"></iframe>
+          </div>
+        </div>
       </div>
+      <div class="swiper-controll center">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+  </div>
 
   <div class="section">
     <h3 class="center">
       {% t features.title %}
     </h3>
+    <p class="center subtitle"> {% t features.subtitle %}</p>
     <!--   Icon Section   -->
     <div class="row">
       {% capture features %}{% t features.list %}{% endcapture %}
       {% assign features = features | eval_array %}
       {% for feature in features %}
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center {{ page.color }}"><i class="material-icons notranslate">{{ feature.icon }}</i></h2>
-            <h5 class="center">{{ feature.title }}</h5>
-            <p class="light">{{ feature.content }}</p>
-            <div class="center">
-              <a href="{{ feature.link }}" target="_blank" class="btn waves-effect waves-light {{ page.btn_color }}">
-                {% t site.more %}
-                <i class="material-icons right notranslate">open_in_new</i>
-              </a>
-            </div>
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center {{ page.color }}"><i class="material-icons notranslate">{{ feature.icon }}</i></h2>
+          <h5 class="center">{{ feature.title }}</h5>
+          <p class="light">{{ feature.content }}</p>
+          <div class="center">
+            <a href="{{ feature.link }}" target="_blank" class="btn waves-effect waves-light {{ page.btn_color }}">
+              {% t site.more %}
+              <i class="material-icons right notranslate">open_in_new</i>
+            </a>
           </div>
         </div>
+      </div>
       {% endfor %}
     </div>
   </div>
