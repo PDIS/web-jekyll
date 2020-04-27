@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 聯絡我們
+title: site.contact
 permalink: /contact/
 memberList:
   - current
@@ -9,19 +9,7 @@ memberList:
 ---
 
 <section class='section'>
-  <div class="row">
-    <div class="col s12 m8 offset-m2">
-      <h4>{% t contact-us.title %}</h4>
-      <p>{% t contact-us.description %}</p>
-      <div class='about-logos section'>
-        <a class='btn-large waves-effect waves-light cyan' href="mailto:hello@pdis.tw">{% t contact-us.mail-us %}<i class="material-icons right">mail</i></a>
-        <a class="btn-floating btn-large waves-effect waves-circle cyan" href="//www.youtube.com/PdisTwGov" target="_blank"> <i class="fa fa-3x fa-youtube-play"></i> </a>
-        <a class="btn-floating btn-large waves-effect waves-circle cyan" href="//github.com/pdis/web-jekyll" target="_blank"> <i class="fa fa-3x fa-github"></i> </a>
-        <a class="btn-floating btn-large waves-effect waves-circle cyan" href="//www.facebook.com/shu.w.zhengwei" target="_blank"> <i class="fa fa-3x fa-facebook-square"></i> </a>
-        <a class="btn-floating btn-large waves-effect waves-circle cyan" href="//twitter.com/TaiwanPDIS" target="_blank"> <i class="fa fa-3x fa-twitter-square"></i> </a>
-      </div>
-    </div>
-  </div>
+  {% tf pages/contact.md %}
 </section>
 
 {% for status in page.memberList %}

@@ -25,6 +25,7 @@ exclude:
   - "node_modules/"
   - "GCP.json"
   - "yarn.lock"
+  - "Makefile"
 
 google_site_verification: uxXHtWt7-XyZrPJb9BznXlKOOKklt1D_TAIv1UW8VhM
 twitter:
@@ -62,7 +63,7 @@ categories:
   first_page: index.html
   details:
     blog:
-      title: Blogs
+      title: site.blog
 
 # ---------- get json api ----------
 jekyll_get_json:

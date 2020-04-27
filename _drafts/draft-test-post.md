@@ -1,20 +1,98 @@
 ---
 layout: post
-title: test post (draft)
-excerpt: test excerpt
+title: (draft) 貼文指引 Post Example 
+excerpt: 這是一篇對於 Jekyll (markdown) 格式貼文的方法指引。This post is a guide of how to post in Jekyll (markdown) format.
 image: https://images.unsplash.com/photo-1484199408980-5918a796a53f?dpr=1&auto=compress,format&fit=crop&w=1199&h=776&q=80&cs=tinysrgb&crop=&bg=
 author: Mark、唐鳳
-category: blog
+category: [blog, project]
 tags:
-  - test
-  - 社會創新
+  - draft
+  - 這邊可以下標籤
 ---
 
-後做親立下平就處從方事你星情於像語反完不自總可、斯遠高你了們有品不；大雨謝，想們政合修實。化老強，近舉獎來古失什業素光像的各，在以筆新水，一她許一心基來長事再了土，開麼生，間利麼受而受復小不客……個展兩年件放不法待海漸是接音手義量。子不類可音建。
+第一段內文會變成此文章的「摘錄」，或是透過 excerpt 檔頭來設置。By default excerpt is the first paragraph of content in the post, however it can be customized by setting a excerpt_separator variable in front matter or _config.yml.
 
-{% comment %}
-Might you have an include in your theme? Why not try it here!
-{% include my-themes-great-include.html %}
-{% endcomment %}
+大標
+===
 
-色河滿極接方選須重？畫坐特以：見了健程統的內；經要孩……她興取觀樣打大頭，除散分四回……兩因為，他景由邊過何熱眼想美民目只各。
+小標
+---
+
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+
+有些內文可以是 *斜體*.
+Some of these words _are emphasized also_.
+
+有些內文也可以是 **粗體**.
+Or, if you prefer, __use two underscores instead__.
+
+![內嵌圖片描述](/images/pdis-team.jpg)
+
+你可以直接 [提供連結](/assets/mydoc.pdf) 。
+你可以直接 [提供連結](/assets/mydoc.pdf "With a Title") 。
+
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
+I start my morning with a cup of coffee and [The New York Times][NY Times].
+Implicit link [Google][]
+AUTOMATIC LINKS <http://pdis.tw>
+
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"
+[ny times]: http://www.nytimes.com/
+[Google]: http://google.com/
+
+
+### 引文 Quote
+
+I strongly recommend against using any `<blink>` tags.
+
+```
+程式區塊 code block
+```
+
+> 這是一個引文區塊。
+> 
+> This is the second paragraph in the blockquote.
+>
+> ## 這是一個小標 H2 in a blockquote
+
+### 條列 List
+
+* Candy.
+* Gum.
+* Booze.
+
++ Candy.
++ Gum.
++ Booze.
+
+- Candy.
+- Gum.
+- Booze.
+
+1. Candy.
+2. Gum.
+3. Booze.
+
+### 水平線 Horizontal Line
+
+* * *
+***
+*****
+- - -
+---------------------------------------
+
+### 草稿 Drafts
+
+Drafts are posts without a date in the filename. They’re posts you’re still working on and don’t want to publish yet. To get up and running with drafts, create a _drafts folder in your site’s root and create your first draft:
+```
+|-- _drafts/
+|   |-- a-draft-post.md
+```
+To preview your site with drafts, run jekyll serve or jekyll build with the --drafts switch. Each will be assigned the value modification time of the draft file for its date, and thus you will see currently edited drafts as the latest posts.
