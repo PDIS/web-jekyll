@@ -31,15 +31,17 @@ features:
       title: 開放政府
       content: 開放政府、社會創新、青年參與。
       link: https://po.pdis.nat.gov.tw/zh-TW/opengov/
+      image: /images/open-government.png
     - icon: cloud_queue
       title: 社會創新
       content: 協助各部會單位收集民眾意見後規劃設計，改善軟體、平台、系統和網站，達成「自動化」、「結構化」、「視覺化」的目標。
       link: https://si.taiwan.gov.tw/
+      image: /images/social-innovation.png
     - icon: all_inclusive
       title: 青年事務
       content: 導引民間專業進入公部門，建立原有社群與政府的對話溝通管道，促成連結在地、台灣和世界的網絡。
       link: https://advisory.yda.gov.tw/
-
+      image: /images/youth-engagement.png
 #---------------------------------------------------------------------------------------------------
 
 tools:

@@ -67,7 +67,8 @@ image: /images/pdis-team.jpg
       {% for feature in features %}
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center {{ page.color }}"><i class="material-icons notranslate">{{ feature.icon }}</i></h2>
+          <!-- <h2 class="center {{ page.color }}"><i class="material-icons notranslate">{{ feature.icon }}</i></h2> -->
+          <div class="center"><img src="{{ feature.image }}" /></div>
           <h5 class="center">{{ feature.title }}</h5>
           <!--           <p class="light">{{ feature.content }}</p> -->
           <div class="center">
