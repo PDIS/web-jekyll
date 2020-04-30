@@ -11,7 +11,7 @@ image: /images/pdis-team.jpg
     <div class="swiper-container" style="width:100%">
       <div class="swiper-wrapper">
         <!-- should read slides from data -->
-        <div class="swiper-slide">
+        <!-- <div class="swiper-slide">
           <div class="contain" style="overflow: hidden;line-height: 0;">
             <img src="{{ page.image }}" alt="" srcset="" class="team-img">
             <div class="cta-block">
@@ -29,6 +29,12 @@ image: /images/pdis-team.jpg
                 </a>
               </div>
             </div>
+          </div>
+        </div> -->
+        <div class="swiper-slide">
+          <div class="iframeWrapper">
+            <iframe scrolling="no" src="https://www.youtube.com/embed/4ea80jU1E4o" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
         <div class="swiper-slide">
@@ -67,8 +73,8 @@ image: /images/pdis-team.jpg
       {% for feature in features %}
       <div class="col s12 m4">
         <div class="icon-block">
-          <!-- <h2 class="center {{ page.color }}"><i class="material-icons notranslate">{{ feature.icon }}</i></h2> -->
-          <div class="center"><img src="{{ feature.image }}" /></div>
+          <h2 class="center {{ page.color }}"><i class="material-icons notranslate">{{ feature.icon }}</i></h2>
+          <!-- <div class="center"><img src="{{ feature.image }}" /></div> -->
           <h5 class="center">{{ feature.title }}</h5>
           <!--           <p class="light">{{ feature.content }}</p> -->
           <div class="center">
