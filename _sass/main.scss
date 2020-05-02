@@ -310,3 +310,92 @@ img {
     top: calc(100vh - 25px);
     z-index: 99999;
 }
+
+#opengov {
+  $bg: rgb(74, 217, 188);
+  $light-bg: rgb(246, 246, 246);
+  $dark-bg: rgb(51, 51, 51);
+  .hero {
+      background: url(/images/opengov-bg.png);
+      background-position: center bottom;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: rgba(255, 255, 255, 0.3);
+      background-blend-mode: overlay;
+      background-attachment: fixed;
+      padding-bottom: 80px;
+      .hero-content {
+          margin-top: calc(56px + 5vw);
+          .highlight {
+              background: $bg;
+              padding: 20px 40px;
+              border-radius: 20px;
+              margin-left: -15px;
+              margin-right: -15px;
+          }
+      }
+      @media (max-width: 575.98px) {
+          height: auto;
+          padding-bottom: 180px;
+          .hero-content {
+              .highlight {
+                  border-radius: 0px;
+              }
+          }
+      }
+  }
+  .section-why {
+      background: $dark-bg;
+      color: white;
+  }
+  .section-points {
+      background: $light-bg;
+  }
+  .section-who {
+      background-color: $bg;
+      background-image: url(/images/who_opengov.png);
+      background-repeat: no-repeat;
+      background-size: 50vw;
+      background-position-y: bottom;
+      a {
+          padding: 10px 40px;
+          border: 1px solid black;
+          border-radius: 200px;
+          color: black;
+          margin-top: 20px;
+          display: inline-block;
+          &:hover {
+              text-decoration: none;
+          }
+      }
+      @media (max-width: 768px) {
+          background-position-x: right;
+      }
+  }
+  .section-how {
+      background: url(/images/how_opengov.png);
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: 50vw;
+      @media (max-width: 768px) {
+          background-position: right bottom;
+          padding-bottom: 25vw;
+      }
+  }
+  hr {
+      border-top: 2px solid $dark-bg;
+      ;
+  }
+  .text-highlight {
+      color: $bg;
+      font-weight: 700;
+  }
+  .underline {
+      max-width: 100px;
+      margin: 50px 0px 20px;
+  }
+}
+
+.justify-content-around {
+  justify-content: space-around!important;
+}

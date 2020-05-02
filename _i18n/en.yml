@@ -141,3 +141,41 @@ info:
 
 about:
   title: About PDIS
+
+opengov:
+  what:
+    title: What is open government?
+    content0: The open government was proposed by an international organization called the OGP (Open Government Partnership). 
+    content1: 「......Adhering to open value and engaging with citizens to improve services, manage public resources, drive innovation and build safer communities. With the principle of transparency and open government, we will achieve prosperity, well-being and a society in line with human dignity in our own country and in an increasingly connected world.......」
+    content2: The four visions of an open government—the future we look forward to—are transparency, participation, accountability, and inclusion.
+  
+  why:
+    title: Why should there be an open government? 
+    content: "The higher the trust base is between the public sector and the public, the better the chance for sound public policies. Vice versa: A lack of mutual trust can lead to a loss of focus of discussion and public policy wobbles, with huge social costs. Therefore, <a class=\"text-highlight\">the mutual trust between the public sector and the public is the ultimate goal of an open government.</a>"
+
+  how:
+    title: How to promote an open government? 
+    content: <a class="text-highlight">To promote open government, we must start by changing the culture of public service. </a> If civil servants who are actually driving the policy can be the locomotive and take the initiative to adopt more open methods and thinking to produce policies, over the term, the policy can take the right direction as soon as possible, and it can also help accomplish things better. In other words, changing the culture of public service is like sewer engineering, which, while invisible, must make significant change over the long run.
+
+  who:
+    title: Who will advocate for an open government? 
+    content: An open government is everyone's business, so we need people who are willing to participate in the policy drive process, the civil servants who can share practical experiences, and the administrative officers who can take the lead on accountability; So the "open government contact" appointed by the ministries, or PO (Participation Officer), is the "seed" of changing the culture of public service and fertilizing deeply open government.
+
+  points:
+    title: The four elements of an open government
+    content: What is an open government? To put it simply, in the process of making public policies, the four elements of transparency, participation, accountability, and inclusion are gradually fused. That is the way to implement an open government. But specifically, what should be done?
+    list:
+      - title: Transparency
+        img: Transparency.png
+        content: Politics is everyone's business, and the policy process should allow the public to have a clear understanding of "what's going on." Friends in the public sector may be worried whether there will be any problems if we let the outside world see the communications before it's finished. In fact, the earlier the information is provided, the easier it is for the public to understand what the public sector is preparing for, so that the public sector can save the effort and time of repeated communication and further reduce the communication burden.
+      - title: Participation
+        img: Participation.png
+        content: In the process of policy formation, the public is given the opportunity to participate in discussions, express opinions, and even further influence the content of policy on topics of interest. As a result, while the public sector needs to spend more time building consensus, when the policy takes shape, it is less likely to be opposed by the public or totally objected. 
+      - title: Accountability
+        img: Accountability.png
+        content: When the public has doubts about the process of policy formation, we can look back to see who does and what are the reasons
+      - title: Inclusion
+        img: Inclusion.png
+        content: Public issues are broadly oriented. In the course of discussion of an issue, if the public sector is able to allow the various stakeholders who are directly affected by policy to fully voice their views and able to listen to their dialogues, it can collect as many views as possible so as to reduce the likelihood of policy errors.
+    summary: The above mentioned four elements shall be linked together in order to achieve the vision of an open government. If there is only transparency, but no accountability, or if there is participation without inclusion, serious problems will arise. There is only a superficial openness, but no spirit of openness. It will become an "open washing."
+  link-to-po: 開放政府聯絡人
