@@ -1,0 +1,140 @@
+---
+layout: default
+permalink: /opengov/
+---
+
+{% if page.image %}
+<div class="post-image" style="background:url('{{ page.image }}') center / cover"></div>
+{% endif %}
+
+<div id="opengov">
+  <div class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 offset-l3 m8 offset-m2 hero-content">
+          <h4 class="center">
+            {% t opengov.what.title %}
+          </h4>
+          <p>
+            {% t opengov.what.content0 %}
+          </p>
+          <p class="highlight">
+            {% t opengov.what.content1 %}
+          </p>
+          <p>
+            {% t opengov.what.content2 %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-end section-points">
+    <div class="container">
+      <div class="row">
+        <div class="offset-l2 col l8">
+          <h4 class="inter-section center">
+            {% t opengov.points.title %}
+          </h4>
+          <p class="inter-section">
+            {% t opengov.points.content %}
+          </p>
+        </div>
+      </div>
+
+      {% capture features %}{% t opengov.points.list %}{% endcapture %}
+      {% assign features = features | eval_array %}
+
+      {%- for point in features -%}
+      {% assign remainder = forloop.index | modulo: 2 %}
+      {%- if remainder == 1 -%}
+      <div class="row justify-content-around">
+        {%- endif -%}
+        <div class="col l6 m5 point center">
+          <img src="/images/{{ point.img }}" alt="">
+          <h4>
+            {{point.title}}
+          </h4>
+          <p>
+            {{point.content}}
+          </p>
+        </div>
+        {%- if remainder == 0 -%}
+      </div>
+      {%- endif -%}
+      {%- endfor -%}
+      <div class="row justify-content-around">
+        <div class="col m3" style="width: 100%; margin-top: 5rem; margin-bottom: 5rem;">
+          <div class="inter-section"></div>
+          <hr class="inter-section" style="width: 25%;">
+        </div>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col m8 l6" style="width: 100%;">
+          <p style="width: 50%; margin: 0 auto; margin-bottom: 5rem;">
+            {% t opengov.points.summary %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-why">
+    <div class="container">
+      <div class="row">
+        <div class="offset-l2 col l8 center">
+          <h4 class="inter-section">
+            {% t opengov.why.title %}
+          </h4>
+          <p>
+            {% t opengov.why.content %}
+          </p>
+          <img class="img-fluid" src="/images/opengov-why.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-end section-how">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h3>
+            {% t opengov.how.title %}
+          </h3>
+          <hr class="underline">
+        </div>
+        <div class="col m6">
+          <p>
+            {% t opengov.how.content %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-end section-who">
+    <div class="container">
+      <div class="row">
+        <div class="offset-m6 col m6">
+          <h4>
+            {% t opengov.who.title %}
+          </h4>
+          <hr class="underline">
+          <p>
+            {% t opengov.who.content %}
+          </p>
+          <a href="https://po.pdis.tw/">
+            {% t opengov.link-to-po %}
+            <!-- <i class="material-icons notranslate">arrow-right</i> -->
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function () {
+    $(window).scroll(function () {
+      /* console.log("rgba(255, 255, 255," + (1 - $(window).scrollTop() / 250) + ")") */
+      $(".hero").css("background-color", "rgba(255, 255, 255," + (0.3 + $(window).scrollTop() / 200) + ")");
+    });
+  });
+</script>
