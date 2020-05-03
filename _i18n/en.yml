@@ -29,17 +29,20 @@ features:
   list: 
     - icon: people_outline
       title: Open Government
-      content: Digital Minister is in charge of open government, social innovation, and youth engagement.
+      # content: Digital Minister is in charge of open government, social innovation, and youth engagement.
+      content: 
       link: https://po.pdis.nat.gov.tw/en/opengov/
       image: /images/open-government.png
     - icon: cloud_queue
       title: Social Innovation
-      content: We work with ministries and departments to provide digital services with better efficiency through automated process, structured data and meaningful visualization.
+      # content: We work with ministries and departments to provide digital services with better efficiency through automated process, structured data and meaningful visualization.
+      content: 
       link: https://si.taiwan.gov.tw/?lang=en
       image: /images/social-innovation.png
     - icon: all_inclusive
       title: Youth Engagement
-      content: We offer guide to private sectors, establish dialogue channels between community, and facilitate peer network for local, national and international partners.
+      # content: We offer guide to private sectors, establish dialogue channels between community, and facilitate peer network for local, national and international partners.
+      content: 
       link: https://advisory.yda.gov.tw/
       image: /images/youth-engagement.png
 
