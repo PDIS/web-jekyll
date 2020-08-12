@@ -2,7 +2,7 @@
   layout: "post"
   title: "Taiwan Can Help in Bangkok"
   excerpt: "The focus of the discussion is not just “what we did”, but “how we did it together”."
-  image: "https://talk.pdis.nat.gov.tw/uploads/default/original/2X/6/66f950eecd95b45469cbb174f3f7d4dee281c484.jpeg"
+  image: "/assets/imgs/66f950eecd95b45469cbb174f3f7d4dee281c484.jpeg"
   author: "Audrey Tang, Zach Huang"
   category: "blog"
   tags: 
