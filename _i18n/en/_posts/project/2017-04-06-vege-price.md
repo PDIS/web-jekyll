@@ -2,7 +2,7 @@
   layout: "post"
   title: "All the information related to the price of vegetables is here!"
   excerpt: "How to apply information technology and integrate the information that each department will master, and this information must also be transformed into structured open data, so that people's information can be provided on a day-to-day basis without increasing the existing business goals of the ministry."
-  image: "/assets/imgs/photo-1488459716781-31db52582fe9?w=3300"
+  image: "/assets/imgs/photo-1488459716781-31db52582fe9"
   author: "Mark"
   category: "project"
 ---
