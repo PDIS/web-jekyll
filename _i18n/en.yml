@@ -14,7 +14,7 @@ site:
   is_fullwidth: false
   cc: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>（This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.）
   cc-by-nc-sa: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>（This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.）
-  
+
 #---------------------------------------------------------------------------------------------------
 
 contact-us:
@@ -26,23 +26,23 @@ contact-us:
 features:
   title: What do we do ？
   subtitle: To connect Taiwan and the world, PDIS incubates and facilitates public digital innovation and service, optimises the processes and tools of the public service with design thinking, guides the public sector to adopt social innovations and collaborate with communities of practice.
-  list: 
+  list:
     - icon: people_outline
       title: Open Government
       # content: Digital Minister is in charge of open government, social innovation, and youth engagement.
-      content: 
+      content:
       link: https://po.pdis.nat.gov.tw/en/opengov/
       image: /images/open-government.png
     - icon: cloud_queue
       title: Social Innovation
       # content: We work with ministries and departments to provide digital services with better efficiency through automated process, structured data and meaningful visualization.
-      content: 
+      content:
       link: https://si.taiwan.gov.tw/?lang=en
       image: /images/social-innovation.png
     - icon: all_inclusive
       title: Youth Engagement
       # content: We offer guide to private sectors, establish dialogue channels between community, and facilitate peer network for local, national and international partners.
-      content: 
+      content:
       link: https://advisory.yda.gov.tw/
       image: /images/youth-engagement.png
 
@@ -63,10 +63,10 @@ tools:
     - image : https://cdn-az.allevents.in/banners/7e3a7ec128de0e9aa598fcf9cc4b1a03
       content : >
         #### ORID
-    
+
         ORID (Objective, Reflective, Interpretive, Decisional) is one of the ways in which structured dialogue is ideally led by the facilitator. By guiding the objective facts, subjective feelings, thoughts and decisions of a particular subject, the participants are naturally guided to reach a consensus. In the face of more complex topics, this approach is often used to construct conversations that help the meeting discuss and focus on key issues.
-    
-    
+
+
         [http://pacific-edge.info/2010/08/orid/](http://pacific-edge.info/2010/08/orid/)
     - image : https://experience.sap.com/wp-content/uploads/2014/09/BusinessOrigami1.png
       content : >
@@ -87,17 +87,17 @@ tools:
 
 
         [https://trello.com/](https://trello.com/)
-    - image : https://talk.pdis.nat.gov.tw/uploads/default/original/1X/d9fd08d834df91f050e135aeb458dce25464f34d.png
+    - image : /assets/imgs/d9fd08d834df91f050e135aeb458dce25464f34d.png
       content : >
         #### Sandstorm
 
         [Sandstorm](https://sandstorm.io/) is a website productivity set that you can set up yourself. We set up Sandstorm within the government network and use it with other public officials. Sandstorm is a convenient online platform with collaborative applications or tools such as shared files, shared folders, instant messaging systems, charting tools, and more. We also offer new Sandstorm applications such as the collaborative spreadsheet [EtherCalc](https://apps.sandstorm.io/app/a0n6hwm32zjsrzes8gnjg734dh6jwt7x83xdgytspe761pe2asw0) and bookmarks [Linksholder](https://apps.sandstorm.io/app/upcmp5j10r4x8j7kdfram8xx41ujvqjw0hq8ed2y72hky552znk0).
-    - image : https://talk.pdis.nat.gov.tw/uploads/default/original/1X/a420fb0c56275507fe6bce4f5778c2915ef76edd.png
+    - image : /assets/imgs/a420fb0c56275507fe6bce4f5778c2915ef76edd.png
       content : >
         #### OKR
 
         Objectives and Key Results (OKR) are effective systems for goal management, which are used to set and communicate goals and outcomes in an organization. OKR's primary goal is to combine company, team or individual goals with measurable results so that work can move in the right direction. Currently, the PDIS team uses [Discourse](http://www.discourse.org/) as the back end for OKR.
-    - image : https://talk.pdis.nat.gov.tw/uploads/default/original/1X/d0861fa78a4c3cc0afaa02c510c11d5d6d46e68f.png
+    - image : /assets/imgs/d0861fa78a4c3cc0afaa02c510c11d5d6d46e68f.png
       content : >
         #### Persona
 
@@ -107,7 +107,7 @@ tools:
 
         [Personas](http://diytoolkit.org/tools/personas-2/)
 
-    - image : https://talk.pdis.nat.gov.tw/uploads/default/original/1X/3ac47f8f3a63361a1664d066aa7b38d7a9ffb244.png
+    - image : /assets/imgs/3ac47f8f3a63361a1664d066aa7b38d7a9ffb244.png
       content : >
         #### User Journey
 
@@ -148,20 +148,20 @@ about:
 opengov:
   what:
     title: What is open government?
-    content0: The open government was proposed by an international organization called the OGP (Open Government Partnership). 
+    content0: The open government was proposed by an international organization called the OGP (Open Government Partnership).
     content1: 「......Adhering to open value and engaging with citizens to improve services, manage public resources, drive innovation and build safer communities. With the principle of transparency and open government, we will achieve prosperity, well-being and a society in line with human dignity in our own country and in an increasingly connected world.......」
     content2: The four visions of an open government—the future we look forward to—are transparency, participation, accountability, and inclusion.
-  
+
   why:
-    title: Why should there be an open government? 
+    title: Why should there be an open government?
     content: "The higher the trust base is between the public sector and the public, the better the chance for sound public policies. Vice versa: A lack of mutual trust can lead to a loss of focus of discussion and public policy wobbles, with huge social costs. Therefore, <a class=\"text-highlight\">the mutual trust between the public sector and the public is the ultimate goal of an open government.</a>"
 
   how:
-    title: How to promote an open government? 
+    title: How to promote an open government?
     content: <a class="text-highlight">To promote open government, we must start by changing the culture of public service. </a> If civil servants who are actually driving the policy can be the locomotive and take the initiative to adopt more open methods and thinking to produce policies, over the term, the policy can take the right direction as soon as possible, and it can also help accomplish things better. In other words, changing the culture of public service is like sewer engineering, which, while invisible, must make significant change over the long run.
 
   who:
-    title: Who will advocate for an open government? 
+    title: Who will advocate for an open government?
     content: An open government is everyone's business, so we need people who are willing to participate in the policy drive process, the civil servants who can share practical experiences, and the administrative officers who can take the lead on accountability; So the "open government contact" appointed by the ministries, or PO (Participation Officer), is the "seed" of changing the culture of public service and fertilizing deeply open government.
 
   points:
@@ -173,7 +173,7 @@ opengov:
         content: Politics is everyone's business, and the policy process should allow the public to have a clear understanding of "what's going on." Friends in the public sector may be worried whether there will be any problems if we let the outside world see the communications before it's finished. In fact, the earlier the information is provided, the easier it is for the public to understand what the public sector is preparing for, so that the public sector can save the effort and time of repeated communication and further reduce the communication burden.
       - title: Participation
         img: Participation.png
-        content: In the process of policy formation, the public is given the opportunity to participate in discussions, express opinions, and even further influence the content of policy on topics of interest. As a result, while the public sector needs to spend more time building consensus, when the policy takes shape, it is less likely to be opposed by the public or totally objected. 
+        content: In the process of policy formation, the public is given the opportunity to participate in discussions, express opinions, and even further influence the content of policy on topics of interest. As a result, while the public sector needs to spend more time building consensus, when the policy takes shape, it is less likely to be opposed by the public or totally objected.
       - title: Accountability
         img: Accountability.png
         content: When the public has doubts about the process of policy formation, we can look back to see who does and what are the reasons

@@ -14,7 +14,7 @@ In the past typhoon season (the flood season), vegetables often have price fluct
  So we started to think about how the public understands the information about the &quot;vegetable price&quot; itself, what kind of information is needed every day, how the government units disclose relevant information, how the media reports, and finally affects the whole vegetable price. Fluctuation, or is it the &quot;expected psychology&quot; that causes bad results? 
 
  <figure> 
- <img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/5015eddc4eda94de720c93cc36a2adf22c50e736.jpg" alt="Estimation of production and consumption"> 
+ <img src="/assets/imgs/5015eddc4eda94de720c93cc36a2adf22c50e736.jpg" alt="Estimation of production and consumption"> 
  <figcaption> <a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/ForecastProductMarket" target="_blank">Estimation of production and consumption</a> </figcaption> 
  </figure> 
 
@@ -31,7 +31,7 @@ The above information, some are in the open data plan, and some are presented in
 In order to promote data disclosure and integration as quickly as possible, it is the most direct way to quickly produce prototype applications, prove their feasibility, and demonstrate the value of data. 
 
  <figure> 
- <img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/973f65c4757badccaf07de0461a831af643db8ad.jpg" alt="Over-supply assessment and low-cost duration estimation"> 
+ <img src="/assets/imgs/973f65c4757badccaf07de0461a831af643db8ad.jpg" alt="Over-supply assessment and low-cost duration estimation"> 
  <figcaption> <a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/ForecastOverAndBelow" target="_blank">Over-supply assessment and low-cost duration estimation</a> </figcaption> 
  </figure> 
 
@@ -48,7 +48,7 @@ PDIS started to present the historical information of the wholesale market and t
 With such a process, we also find these useful information at the same time, but there is no open format that is convenient to use, and it is not even directly found in the entrance websites of various ministries. Fortunately, the friends of the COA and the community experts provided a complete source of information before they could be smoothly integrated. 
 
  <figure> 
- <img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/85d27948a8679200d932a2fab318f172af100ce5.jpg" alt="Important production area meteorological data"> 
+ <img src="/assets/imgs/85d27948a8679200d932a2fab318f172af100ce5.jpg" alt="Important production area meteorological data"> 
  <figcaption> <a href="http://bipub.afa.gov.tw/AFABI_Open/CWBData/CWBData" target="_blank">Important production area meteorological data</a> </figcaption> 
  </figure> 
 
@@ -71,7 +71,7 @@ PDIS is the first step for future manufacturers to make it easy to take over whe
 Because it is expected that the query volume of this platform will be more than normal traffic before and after the flood season, in order to solve the problem that the system cannot be carried due to a large number of user queries, we In the production of this prototype, it was also based on the CDN architecture that can easily increase the load capacity. Compared with the PTX platform of the Ministry of Communications, the traffic of 1 million queries per day is used as a reference standard. 
 
  <figure> 
- <img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/ba0bd99c7108effe01ed0b7aea062a685f01942a.jpg" alt="Taipei&#39;s main wholesale market trading market"> 
+ <img src="/assets/imgs/ba0bd99c7108effe01ed0b7aea062a685f01942a.jpg" alt="Taipei&#39;s main wholesale market trading market"> 
  <figcaption> <a href="http://bipub.afa.gov.tw/AFABI_Open/ForecastProduct/MarketPriceWeight" target="_blank">Taipei&#39;s main wholesale market trading market</a> </figcaption> 
  </figure> 
 
@@ -89,7 +89,7 @@ In the future, the diverse information content of related vegetable prices can b
 Administrators at all levels can also add high-quality information to visualize their effects. For event explanations and policy communication, more persuasion and explanation tools can be added. 
 
  <figure> 
- <img src="https://talk.pdis.nat.gov.tw/uploads/default/original/1X/76bbb6d9fa91ccb3a1b38b57ba7bc3544dfb3626.jpg" alt="Optional project portfolio query"> 
+ <img src="/assets/imgs/76bbb6d9fa91ccb3a1b38b57ba7bc3544dfb3626.jpg" alt="Optional project portfolio query"> 
  <figcaption> <a href="http://bipub.afa.gov.tw/AFABI_Open/PDIS/PDIS" target="_blank">Optional project portfolio query</a> </figcaption> 
  </figure> 
 
