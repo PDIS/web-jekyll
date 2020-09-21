@@ -5,7 +5,7 @@ git checkout master
 npm install
 node build/articles_translate.js
 
-if [ "$(git diff --exit-code)" ]; then
+if [ "$(git diff --exit-code)" ] || [ "$(git ls-files --others --exclude-standard)" ]; then
   git config --global user.email "auto_translate@pdis.tw"
   git config --global user.name "auto_translate"
   git add .
