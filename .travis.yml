@@ -1,4 +1,5 @@
 jobs:
+  if: branch = master
   include:
 ##### translate stage - Check if there have articles need to translate #####
     - stage: translate
