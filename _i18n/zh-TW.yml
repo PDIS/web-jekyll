@@ -74,7 +74,7 @@ tools:
 
 
         [https://experience.sap.com/skillup/business-origami/](https://experience.sap.com/skillup/business-origami/)
-    - image : https://talk.pdis.nat.gov.tw/uploads/default/optimized/1X/aa65cbe7a0d54121fac5cb90155c6abc82c90c5a_1_690x411.jpg
+    - image : https://talk.pdis.nat.gov.tw/uploads/default/optimized/1X/aa65cbe7a0d54121fac5cb90155c6abc82c90c5a_2_1380x822.jpg
       content : >
         #### 看板
 
@@ -85,17 +85,17 @@ tools:
 
 
         [https://trello.com/](https://trello.com/)
-    - image : /assets/imgs/d9fd08d834df91f050e135aeb458dce25464f34d.png
+    - image : https://talk.pdis.nat.gov.tw/uploads/default/original/1X/d9fd08d834df91f050e135aeb458dce25464f34d.png
       content : >
         #### Sandstorm
 
         [Sandstorm](https://sandstorm.io/) 是可以自己架設的網站生產力套組。我們在政府網路內架設Sandstorm，並與其他公務人員一起使用。Sandstorm是方便的線上平台，有協作應用程式或工具，比如共享文件、共享資料夾、即時訊息系統、圖表繪製工具等等。我們還提供了新的Sandstorm應用程式，如可以協作的電子表格 [EtherCalc](https://apps.sandstorm.io/app/a0n6hwm32zjsrzes8gnjg734dh6jwt7x83xdgytspe761pe2asw0) 與書籤 [Linksholder](https://apps.sandstorm.io/app/upcmp5j10r4x8j7kdfram8xx41ujvqjw0hq8ed2y72hky552znk0)。
-    - image : /assets/imgs/a420fb0c56275507fe6bce4f5778c2915ef76edd.png
+    - image : https://talk.pdis.nat.gov.tw/uploads/default/original/1X/a420fb0c56275507fe6bce4f5778c2915ef76edd.png
       content : >
         #### OKR
 
         目標和主要成果（Objectives and Key Results, OKR）是目標管理的有效系統，用於在組織中設定、傳達目標與結果。OKR的主要目標勢將公司、團隊或個人目標與可測量的結果相互結合，使工作能往正確的方向前進。目前，PDIS團隊使用 [Discourse](http://www.discourse.org/) 作為OKR的後端。
-    - image : /assets/imgs/d0861fa78a4c3cc0afaa02c510c11d5d6d46e68f.png
+    - image : https://talk.pdis.nat.gov.tw/uploads/default/original/1X/d0861fa78a4c3cc0afaa02c510c11d5d6d46e68f.png
       content : >
         #### 人物誌
 
@@ -105,7 +105,7 @@ tools:
 
         [Personas](http://diytoolkit.org/tools/personas-2/)
 
-    - image : /assets/imgs/3ac47f8f3a63361a1664d066aa7b38d7a9ffb244.png
+    - image : https://talk.pdis.nat.gov.tw/uploads/default/optimized/1X/3ac47f8f3a63361a1664d066aa7b38d7a9ffb244_2_1380x974.png
       content : >
         #### 使用者體驗旅程
 
