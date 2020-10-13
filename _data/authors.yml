@@ -1,12 +1,14 @@
 ########## PDIS ##########
 唐鳳:
-    content: 數位政務委員，業務為社會創新、青年參與、開放政府。
-    wiselike: 'https://wiselike.tw/#/user/audreyt'
-    avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/audreyt/800/574_1.png'
     status: current
-    twitter: audreyt
     name: 唐鳳
     name_en: Audrey Tang
+    description: 數位政務委員，業務為社會創新、青年參與、開放政府。
+    avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/audreyt/800/574_1.png'
+    wiselike: 'https://wiselike.tw/#/user/audreyt'
+    twitter: https://twitter.com/audreyt
+    facebook: https://facebook.com/shu.w.zhengwei
+    instagram: https://www.instagram.com/digitalminister
 張皓婷:
     wiselike: 'https://wiselike.tw/#/user/haoting'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/haoting/240/10766_2.png'
@@ -33,7 +35,7 @@
     status: former
     name: 李姿瑩
 賴致翔:
-    content: 浪漫派公務員但是做著很實際的工作
+    description: 浪漫派公務員但是做著很實際的工作
     wiselike: 'https://wiselike.tw/#/user/chlai'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/chlai/800/576_1.png'
     status: current
@@ -59,20 +61,23 @@
     status: current
     name: 張芳睿
 周紹文:
-    content: 行政院 公共數位創新小組 替代役
+    description: 行政院 公共數位創新小組 替代役
     wiselike: 'https://wiselike.tw/#/user/john5601'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/john5601/800/580_1.png'
     status: former
     name: 周紹文
 簡就可:
-    content: 影像工作者／網頁前端設計師。
-    wiselike: 'https://wiselike.tw/#/user/jokeum'
-    avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/jokeum/800/581_1.png'
     status: current
     name: 簡就可
-    name_en: Joke Chien
+    name_en: Joke
+    description: 影像工作者／前端開發者。
+    avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/jokeum/800/581_1.png'
+    wiselike: 'https://wiselike.tw/#/user/jokeum'
+    email: joke@pdis.tw
+    facebook: https://facebook.com/jokeum
+    twitter: https://twitter.com/jokeum
 Mark:
-    content: 好熱！好熱！
+    description: 好熱！好熱！
     wiselike: 'https://wiselike.tw/#/user/markdai'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/markdai/800/582_1.png'
     status: former
@@ -83,7 +88,7 @@ Mark:
     status: former
     name: 陳牧
 張庭瑜:
-    content: 感恩PDIS，讚嘆PDIS
+    description: 感恩PDIS，讚嘆PDIS
     wiselike: 'https://wiselike.tw/#/user/Naxus'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/naxus/800/583_1.png'
     status: current
@@ -94,19 +99,19 @@ Mark:
     status: current
     name: 葉寧
 蔡仲明:
-    content: 資策會派來的台灣社會數位化打手 ._.
+    description: 資策會派來的台灣社會數位化打手 ._.
     wiselike: 'https://wiselike.tw/#/user/romulus'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/romulus/800/585_1.png'
-    status: current
+    status: former
     name: 蔡仲明
 林書漾:
-    content: 在公共數位創新空間小組進行一個設計的動作
+    description: 在公共數位創新空間小組進行一個設計的動作
     wiselike: 'https://wiselike.tw/#/user/shuyanglin'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/shuyanglin/800/605_1.png'
     status: current
     name: 林書漾
 林正東:
-    content: 行政院 公共數位創新小組 (PDIS) / wiselike 貢獻者
+    description: 行政院 公共數位創新小組 (PDIS) / wiselike 貢獻者
     wiselike: 'https://wiselike.tw/#/user/smith02620'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/smith02620/800/587_1.png'
     status: former
@@ -118,7 +123,7 @@ Mark:
     name: 彭筱婷
     name_en: Sheau-Tyng Peng
 展銘:
-    content: 我不是長頸鹿  我不是長頸鹿   我不是長頸鹿
+    description: 我不是長頸鹿  我不是長頸鹿   我不是長頸鹿
     wiselike: 'https://wiselike.tw/#/user/targee'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/targee/800/588_1.png'
     status: current
@@ -135,13 +140,13 @@ Mark:
     name: 黃子維
     name_en: Zach Huang
 雨蒼:
-    content: 自由軟體工作者、公民記者
+    description: 自由軟體工作者、公民記者
     wiselike: 'https://wiselike.tw/#/user/billy3321'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/billy3321/240/727_1.png'
     status: former
     name: 雨蒼
 李忠和:
-    content: 行政院 公共數位創新小組 (PDIS) 服役中
+    description: 行政院 公共數位創新小組 (PDIS) 服役中
     wiselike: 'https://wiselike.tw/#/user/peterlee'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/peterlee/240/727_1.png'
     status: former
@@ -162,7 +167,7 @@ Mark:
     status: former
     name: 李建平
 莊秉倫:
-    content: 半路出家到資工系研究生，立志成為從機房到 UI/UX 都會的 Full Stack 工程師
+    description: 半路出家到資工系研究生，立志成為從機房到 UI/UX 都會的 Full Stack 工程師
     wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/bingluen/800/746_1.png'
     status: current
@@ -219,13 +224,13 @@ Fran:
     status: intern
     name: 謝定宇
 許家瑀:
-    content: 一隻魚
+    description: 一隻魚
     wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/hcy/800/3756_1.png'
     status: intern
     name: 許家瑀
 雅貴:
-    content: 嗨！我是 Juliana
+    description: 嗨！我是 Juliana
     wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/juliana/800/744_1.png'
     status: intern
@@ -236,7 +241,7 @@ Fran:
     status: intern
     name: 談宇綺
 吳書凡:
-    content: "技能樹亂點的一只大貓🦁️"
+    description: "技能樹亂點的一只大貓🦁️"
     wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/max0804/800/3763_1.png'
     status: intern
@@ -257,13 +262,13 @@ FanWenHsuan:
     status: intern
     name: 'Fan, WenHsuan'
 賴力維:
-    content: 業力引爆
+    description: 業力引爆
     wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/yellow/800/788_1.png'
     status: intern
     name: 賴力維
 陳典佑:
-    content: 一個銘傳資工大二的學生，現在經常在 SITCON 社群活動。
+    description: 一個銘傳資工大二的學生，現在經常在 SITCON 社群活動。
     wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/yoyo930021/240/3755_1.png'
     status: intern

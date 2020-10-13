@@ -311,6 +311,33 @@ img {
     z-index: 99999;
 }
 
+/* contact us page */
+
+.grid { 
+  display: flex;
+  margin: 0 -4em;
+}
+
+.grid-col { 
+  flex: 1 0 0;
+  margin: 0 .5em;
+}
+
+/* 1 column by default, hide columns 2 & 3 */
+.grid-col--2, .grid-col--3 { display: none }
+
+/* 2 columns at medium size */
+@media ( min-width: 768px ) {
+  .grid-col--2 { display: block; } /* show column 2 */
+}
+
+/* 3 columns at large size */
+@media ( min-width: $mobile-breakpoint ) {
+  .grid-col--3 { display: block; } /* show column 3 */
+}
+
+/* others */
+
 #opengov {
   $bg: rgb(74, 217, 188);
   $light-bg: rgb(246, 246, 246);
