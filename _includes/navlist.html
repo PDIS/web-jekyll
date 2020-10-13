@@ -1,5 +1,5 @@
 <li>
-  <a href="{{'/' | relative_url}}" class="grey-text text-darken-3">
+  <a title="{% t site.title %}" href="{{'/' | relative_url}}" class="grey-text text-darken-3">
     <i class="material-icons notranslate">home</i>
   </a>
 </li>
@@ -53,9 +53,5 @@
   }
 </script>
 
-<li>
-  <a href="{{ page.url | prepend: '/zh-TW' }}"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a>
-</li>
-<li>
-  <a href="{{ page.url | prepend: '/en' }}"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a>
-</li>
+<li><a class="tooltipped" data-position="bottom" data-tooltip="zh-TW" href="{{ page.url | prepend: '/zh-TW' }}"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a></li>
+<li><a class="tooltipped" data-position="bottom" data-tooltip="EN" href="{{ page.url | prepend: '/en' }}"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a></li>

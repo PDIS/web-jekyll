@@ -31,36 +31,15 @@ memberList:
         <h6><span>{{ person.name }}</span> <span>{{ person.name_en }}</span></h6>
         <p>{{ person.description }}</p>
         <div>
-          <a href="{{ person.wiselike }}" target="_blank" class="white btn-floating btn-flat btn-small waves-effect {% unless person.wiselike %}disabled{% endunless %}"><i class="{% if person.wiselike %}teal-text{% else %}grey-text{% endif %} fa fa-paper-plane"></i></a>
-          <a href="mailto:{{ person.email }}" target="_blank" class="white btn-floating btn-flat btn-small waves-effect {% unless person.email %}disabled{% endunless %}"><i class="{% if person.email %}orange-text{% else %}grey-text{% endif %} fa fa-envelope"></i></a>
-          <a href="{{ person.twitter }}" target="_blank" class="white btn-floating btn-flat btn-small waves-effect {% unless person.twitter %}disabled{% endunless %}"><i class="{% if person.twitter %}cyan-text{% else %}grey-text{% endif %} fa fa-twitter"></i></a>
-          <a href="{{ person.facebook }}" target="_blank" class="white btn-floating btn-flat btn-small waves-effect {% unless person.facebook %}disabled{% endunless %}"><i class="{% if person.facebook %}blue-text{% else %}grey-text{% endif %} fa fa-facebook"></i></a>
-          <a href="{{ person.instagram }}" target="_blank" class="white btn-floating btn-flat btn-small waves-effect {% unless person.instagram %}disabled{% endunless %}"><i class="{% if person.instagram %}pink-text{% else %}grey-text{% endif %} fa fa-instagram"></i></a>
+          <a href="{{ person.wiselike     }}" target="_blank" title="wiselike" class="white btn-floating btn-flat btn-small waves-effect {% unless person.wiselike %}disabled{% endunless %}"><i class="{% if person.wiselike %}teal-text{% else %}grey-text{% endif %} fa fa-paper-plane"></i></a>
+          <a href="mailto:{{ person.email }}" target="_blank" title="email" class="white btn-floating btn-flat btn-small waves-effect {% unless person.email %}disabled{% endunless %}"><i class="{% if person.email %}orange-text{% else %}grey-text{% endif %} fa fa-envelope"></i></a>
+          <a href="{{ person.twitter      }}" target="_blank" title="twitter" class="white btn-floating btn-flat btn-small waves-effect {% unless person.twitter %}disabled{% endunless %}"><i class="{% if person.twitter %}cyan-text{% else %}grey-text{% endif %} fa fa-twitter"></i></a>
+          <a href="{{ person.facebook     }}" target="_blank" title="facebook" class="white btn-floating btn-flat btn-small waves-effect {% unless person.facebook %}disabled{% endunless %}"><i class="{% if person.facebook %}blue-text{% else %}grey-text{% endif %} fa fa-facebook"></i></a>
+          <a href="{{ person.instagram    }}" target="_blank" title="instagram" class="white btn-floating btn-flat btn-small waves-effect {% unless person.instagram %}disabled{% endunless %}"><i class="{% if person.instagram %}pink-text{% else %}grey-text{% endif %} fa fa-instagram"></i></a>
         </div>
       </div>
     </div>
   </div>
-  <!-- <div class="col s12 m4 xl3">
-    <div class="card">
-      <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator" src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}">
-      </div>
-      <div class="card-content">
-        <span class="card-title activator">{{ person.name }}<i class="material-icons right">more_vert</i></span>
-        <p>{{ person.name_en }}</p>
-        <a href="{{ person.wiselike }}" target="_blank" class="btn-flat waves-effect {% unless person.wiselike %}disabled{% endunless %}"><i class="fa fa-paper-plane"></i></a>
-        <a href="{{ person.email }}" target="_blank" class="btn-flat waves-effect {% unless person.email %}disabled{% endunless %}"><i class="fa fa-envelope"></i></a>
-        <a href="{{ person.twitter }}" target="_blank" class="btn-flat waves-effect {% unless person.twitter %}disabled{% endunless %}"><i class="fa fa-twitter"></i></a>
-        <a href="{{ person.facebook }}" target="_blank" class="btn-flat waves-effect {% unless person.facebook %}disabled{% endunless %}"><i class="fa fa-facebook"></i></a>
-        <a href="{{ person.instagram }}" target="_blank" class="btn-flat waves-effect {% unless person.instagram %}disabled{% endunless %}"><i class="fa fa-instagram"></i></a>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title">{{ person.name }}<i class="material-icons right">close</i></span>
-        <p>{{ person.name_en }}</p>
-        <p>{{ person.description }}</p>
-      </div>
-    </div>
-  </div> -->
   {% endfor %}
 </div>
 {% endfor %}

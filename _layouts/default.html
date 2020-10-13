@@ -1,8 +1,6 @@
 ---
 bg: brown lighten-5
 headcolor: grey-text text-darken-3
-footcolor: white-text
-footbgcolor: grey darken-3
 ---
 
 <!DOCTYPE html>
@@ -19,7 +17,7 @@ footbgcolor: grey darken-3
 
       {{ content }}
 
-    {% include footer.html color=layout.footcolor bgcolor=layout.footbgcolor %}
+    {% include footer.html %}
 
     {% include script.html %}
 
