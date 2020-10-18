@@ -24,6 +24,7 @@
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/bobby/800/4074_1.png'
     status: current
     name: 魏守斌
+    name_en: Shou-Bin Wei
 李雪津:
     wiselike: 'https://wiselike.tw/#/user/cherjean'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/cherjean/800/592_1.png'
@@ -55,6 +56,7 @@
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/dychien/800/555_1.png'
     status: current
     name: 貢丸
+    name_en: D.Y. Chien
 張芳睿:
     wiselike: 'https://wiselike.tw/#/user/fang'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/fang/800/579_1.png'
@@ -133,6 +135,7 @@ Mark:
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/wendy/800/638_1.png'
     status: current
     name: 薛雅婷
+    name_en: Wendy Hsueh
 黃子維:
     wiselike: 'https://wiselike.tw/#/user/zach'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/zach/800/589_1.png'
@@ -187,6 +190,7 @@ Mark:
     avatar: 'https://i.imgur.com/6otLPNO.jpg'
     status: current
     name: 王少芸
+    name_en: Selina Wang
 蔡玉琪:
     wiselike: 'https://wiselike.tw/#/user/yuchitsai'
     avatar: 'https://i.imgur.com/1WCNW9J.jpg'
