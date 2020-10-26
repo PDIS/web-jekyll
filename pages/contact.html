@@ -9,31 +9,50 @@ memberList:
 ---
 
 <section class='section'>
-  {% tf pages/contact.md %}
+  {% tf pages/contact.html %}
 </section>
+
+<div class="row">
+  <div class="col s12 m6">
+    <div class="center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14459.815598845513!2d121.50762699054432!3d25.03563850647855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xecd722722a08f5ed!2z6KGM5pS_6Zmi!5e0!3m2!1szh-TW!2stw!4v1603205347212!5m2!1szh-TW!2stw" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
+  <div class="col s12 m6">
+    <div class="center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14460.07683940959!2d121.52565143512439!3d25.033422142810277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa055f2f16c67c77d!2z56S-5pyD5Ym15paw5a-m6amX5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1603205411078!5m2!1szh-TW!2stw" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
+</div>
 
 {% for status in page.memberList %}
 <h3 class="center">{% t contact-us.{{status}} %}</h3>
-<section class='section'>
-  {% assign people = site.data.authors | where:"status",status %}
-  <div class="row">
-    {% for person in people %}
-    <div class="col s12 m4 xl3">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}">
-        </div>
-        <div class="card-content">
-          <span class="card-title">{{ person.name }}<i class="material-icons right">more_vert</i></span>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title">{{ person.name }}<i class="material-icons right">close</i></span>
-          <p>{{ person.content }}</p>
-          <a href="{{ person.wiselike }}" target="_blank" class="btn-large btn-floating waves-effect waves-circle"><i class="material-icons">send</i></a>
+{% assign people = site.data.authors | where:"status",status %}
+<div class="{{ status }} grid" data-colcade="columns: .grid-col, items: .grid-item">
+  <!-- columns -->
+  <div class="grid-col grid-col--1"></div>
+  <div class="grid-col grid-col--2"></div>
+  <div class="grid-col grid-col--3"></div>
+  <!-- items -->
+  {% for person in people %}
+  <div class="card-panel grey lighten-5 z-depth-1 grid-item">
+    <div class="row" style="margin: 0 -1em;">
+      <div class="col s4">
+        <img src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}" class="circle responsive-img">
+      </div>
+      <div class="col s8">
+        <h6><span>{{ person.name }}</span> <span>{{ person.name_en }}</span></h6>
+        <p>{{ person.description }}</p>
+        <div>
+          <a href="{{ person.wiselike     }}" target="_blank" title="wiselike" class="white btn-floating btn-flat btn-small waves-effect {% unless person.wiselike %}disabled{% endunless %}"><i class="{% if person.wiselike %}teal-text{% else %}grey-text{% endif %} fa fa-paper-plane"></i></a>
+          <a href="mailto:{{ person.email }}" target="_blank" title="email" class="white btn-floating btn-flat btn-small waves-effect {% unless person.email %}disabled{% endunless %}"><i class="{% if person.email %}orange-text{% else %}grey-text{% endif %} fa fa-envelope"></i></a>
+          <a href="{{ person.twitter      }}" target="_blank" title="twitter" class="white btn-floating btn-flat btn-small waves-effect {% unless person.twitter %}disabled{% endunless %}"><i class="{% if person.twitter %}cyan-text{% else %}grey-text{% endif %} fa fa-twitter"></i></a>
+          <a href="{{ person.facebook     }}" target="_blank" title="facebook" class="white btn-floating btn-flat btn-small waves-effect {% unless person.facebook %}disabled{% endunless %}"><i class="{% if person.facebook %}blue-text{% else %}grey-text{% endif %} fa fa-facebook"></i></a>
+          <a href="{{ person.instagram    }}" target="_blank" title="instagram" class="white btn-floating btn-flat btn-small waves-effect {% unless person.instagram %}disabled{% endunless %}"><i class="{% if person.instagram %}pink-text{% else %}grey-text{% endif %} fa fa-instagram"></i></a>
         </div>
       </div>
     </div>
-    {% endfor %}
   </div>
-</section>
+  {% endfor %}
+</div>
 {% endfor %}

@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mark19891107/web-jekyll.git"
+    "url": "git+https://github.com/pdis/web-jekyll.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mark19891107/web-jekyll/issues"
+    "url": "https://github.com/pdis/web-jekyll/issues"
   },
-  "homepage": "https://github.com/mark19891107/web-jekyll#readme",
+  "homepage": "https://github.com/pdis/web-jekyll#readme",
   "dependencies": {
     "@google-cloud/translate": "^1.1.0",
+    "colcade": "^0.2.0",
     "flag-icon-css": "^3.4.2",
     "json2yaml": "^1.1.0",
     "yaml-front-matter": "^4.0.0"
