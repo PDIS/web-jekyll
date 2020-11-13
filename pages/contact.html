@@ -44,7 +44,7 @@ memberList:
         <h6><span>{{ person.name }}</span> <span>{{ person.name_en }}</span></h6>
         <p>{{ person.description }}</p>
         <div>
-          <a href="{{ person.wiselike     }}" target="_blank" title="wiselike" class="white btn-floating btn-flat btn-small waves-effect {% unless person.wiselike %}disabled{% endunless %}"><i class="{% if person.wiselike %}teal-text{% else %}grey-text{% endif %} fa fa-comment-dots"></i></a>
+          <a href="{{ person.wiselike     }}" target="_blank" title="wiselike" class="white btn-floating btn-flat btn-small waves-effect {% unless person.wiselike %}disabled{% endunless %}"><i class="{% if person.wiselike %}teal-text{% else %}grey-text{% endif %} fa fa-commenting"></i></a>
           <a href="mailto:{{ person.email }}" target="_blank" title="email" class="white btn-floating btn-flat btn-small waves-effect {% unless person.email %}disabled{% endunless %}"><i class="{% if person.email %}orange-text{% else %}grey-text{% endif %} fa fa-envelope"></i></a>
           <a href="{{ person.twitter      }}" target="_blank" title="twitter" class="white btn-floating btn-flat btn-small waves-effect {% unless person.twitter %}disabled{% endunless %}"><i class="{% if person.twitter %}cyan-text{% else %}grey-text{% endif %} fa fa-twitter"></i></a>
           <a href="{{ person.facebook     }}" target="_blank" title="facebook" class="white btn-floating btn-flat btn-small waves-effect {% unless person.facebook %}disabled{% endunless %}"><i class="{% if person.facebook %}blue-text{% else %}grey-text{% endif %} fa fa-facebook"></i></a>
