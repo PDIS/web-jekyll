@@ -4,7 +4,7 @@ jobs:
 ##### archive image - if image save on talk.pdis.nat.gov.tw
     - stage: archive-image
       before_install:
-        - sudo apt-get -y optipng jpegoptim
+        - sudo apt-get install -y optipng jpegoptim
       script:
         - ./build/archive-image.sh
 
