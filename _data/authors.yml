@@ -6,6 +6,7 @@
     description: 數位政務委員，業務為社會創新、青年參與、開放政府。
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/audreyt/800/574_1.png'
     wiselike: 'https://wiselike.tw/#/user/audreyt'
+    email: audreyt@audreyt.org
     twitter: https://twitter.com/audreyt
     facebook: https://facebook.com/shu.w.zhengwei
     instagram: https://www.instagram.com/digitalminister
@@ -85,12 +86,10 @@
     status: former
     name: 蔡仲明
 林宗禧:
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/linjose/800/109_1.png'
     status: former
     name: 林宗禧
 李建平:
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/rodlee/800/113_1.png'
     status: former
     name: 李建平
@@ -179,7 +178,6 @@ Mark:
     name_en: Haoting Chang
 莊秉倫:
     description: 半路出家到資工系研究生，立志成為從機房到 UI/UX 都會的 Full Stack 工程師
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/bingluen/800/746_1.png'
     status: current
     name: 莊秉倫
@@ -191,7 +189,6 @@ Mark:
     name: 詹壹雯
     name_en: Yi-Wen Chan
 蔡琬梅:
-    wiselike: ''
     avatar: 'https://graph.facebook.com/699755368/picture?type=large'
     status: former
     name: 蔡琬梅
@@ -208,13 +205,11 @@ Mark:
     name: 蔡玉琪
     name_en: Yu-Chi Tsai
 陳裕興:
-    wiselike: ''
     avatar: 'https://i.imgur.com/NyzXlHw.jpg'
     status: current
     name: 陳裕興
     name_en: Joel Chen
 許恩恩:
-    wiselike: ''
     description: 社會運動研究。公民審議。主持溝通技巧。
     avatar: 'https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/118322353_10217252009956225_4601302116171830143_n.jpg?_nc_cat=109&ccb=2&_nc_sid=174925&_nc_ohc=R4NVdSqVXnQAX8iMCc_&_nc_ht=scontent-tpe1-1.xx&oh=c6a113bed6d49e8f90048f050e71527c&oe=5FC40D88'
     status: current
@@ -225,81 +220,66 @@ Mark:
     status: current
     name: 周詳
     name_en: 'Sean Chou'
-    wiselike: ''
     avatar: 'https://i.imgur.com/OGr3YPL.jpg'
 ########## RAY ##########
 chiachichang:
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/letter_avatar_proxy/v2/letter/c/ce73a5/800.png'
     status: intern
     name: chiachichang
 游子萱:
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/letter_avatar_proxy/v2/letter/e/8c91f0/800.png'
     status: intern
     name: 游子萱
 Fran:
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/letter_avatar_proxy/v2/letter/f/a4c791/800.png'
     status: intern
     name: Fran
 謝定宇:
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/ft5ommy/800/742_1.png'
     status: intern
     name: 謝定宇
 許家瑀:
     description: 一隻魚
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/hcy/800/3756_1.png'
     status: intern
     name: 許家瑀
 雅貴:
     description: 嗨！我是 Juliana
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/juliana/800/744_1.png'
     status: intern
     name: 雅貴
 談宇綺:
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/lucytan/800/844_1.png'
     status: intern
     name: 談宇綺
 吳書凡:
     description: "技能樹亂點的一只大貓🦁️"
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/max0804/800/3763_1.png'
     status: intern
     name: 吳書凡
 蔡孟庭:
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/mengting/800/745_1.png'
     status: intern
     name: 蔡孟庭
 黃嘉旭:
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/mxair95000/800/1109_1.png'
     status: intern
     name: 黃嘉旭
 FanWenHsuan:
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/wenhsuan/800/1571_1.png'
     status: intern
     name: 'Fan, WenHsuan'
 賴力維:
     description: 業力引爆
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/yellow/800/788_1.png'
     status: intern
     name: 賴力維
 陳典佑:
     description: 一個銘傳資工大二的學生，現在經常在 SITCON 社群活動。
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/yoyo930021/240/3755_1.png'
     status: intern
     name: 陳典佑
 yunhuichen:
-    wiselike: ''
     avatar: 'https://talk.pdis.nat.gov.tw/letter_avatar_proxy/v2/letter/y/5daacb/800.png'
     status: intern
     name: yunhuichen
