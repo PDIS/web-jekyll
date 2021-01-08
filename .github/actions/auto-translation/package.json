@@ -1,0 +1,11 @@
+{
+  "name": "auto-translation",
+  "version": "1.0.0",
+  "description": "Auto translate posts by Google Cloud translation API",
+  "main": "articles_translate.js",
+  "dependencies": {
+    "@google-cloud/translate": "^1.1.0",
+    "json2yaml": "^1.1.0",
+    "yaml-front-matter": "^4.0.0"
+  }
+}

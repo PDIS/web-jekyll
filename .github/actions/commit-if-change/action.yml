@@ -1,0 +1,32 @@
+name: 'Create Commit If Change'
+description: 'Create commit if any change'
+inputs:
+  commit_user_name:
+    description: 'Username for commit'
+    required: true
+    default: 'Archiving-Image-GitHub-Action'
+  commit_user_email:
+    description: 'Email for commit'
+    required: true
+    default: 'bingluen0224@gmail.com'
+  custom_commit_message:
+    description: 'Commit message'
+    required: true
+    default: 'Commit create by `Create Commit If Change` Action'
+runs:
+  using: 'composite'
+  steps:
+    - run: |
+        if [ "$(git diff --exit-code)" ] || [ "$(git ls-files --others --exclude-standard)" ]; then
+          git config --global user.email ${{ inputs.commit_user_name }}
+          git config --global user.name ${{ inputs.commit_user_email }}
+          git add .
+          cat <<EOF |
+        ${{ inputs.custom_commit_message }}
+        $(git diff --staged --name-only)
+        EOF
+          git commit -F -
+        else
+          echo 'there is no changes.'
+        fi
+      shell: bash

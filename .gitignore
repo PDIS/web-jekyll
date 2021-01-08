@@ -8,3 +8,4 @@ package-lock.json
 GCP.json
 yarn.lock
 vendor/
+!.github/actions/**/node_modules
