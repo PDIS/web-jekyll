@@ -16,7 +16,6 @@ Generate follow file:
 $(git diff --staged --name-only)
 EOF
   git commit -F -
-  git push origin master
 else
   echo 'there is no changes.'
 fi
