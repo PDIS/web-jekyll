@@ -76,7 +76,7 @@ tools:
 
 
         [https://experience.sap.com/skillup/business-origami/](https://experience.sap.com/skillup/business-origami/)
-    - image : https://talk.pdis.nat.gov.tw/uploads/default/optimized/1X/aa65cbe7a0d54121fac5cb90155c6abc82c90c5a_2_1380x822.jpg
+    - image : /assets/imgs/aa65cbe7a0d54121fac5cb90155c6abc82c90c5a_2_1380x822.jpg
       content : >
         #### Kanban
 
@@ -87,17 +87,17 @@ tools:
 
 
         [https://trello.com/](https://trello.com/)
-    - image : https://talk.pdis.nat.gov.tw/uploads/default/original/1X/d9fd08d834df91f050e135aeb458dce25464f34d.png
+    - image : /assets/imgs/d9fd08d834df91f050e135aeb458dce25464f34d.png
       content : >
         #### Sandstorm
 
         [Sandstorm](https://sandstorm.io/) is a website productivity set that you can set up yourself. We set up Sandstorm within the government network and use it with other public officials. Sandstorm is a convenient online platform with collaborative applications or tools such as shared files, shared folders, instant messaging systems, charting tools, and more. We also offer new Sandstorm applications such as the collaborative spreadsheet [EtherCalc](https://apps.sandstorm.io/app/a0n6hwm32zjsrzes8gnjg734dh6jwt7x83xdgytspe761pe2asw0) and bookmarks [Linksholder](https://apps.sandstorm.io/app/upcmp5j10r4x8j7kdfram8xx41ujvqjw0hq8ed2y72hky552znk0).
-    - image : https://talk.pdis.nat.gov.tw/uploads/default/original/1X/a420fb0c56275507fe6bce4f5778c2915ef76edd.png
+    - image : /assets/imgs/a420fb0c56275507fe6bce4f5778c2915ef76edd.png
       content : >
         #### OKR
 
         Objectives and Key Results (OKR) are effective systems for goal management, which are used to set and communicate goals and outcomes in an organization. OKR's primary goal is to combine company, team or individual goals with measurable results so that work can move in the right direction. Currently, the PDIS team uses [Discourse](http://www.discourse.org/) as the back end for OKR.
-    - image : https://talk.pdis.nat.gov.tw/uploads/default/original/1X/d0861fa78a4c3cc0afaa02c510c11d5d6d46e68f.png
+    - image : /assets/imgs/d0861fa78a4c3cc0afaa02c510c11d5d6d46e68f.png
       content : >
         #### Persona
 
@@ -107,7 +107,7 @@ tools:
 
         [Personas](http://diytoolkit.org/tools/personas-2/)
 
-    - image : https://talk.pdis.nat.gov.tw/uploads/default/optimized/1X/3ac47f8f3a63361a1664d066aa7b38d7a9ffb244_2_1380x974.png
+    - image : /assets/imgs/3ac47f8f3a63361a1664d066aa7b38d7a9ffb244_2_1380x974.png
       content : >
         #### User Journey
 
