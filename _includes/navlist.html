@@ -40,7 +40,7 @@
 
 <li>
   <div class="search-wrapper">
-    <input class="search-box" placeholder="Search" value="">
+    <input class="search-box" placeholder="Search" value="" onchange="search(this)">
     <i class="material-icons search-button notranslate" onclick="search(this)">search</i>
     <div class="search-results"></div>
   </div>
@@ -48,8 +48,8 @@
 
 <script>
   function search(e) {
-    q = e.previousElementSibling.value;
-    window.location.href = "{{ 'search' | relative_url }}/?q=" + q;
+    let q = e.parentNode.firstElementChild.value.trim();
+    if (q) window.location.href = "{{ 'search' | relative_url }}/?q=" + q;
   }
 </script>
 
