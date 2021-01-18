@@ -48,7 +48,16 @@
           {% endif %}
         </li>
         <li>
-            {{ page.number }} / {{ page.pages }}
+          <select class="browser-default" name="pagenum" id="pagenum" onchange="switchpage(this)" style="display:inline;width:auto;height:auto;">
+            <option value="{{ page.number }}" disabled selected>{{ page.number }}</option>
+            {% for i in (1..page.pages) %}
+              {% if i == page.number %}
+                {% continue %}
+              {% endif %}
+              <option value="{{i}}">{{i}}</option>
+            {% endfor %}
+          </select>
+          <span>/ {{ page.pages }}</span>
         </li>
         <li class="waves-effect">
           {% if page.nextUrl %}
@@ -61,3 +70,15 @@
 
   </section>
 </div>
+
+<script>
+  function switchpage(e) {
+    let q = e.value
+    if (q > 1) {
+      window.location.href = "{{ 'blog' | relative_url }}" + `/page${q}/`
+    }
+    else if (q == 1) {
+      window.location.href = "{{ 'blog' | relative_url }}"
+    }
+  }
+</script>
