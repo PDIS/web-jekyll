@@ -116,6 +116,8 @@ tools:
 
         [User Journeys](http://www.servicedesigntoolkit.org/assets2013/posters/EN/S6-users-journeys-A0.pdf)
 
+track:
+  license: The transcripts are licensed under CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
 #---------------------------------------------------------------------------------------------------
 
 ref:
@@ -144,6 +146,7 @@ info:
 
 about:
   title: About PDIS
+  license: Works of this site are licensed under Creative Commons Attribution 4.0 International License, unless otherwise indicated.
 
 opengov:
   what:

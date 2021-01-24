@@ -114,6 +114,8 @@ tools:
 
         [User Journeys](http://www.servicedesigntoolkit.org/assets2013/posters/EN/S6-users-journeys-A0.pdf)
 
+track:
+  license: 本頁逐字紀錄部分，內容以創用 CC0 授權條款釋出。
 #---------------------------------------------------------------------------------------------------
 
 ref:
@@ -142,6 +144,7 @@ info:
 
 about:
   title: 關於 PDIS
+  license: 本站除另有標示外，內容以創用 CC BY 4.0 授權條款釋出。
 
 opengov:
   what:
