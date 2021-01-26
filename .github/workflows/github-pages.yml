@@ -29,6 +29,7 @@ jobs:
             \nArchive and Modify follow file:
       - name: Push to remote
         run: |
+          git pull --rebase
           git push
 
   Translating:
@@ -63,6 +64,7 @@ jobs:
             \nGenerate follow file:
       - name: Push to remote
         run: |
+          git pull --rebase
           git push
 
   Deploying:
