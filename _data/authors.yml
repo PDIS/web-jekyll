@@ -189,6 +189,16 @@ Mark:
     status: current
     name: 詹壹雯
     name_en: Yi-Wen Chan
+彭美琪:
+    wiselike: 'https://wiselike.tw/#/user/mcpeng'
+    avatar: 'https://talk.pdis.nat.gov.tw/letter_avatar_proxy/v4/letter/m/ee59a6/240.png'
+    name: 彭美琪
+    name_en: Mickey Peng
+    status: current
+蔡君蘋:
+    name: 蔡君蘋
+    name_en: Apple Tsai
+    status: current
 蔡琬梅:
     avatar: 'https://graph.facebook.com/699755368/picture?type=large'
     status: former
@@ -196,13 +206,13 @@ Mark:
 王少芸:
     wiselike: 'https://wiselike.tw/#/user/smalying'
     avatar: 'https://i.imgur.com/6otLPNO.jpg'
-    status: current
+    status: former
     name: 王少芸
     name_en: Selina Wang
 蔡玉琪:
     wiselike: 'https://wiselike.tw/#/user/yuchitsai'
     avatar: 'https://i.imgur.com/1WCNW9J.jpg'
-    status: current
+    status: former
     name: 蔡玉琪
     name_en: Yu-Chi Tsai
 陳裕興:
