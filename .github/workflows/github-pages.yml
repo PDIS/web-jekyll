@@ -12,7 +12,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
       DEPLOY_USER_NAME: Deploy-GitHub-Action
-      DEPLOY_USER_EMAIL: champagne0906@gmail.com
+      DEPLOY_USER_EMAIL: github_action@pdis.tw
 
     steps:
       - uses: actions/checkout@v2
@@ -39,7 +39,7 @@ jobs:
 
     env:
       DEPLOY_USER_NAME: Deploy-GitHub-Action
-      DEPLOY_USER_EMAIL: champagne0906@gmail.com
+      DEPLOY_USER_EMAIL: github_action@pdis.tw
       ENCRYPT_KEY: ${{ secrets.ENCRYPTED_2FB15357D122_KEY }}
       ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}
       GOOGLE_APPLICATION_CREDENTIALS: ./.github/actions/auto-translation/GCP.json
@@ -79,7 +79,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
       DEPLOY_USER_NAME: Deploy-GitHub-Action
-      DEPLOY_USER_EMAIL: champagne0906@gmail.com
+      DEPLOY_USER_EMAIL: github_action@pdis.tw
       PUBLISH_DIR: ./_site
       ENCRYPT_KEY: ${{ secrets.ENCRYPTED_2FB15357D122_KEY }}
       ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}

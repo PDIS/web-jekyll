@@ -13,7 +13,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
       DEPLOY_USER_NAME: Deploy-GitHub-Action
-      DEPLOY_USER_EMAIL: targee@cosa.org.tw
+      DEPLOY_USER_EMAIL: github_action@pdis.tw
       PUBLISH_DIR: ./_site
       ENCRYPT_KEY: ${{ secrets.ENCRYPTED_2FB15357D122_KEY }}
       ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}

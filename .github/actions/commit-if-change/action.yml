@@ -8,7 +8,7 @@ inputs:
   commit_user_email:
     description: 'Email for commit'
     required: true
-    default: 'github_action@pdis.twq'
+    default: 'github_action@pdis.tw'
   custom_commit_message:
     description: 'Commit message'
     required: true
