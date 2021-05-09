@@ -12,7 +12,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
       DEPLOY_USER_NAME: Deploy-GitHub-Action
-      DEPLOY_USER_EMAIL: bingluen0224@gmail.com
+      DEPLOY_USER_EMAIL: champagne0906@gmail.com
 
     steps:
       - uses: actions/checkout@v2
@@ -26,7 +26,7 @@ jobs:
           custom_commit_message: >
             Auto archive image
 
-            \nArchive and Modify follow file:
+            Archive and Modify follow file:
       - name: Push to remote
         run: |
           git pull --rebase
@@ -39,7 +39,7 @@ jobs:
 
     env:
       DEPLOY_USER_NAME: Deploy-GitHub-Action
-      DEPLOY_USER_EMAIL: bingluen0224@gmail.com
+      DEPLOY_USER_EMAIL: champagne0906@gmail.com
       ENCRYPT_KEY: ${{ secrets.ENCRYPTED_2FB15357D122_KEY }}
       ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}
       GOOGLE_APPLICATION_CREDENTIALS: ./.github/actions/auto-translation/GCP.json
@@ -61,7 +61,7 @@ jobs:
           custom_commit_message: >
             Auto translate
 
-            \nGenerate follow file:
+            Generate follow file:
       - name: Push to remote
         run: |
           git pull --rebase
@@ -79,7 +79,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
       DEPLOY_USER_NAME: Deploy-GitHub-Action
-      DEPLOY_USER_EMAIL: bingluen0224@gmail.com
+      DEPLOY_USER_EMAIL: champagne0906@gmail.com
       PUBLISH_DIR: ./_site
       ENCRYPT_KEY: ${{ secrets.ENCRYPTED_2FB15357D122_KEY }}
       ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}
