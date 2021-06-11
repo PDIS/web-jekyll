@@ -4,9 +4,10 @@ runs:
   using: "composite"
   steps:
     - run: |
+        sudo apt install jpegoptim optipng
         grep -rnwE 'https?://talk' _i18n _posts | grep -oE "https://.*\.(jpe?g|png)" | sort | uniq | xargs --no-run-if-empty wget -P assets/imgs/
-        git status | grep -E '\.jpe?g$' | awk '{print $1}' | xargs --no-run-if-empty jpegoptim
-        git status | grep -E '\.png$' | awk '{print $1}' | xargs --no-run-if-empty optipng
+        git status | grep -iE '\.jpe?g$' | awk '{print $2}' | xargs --no-run-if-empty jpegoptim
+        git status | grep -iE '\.png$' | awk '{print $2}' | xargs --no-run-if-empty optipng
         find _posts _i18n -name '*.md' -exec sed -ri 's/https?:\/\/talk.pdis.nat.gov.tw\/([a-zA-Z0-9_]+\/)+([0-9a-zA-Z_]+.(jpe?g|png))/\/assets\/imgs\/\2/g' {} +
         find _posts _i18n -name '*.yml' -exec sed -ri 's/https?:\/\/talk.pdis.nat.gov.tw\/([a-zA-Z0-9_]+\/)+([0-9a-zA-Z_]+.(jpe?g|png))/\/assets\/imgs\/\2/g' {} +
       shell: bash {0}
