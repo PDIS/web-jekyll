@@ -1,6 +1,8 @@
 name: Github Pages
 
 on:
+  schedule:
+    - cron: "0 0 * * *"
   push:
     branches:
       - master
@@ -87,7 +89,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: 'recursive'
+          submodules: "recursive"
           ref: ${{ github.ref }}
       - uses: actions/setup-ruby@v1
         with:
