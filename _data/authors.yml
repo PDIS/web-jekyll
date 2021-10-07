@@ -38,7 +38,7 @@
 蕭郁溏:
     wiselike: 'https://wiselike.tw/#/user/AvrossHsiao'
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/avrosshsiao/800/577_1.png'
-    status: former
+    status: current
     name: 蕭郁溏
 魏守斌:
     wiselike: 'https://wiselike.tw/#/user/Bobby'
@@ -191,7 +191,7 @@ Mark:
     name_en: Yi-Wen Chan
 彭美琪:
     wiselike: 'https://wiselike.tw/#/user/mcpeng'
-    avatar: 'https://talk.pdis.nat.gov.tw/letter_avatar_proxy/v4/letter/m/ee59a6/240.png'
+    avatar: 'https://i.imgur.com/TtNK6ap.png'
     name: 彭美琪
     name_en: Mickey Peng
     status: current
@@ -217,12 +217,17 @@ Mark:
     name_en: Yu-Chi Tsai
 陳裕興:
     avatar: 'https://i.imgur.com/NyzXlHw.jpg'
-    status: current
+    status: former
     name: 陳裕興
     name_en: Joel Chen
+馮瓊儀:
+    avatar: 'https://i.imgur.com/mE7pLTF.png'
+    status: current
+    name: 馮瓊儀
+    name_en: Frances Feng
 許恩恩:
     description: 社會運動研究。公民審議。主持溝通技巧。
-    avatar: 'https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/118322353_10217252009956225_4601302116171830143_n.jpg?_nc_cat=109&ccb=2&_nc_sid=174925&_nc_ohc=R4NVdSqVXnQAX8iMCc_&_nc_ht=scontent-tpe1-1.xx&oh=c6a113bed6d49e8f90048f050e71527c&oe=5FC40D88'
+    avatar: 'https://scontent.ftpe8-2.fna.fbcdn.net/v/t1.6435-9/187764312_10218901968724163_2587378360529854085_n.jpg?_nc_ht=scontent.ftpe8-2.fna&_nc_ohc=6nVletmg8wQAX_CQmfV&oh=08f22fdb5a7d85f905ccf878390448eb&oe=6184232E'
     status: current
     name: 許恩恩
     name_en: Ann Hsu
