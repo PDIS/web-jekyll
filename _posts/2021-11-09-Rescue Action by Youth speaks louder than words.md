@@ -22,17 +22,17 @@ In the past, civil servants were often unsure of how to design a service that wo
 
 This process also allowed the young students involved to appreciate the challenges posed to public service design: “Nothing is designed to be bad; instead of just picking on the flaws of a website, we should take a step further and ponder why the public sector is prone to these issues,” said Mr. Yang, a design major, adding that through collaboration with government departments, he and the civil servants were able to understand each other’s constraints and co-create a possible solution. Instead of empty talks, they were able to put ideas into practice, step by step.
 
-![discussing with government officials|689x460](/assets/imgs/db940ae062d98d93188586d0176cbeb05757f688.jpeg) 
+![discussing with government officials](/assets/imgs/db940ae062d98d93188586d0176cbeb05757f688.jpeg) 
 
-![physical prototyping session|666x500](/assets/imgs/b0aad09cf532f687b91b19d2c3e8499d5bd8d9a3.jpeg) 
+![physical prototyping session](/assets/imgs/b0aad09cf532f687b91b19d2c3e8499d5bd8d9a3.jpeg) 
 
 In 2021, Taiwan launched its first Open Government National Action Plan (OGNAP). Part of its commitments under the OGNAP is to provide young people with a channel to participate in the formation of government policies and to achieve empowerment of the youth. The PDIS RAY project is continuously working on how to create better ways for young people to get involved in public affairs, not just by dishing out policy ideas, but by rolling up their sleeves and taking part in the operations of the public sector, thereby transforming government services bit by bit.
 
 The challenge for PDIS is to ensure that students on short-term internships can integrate smoothly into government operations and make a real difference. In 2017, the first year of the RAY project, PDIS developed a mix of physical gatherings and remote online working formats, with no clocking in and out of work, no office space taken up, but no less enthusiastic collaboration. Both between students and with the public sector, the interactions went beyond mere work duties and had a deep emotional bond at the same time—there was never a shortage of hearty food and laughter at RAY project gatherings. This work style, which is a mixture of the real and the virtual, the rational and the emotional, proved even more resilient when COVID-19 struck.
 
-![physical gathering with laughter|690x422](/assets/imgs/42abd100132483caa141158e8152478d7ad0261c.jpeg) 
+![physical gathering with laughter](/assets/imgs/42abd100132483caa141158e8152478d7ad0261c.jpeg) 
 
-![online work session with fun|640x400](/assets/imgs/d86b9d26fdd6342a3cec409eed0ada602336803e.jpeg) 
+![online work session with fun](/assets/imgs/d86b9d26fdd6342a3cec409eed0ada602336803e.jpeg) 
 
 Another important entry point for the RAY project is to collaborate on tasks that the public sector does not have time for on a daily basis. In recent years, the RAY project has been geared towards the introduction of “user-centered” service design, which marks a starting point for smart government to create mutual trust and collaboration between the public and private sectors. While government employees are well aware of this, they often do not know how to get started and are often distracted by their busy schedules. The RAY project has come up with a design thinking-inspired internship process that allows students to be on the front line, interviewing users in the company of civil servants, testing and fine-tuning their design, and eventually creating a website prototype and related content for public servants to refer to and use. In other words, the work of students under the RAY project saves civil servants' efforts, and their output puts the latter at ease.
 
@@ -52,9 +52,9 @@ The key to a smooth people-public-private partnership in the RAY project is to t
 
 The collaborative model developed in the RAY project provides a concrete reference for government agencies to engage young people, and allows multiple stakeholders to find a foothold in open government through practical collaboration.
 
-![02|689x460](/assets/imgs/2753ee3f62cbd8d28498d30fda4edc5749be5df1.jpeg)
+![02](/assets/imgs/2753ee3f62cbd8d28498d30fda4edc5749be5df1.jpeg)
 
-![testing and prototyping|689x460](/assets/imgs/5f33b2c397fac9d5e453ee68d99d70baf154dc23.jpeg) 
+![testing and prototyping](/assets/imgs/5f33b2c397fac9d5e453ee68d99d70baf154dc23.jpeg) 
 
 As Minister Audrey Tang said, "Open government is about transforming the government from ‘for the people’ to ‘with the people,’ and even to ‘after the people.’” RAY is a small-scale pilot project, but can give definite answers to the questions that must be answered in order to build people-public-private partnerships today.
 
@@ -66,4 +66,4 @@ Also, how can youth/civic engagement be maintained during the pandemic? Online t
 
 The ultimate expectation of the RAY project, a cabinet-level youth engagement initiative, is that it can be replicated and scaled up in the public sector and government agencies. Through the participation of young people and their expert knowledge to understand each other's experiences and difficulties, the expectation that public services are "supplied by the government to the people" will be shifted to that "services can be created by the people and the government together," thus forming an inclusive public service. The RAY project exemplifies a new model of partnership building under Sustainable Development Goal 17, “Partnership for the Goals: Strengthen the means of implementation and revitalize the global partnership for sustainable development.”
 
-![RAY5.0|666x500](/assets/imgs/eec3152e932665884a5f3b2042f56b368b83dd28.jpeg)
+![RAY5.0](/assets/imgs/eec3152e932665884a5f3b2042f56b368b83dd28.jpeg)
