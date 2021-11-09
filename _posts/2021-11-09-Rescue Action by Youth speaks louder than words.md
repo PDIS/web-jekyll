@@ -52,7 +52,7 @@ The key to a smooth people-public-private partnership in the RAY project is to t
 
 The collaborative model developed in the RAY project provides a concrete reference for government agencies to engage young people, and allows multiple stakeholders to find a foothold in open government through practical collaboration.
 
-![02](/assets/imgs/2753ee3f62cbd8d28498d30fda4edc5749be5df1.jpeg)
+![students cocreating with the government officials](/assets/imgs/2753ee3f62cbd8d28498d30fda4edc5749be5df1.jpeg)
 
 ![testing and prototyping](/assets/imgs/5f33b2c397fac9d5e453ee68d99d70baf154dc23.jpeg) 
 
@@ -66,4 +66,4 @@ Also, how can youth/civic engagement be maintained during the pandemic? Online t
 
 The ultimate expectation of the RAY project, a cabinet-level youth engagement initiative, is that it can be replicated and scaled up in the public sector and government agencies. Through the participation of young people and their expert knowledge to understand each other's experiences and difficulties, the expectation that public services are "supplied by the government to the people" will be shifted to that "services can be created by the people and the government together," thus forming an inclusive public service. The RAY project exemplifies a new model of partnership building under Sustainable Development Goal 17, “Partnership for the Goals: Strengthen the means of implementation and revitalize the global partnership for sustainable development.”
 
-![RAY5.0](/assets/imgs/eec3152e932665884a5f3b2042f56b368b83dd28.jpeg)
+![Young students devoting their summer revamping government digital services](/assets/imgs/eec3152e932665884a5f3b2042f56b368b83dd28.jpeg)
