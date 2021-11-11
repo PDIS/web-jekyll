@@ -1,8 +1,7 @@
 ---
 layout: post
-title: 
-excerpt: In Taiwan, young students from across disciplines roll up their sleeves over the summer to work with government agencies in the midst of the COVID-19 pandemic to revamp what everyone describes as "user-unfriendly government digital services."
-
+title: 青年不畏疫情，展開線上協作
+excerpt: 在暑假捲起袖子，與政府部門一起動手，共同改造大家口中「難用的政府數位服務」！
 image: /assets/imgs/64559b6e5543f27e014322ed4fd37df6c98f27f3.jpeg
 author: 葉寧、張皓婷
 category: blog
@@ -10,60 +9,56 @@ tags:
   - 開放政府
 ---
 
-On Double Seventh Day in 2021, also known as the Lunar Valentine’s Day, which falls on the seventh day of the seventh month on the lunar calendar, four young students from design, research and information backgrounds spent the night online. Instead of going on a date, they were immersed in lively discussions with Forestry Bureau technical specialist Mr. Che-wei Chuang on how to optimize the user experience on the Taiwan Forestry Recreation website.
+2021 年農曆七夕，臺灣的情人節晚上，有 4 位來自設計、研究、資訊背景的青年學子，沒有和情人約會，也沒有與朋友出遊，而是整晚待在線上，與林務局的莊技正熱烈討論，如何優化山林悠遊網的使用者體驗。
 
-This episode took place in the fifth year of the Rescue Action by Youth (RAY 5.0), a project run by Public Digital Innovation Space (PDIS), an open government team led by Taiwan’s Digital Minister Audrey Tang. Fourteen college students from design, research and information backgrounds were recruited from a pool of 130 applicants to develop a website prototype over the summer to revamp what many would consider a “hostile” government digital service.
+這個場景發生在青年「搶救」政府網站的 RAY（Rescue Action by Youth）專案的第五年 (RAY 5.0)，這個專案由 PDIS（Public Digital Innovation Space） -- 一個由臺灣數位政委唐鳳領導的開放政府實驗團隊主導，從 130 位報名者中選出 14 位大專學生，成員包含設計、研究、資訊等等多元背景，以一個暑假的時間開發網站原型，重新改造很多人口中「難用」的政府數位服務。
 
-Taiwan had been hit by a surge of COVID-19 cases in May and physical meetings were still temporarily discouraged. These students, born in the Internet generation, were not new to digital tools such as Google Meet and Miro, and PDIS designed a set of online ice-breaking activities that allowed teammates who had never met each other to get acquainted quickly. Although there was less time for physical interaction, the students held online discussions together, conducted in-depth interviews with users, and worked in groups to redesign website prototypes for government services in a design thinking process. Each student devoted over 100 hours a month to this project.
+5 月開始，臺灣面臨新一波疫情，不過，這些生在網路世代的同學，對於 google meet 與 miro 等數位工具的操作並不陌生，PDIS 也設計了一套線上破冰活動，讓原來素不相識的隊友，很快熟絡起來。雖然實體見面的時間減少，但同學們一起線上討論、深入訪談使用者，以設計思考的流程，分組重新設計政府服務的網站原型，每個月投入仍然超過 100 個小時。
+以負責重新設計臺北市公共托育報名系統的小組為例，他們訪談了許多新手爸媽，了解新手爸媽的需求及遇到的困難。受訪中，有位媽媽一手抱著小孩，只能一手忙碌的操作試用報名系統，同學們對這一幕印象深刻，當場下定決心：一定要做個單手也能簡單操作的手機版本。
+過去，公務員常常不確定如何設計一個如何讓民眾順暢使用的服務，這是因為公務員「不曉得如何找出使用者需求」；民眾雖然也常常「感覺」政府網站很難用，但這些「感覺」不知如何穿越官僚迷宮，讓意見進入政府服務的設計流程。RAY 藉由青年學生的參與，搭建公私部門的橋樑，創造一個機會讓雙方都能貢獻、學習。「同學們在訪談中，技巧地引導民眾，具體說出真正的困難及需求，我們才理解到，使用者真的和公務員想的不一樣，我們都已經太過熟悉這個服務，反而很難看見實際使用的盲點。」桃園市社會局的鄭姓的主辦同仁如是說，他們的志工招募平台系統也是 Ray 5.0 改造的對象。
 
-The team responsible for redesigning the public childcare service registration system in Taipei City, for example, interviewed many new parents to understand their needs and the difficulties they encountered. The students, in the interview, were impressed by an account of a mother holding her child with one hand while trying out the registration system with the other, and made up their minds on the spot that they would make a mobile version that could be operated single-handedly.
-
-In the past, civil servants were often unsure of how to design a service that would work well for the public because they “didn’t know how to identify user needs.” While members of the public often “feel” that government websites are difficult to use, these “feelings” do not know how to navigate through the bureaucratic maze to get input into the design process of government services. The RAY project builds bridges between the public and private sectors through the participation of young students, thus creating an opportunity for both sides to contribute and learn. “During the interviews, the students skillfully guided people to specify their real difficulties and needs, and it was only then that we realized what the users thought was quite distinct from what the civil servants had in mind, and that we are all so familiar with the service that it is difficult to see the blind spots in its practical use,” said Ms. Cheng, a social welfare department staff in Taoyuan City, whose volunteer recruitment platform system was also the target to be revamped by RAY 5.0.
-
-This process also allowed the young students involved to appreciate the challenges posed to public service design: “Nothing is designed to be bad; instead of just picking on the flaws of a website, we should take a step further and ponder why the public sector is prone to these issues,” said Mr. Yang, a design major, adding that through collaboration with government departments, he and the civil servants were able to understand each other’s constraints and co-create a possible solution. Instead of empty talks, they were able to put ideas into practice, step by step.
+這個過程也讓參與的青年學生領略到公共服務設計的挑戰：「Nothing is designed to be bad，與其一味地挑剔網站的缺點，可以進一步思考，公部門為什麼會有這些問題出現。」一位設計背景的楊姓同學說，透過與政府部門的協作，讓他和政府的公務員們，互相了解彼此的條件限制，不必空談理想，在實作中，一步一步討論出可能的解法。
 
 ![discussing with government officials](/assets/imgs/db940ae062d98d93188586d0176cbeb05757f688.jpeg) 
 
 ![physical prototyping session](/assets/imgs/b0aad09cf532f687b91b19d2c3e8499d5bd8d9a3.jpeg) 
 
-In 2021, Taiwan launched its first Open Government National Action Plan (OGNAP). Part of its commitments under the OGNAP is to provide young people with a channel to participate in the formation of government policies and to achieve empowerment of the youth. The PDIS RAY project is continuously working on how to create better ways for young people to get involved in public affairs, not just by dishing out policy ideas, but by rolling up their sleeves and taking part in the operations of the public sector, thereby transforming government services bit by bit.
+臺灣在 2019 年提出開放政府國家行動方案，其中一個項目，就是優化青年政策參與管道，達成青年賦權。PDIS 的 RAY 專案， 不斷思考如何創造更好的途徑，讓青年參與公共事務，不只是空談政策理念，而是能捲起袖子，動手參與公部門的運作，一點一滴改變政府服務。
 
-The challenge for PDIS is to ensure that students on short-term internships can integrate smoothly into government operations and make a real difference. In 2017, the first year of the RAY project, PDIS developed a mix of physical gatherings and remote online working formats, with no clocking in and out of work, no office space taken up, but no less enthusiastic collaboration. Both between students and with the public sector, the interactions went beyond mere work duties and had a deep emotional bond at the same time—there was never a shortage of hearty food and laughter at RAY project gatherings. This work style, which is a mixture of the real and the virtual, the rational and the emotional, proved even more resilient when COVID-19 struck.
+PDIS 的挑戰是，如何讓短期見習、隨機組合的學生，能順暢融入政府的運作並發揮實際效用。2017 年——第一年的 RAY，PDIS 就發展出實體聚會與遠端線上混合的工作模式，上下班不需打卡，不佔用辦公空間，但絲毫不減合作的熱度——不管是學生之間還是與公務部門的互動，均超越了工作狀態，而同時擁有深刻的情感交流——RAY 的聚會永遠不缺豐盛的食物以及滿堂的笑聲。這種虛實混合、理性與感性並重的工作型態，當 Covid-19 來襲的時候，更證明了它的韌性。
 
 ![physical gathering with laughter](/assets/imgs/42abd100132483caa141158e8152478d7ad0261c.jpeg) 
 
 ![online work session with fun](/assets/imgs/d86b9d26fdd6342a3cec409eed0ada602336803e.jpeg) 
 
-Another important entry point for the RAY project is to collaborate on tasks that the public sector does not have time for on a daily basis. In recent years, the RAY project has been geared towards the introduction of “user-centered” service design, which marks a starting point for smart government to create mutual trust and collaboration between the public and private sectors. While government employees are well aware of this, they often do not know how to get started and are often distracted by their busy schedules. The RAY project has come up with a design thinking-inspired internship process that allows students to be on the front line, interviewing users in the company of civil servants, testing and fine-tuning their design, and eventually creating a website prototype and related content for public servants to refer to and use. In other words, the work of students under the RAY project saves civil servants' efforts, and their output puts the latter at ease.
+RAY 另一個重要的切入點，是協作處理公部門日常無暇顧及的工作。近幾年的 RAY，聚焦在導入「以使用者為中心」的服務設計，這是智慧政府創造公私互信與合作的起點，公務員深知這個道理，卻往往不知如何著手，加上公務繁忙，時常分身乏術。RAY 設計了一套以設計思考為靈感的見習流程，讓學生走到第一線，透過公務員陪同，訪談使用者需求、進行測試與微調，最終設計出的網站原型和相關內容，均供公務員參考及利用。換句話說，RAY 同學的工作，為公務員省力，而 RAY 同學的產出，更讓公務員安心。
 
-Open government is a core concept that runs through the whole project. In addition to the involvement of multiple parties, PDIS has been documenting the entire process in text and video since the first year, and has released it online under a Creative Commons (CC) license for public access, with the aim of encouraging other government departments to replicate this workflow. The Youth Development Administration's (YDA) “Public Sector Internship Program for College Students,” which provides financial support, has become in high demand recently, with many agencies competing for places, and as a result, PDIS has reduced the quota for students this year and offered the vacancies to other agencies.
+開放政府是貫穿整個專案的核心理念。除了多方參與，從第一年開始，PDIS 就以文字和錄影，完整記錄整個工作狀況，而且以 CC 授權公開釋出在網路上，供公眾利用，目的在於鼓勵其他政府部門複製這套工作流程。支持這個計畫財務的青年發展署「大專生公部門見習計畫」，近年來就變得炙手可熱，許多機關紛紛爭取名額，PDIS 今年就因此而削減參與學生名額，提供其他機關使用。
 
-The RAY 5.0 final presentation was delivered on the last day of August. PDIS invited senior government officials to attend the event where four groups of students showcased the outcome of their two months of in-depth research. Several government officials in attendance, including Minister Audrey Tang, had the opportunity to access their high-fidelity prototypes directly on the computer. Deputy Director Lin of the Forestry Bureau said happily, "This is what we wanted!" She then instructed her staff to initiate the procurement procedures forthwith, and these students, who had little business experience, could not hide their excitement.
+8 月的最後一天，是 RAY 5.0 的成果發表會，PDIS 邀請了機關高階長官來參加，四組同學展示了他們兩個月來的深度研究及簡報成果，同時讓出席的數位政委唐鳳及機關長官，直接在電腦上操作他們產出的高擬真原型。林務局的林副局長很高興地說：「這就是我們想要的！」也交代承辦同仁，立刻開始採購程序，這些沒有什麼商業經驗的同學，都掩不住內心的興奮。
 
-This is not the first time that a similar situation has occurred with the RAY project. RAY 1.0 offered a comprehensive review of government websites to ensure that the user experience was the same across browsers. RAY 2.0 made it possible for government websites to have the same convenience on mobile phones, and less than six months after the project was concluded, almost all government websites no longer ran into similar problems.
+類似的場景，並不是第一次發生在 RAY，RAY１.0 全面檢視政府網站．確保在不同瀏覽器使用者體驗相同；RAY２.0 讓政府網站在手機上也能有相同的便利性，計畫結束不到半年，幾乎所有政府網站都不再發生類似問題。
 
-In RAY 3.0, a specific website or system was selected to improve its interface or service process based on the needs of the public. The "Taiwan One-Stop Mountaineering Application Service" (https://hike.taiwan.gov.tw/), which integrates various online applications for national parks, nature reserves and mountain huts and campsites, is a representative example of RAY 3.0. 
+到了 RAY3.0，開始從民眾需求出發選取特定網站或系統，改善其介面或服務流程，整合國家公園，自然保護區及山屋營地多種不同線上申請的「臺灣登山申請一站式服務網」(https://hike.taiwan.gov.tw/)，就是 RAY3.0 的代表作；今年初青年發展署更是體現 RAY 精神，直接與 RAY 4.0 青年團隊進行「2021 年青年署網站改版」合作，以 RAY 4.0 團隊的使用者體驗分析與報告，作為全網站設計改版的總目標（https://www.yda.gov.tw/），成功樹立部會、青年與廠商協力打造新網站的最佳典範。
 
-At the beginning of 2021, the YDA partnered directly with the RAY 4.0 youth team on the "2021 Youth Development Administration Website Revamp," using the RAY 4.0 team's user experience analysis and report as the overall goal of the whole website design and revamp (https://www.yda.gov.tw/), which stood out as the best example of collaboration between ministries, youths and suppliers to create a new website.
+也就是說，RAY 固然是一個實驗性的前導計畫，但對青年參與的想像，從來不是單純讓參與者單向體驗公務部門的工作，青年參與是否可以帶來真正的改變，是 PDIS 最在乎的事。唯有在每一次的協作時，都能在公務部門留下有用的成果，才會促使每一年都有熱血青年不斷投入，也才會有更多政府部門，張開雙手歡迎更多的青年參與。
 
-In other words, youth participation should never be a one-way experience. What matters most to PDIS is whether youth engagement can make a real difference. Only by leaving useful results behind in the public sector in every cooperation will they be able to motivate enthusiastic young people to keep getting involved every year, so that more government departments will welcome more young people with open arms.
+RAY 能達成順暢的公私協作，關鍵在於不空談理念，直接從實作出發，切入公務部門最不熟悉的使用者需求探索，與公務員形成互補的角色，並且在最後能實際拿出高擬真原型，證明可行。換言之，RAY 不僅將民眾的使用者需求帶入公部門，也同樣將公務員視為使用者，即使是行政庶務，也同樣抱持著以使用者為中心的設計思考，設法在各方都能接受的環境下運作，而且以具體成果讓公部門能以最小負擔，接手下一步的工作。
 
-The key to a smooth people-public-private partnership in the RAY project is to talk the talk and walk the walk. It goes straight to the heart of the matter, explores the needs of the users, forms a complementary role to that of the civil service, and finally produces a prototype that can eventually be put into practice. To put it another way, the RAY project not only brings the needs of the people to the public sector, but also regards the civil servants as users, and even in the case of administrative services, with the same user-centered design thinking, seeks to operate in an environment that is acceptable to all parties, with tangible results that allow the public sector to take over the next steps with minimal burden.
-
-The collaborative model developed in the RAY project provides a concrete reference for government agencies to engage young people, and allows multiple stakeholders to find a foothold in open government through practical collaboration.
+RAY 發展出的合作模式，為政府機關導入青年參與，提供了具體參考案例，也讓多元利害關係人，能以實際協作找到在開放政府的立足點。
 
 ![students cocreating with the government officials](/assets/imgs/2753ee3f62cbd8d28498d30fda4edc5749be5df1.jpeg)
 
 ![testing and prototyping](/assets/imgs/5f33b2c397fac9d5e453ee68d99d70baf154dc23.jpeg) 
 
-As Minister Audrey Tang said, "Open government is about transforming the government from ‘for the people’ to ‘with the people,’ and even to ‘after the people.’” RAY is a small-scale pilot project, but can give definite answers to the questions that must be answered in order to build people-public-private partnerships today.
+正如數位政委唐鳳說的：開放政府是讓政府從 For the people，轉變為 Ｗith the people，甚至走到 after the people，是一個政府轉型蛻變的過程。而當今建立政府民間夥伴關係 (Public-Private Partnership) 有幾個必須回答的問題，RAY 是個規模不大的前導計畫，但對於這些問題，已能提供具體回答。
 
-First, how do we keep youth or civic engagement motivated? The experience of the RAY project shows that engagement does not need to set ambitious goals, but to bring about real change, and that the cumulative results of cases will be a source of sustained participation.
+首先，如何保持青年 / 公民參與的能動性？RAY 的經驗顯示，參與不需設定宏大的目標，但要能帶來真正的改變，個案累積的成果，就會成為持續參與的源頭活水。
 
-Second, how do we get government agencies to accept youth or citizen participation? The experience of the RAY project indicates that it does not require civil servants to change their working style overnight, nor does it try to impose an extra burden on the public service; instead, it identifies areas that government agencies want to work on but are not familiar with for collaboration, raises problems and solves them together to gradually foster mutual trust and reliance.
+其次，如何讓政府機關接受青年 / 公民參與？RAY 的經驗顯示，不要求公務員一夕改變工作型態，也儘量不增加公務機關額外的負擔，找政府機關想做卻不熟悉的領域來合作，提出問題也一起解決問題，逐漸形成互信互賴。
 
-Also, how can youth/civic engagement be maintained during the pandemic? Online tools can overcome the space and time constraints of multi-party participation, and the pandemic has given people extra impetus to access online tools. But it must be a welcoming online engagement, where the user's feelings are not neglected and where the interaction between the virtual and the real environment allows the participants to become more involved. The experimental model of work initiated by RAY five years ago has proved its resilience during the pandemic and is expected to become the new norm in the post-pandemic era.
+另外，如何在疫情期間維繫青年 / 公民參與？線上工具能克服多方參與空間與時間的限制，疫情也使人們有更大動力運用線上工具。但必須是有溫度的線上參與，使用者的感受不因為線上而被忽視，虛實環境的交互運用，能讓參與者更加融入，RAY 在 5 年前開啟的實驗工作模式，在疫情中證明了它的韌性，也期待成為後疫時代的新常態。
 
-The ultimate expectation of the RAY project, a cabinet-level youth engagement initiative, is that it can be replicated and scaled up in the public sector and government agencies. Through the participation of young people and their expert knowledge to understand each other's experiences and difficulties, the expectation that public services are "supplied by the government to the people" will be shifted to that "services can be created by the people and the government together," thus forming an inclusive public service. The RAY project exemplifies a new model of partnership building under Sustainable Development Goal 17, “Partnership for the Goals: Strengthen the means of implementation and revitalize the global partnership for sustainable development.”
+RAY 這個由內閣層級啟動的青年參與行動，最終的期待是可以在任何公部門和政府單位中複製、擴散。透過青年的加入，透過彼此的專業，了解各自的經驗與難處，翻轉公共服務「由政府提供給人民」的期待，轉換成「服務可以由人民與政府一同來創造」，進而共創出一個涵容的政府服務。聯合國永續發展目標第十七項是「建立多元夥伴關係，協力促進永續願景」，而 RAY 示範了一個建立夥伴關係的嶄新模式。
 
 ![Young students devoting their summer revamping government digital services](/assets/imgs/eec3152e932665884a5f3b2042f56b368b83dd28.jpeg)
