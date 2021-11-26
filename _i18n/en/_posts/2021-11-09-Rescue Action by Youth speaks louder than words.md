@@ -4,7 +4,7 @@ title:
 excerpt: In Taiwan, young students from across disciplines roll up their sleeves over the summer to work with government agencies in the midst of the COVID-19 pandemic to revamp what everyone describes as "user-unfriendly government digital services."
 
 image: /assets/imgs/64559b6e5543f27e014322ed4fd37df6c98f27f3.jpeg
-author: 葉寧、張皓婷
+author: 張皓婷
 category: blog
 tags: 
   - 開放政府
