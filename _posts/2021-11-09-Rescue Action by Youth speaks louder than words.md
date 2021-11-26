@@ -3,7 +3,7 @@ layout: post
 title: 青年不畏疫情，展開線上協作
 excerpt: 在暑假捲起袖子，與政府部門一起動手，共同改造大家口中「難用的政府數位服務」！
 image: /assets/imgs/64559b6e5543f27e014322ed4fd37df6c98f27f3.jpeg
-author: 葉寧、張皓婷
+author: 張皓婷
 category: blog
 tags: 
   - 開放政府
