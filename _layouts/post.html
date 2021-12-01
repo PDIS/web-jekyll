@@ -19,12 +19,16 @@ layout: default
           </time>
           <ul class="authors">
             {% assign authors_name = page.author | replace: "、", ", " | split: ", " %}
+            <!-- let nametype = 'name_en' or fallback to 'name' -->
+            {% capture nametype %}name{% if site.lang != "zh-TW" %}_{{ site.lang }}{% endif %}{% endcapture %}
             {% for author_name in authors_name %}
-              {% capture nametype %}name{% if site.lang != "zh-TW" %}_{{ site.lang }}{% endif %}{% endcapture %}
-              {% assign author = site.data.authors | where: nametype, author_name %}
+              {% assign author = site.data.authors | where: nametype, author_name | first %}
+              {% unless author %}
+                {% assign author = site.data.authors[author_name] %}
+              {% endunless %}
               <li itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <a href="{{ author.first.wiselike | default: '/contact' }}" target="_blank" itemprop="name" class='chip'>
-                  <img src="{{ author.first.avatar | default: site.logo }}" alt="author">
+                <a href="{{ author.wiselike | default: '/contact' }}" target="_blank" itemprop="name" class='chip'>
+                  <img src="{{ author.avatar | default: site.logo }}" alt="author">
                   {{ author_name }}
                 </a>
               </li>

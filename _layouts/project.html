@@ -19,12 +19,17 @@ layout: default
           </time>
           <ul class="authors">
             {% assign authors_name = page.author | replace: "、", ", " | split: ", " %}
+            <!-- let nametype = 'name_en' or fallback to 'name' -->
+            {% capture nametype %}name{% if site.lang != "zh-TW" %}_{{ site.lang }}{% endif %}{% endcapture %}
             {% for author_name in authors_name %}
-              {% assign author = site.data.authors[author_name] %}
+              {% assign author = site.data.authors | where: nametype, author_name | first %}
+              {% unless author %}
+                {% assign author = site.data.authors[author_name] %}
+              {% endunless %}
               <li itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <a href="{{ author.wiselike | default: '/contact' }}" target="_blank" itemprop="name" class='chip'>
                   <img src="{{ author.avatar | default: site.logo }}" alt="author">
-                  {{ author_name }}
+                  {{ author[nametype] | default: author_name }}
                 </a>
               </li>
             {% endfor %}
@@ -41,16 +46,17 @@ layout: default
         {{ content }}
       </div>
 
+      <!-- find other posts which has tags that match the name of the project -->
       <div class="row">
         {% for post in site.tags[page.project] %}
           {% if page.title != post.title %}
             <div class="
-            {% if site.tags[page.project].size <= 3 %}
-             {{ 'col s12 m6 l6' }}
-            {% else %}
-             {{ 'col s12 m6 l4' }}
-            {% endif %}
-          ">
+              {% if site.tags[page.project].size <= 3 %}
+              {{ 'col s12 m6 l6' }}
+              {% else %}
+              {{ 'col s12 m6 l4' }}
+              {% endif %}
+            ">
               <div class="card grey-text text-darken-4 hoverable">
                 <a href="{{ post.url | relative_url }}">
                   <div class="card-image dim" style="background:url('{{ post.image | default: site.image }}') center / cover no-repeat; height: 200px">
@@ -75,9 +81,6 @@ layout: default
           {% endif %}
         {% endfor %}
       </div>
-
-
-      
 
       <div class="cc">
         {% if page.cc %}
