@@ -18,7 +18,7 @@
           <div class="card grey-text text-darken-4 hoverable">
             <a href='{{ project.url | relative_url }}'>
               <div class="card-image dim" style='background:url("{{ project.image | default: site.image }}") center / cover no-repeat'>
-                <span class="card-title" title='{{ project.title }}'>{{ project.title }}</span>
+                <span class="card-title" title='{{ project.title }}'>{{ project.title | truncate: 65 }}</span>
               </div>
             </a>
             <div class="card-content">
@@ -38,7 +38,7 @@
             </div>
           </div>
         </div>
-        {% cycle '', '', </div><div class="row">' %}
+        {% cycle '', '', '</div><div class="row">' %}
 
       {% endfor %}
     </div>
