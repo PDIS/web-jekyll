@@ -11,8 +11,8 @@ layout: default
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-        <p class="post-desc container">{{ page.excerpt | strip_html }}</p>
-        <div class="post-meta section">
+        <p class="post-desc section container">{{ page.excerpt | strip_html }}</p>
+        <div class="post-meta container">
           <i class="material-icons tiny">event</i>
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {{ page.date | date: "%Y-%m-%d" }}
