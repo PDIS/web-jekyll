@@ -3,23 +3,21 @@ layout: page
 title: site.tools
 permalink: /tools/
 ---
-{% capture toolset %}{% t tools.list %}{% endcapture %}
-{% assign tools = toolset | split:"}" %}
+
 <h1 class="center" style="font-size:2.8em;">{% t tools.title %}</h1>
-<div class='section'>
-  <section>
-    <div class="">
-      {% for toolstring in tools%}
-      {% assign tool = toolstring | append: '}' | eval_string %}
-      <div class="row">
-        <div class="col l7 {% cycle 'push-l5', '' %} s12">
-          {{ tool.content | markdownify }}
-        </div>
-        <div class="col l5 {% cycle 'pull-l7', '' %} s12">
-          <img  src="{{ tool.image }}" alt="tool image">
-        </div>
-      </div>
-      {% endfor %}
+<section class="section">
+  {% for tool in site.translations[site.lang].tools.list %}
+  <div class="row">
+    <div class="col l7 {% cycle 'push-l5', '' %} s12">
+      <h4>{{ tool.title }}</h4>
+      {{ tool.content | markdownify }}
+      <p>
+        {% if tool.link %} <a href="{{ tool.link }}">{{ tool.title }}</a> {% endif %}
+      </p>
     </div>
-  </section>
-</div>
+    <div class="col l5 {% cycle 'pull-l7', '' %} s12">
+      <img src="{{ tool.image }}" alt="{{ tool.title }}">
+    </div>
+  </div>
+  {% endfor %}
+</section>

@@ -17,8 +17,6 @@ site:
   cc-by-nc-nd: <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>（This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.）
   copyright: This work is licensed under the Copyright Act of Republic of China (Taiwan)
 
-#---------------------------------------------------------------------------------------------------
-
 contact-us:
   current: Current Members
   former: Former Members
@@ -48,79 +46,38 @@ features:
       link: https://advisory.yda.gov.tw/
       image: /images/youth-engagement.png
 
-
-#---------------------------------------------------------------------------------------------------
-
 tools:
   title: Our commonly used tools
   list:
-    - image : https://www.jpl.nasa.gov/images/mars/20150121/mars20150121-16.jpg
-      content : >
-        #### Virtual Reality
-
-        The face-to-face review is inevitably causing confusion due to the large number of people. Virtual reality allows participants to be in a digital environment and provides more technical support to participants. Take a look at the film shot by Tang Feng and experience the application of virtual reality in civic participation.
-
-
-        [https://www.youtube.com/watch?v=EynGwOoxlSE](https://www.youtube.com/watch?v=EynGwOoxlSE)
-    - image : https://cdn-az.allevents.in/banners/7e3a7ec128de0e9aa598fcf9cc4b1a03
-      content : >
-        #### ORID
-
-        ORID (Objective, Reflective, Interpretive, Decisional) is one of the ways in which structured dialogue is ideally led by the facilitator. By guiding the objective facts, subjective feelings, thoughts and decisions of a particular subject, the participants are naturally guided to reach a consensus. In the face of more complex topics, this approach is often used to construct conversations that help the meeting discuss and focus on key issues.
-
-
-        [http://pacific-edge.info/2010/08/orid/](http://pacific-edge.info/2010/08/orid/)
-    - image : https://experience.sap.com/wp-content/uploads/2014/09/BusinessOrigami1.png
-      content : >
-        #### Commercial Origami
-
-        Business Origami is the method invented by the Hitachi Design Center. Commercial origami uses paper-cutting as a symbol of people, groups, communication channels, and the environment to create miniature models of the system. Paper-cutting is placed on a whiteboard or large paper, drawing system elements in different areas, and interactions and information flows between the elements.
-
-
-        [https://experience.sap.com/skillup/business-origami/](https://experience.sap.com/skillup/business-origami/)
-    - image : /assets/imgs/aa65cbe7a0d54121fac5cb90155c6abc82c90c5a_2_1380x822.jpg
-      content : >
-        #### Kanban
-
-        Kanban is a production scheduling control tool developed by Toyota industrial engineer Taiichi Ohno to control the supply chain to increase production efficiency. Today, Kanban has become an effective tool for managing projects, especially for projects with outputs and targets. Trello is an online version of Kanban for project management.
-
-
-        [https://en.wikipedia.org/wiki/Kanban#cite_note-13](https://en.wikipedia.org/wiki/Kanban#cite_note-13)
-
-
-        [https://trello.com/](https://trello.com/)
-    - image : /assets/imgs/d9fd08d834df91f050e135aeb458dce25464f34d.png
-      content : >
-        #### Sandstorm
-
-        [Sandstorm](https://sandstorm.io/) is a website productivity set that you can set up yourself. We set up Sandstorm within the government network and use it with other public officials. Sandstorm is a convenient online platform with collaborative applications or tools such as shared files, shared folders, instant messaging systems, charting tools, and more. We also offer new Sandstorm applications such as the collaborative spreadsheet [EtherCalc](https://apps.sandstorm.io/app/a0n6hwm32zjsrzes8gnjg734dh6jwt7x83xdgytspe761pe2asw0) and bookmarks [Linksholder](https://apps.sandstorm.io/app/upcmp5j10r4x8j7kdfram8xx41ujvqjw0hq8ed2y72hky552znk0).
-    - image : /assets/imgs/a420fb0c56275507fe6bce4f5778c2915ef76edd.png
-      content : >
-        #### OKR
-
-        Objectives and Key Results (OKR) are effective systems for goal management, which are used to set and communicate goals and outcomes in an organization. OKR's primary goal is to combine company, team or individual goals with measurable results so that work can move in the right direction. Currently, the PDIS team uses [Discourse](http://www.discourse.org/) as the back end for OKR.
-    - image : /assets/imgs/d0861fa78a4c3cc0afaa02c510c11d5d6d46e68f.png
-      content : >
-        #### Persona
-
-        Personas are personal images of fictional realities that describe a particular group of subjects. By drawing the behaviors, actions, and preferences of this character and similar people into "personal characters," you can understand the group with this persona. The character of the character is displayed in the way of establishing a character, and the character of the character is not lost.
-        Such role-playing helps ensure that work is always focused on the user, not an abstract description of their respective groups.
-
-
-        [Personas](http://diytoolkit.org/tools/personas-2/)
-
-    - image : /assets/imgs/3ac47f8f3a63361a1664d066aa7b38d7a9ffb244_2_1380x974.png
-      content : >
-        #### User Journey
-
-        User Journeys is the process of showing how people interact with services step by step. Through the user experience journey, the work team can identify problem points in the service process to confirm which parts of the new ideas can be improved.
-
-
-        [User Journeys](http://www.servicedesigntoolkit.org/assets2013/posters/EN/S6-users-journeys-A0.pdf)
+    - image: https://cdn-az.allevents.in/banners/7e3a7ec128de0e9aa598fcf9cc4b1a03
+      title: ORID
+      content: ORID (Objective, Reflective, Interpretive, Decisional) is one of the ways in which structured dialogue is ideally led by the facilitator. By guiding the objective facts, subjective feelings, thoughts and decisions of a particular subject, the participants are naturally guided to reach a consensus. In the face of more complex topics, this approach is often used to construct conversations that help the meeting discuss and focus on key issues.
+      link: http://pacific-edge.info/2010/08/orid/
+    - image: /assets/imgs/aa65cbe7a0d54121fac5cb90155c6abc82c90c5a_2_1380x822.jpg
+      title: Kanban
+      content: Kanban is a production scheduling control tool developed by Toyota industrial engineer Taiichi Ohno to control the supply chain to increase production efficiency. Today, Kanban has become an effective tool for managing projects, especially for projects with outputs and targets. Trello is an online version of Kanban for project management.
+      link: https://en.wikipedia.org/wiki/Kanban#cite_note-13
+    - image: /assets/imgs/d9fd08d834df91f050e135aeb458dce25464f34d.png
+      title: Sandstorm
+      content: "[Sandstorm](https://sandstorm.io/) is a website productivity set that you can set up yourself. We set up Sandstorm within the government network and use it with other public officials. Sandstorm is a convenient online platform with collaborative applications or tools such as shared files, shared folders, instant messaging systems, charting tools, and more. We also offer new Sandstorm applications such as the collaborative spreadsheet [EtherCalc](https://apps.sandstorm.io/app/a0n6hwm32zjsrzes8gnjg734dh6jwt7x83xdgytspe761pe2asw0) and bookmarks [Linksholder](https://apps.sandstorm.io/app/upcmp5j10r4x8j7kdfram8xx41ujvqjw0hq8ed2y72hky552znk0)."
+    - image: /assets/imgs/a420fb0c56275507fe6bce4f5778c2915ef76edd.png
+      title: OKR
+      content: Objectives and Key Results (OKR) are effective systems for goal management, which are used to set and communicate goals and outcomes in an organization. OKR's primary goal is to combine company, team or individual goals with measurable results so that work can move in the right direction. Currently, the PDIS team uses [Discourse](http://www.discourse.org/) as the back end for OKR.
+    - image: /assets/imgs/d0861fa78a4c3cc0afaa02c510c11d5d6d46e68f.png
+      title: Persona
+      content: Personas are personal images of fictional realities that describe a particular group of subjects. By drawing the behaviors, actions, and preferences of this character and similar people into "personal characters," you can understand the group with this persona. The character of the character is displayed in the way of establishing a character, and the character of the character is not lost. \n Such role-playing helps ensure that work is always focused on the user, not an abstract description of their respective groups.
+      link: http://diytoolkit.org/tools/personas-2/
+    - image: /assets/imgs/3ac47f8f3a63361a1664d066aa7b38d7a9ffb244_2_1380x974.png
+      title: User Journey
+      content: User Journeys is the process of showing how people interact with services step by step. Through the user experience journey, the work team can identify problem points in the service process to confirm which parts of the new ideas can be improved.
+      link: http://www.servicedesigntoolkit.org/assets2013/posters/EN/S6-users-journeys-A0.pdf
+    - image: https://i.ytimg.com/vi/EynGwOoxlSE/sddefault.jpg
+      title: Virtual Reality
+      content: The face-to-face review is inevitably causing confusion due to the large number of people. Virtual reality allows participants to be in a digital environment and provides more technical support to participants. Take a look at the film shot by Tang Feng and experience the application of virtual reality in civic participation.
+      link: https://www.youtube.com/watch?v=EynGwOoxlSE
 
 track:
   license: The transcripts are licensed under CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
-#---------------------------------------------------------------------------------------------------
 
 ref:
   title: References
