@@ -1,7 +1,7 @@
 ---
   layout: "post"
   title: "Audrey Tang and TaiwanPlus: The Age of Innovation"
-  image: "https://cdn-cw-english.cwg.tw/article/202204/article-6269bc0b2e98b.jpg"
+  image: "/assets/imgs/article-6269bc0b2e98b.jpg"
   author: "Audrey Tang"
   category: "blog"
   excerpt: "#InnoMinds can help Taiwan to go global, and let us share these precious experiences with the world."

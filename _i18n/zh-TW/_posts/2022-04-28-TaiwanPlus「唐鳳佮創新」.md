@@ -2,7 +2,7 @@
 layout: post
 title: TaiwanPlus「唐鳳佮創新」
 excerpt: "#InnoMinds 能夠協助臺灣走向世界，讓我們和全球共享這些珍貴經驗。"
-image: https://cdn-cw-english.cwg.tw/article/202204/article-6269bc0b2e98b.jpg
+image: "/assets/imgs/article-6269bc0b2e98b.jpg"
 author: 唐鳳
 category: blog
 tags:
