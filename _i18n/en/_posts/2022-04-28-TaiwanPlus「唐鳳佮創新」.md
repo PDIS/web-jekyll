@@ -1,30 +1,32 @@
 ---
   layout: "post"
-  title: "TaiwanPlus \"Tang Fengyi Innovation\""
+  title: "Audrey Tang and TaiwanPlus: The Age of Innovation"
   image: "https://cdn-cw-english.cwg.tw/article/202204/article-6269bc0b2e98b.jpg"
-  author: "唐鳳"
+  author: "Audrey Tang"
   category: "blog"
+  excerpt: "#InnoMinds can help Taiwan to go global, and let us share these precious experiences with the world."
   tags: 
-    - "社會創新"
-    - "開放政府"
-    - "青年參與"
+    - "Social Innovation"
+    - "Open Government"
+    - "Youth Engagement"
 ---
 
 
- Innovation and digital transformation are the two most important trends of our time. From the global epidemic to Ukraine's war of aggression against Russia, the world is facing many unprecedented challenges, and it is urgent to break away from existing thinking. 
- 
-However, when everyone encounters a moment of exhaustion and lack of creativity, where can feasible solutions be found? Our office and the young partners of the newly established international audio and video streaming platform TaiwanPlus have jointly created a new possibility: the new audio and video podcast program "#InnoMinds Tang Fengyi Innovation". 
- 
-After months of collaborative planning, #InnoMinds, an idea that challenges the existing framework, is ready to go. The guests of the first season of the program include more than a dozen entrepreneurs from home and abroad, heavyweight leaders of public affairs, social science and technology experts, etc., and will share their most inspiring ideas and thinking with the world in the program. 
- 
-As the host and a partner of deep thinking, I will discuss the topics of social innovation, youth participation and open government together with the guests. The first season of #InnoMinds will include YouTube co-founder Steve Chen, Ethereum co-founder Vitalik Buterin, former Estonian President Toomas Hendrik Ilves, U.S. Congressman Ro Connor Khanna) and AIT Director Sandra Oudkirk. 
- 
-In the first episode, Chen Shijun will take us to understand the behind-the-scenes process of YouTube's founding, and also share the short story of his first upload of the video. He also talks about why he decided to move to Taiwan, and how he sees it, if his kids want to be YouTubers? These are the wonderful stories he shared publicly for the first time on the show. 
- 
- I sincerely hope that #InnoMinds can help Taiwan to go global, and let us share these precious experiences with the world. I believe that the warm, positive and progressive dialogue will inspire more abundant and endless insights and innovations for the new generation of friends. 
- 
- Personally, #InnoMinds means a lot to me too. This is the first time in my life that I have participated in a Podcast program and acted as a host, and it is also the first time that TaiwanPlus has developed this type of program. We also cooperated with the Taiwan Living Aesthetics Art Foundation and selected the "Sound Lab" in the "Contemporary Cultural Experiment Center C-Lab" of the Air Force General Administration. team" concept. 
- 
-TaiwanPlus was established and launched last August, which opened a window for global partners to know Taiwan and learn about this hopeful land of freedom and democracy. The first season of #InnoMinds will be available from May 6, with one episode per week, with Chinese and English subtitles to choose from. 
+Innovation and digital transformation are two of the most significant trends of our time. From COVID-19 to Ukraine's courageous resistance against Russia's war of aggression, the world faces an array of increasingly unpredictable challenges demanding out-of-the-box approaches.
 
-See you at TaiwanPlus! 
+But where to find viable solutions when many claim the creativity cupboard is bare? My office and new kids on the block TaiwanPlus, an all-English news and general interest streaming platform, have a sterling idea: the "Innovative Minds with Audrey Tang" video podcast.
+
+After months of collaboration and planning, #InnoMinds -- as we like to call the game-changing show on social media -- is ready to grace the international stage. This exciting project boasts a top-shelf lineup of guests guaranteed to educate, entertain and inspire. More than a dozen entrepreneurs, political or public affairs heavyweights, social technologists and thought leaders from home and abroad stand ready to share the latest and greatest ideas.
+
+As your host and deep-thinking companion, I'll accompany our guests on a voyage of elucidation revolving around the themes of Social Innovation, Youth Participation and Open Government. The initial season of #InnoMinds includes YouTube co-founder Steve Chen, Ethereum co-founder Vitalik Buterin, former President of Estonia Toomas Hendrik Ilves, U.S. House of Representatives member Ro Khanna and American Institute in Taiwan Director Sandra Oudkirk.
+
+In episode one, Steve takes us behind the scenes of YouTube and discusses the raison d'etre of the inaugural uploaded video. He also explains why he decided to move to Taiwan and how he would support his children if they became YouTubers. These are just some of the many enlightening stories Steve shares for the first time in the public domain.
+
+It's my most sincere wish that #InnoMinds will lead the way in taking Taiwan to the world whilst providing our republic of citizens with an opportunity to learn from overseas examples. Passionate, positive and progressive dialogue will deliver a smorgasbord of mouthwatering next-generation inights.
+
+#InnoMinds is important to me on a personal level. It is my first self-hosted podcast and first foray by TaiwanPlus into this potential-packed medium. We also collaborated with Taiwan Living Arts Foundation on selecting Taiwan Sound Lab -- located in C-LAB, next door to my office -- as our recording clubhouse and stage for showcasing the peerless Team Taiwan audiovisual talents.
+
+Launched August 30, 2021, TaiwanPlus is opening a window of enagagement for friends around the globe to learn more about Taiwan: a beacon of freedom and democracy providing real hope for a brighter future. The initial season of #InnoMinds is available worldwide through TaiwanPlus channels starting May 6, with subtitiles in Mandarin and English.
+
+See you on TaiwanPlus!
+
