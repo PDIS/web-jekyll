@@ -28,4 +28,4 @@ tags:
  
 去年八月 TaiwanPlus 成立上線，為全球夥伴們開啟了認識臺灣的窗口，瞭解這塊充滿無比希望的自由和民主之地。#InnoMinds 首季節目在 5 月 6 日起上架，每週一集，有中英文字幕可以選擇。
 
-我們 TaiwanPlus 見！
+我們 [TaiwanPlus](https://www.taiwanplus.com/) 見！

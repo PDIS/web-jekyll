@@ -28,5 +28,5 @@ It's my most sincere wish that #InnoMinds will lead the way in taking Taiwan to 
 
 Launched August 30, 2021, TaiwanPlus is opening a window of enagagement for friends around the globe to learn more about Taiwan: a beacon of freedom and democracy providing real hope for a brighter future. The initial season of #InnoMinds is available worldwide through TaiwanPlus channels starting May 6, with subtitiles in Mandarin and English.
 
-See you on TaiwanPlus!
+See you on [TaiwanPlus](https://www.taiwanplus.com/)!
 
