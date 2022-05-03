@@ -8,7 +8,8 @@
   tags: 
     - "Social Innovation"
     - "Open Government"
-    - "Youth Engagement"
+    - "Youth Participation"
+    
 ---
 
 
@@ -18,7 +19,7 @@ But where to find viable solutions when many claim the creativity cupboard is ba
 
 After months of collaboration and planning, #InnoMinds -- as we like to call the game-changing show on social media -- is ready to grace the international stage. This exciting project boasts a top-shelf lineup of guests guaranteed to educate, entertain and inspire. More than a dozen entrepreneurs, political or public affairs heavyweights, social technologists and thought leaders from home and abroad stand ready to share the latest and greatest ideas.
 
-As your host and deep-thinking companion, I'll accompany our guests on a voyage of elucidation revolving around the themes of Social Innovation, Youth Engagement and Open Government. The initial season of #InnoMinds includes YouTube co-founder Steve Chen, Ethereum co-founder Vitalik Buterin, former President of Estonia Toomas Hendrik Ilves, U.S. House of Representatives member Ro Khanna and American Institute in Taiwan Director Sandra Oudkirk.
+As your host and deep-thinking companion, I'll accompany our guests on a voyage of elucidation revolving around the themes of Social Innovation, Youth Participation and Open Government. The initial season of #InnoMinds includes YouTube co-founder Steve Chen, Ethereum co-founder Vitalik Buterin, former President of Estonia Toomas Hendrik Ilves, U.S. House of Representatives member Ro Khanna and American Institute in Taiwan Director Sandra Oudkirk.
 
 In episode one, Steve takes us behind the scenes of YouTube and discusses the raison d'etre of the inaugural uploaded video. He also explains why he decided to move to Taiwan and how he would support his children if they became YouTubers. These are just some of the many enlightening stories Steve shares for the first time in the public domain.
 
