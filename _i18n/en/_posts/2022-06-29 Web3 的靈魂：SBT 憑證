@@ -1,0 +1,33 @@
+---
+  layout: "post"
+  title: "All aboard the SBTs express"
+  excerpt: "The "soulbound tokens" is poised to change the web3 world."
+  image: "https://cdn-cw-english.cwg.tw/article/202206/article-62ba90a0b8fa0.jpg"
+  author: "Audrey Tang" "Sheau-Tyng Peng"
+  category: "blog"
+  tags: 
+    - "Social Innovation"
+---
+
+What exactly are “soulbound tokens” (SBTs)? This new concept, stemming from non-fungible tokens (NFTs), is poised to change the web3 world. In my recent #InnoMinds video podcast, Ethereum co-founder Vitalik Buterin shared his thoughts on digital communities and free speech. He also elaborated on SBTs, the core of the paper Decentralized Society: Finding Web3’s Soul (DeSoc), which he co-authored with RadicalxChange founder Glen Weyl and Flashbots’ Strategist Puja Ohlhaver this past May.
+
+The term “soulbound,” proposed by Vitalik earlier this year, was inspired by the online game World of Warcraft. In the game, certain items with special powers (such as a sword) cannot be transferred or sold to others once they have been collected by a player. This is a “soulbound item,” and the benefit of “soul binding” is that it avoids speculation on the item while increasing participation. Players cannot obtain such items while hiding; they must make full use of “soulbound items” to face genuine challenges and tasks.
+
+Games offer rich metaphors for the journey of life. While earning swords offer a player advantage, “winning” requires larger coordination among a larger group, such as a “guild,” where the sum is greater than the parts. Can the web3 world, which has only recently emerged, follow the same rules? As the authors note, “soul-bound tokens” are also “community-bound tokens,” as they represent participation in groups. 
+
+In the recent past, speculative, wholly transferable virtual assets unmoored to community coordination (such as various “coins” and NFTs) have been the focus of attention. However, transactions based solely on anonymity and unilateral transferability is essentially a cynical conduit for human greed. Rug-pulling, vampire attacks, sybil-attacked “airdrops”, and phishing scams are some of the most notorious examples. 
+
+Solutions to these problems are floated in Vitalik and his co-authors’ paper. One idea is that a “soul” is a pseudonymous account tied to a person or entity and that SBTs are the badges collected in the account. These badges represent non-transferable memberships to communities. In other words, once you mint an SBT, you cannot give it to others. 
+Communities can also issue SBTs to each other. For example, the Social Innovation Lab in Taipei City can be a “soul” distributing SBTs to various resident organizations. Likewise, a university can distribute SBTs to its affiliated schools. Through giving and receiving in various social relationships, SBTs act as mutual authentications. As a result of their ongoing public interactions, parties increase authenticity and mutual trust.
+
+Many online games offer not just swords which you can unilaterally wield, but also voting rights on how to steward your guild’s gold. Similarly, “souls” accumulate SBTs that reflect their solidarities and rights to participate. While such social advantages may become the source of inequities, SBTs allow participants to see and thus adjust for such advantages, encouraging social diversity and cooperation across these differences.
+
+What if you lose your account, or it’s hijacked? It’s easy to recover SBTs by asking the issuers to revoke and reissue. The authors also propose more sophisticated security mechanisms like “community recovery,” where you can ask a diverse set of connections represented in your SBT communities to recover your account together. 
+
+After the #InnoMinds dialogue with Vitalik, I believe two avenues are open. First, SBTs have the potential to supplement the shortcomings of cross-border public participation. Case in point: No universal authentication mechanism exists for those wishing to take part in civic affairs remotely. Why? Because the individual has never been to said country and does not have a local mobile phone number, visa, or identity certificate. SBTs can bridge the authentication gap in such cases by leveraging shared community bonds.
+
+Moreover, while identity authentication is done on an individual basis worldwide, SBTs view communities as first-class citizens. This approach alleviates “headcount competition” in decision-making. It reminds me of Pol.is, a popular tool in Taiwan for gathering opinions, which also treats individuals with closely related preferences as a community. Anyone wishing to place an issue on the agenda must persuade all other communities, in direct contrast to the 51%-takes-all approach.
+
+It goes without saying that I am pleased to see SBTs following suit by rewarding collaboration across diverse communities and building intersectional identities from overlapping groups. In this way, we can ensure truly inclusive co-creation, even for large-scale referendums. This is critical in guaranteeing that the voices of all are heard clearly and fairly.
+
+The concept of SBTs shows how innovative mechanisms in civic technology can create new avenues for democracy. I look forward to experimenting with more communities and finding out how they wish to implement SBTs, with an eye toward Plurality—a decentralized society in which all souls are treasured, and displaced people are sheltered.
