@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+  <head>
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>新版報稅網站是怎麼煉成的？</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="新版報稅網站是怎麼煉成的？" />
+<meta name="author" content="雨蒼" />
+<meta property="og:locale" content="zh_TW" />
+<meta name="description" content="報稅軟體難用到爆炸提案人卓致遠建議，先理解問題所在的世界之後，再提出改變的方式。設計不是做出產品就好，而是要了解解決問題的過程有多少角色、多少接觸點，才能一起改進這個過程。" />
+<meta property="og:description" content="報稅軟體難用到爆炸提案人卓致遠建議，先理解問題所在的世界之後，再提出改變的方式。設計不是做出產品就好，而是要了解解決問題的過程有多少角色、多少接觸點，才能一起改進這個過程。" />
+<link rel="canonical" href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%96%B0%E7%89%88%E5%A0%B1%E7%A8%85%E7%B6%B2%E7%AB%99%E6%98%AF%E6%80%8E%E9%BA%BC%E7%85%89%E6%88%90%E7%9A%84/" />
+<meta property="og:url" content="https://pdis.nat.gov.tw/zh-TW/blog/%E6%96%B0%E7%89%88%E5%A0%B1%E7%A8%85%E7%B6%B2%E7%AB%99%E6%98%AF%E6%80%8E%E9%BA%BC%E7%85%89%E6%88%90%E7%9A%84/" />
+<meta property="og:image" content="https://pdis.nat.gov.tw/assets/imgs/18d62fbe87def3f6a68bbbea5b26f2aa37572015.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-06-15T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://pdis.nat.gov.tw/assets/imgs/18d62fbe87def3f6a68bbbea5b26f2aa37572015.jpg" />
+<meta property="twitter:title" content="新版報稅網站是怎麼煉成的？" />
+<meta name="twitter:site" content="@TaiwanPDIS" />
+<meta name="twitter:creator" content="@雨蒼" />
+<meta property="fb:admins" content="100014438376965" />
+<meta name="google-site-verification" content="uxXHtWt7-XyZrPJb9BznXlKOOKklt1D_TAIv1UW8VhM" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"雨蒼"},"dateModified":"2018-06-15T00:00:00+00:00","datePublished":"2018-06-15T00:00:00+00:00","description":"報稅軟體難用到爆炸提案人卓致遠建議，先理解問題所在的世界之後，再提出改變的方式。設計不是做出產品就好，而是要了解解決問題的過程有多少角色、多少接觸點，才能一起改進這個過程。","headline":"新版報稅網站是怎麼煉成的？","image":"https://pdis.nat.gov.tw/assets/imgs/18d62fbe87def3f6a68bbbea5b26f2aa37572015.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://pdis.nat.gov.tw/zh-TW/blog/%E6%96%B0%E7%89%88%E5%A0%B1%E7%A8%85%E7%B6%B2%E7%AB%99%E6%98%AF%E6%80%8E%E9%BA%BC%E7%85%89%E6%88%90%E7%9A%84/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://pdis.nat.gov.tw/zh-TW/images/pdis-logo-final-inverse.png"},"name":"雨蒼"},"url":"https://pdis.nat.gov.tw/zh-TW/blog/%E6%96%B0%E7%89%88%E5%A0%B1%E7%A8%85%E7%B6%B2%E7%AB%99%E6%98%AF%E6%80%8E%E9%BA%BC%E7%85%89%E6%88%90%E7%9A%84/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+<title>行⁠政⁠院公⁠共⁠數⁠位創⁠新⁠空⁠間</title>
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/css/swiper.min.css">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/assets/materialize.css">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/assets/main.css">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/fonts/material-design-icons/material-icons.css">
+<link type="application/atom+xml" rel="alternate" href="https://pdis.nat.gov.tw/zh-TW/feed.xml" />
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://use.fontawesome.com/e7b4292f28.js"></script>
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-106951256-1', 'auto');
+  ga('send', 'pageview');
+</script> -->
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106951256-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+  gtag('config', 'UA-106951256-1');
+</script>
+
+
+
+  </head>
+
+  <body class="brown lighten-5">
+
+    
+
+<nav class="transparent z-depth-0" role="navigation">
+  <div class="nav-wrapper container">
+    <!-- button of sidenav -->
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger grey-text text-darken-3"><i class="material-icons">menu</i></a>
+    <!-- Logo -->
+    <a id="logo-container" class="right brand-logo hoverable" style='line-height:0' href="/zh-TW/">
+      <img src="/images/pdis-logo-final-inverse.png" alt="logo" style="height: 64px;">
+    </a>
+    <!-- Menu nav -->
+    <ul class="hide-on-med-and-down">
+      <li>
+  <a href="/zh-TW/contact" class="grey-text text-darken-3">
+    聯絡我們
+  </a>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們怎麼做
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/tools" class='grey-text text-darken-3'>工具</a>
+    </li>
+  </ul>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們做了什麼
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/project" class='grey-text text-darken-3'>專案</a>
+    </li>
+    <li>
+      <a href="/zh-TW/blog" class='grey-text text-darken-3'>部落格</a>
+    </li>
+    <li>
+      <a href="/zh-TW/track" class='grey-text text-darken-3'>工作記錄</a>
+    </li>
+  </ul>
+</li>
+
+<li>
+  <div class="search-wrapper">
+    <input class="search-box" placeholder="Search" value="" onchange="search(this)">
+    <i class="material-icons search-button notranslate" onclick="search(this)">search</i>
+    <div class="search-results"></div>
+  </div>
+</li>
+
+<script>
+  function search(e) {
+    let q = e.parentNode.firstElementChild.value.trim();
+    if (q) window.location.href = "/zh-TW/search/?q=" + q;
+  }
+</script>
+
+<li><a class="tooltipped" data-position="bottom" data-tooltip="zh-TW" href="/zh-TW/blog/%E6%96%B0%E7%89%88%E5%A0%B1%E7%A8%85%E7%B6%B2%E7%AB%99%E6%98%AF%E6%80%8E%E9%BA%BC%E7%85%89%E6%88%90%E7%9A%84/"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a></li>
+<li><a class="tooltipped" data-position="bottom" data-tooltip="EN" href="/en/blog/%E6%96%B0%E7%89%88%E5%A0%B1%E7%A8%85%E7%B6%B2%E7%AB%99%E6%98%AF%E6%80%8E%E9%BA%BC%E7%85%89%E6%88%90%E7%9A%84/"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Sidenav -->
+<ul id="nav-mobile" class="sidenav">
+  <li>
+  <a href="/zh-TW/contact" class="grey-text text-darken-3">
+    聯絡我們
+  </a>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們怎麼做
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/tools" class='grey-text text-darken-3'>工具</a>
+    </li>
+  </ul>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們做了什麼
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/project" class='grey-text text-darken-3'>專案</a>
+    </li>
+    <li>
+      <a href="/zh-TW/blog" class='grey-text text-darken-3'>部落格</a>
+    </li>
+    <li>
+      <a href="/zh-TW/track" class='grey-text text-darken-3'>工作記錄</a>
+    </li>
+  </ul>
+</li>
+
+<li>
+  <div class="search-wrapper">
+    <input class="search-box" placeholder="Search" value="" onchange="search(this)">
+    <i class="material-icons search-button notranslate" onclick="search(this)">search</i>
+    <div class="search-results"></div>
+  </div>
+</li>
+
+<script>
+  function search(e) {
+    let q = e.parentNode.firstElementChild.value.trim();
+    if (q) window.location.href = "/zh-TW/search/?q=" + q;
+  }
+</script>
+
+<li><a class="tooltipped" data-position="bottom" data-tooltip="zh-TW" href="/zh-TW/blog/%E6%96%B0%E7%89%88%E5%A0%B1%E7%A8%85%E7%B6%B2%E7%AB%99%E6%98%AF%E6%80%8E%E9%BA%BC%E7%85%89%E6%88%90%E7%9A%84/"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a></li>
+<li><a class="tooltipped" data-position="bottom" data-tooltip="EN" href="/en/blog/%E6%96%B0%E7%89%88%E5%A0%B1%E7%A8%85%E7%B6%B2%E7%AB%99%E6%98%AF%E6%80%8E%E9%BA%BC%E7%85%89%E6%88%90%E7%9A%84/"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a></li>
+</ul>
+
+
+      
+<div class="post-image" style="background:url('/assets/imgs/18d62fbe87def3f6a68bbbea5b26f2aa37572015.jpg') center / cover"></div>
+
+
+<div class="container">
+  <div class="section">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">新版報稅網站是怎麼煉成的？</h1>
+        <p class="post-desc section container">報稅軟體難用到爆炸提案人卓致遠建議，先理解問題所在的世界之後，再提出改變的方式。設計不是做出產品就好，而是要了解解決問題的過程有多少角色、多少接觸點，才能一起改進這個過程。</p>
+        <div class="post-meta container">
+          <i class="material-icons tiny">event</i>
+          <time datetime="2018-06-15T00:00:00+00:00" itemprop="datePublished">
+            2018-06-15
+          </time>
+          <ul class="authors">
+            
+            <!-- let nametype = 'name_en' or fallback to 'name' -->
+            
+            
+              
+              
+              <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a href="https://wiselike.tw/#/user/billy3321" target="_blank" itemprop="name" class='chip'>
+                  <img src="https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/billy3321/800/727_1.png" alt="author">
+                  雨蒼
+                </a>
+              </li>
+            
+          </ul>
+          <ul class="tags">
+            
+            <li><a href="/zh-TW/tags/#JOIN%E5%B9%B3%E5%8F%B0" class="tag">JOIN平台</a></li>
+            
+          </ul>
+        </div>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p>2017 年 5 月 1 日，設計師卓致遠在 Join 平台上提出「<a href="https://join.gov.tw/idea/detail/750df7c4-550f-47ae-84ee-39eba6dabb23/discuss">報稅軟體難用到爆炸</a>」一案，認為報稅軟體「不清楚的指示、難用的介面、不知所云的流程，不知道浪費民眾多少的時間在理解這個難用的系統，又有多少客服人員每年都要回答一樣的問題」。他在提案中寫道，「把報稅軟體修改的比較好懂，比較多人用，比較少人提出問題去煩稅務人員，或是單純一點讓繳稅的心情比較愉快一點，多一點使用者體驗設計，不好嗎？」</p>
+
+<p>在5月8日<a href="https://sayit.pdis.nat.gov.tw/2017-05-08-%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C-po-%E7%AC%AC%E4%B8%89%E6%AC%A1%E6%9C%88%E6%9C%83">第三次開放政府聯絡人月會</a>上，財政部開放政府聯絡人就提出此案。財政部開放政府聯絡人（Participation Officer，下稱PO）說，財政部的長官非常重視此案，也瞭解有相關的建議，因此願意採開放的態度，聽聽民眾的意見，並希望全國民眾在使用的報稅軟體能夠越改越好。</p>
+
+<h3 id="第一次協作會議-初步收集可能的問題">第一次協作會議 初步收集可能的問題</h3>
+
+<p>5 月 19 日，針對「報稅軟體難用到爆炸」一案，PDIS 開了<a href="https://sayit.pdis.nat.gov.tw/2017-05-19-%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E8%81%AF%E7%B5%A1%E4%BA%BA%E7%AC%AC%E4%B8%83%E6%AC%A1%E5%8D%94%E4%BD%9C%E6%9C%83%E8%AD%B0">第一次的協作會議</a>。會議上，財政資訊中心國稅局綜合所得稅科的科長梁瑞芬指出，財政部會協助增進友善介面及改善操作流程，也會審慎評估開發跨平台報稅軟體的可能。有人建議應該要開放介接資料由民間來設計前端，財政部認為，稅務較為複雜專業，必須配合稅法來做調整，讓民間來做可能有報稅爭議，責任會難以釐清。就民間所在意的Mac報稅系統方面，需要各個憑證機關開發專屬 Mac 用戶的離線元件。梁瑞芬說，Mac 報稅軟體體驗糟糕的主要原因在於安裝元件繁瑣麻煩，需要花費很多時間；可能要透過錄製教學影音，完善說明文件或是製作環境檢測工具等方式來改善體驗。至於未來規劃改進方案方面，可以考慮發展 Web 的跨平台申報系統。最後，梁瑞芬分享，根據報稅系統申報時的滿意度調查，可以知道「滿意及非常滿意」高達94％。</p>
+
+<p>主持人張芳睿說，透過這次的協作會議，希望能把末端使用者、專業人士、服務提供者等廣義的使用者都拉到最前面，釐清大家的問題與訴求，再來想像要提供怎樣的服務；進一步，才會思考有哪些相對的政策、法規、維運方式。</p>
+
+<p>提案人卓致遠認為，隨著時代的進步，app 越來越多，已經把好用的標準拉高非常多，Mac 操作方式相對精簡，因此使用者對於繁瑣的安裝、冗長的手冊內容失去耐心。在協作會議之前，卓致遠已經預先收集到了不少問題，他把問題分類為短程、中程和遠程，可以先從需要改善的開始動手。卓致遠解釋，為了了解這些問題，可以先做易用性測試，看哪些好做，哪些不好做，每年逐步改善，就能讓民眾感覺到逐步更新，也能預先準備一兩年後的改變，「讓使用者從不了解你、到了解你」。</p>
+
+<p>在分組討論之後，第一組的朋友發現，目前報稅軟體問題包含文字太多，加上文字較為艱澀，難以看懂，可能要找方式補充說明；流程方面不清楚，易用性方面也要進行測試。但在滿意度方面，不應該在使用中跳出滿意度問卷，這樣調查的並不是完整的滿意度，只能是使用中的心得。卓致遠表示，財政部資訊中心的主任說需要一組團隊，他可以協助組建一個。</p>
+
+<p>第二組的朋友則指出，在一開始規劃設計時，就要想辦法納入使用者，滿意度或易用性調查可能要委託另外的團隊做；介面上也可以適度提醒還有幾個步驟，讓人知道還有多少步驟可以完成。財政中心的主任陳泉錫補充說，未來在訂定採購案的時候會列上 UX、UI 的原則，並請專家幫忙驗證。</p>
+
+<p>唐鳳則說，這場會議內容他會在政務會議上向院長與相關部會首長報告，若他們有任何意見，也會與大家分享。</p>
+
+<h3 id="問題細節待釐清-會後繼續釐清與分類問題">問題細節待釐清 會後繼續釐清與分類問題</h3>
+
+<p>在第一次的協作會議上，其實只是簡單的收集到不同的意見，但是這些意見是收集大家事後的回想，恐怕跟使用時候遇到的問題不一定一致；提到的問題在哪一頁也不明確。由於這些資訊不夠完整，因此需要進一步找到問題發生的步驟。</p>
+
+<p>為了確認報稅問題發生的狀況，在協作會議之後，很快就開始做易用性測試，希望能了解報稅當下使用者的感受。財政資訊中心跟國稅局分工，找出不同報稅者的形態，讓他們使用從未使用過的報稅軟體，一邊使用，一邊很快的說出他們使用上的問題。透過這十次易用性測試，很快就找到很多使用上的問題。同時，也針對報稅前中後的流程細節進行研究，了解、盤點可能的問題點。</p>
+
+<p>在這些資料確認之後，在 8 月 15 日很快地就舉辦了第一次的報稅系統工作坊。這次的工作坊進一步分類所有看到的問題，並將這些問題和各個不同的流程進行結合，了解每個不同的步驟、階段，可能發生的問題。除了整理之前看到的問題，也請與會者協助補充問題，並對問題做初步收斂，並發想初步的解法。</p>
+
+<h3 id="三場工作坊-從收攏問題到實作介面">三場工作坊 從收攏問題，到實作介面</h3>
+
+<p>第一場工作坊結束時，政府同仁想知道如何把協作會議眾多的意見和主管報告？對許多同仁來說，可能因為沒有常試過新的方法，所以不清楚如何把產出與現有的程序接軌。所以，在這個過程中要清楚說明新的作法背後的原因，以及將產出的內容轉譯成較易理解的內容，協助政府同仁有辦法理解、彙整，且有資料可以去向上級長官報告。</p>
+
+<p>第二次的工作坊舉辦在 8 月 23 日，針對第一次工作坊釐清的問題來發想解法，並嘗試讓與會的民眾一起繪製成 wireframe。當天的解法發想分為兩組，一組發想報稅前置需要做的引導，另一組則是報稅中需要的引導方式。卓致遠觀察到，當天與會的民眾很高興能有貢獻給政府的機會，因此都很樂意動手開始做，反而政府方面的與會者不太敢動手；不過，民眾做完以後，他們就比較容易改，比較好進入狀況。</p>
+
+<p>第三次的工作坊於 9 月 6 日舉辦，當天針對第二次工作坊所繪製的 wireframe 加以電子化，並製作有互動功能的framework。張芳睿解釋，紙本 low fidelity prototype 若是直接提供給高層長官、廠商去執行，恐怕想像空間會太大而在落實上有誤差，所以要製作 interactive prototype，想像空間相對少一些。</p>
+
+<figure>
+  <img src="/assets/imgs/d42bf895ff75a92d08b92dd002ab9ef794957197.JPG" />
+  <figcaption>第三次工作坊中與會者建議的入口頁面</figcaption>
+</figure>
+
+<h3 id="工作坊後持續努力協助廠商修改介面">工作坊後，持續努力協助廠商修改介面</h3>
+
+<p>在這三次工作坊之後，後續還是開了多次的會議，討論如何將報稅軟體實作出來的概念落實到廠商的開發當中。卓致遠說，第一次的會後會上，關貿其實非常反對要做這樣的開發，因為這是標案第四年，財政部突然要重新做，對廠商言就是需求變更。這樣的問題需要唐鳳出來協助解釋。</p>
+
+<p>卓致遠也發現，對廠商來說，一開始就參與工作坊提供意見的話，到最後就是自己要做，因此對於參與工作坊才會興致缺缺，若是廠商早點進入，其實可以越早發現一些問題，也能讓這個流程更順。為了讓關貿能早點進入狀況，卓致遠也把之前工作坊收集到得資料做了整理。他把民眾遇到得困難分成會卡住的紅色，以及會稍微讓人停頓的黃色，羅列在每個步驟的表格上。他解釋，「上線的話紅色一定要解決掉，這樣才知道哪裡有問題。而不是講半天不知道問題在哪裡。」</p>
+
+<p>其中還有一場會議堪稱馬拉松，從早開到晚。那次的討論從 prototype 開始討論，從報稅前的引導，報稅入口，到每一個畫面的建議等等，一天就把整個流程都跑完。現在大家看到的報稅入口四個畫面就是當時討論出來的結果。很多人不知道健保卡準備好之外，還是需要準備讀卡機，也要有健保卡密碼，所以透過這個入口，一開始就讓大家知道後面需要準備哪些材料，並預先對設備進行測試，這樣後續的流程就會順暢很多，不會報稅到一半才發現有問題。那場會議就是把所有的流程一個一個順出來，這樣關貿才知道要怎麼進行開發。</p>
+
+<p>就算上線後，團隊依然沒有閒著，財政部的官員隨時監控報稅狀況，若是發現網路社群上有人報稅遇到問題，也會馬上跟進了解，並回報財政部進行修改。卓致遠說，由於新的報稅系統入口太漂亮，很多使用 Windows 的朋友也會點到這個頁面想要報稅，但這一頁是給 Mac、Linux 使用者使用的，因此他們進去以後反而無法報稅。卓致遠發現這個問題後，立刻回報財政部，財政部也在很短的時間內就在報稅網頁上方加上「Windows 用戶請使用離線版」的字樣，避免民眾點錯。</p>
+
+<h3 id="設計的過程比結果更重要">設計的過程比結果更重要</h3>
+
+<p>卓致遠分享，這次整理出了四個階段來區分設計的過程：問題是什麼、打造解決辦法、執行製作、上線調整。他說，這個過程中他就像是斥候，整個過程中就協助政府在探索問題，也釐清政府在專案上遇到的困難。他說，設計從頭到尾都有方法跟原則，不只是一個原則。整個過程要理解現在的狀況，推進的目標，釐清問題環境與所在的世界，讓網站可以正常上線不會被罵。「每個人都會跟我說，他很難用，這是結論，但我們要找出過程發生什麼。前中後各發生什麼？我要看的是過程，而不是結論。」</p>
+
+<figure>
+  <img src="/assets/imgs/2a3ca5df6c3bb079db4f0edf1aff8262d6334481.jpg" />
+  <figcaption>卓致遠分享各個階段不同角色的分工</figcaption>
+</figure>
+
+<p>在理解大家的狀況之後，往往會發現：很多時候不是對方不改，而是這些意見對對方來說是無理的要求。怎麼協助大家達到中間的平衡？有沒有辦法讓大家前進？卓致遠建議：「先理解問題所在的世界之後，再提出改變的方式。」設計不是做出產品就好，而是要了解解決問題的過程有多少角色、多少接觸點，才能一起改進這個過程。</p>
+
+      </div>
+
+      <div class="cc">
+        
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png"></a>（本著作係採用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">創用 CC 姓名標示 4.0 國際 授權條款</a>授權。）
+        
+      </div>
+    </article>
+
+    <div class="navigate row">
+      <div class="col s12 m6">
+        
+        <a href="/zh-TW/blog/%E5%95%86%E5%91%A8%E5%B0%88%E6%AC%84-%E6%9C%A8%E9%B1%89%E8%91%89%E7%9A%84%E5%95%9F%E7%A4%BA/">
+          <div class="card-panel white-text dim" style="background: url('/assets/imgs/b3847c96045edae82bc127c07d93ade99863b151.jpg') center / cover">
+            <i class="left medium material-icons">navigate_before</i>
+            <h6>商周專欄：木鱉葉的啟示</h6>
+          </div>
+        </a>
+        
+      </div>
+      <div class="col s12 m6">
+        
+        <a href="/zh-TW/blog/%E9%9B%BB%E5%AD%90%E7%99%BC%E7%A5%A8%E6%AF%94%E8%BC%83%E7%92%B0%E4%BF%9D-%E5%8D%94%E4%BD%9C%E6%9C%83%E8%AD%B0%E5%BB%BA%E8%AD%B0%E6%BE%84%E6%B8%85%E8%B3%87%E8%A8%8A/">
+          <div class="card-panel white-text dim" style="background: url('/assets/imgs/bdaa29304fe0caa143d5fcb8dfc8cdc0c2958b0e.JPG') center / cover">
+            <i class="right medium material-icons">navigate_next</i>
+            <h6>電子發票比較環保！協作會議建議澄清資訊</h6>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    
+
+
+<footer class="page-footer grey darken-3 notranslate">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">關於 PDIS</h5>
+        <p class="white-text">我們協助政府部會提升數位服務品質，以創新方式改善和增進公務體系的工作流程、方針規則及使用工具。</p>
+        <p class="white-text">本站除另有標示外，內容以創用 CC BY 4.0 授權條款釋出。</p>
+        <div class='about-logos section'>
+          <a href="//pdis.nat.gov.tw"> <img alt="logo" class="circle hoverable" src="/images/pdis-logo-final-inverse.png" style="width:56px;vertical-align:bottom;"> </a>
+          <a class="white btn-floating btn-large waves-effect waves-circle cyan" href="//www.youtube.com/PdisTwGov" target="_blank"> <i class="red-text fa fa-3x fa-youtube-play"></i> </a>
+          <a class="white btn-floating btn-large waves-effect waves-circle cyan" href="//github.com/pdis/web-jekyll" target="_blank"> <i class="black-text fa fa-3x fa-github"></i> </a>
+          <a class="white btn-floating btn-large waves-effect waves-circle cyan" href="//twitter.com/TaiwanPDIS" target="_blank"> <i class="cyan-text fa fa-3x fa-twitter-square"></i> </a>
+        </div>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">相關連結</h5>
+        <ul>
+          
+          
+          
+            
+            <li><p><a class="white-text" href="https://talk.pdis.nat.gov.tw/">PDIS 討論區</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://github.com/PDIS/web-jekyll">PDIS 網站原始碼</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://github.com/PDIS/tools-manage-sandstorm">Sandstorm Tools</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://github.com/PDIS/swagger_file">API Sketches</a></p></li>
+          
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">資訊公開</h5>
+        <ul>
+          
+          
+          
+            
+            <li><p><a class="white-text" href="https://si.taiwan.gov.tw/">社會創新平臺</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://advisory.yda.gov.tw/">行政院青年諮詢委員會</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="http://join.gov.tw/">公共政策網路參與平臺</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://vtaiwan.tw/">數位經濟法規線上討論平台</a></p></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- google translate button -->
+<div id="google_translate_element" class="translate-widget"></div>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/js/swiper.min.js"></script>
+<script src="/js/colcade.js"></script>
+<script src="/js/materialize.min.js"></script>
+<script src="/js/init.js"></script>
+
+  </body>
+
+</html>

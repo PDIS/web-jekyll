@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+  <head>
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>登山申請一站式服務系統開發歷程的啟示</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="登山申請一站式服務系統開發歷程的啟示" />
+<meta name="author" content="葉寧" />
+<meta property="og:locale" content="zh_TW" />
+<meta name="description" content="申請爬一次百岳，可能涉及三個主管部會、有四個線上系統，民眾能不能在同一個系統申請完成？可是系統開發要在兩個月內完成，而且現有系統不能斷線，新的系統又不能比舊的系統難用喔，請看我們怎麼辦到的。" />
+<meta property="og:description" content="申請爬一次百岳，可能涉及三個主管部會、有四個線上系統，民眾能不能在同一個系統申請完成？可是系統開發要在兩個月內完成，而且現有系統不能斷線，新的系統又不能比舊的系統難用喔，請看我們怎麼辦到的。" />
+<link rel="canonical" href="https://pdis.nat.gov.tw/zh-TW/project/%E7%82%BA%E7%99%BB%E5%B1%B1%E7%94%B3%E8%AB%8B%E6%89%93%E9%80%A0%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8B%99%E7%B3%BB%E7%B5%B1/" />
+<meta property="og:url" content="https://pdis.nat.gov.tw/zh-TW/project/%E7%82%BA%E7%99%BB%E5%B1%B1%E7%94%B3%E8%AB%8B%E6%89%93%E9%80%A0%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8B%99%E7%B3%BB%E7%B5%B1/" />
+<meta property="og:image" content="https://pdis.nat.gov.tw/assets/imgs/00af78663a0fe6c4be1174b28993e9d9f5ee25af.jpeg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-18T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://pdis.nat.gov.tw/assets/imgs/00af78663a0fe6c4be1174b28993e9d9f5ee25af.jpeg" />
+<meta property="twitter:title" content="登山申請一站式服務系統開發歷程的啟示" />
+<meta name="twitter:site" content="@TaiwanPDIS" />
+<meta name="twitter:creator" content="@葉寧" />
+<meta property="fb:admins" content="100014438376965" />
+<meta name="google-site-verification" content="uxXHtWt7-XyZrPJb9BznXlKOOKklt1D_TAIv1UW8VhM" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"葉寧"},"dateModified":"2020-02-18T00:00:00+00:00","datePublished":"2020-02-18T00:00:00+00:00","description":"申請爬一次百岳，可能涉及三個主管部會、有四個線上系統，民眾能不能在同一個系統申請完成？可是系統開發要在兩個月內完成，而且現有系統不能斷線，新的系統又不能比舊的系統難用喔，請看我們怎麼辦到的。","headline":"登山申請一站式服務系統開發歷程的啟示","image":"https://pdis.nat.gov.tw/assets/imgs/00af78663a0fe6c4be1174b28993e9d9f5ee25af.jpeg","mainEntityOfPage":{"@type":"WebPage","@id":"https://pdis.nat.gov.tw/zh-TW/project/%E7%82%BA%E7%99%BB%E5%B1%B1%E7%94%B3%E8%AB%8B%E6%89%93%E9%80%A0%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8B%99%E7%B3%BB%E7%B5%B1/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://pdis.nat.gov.tw/zh-TW/images/pdis-logo-final-inverse.png"},"name":"葉寧"},"url":"https://pdis.nat.gov.tw/zh-TW/project/%E7%82%BA%E7%99%BB%E5%B1%B1%E7%94%B3%E8%AB%8B%E6%89%93%E9%80%A0%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8B%99%E7%B3%BB%E7%B5%B1/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+<title>行⁠政⁠院公⁠共⁠數⁠位創⁠新⁠空⁠間</title>
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/css/swiper.min.css">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/assets/materialize.css">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/assets/main.css">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/fonts/material-design-icons/material-icons.css">
+<link type="application/atom+xml" rel="alternate" href="https://pdis.nat.gov.tw/zh-TW/feed.xml" />
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://use.fontawesome.com/e7b4292f28.js"></script>
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-106951256-1', 'auto');
+  ga('send', 'pageview');
+</script> -->
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106951256-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+  gtag('config', 'UA-106951256-1');
+</script>
+
+
+
+  </head>
+
+  <body class="brown lighten-5">
+
+    
+
+<nav class="transparent z-depth-0" role="navigation">
+  <div class="nav-wrapper container">
+    <!-- button of sidenav -->
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger grey-text text-darken-3"><i class="material-icons">menu</i></a>
+    <!-- Logo -->
+    <a id="logo-container" class="right brand-logo hoverable" style='line-height:0' href="/zh-TW/">
+      <img src="/images/pdis-logo-final-inverse.png" alt="logo" style="height: 64px;">
+    </a>
+    <!-- Menu nav -->
+    <ul class="hide-on-med-and-down">
+      <li>
+  <a href="/zh-TW/contact" class="grey-text text-darken-3">
+    聯絡我們
+  </a>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們怎麼做
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/tools" class='grey-text text-darken-3'>工具</a>
+    </li>
+  </ul>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們做了什麼
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/project" class='grey-text text-darken-3'>專案</a>
+    </li>
+    <li>
+      <a href="/zh-TW/blog" class='grey-text text-darken-3'>部落格</a>
+    </li>
+    <li>
+      <a href="/zh-TW/track" class='grey-text text-darken-3'>工作記錄</a>
+    </li>
+  </ul>
+</li>
+
+<li>
+  <div class="search-wrapper">
+    <input class="search-box" placeholder="Search" value="" onchange="search(this)">
+    <i class="material-icons search-button notranslate" onclick="search(this)">search</i>
+    <div class="search-results"></div>
+  </div>
+</li>
+
+<script>
+  function search(e) {
+    let q = e.parentNode.firstElementChild.value.trim();
+    if (q) window.location.href = "/zh-TW/search/?q=" + q;
+  }
+</script>
+
+<li><a class="tooltipped" data-position="bottom" data-tooltip="zh-TW" href="/zh-TW/project/%E7%82%BA%E7%99%BB%E5%B1%B1%E7%94%B3%E8%AB%8B%E6%89%93%E9%80%A0%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8B%99%E7%B3%BB%E7%B5%B1/"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a></li>
+<li><a class="tooltipped" data-position="bottom" data-tooltip="EN" href="/en/project/%E7%82%BA%E7%99%BB%E5%B1%B1%E7%94%B3%E8%AB%8B%E6%89%93%E9%80%A0%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8B%99%E7%B3%BB%E7%B5%B1/"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Sidenav -->
+<ul id="nav-mobile" class="sidenav">
+  <li>
+  <a href="/zh-TW/contact" class="grey-text text-darken-3">
+    聯絡我們
+  </a>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們怎麼做
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/tools" class='grey-text text-darken-3'>工具</a>
+    </li>
+  </ul>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們做了什麼
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/project" class='grey-text text-darken-3'>專案</a>
+    </li>
+    <li>
+      <a href="/zh-TW/blog" class='grey-text text-darken-3'>部落格</a>
+    </li>
+    <li>
+      <a href="/zh-TW/track" class='grey-text text-darken-3'>工作記錄</a>
+    </li>
+  </ul>
+</li>
+
+<li>
+  <div class="search-wrapper">
+    <input class="search-box" placeholder="Search" value="" onchange="search(this)">
+    <i class="material-icons search-button notranslate" onclick="search(this)">search</i>
+    <div class="search-results"></div>
+  </div>
+</li>
+
+<script>
+  function search(e) {
+    let q = e.parentNode.firstElementChild.value.trim();
+    if (q) window.location.href = "/zh-TW/search/?q=" + q;
+  }
+</script>
+
+<li><a class="tooltipped" data-position="bottom" data-tooltip="zh-TW" href="/zh-TW/project/%E7%82%BA%E7%99%BB%E5%B1%B1%E7%94%B3%E8%AB%8B%E6%89%93%E9%80%A0%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8B%99%E7%B3%BB%E7%B5%B1/"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a></li>
+<li><a class="tooltipped" data-position="bottom" data-tooltip="EN" href="/en/project/%E7%82%BA%E7%99%BB%E5%B1%B1%E7%94%B3%E8%AB%8B%E6%89%93%E9%80%A0%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8B%99%E7%B3%BB%E7%B5%B1/"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a></li>
+</ul>
+
+
+      
+<div class="post-image" style="background:url('/assets/imgs/00af78663a0fe6c4be1174b28993e9d9f5ee25af.jpeg') center / cover"></div>
+
+
+<div class="container">
+  <div class="section">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">登山申請一站式服務系統開發歷程的啟示</h1>
+        <p class="post-desc container">申請爬一次百岳，可能涉及三個主管部會、有四個線上系統，民眾能不能在同一個系統申請完成？可是系統開發要在兩個月內完成，而且現有系統不能斷線，新的系統又不能比舊的系統難用喔，請看我們怎麼辦到的。</p>
+        <div class="post-meta section container">
+          <i class="material-icons tiny">event</i>
+          <time datetime="2020-02-18T00:00:00+00:00" itemprop="datePublished">
+            2020-02-18
+          </time>
+          <ul class="authors">
+            
+            <!-- let nametype = 'name_en' or fallback to 'name' -->
+            
+            
+              
+              
+              <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a href="https://wiselike.tw/#/user/ningyeh" target="_blank" itemprop="name" class='chip'>
+                  <img src="https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/ningyeh/800/676_1.png" alt="author">
+                  葉寧
+                </a>
+              </li>
+            
+          </ul>
+          <ul class="tags">
+            
+            <li><a href="/zh-TW/tags/#%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C" class="tag">開放政府</a></li>
+            
+            <li><a href="/zh-TW/tags/#%E7%99%BB%E5%B1%B1%E7%94%B3%E8%AB%8B%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8B%99%E7%B6%B2" class="tag">登山申請一站式服務網</a></li>
+            
+            <li><a href="/zh-TW/tags/#%E9%9D%92%E5%B9%B4%E5%8F%83%E8%88%87" class="tag">青年參與</a></li>
+            
+            <li><a href="/zh-TW/tags/#%E5%8D%94%E4%BD%9C" class="tag">協作</a></li>
+            
+            <li><a href="/zh-TW/tags/#%E5%B7%A5%E4%BD%9C%E5%9D%8A" class="tag">工作坊</a></li>
+            
+            <li><a href="/zh-TW/tags/#%E5%85%AC%E7%A7%81%E5%8D%94%E5%8A%9B" class="tag">公私協力</a></li>
+            
+          </ul>
+        </div>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <h2 id="故事從這裡開始">故事從這裡開始</h2>
+
+<p>2019年初，山岳界名人G哥（吳季芸），在盆駒山往無雙社的山徑殞落，引發登山界熱議，熱心山友多方奔走，希望政府正視每年六百萬人從事的登山活動，真正去處理問題，而不是處理發生問題的人。於是同為資深山友的張景森政務委員，出馬協調相關機關、與登山團體展開對話，在逐步建立互信後，形成以簡政便民、資訊透明與風險共管為核心理念的開放山林政策。</p>
+
+<p>這樣的政策轉變，開始讓大家思考，相關的機制或法令，不該只滿足管制者的需求，同樣要兼顧使用者的需求。進入山林的第一步—登山申請，很快就被注意到：國家公園入園申請、警政署入山申請、林務局山屋與自然保留區申請，有四套獨立的系統，固然是主管機關不同、管轄事務不同自然的結果，但為什麼不能整合在一起呢？</p>
+
+<p>主管機關立即回應，推出<a href="https://mountain.cpami.gov.tw/">「臺灣登山申請整合資訊網」</a>，顧名思義就是把既有登山申請相關的各個系統資訊，整合在同一個網頁。但依然涇渭分明，陽關道與獨木橋仍要分別去走。這當然無法滿足山友的期待，大家更想要一個能一條路走到底的一站式申請，於是經由開放政府聯絡人機制，PDIS與相關主管機關合作，開啟了打造登山線上申請一站式服務的專案。</p>
+
+<h2 id="必須與時間賽跑">必須與時間賽跑</h2>
+
+<p>首先面臨的挑戰，一如PDIS著力過的防災資訊系統或菜價資訊系統等專案，登山一站式服務系統不能另起爐灶，必須穿著衣服改衣服，不管是三個國家公園的入園申請、警政署的入山申請，乃至於林務局的山屋申請，都要24小時提供服務，一刻不能間斷；況且如果另開新路，除非斷然關閉原有網站，很難改變原有使用者棄舊從新，這樣的「休克療法」，也不會是服務設計的首選，所以PDIS依然採取前面幾個專案<a href="https://pdis.nat.gov.tw/zh-TW/project/emic/">「前臺一致、後臺整合」的取徑</a>。</p>
+
+<p>然而不同於前面幾個「資訊」系統專案，登山申請系統不是單向截取資訊發布，而要能雙向接受民眾申請登打而做出回應。可以想像的，在技術面，現有系統與一站式平台如何介接；在行政面，從完成採購流程到申請規則是否一致，都有大大小小的疑難雜症，需要三個主管機關踏出同樣的舞步。PDIS因而召開一連串的會議，請相關機關行政與資訊人員(廠商)一起討論，包括唐鳳政務委員也親自在多次技術會議跟大家協作。</p>
+
+<p>9月行政院全面啟動開放山林的政策盤點，一站式服務網站也被納入，成為具體政策措施的一環，於是更有不能遲延時間壓力：新系統11月1日就要能公開上線提供服務。意思是不到一個月要產出新的前臺與後臺服務介面，然後進行封閉的使用者測試，緊接著就要上線「公測」，對政府資訊系統的開發，大概沒有甚麼更能稱之為「快速部署」了。</p>
+
+<h2 id="求更好卻不完美">求更好卻不完美</h2>
+
+<p>對PDIS而言，開放政府仍然是貫穿整個專案的核心理念，意思是以使用者為中心才是該念茲在茲的，除了召開過協作會議讓多方利害關係人聚焦議題之外，服務設計優化也必須伴隨著系統開發每個腳步。尤其上線後新舊系統並存，使用者體驗至少要做到相等或更好，否則新系統必然乏人問津；原先在三套個別系統申請規則的重疊或不一致，大家可能不以為意，透過一站式變成同一路徑，缺陷就立刻放大，使用者對於程序簡化的期望也會提高。</p>
+
+<p>可是幾個主政機關推動開放山林政策正多線併進，業務負擔已無比沉重，實在很難分神顧及，因緣際會的，PDIS進行到第三年的「青年學生體檢政府網站服務專案」(RAY 3.0)，恰好主題就是政府網站服務設計優化，RAY的團隊就在PDIS設計師的帶領下，加入了登山一站式服務的改造行列。</p>
+
+<p>然而不要誤會了。這個專案雖然結合了近年PDIS累積的經驗與資源，而且是既有登山申請系統的融合與進階，但它不會是、PDIS也無意把它當作終極完美的解決，不管對未來改善的可能性，或是民間加入改作都抱持開放態度，因而一開始也就要求必須符合國家發展委員會的<a href="https://theme.ndc.gov.tw/lawout/LawContent.aspx?id=GL000270">「共通性應用程式介面規範」</a>。換言之，這個專案結束，並不代表登山申請服務系統的改造劃下句點，而是向前及向外延伸的開始。</p>
+
+<h2 id="登山界三大謊言">登山界三大謊言</h2>
+
+<p>想知道這個專案怎麼走過來，固然PDIS秉持開放政府透明原則，一定留下紀錄上網公開，但後來者一定希望實際走過的人，能結合個人觀察與感受，分享一些「行腳心得」。PDIS參與這個專案的兩位靈魂人物—資訊工程師莊秉倫，以及服務設計師張皓婷，就從不同的觀點，分別寫出他們第一手觀察，精彩的「健行筆記」。</p>
+
+<p>登山界相傳有三大謊言，出發前跟大家說「很簡單啦」，一路上總說「快到了」，爬完了聲稱「再也不來了」！這個專案從啟動到告一段落，至少前兩個謊言，應該是支撐所有參與的工作夥伴與PDIS同仁走下去的動力。</p>
+
+<p>至於會不會再來一次？在這個專案PDIS與登山主管機關，可以說是操演了國家發展委員會頒布的<a href="https://www.ndc.gov.tw/Content_List.aspx?n=E7F6C261A5F5D9F5">「政府數位服務指引」</a>，自然期待可以作為前導案例，當有人面臨政府數位服務跨機關又跨職權、系統新舊並存又需要融合、資源有限需要引進民間協作等多方面難題，有個實際的參考範例。所以跟所有山友一樣，信誓旦旦的「再也不來了」，終究是個謊言，總在無敵美景與動人成就的誘惑下，揹起背包踏入下一段旅途。</p>
+
+      </div>
+
+      <!-- find other posts which has tags that match the name of the project -->
+      <div class="row">
+        
+          
+        
+          
+            <div class="
+              
+              col s12 m6 l6
+              
+            ">
+              <div class="card grey-text text-darken-4 hoverable">
+                <a href="/zh-TW/blog/%E6%88%91%E5%80%91%E5%A6%82%E4%BD%95%E7%82%BA%E7%99%BB%E5%B1%B1%E7%94%B3%E8%AB%8B%E6%89%93%E9%80%A0%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8B%99%E7%B3%BB%E7%B5%B1/">
+                  <div class="card-image dim" style="background:url('/assets/imgs/e6c5b2ed839a246bd50f1839f2c5a71c2a5e4526.jpeg') center / cover no-repeat; height: 200px">
+                    <span class="card-title" title="我們如何為登山申請打造一站式服務系統">我們如何為登山申請打造一站式服務系統</span>
+                  </div>
+                </a>
+                <div class="card-content">
+                  <span class="badge new" data-badge-caption="">
+                    <i class="material-icons tiny">event</i>
+                    <time datetime="2020-02-18T00:00:00+00:00" itemprop="datePublished">2020-02-18</time>
+                  </span>
+                  <div class="card-proj-content" title="從資訊技術角度看登山申請一站式服務網建置歷程">
+                    
+                      從資訊技術角度看登山申請一站式服務網建置歷程
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+        
+          
+            <div class="
+              
+              col s12 m6 l6
+              
+            ">
+              <div class="card grey-text text-darken-4 hoverable">
+                <a href="/zh-TW/blog/%E5%A6%82%E4%BD%95%E9%81%8B%E7%94%A8%E8%A8%AD%E8%A8%88%E6%80%9D%E8%80%83%E9%80%B2%E8%A1%8C%E6%94%BF%E5%BA%9C%E6%95%B8%E4%BD%8D%E6%9C%8D%E5%8B%99%E7%9A%84%E8%A8%AD%E8%A8%88/">
+                  <div class="card-image dim" style="background:url('/assets/imgs/aecd8296f25d3a3060c40f22074a735b1abb523c.jpeg') center / cover no-repeat; height: 200px">
+                    <span class="card-title" title="如何運用設計思考進行政府數位服務的設計？">如何運用設計思考進行政府數位服務的設計？</span>
+                  </div>
+                </a>
+                <div class="card-content">
+                  <span class="badge new" data-badge-caption="">
+                    <i class="material-icons tiny">event</i>
+                    <time datetime="2020-02-18T00:00:00+00:00" itemprop="datePublished">2020-02-18</time>
+                  </span>
+                  <div class="card-proj-content" title="當設計思考遇到公部門數位服務的重新設計，加上民眾的協作與參與，會有什麼樣的火花呢？本文簡介去年PDIS協助的「台灣登山一站式整合服務網」設計流程，讓大家更了解設計在開放政府中扮演什麼樣的角色。">
+                    
+                      當設計思考遇到公部門數位服務的重新設計，加上民眾的協作與參與，會有什麼樣的火花呢？本文簡介去年PDIS協助的「台灣登山一站式整合服務網」設計流程，讓大家更了解設計在開放政府中扮演什麼樣的角色。
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+        
+      </div>
+
+      <div class="cc">
+        
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png"></a>（本著作係採用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">創用 CC 姓名標示 4.0 國際 授權條款</a>授權。）
+        
+      </div>
+    </article>
+
+    <div class="navigate row">
+      <div class="col s12 m6">
+        
+        <a href="/zh-TW/project/ray2020/">
+          <div class="card-panel white-text dim" style="background: url('/assets/imgs/c95d8068ec4526c775b88ada7d20771249a1e18c.jpeg') center / cover">
+            <i class="left medium material-icons">navigate_before</i>
+            <h6>捲起袖子一起來改造 「以人為本」的政府數位服務</h6>
+          </div>
+        </a>
+        
+      </div>
+      <div class="col s12 m6">
+        
+        <a href="/zh-TW/project/ray2017/">
+          <div class="card-panel white-text dim" style="background: url('/assets/imgs/background.jpg?raw=true') center / cover">
+            <i class="right medium material-icons">navigate_next</i>
+            <h6>青年學生體檢政府網站數位服務專案</h6>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    
+
+
+<footer class="page-footer grey darken-3 notranslate">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">關於 PDIS</h5>
+        <p class="white-text">我們協助政府部會提升數位服務品質，以創新方式改善和增進公務體系的工作流程、方針規則及使用工具。</p>
+        <p class="white-text">本站除另有標示外，內容以創用 CC BY 4.0 授權條款釋出。</p>
+        <div class='about-logos section'>
+          <a href="//pdis.nat.gov.tw"> <img alt="logo" class="circle hoverable" src="/images/pdis-logo-final-inverse.png" style="width:56px;vertical-align:bottom;"> </a>
+          <a class="white btn-floating btn-large waves-effect waves-circle cyan" href="//www.youtube.com/PdisTwGov" target="_blank"> <i class="red-text fa fa-3x fa-youtube-play"></i> </a>
+          <a class="white btn-floating btn-large waves-effect waves-circle cyan" href="//github.com/pdis/web-jekyll" target="_blank"> <i class="black-text fa fa-3x fa-github"></i> </a>
+          <a class="white btn-floating btn-large waves-effect waves-circle cyan" href="//twitter.com/TaiwanPDIS" target="_blank"> <i class="cyan-text fa fa-3x fa-twitter-square"></i> </a>
+        </div>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">相關連結</h5>
+        <ul>
+          
+          
+          
+            
+            <li><p><a class="white-text" href="https://talk.pdis.nat.gov.tw/">PDIS 討論區</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://github.com/PDIS/web-jekyll">PDIS 網站原始碼</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://github.com/PDIS/tools-manage-sandstorm">Sandstorm Tools</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://github.com/PDIS/swagger_file">API Sketches</a></p></li>
+          
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">資訊公開</h5>
+        <ul>
+          
+          
+          
+            
+            <li><p><a class="white-text" href="https://si.taiwan.gov.tw/">社會創新平臺</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://advisory.yda.gov.tw/">行政院青年諮詢委員會</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="http://join.gov.tw/">公共政策網路參與平臺</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://vtaiwan.tw/">數位經濟法規線上討論平台</a></p></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- google translate button -->
+<div id="google_translate_element" class="translate-widget"></div>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/js/swiper.min.js"></script>
+<script src="/js/colcade.js"></script>
+<script src="/js/materialize.min.js"></script>
+<script src="/js/init.js"></script>
+
+  </body>
+
+</html>

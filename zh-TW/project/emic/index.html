@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+  <head>
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>打造災時不會當機的防災資訊系統</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="打造災時不會當機的防災資訊系統" />
+<meta name="author" content="Mark" />
+<meta property="og:locale" content="zh_TW" />
+<meta name="description" content="結合防災救災兩階段的資料，建立單一資訊查詢入口；改變系統架構，在平時使用最低資源運作，又可以在災害來臨時期自動擴充，因應大爆量的資料查詢。" />
+<meta property="og:description" content="結合防災救災兩階段的資料，建立單一資訊查詢入口；改變系統架構，在平時使用最低資源運作，又可以在災害來臨時期自動擴充，因應大爆量的資料查詢。" />
+<link rel="canonical" href="https://pdis.nat.gov.tw/zh-TW/project/emic/" />
+<meta property="og:url" content="https://pdis.nat.gov.tw/zh-TW/project/emic/" />
+<meta property="og:image" content="https://pdis.nat.gov.tw/assets/imgs/photo-1454789476662-53eb23ba5907.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-05-31T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://pdis.nat.gov.tw/assets/imgs/photo-1454789476662-53eb23ba5907.jpg" />
+<meta property="twitter:title" content="打造災時不會當機的防災資訊系統" />
+<meta name="twitter:site" content="@TaiwanPDIS" />
+<meta name="twitter:creator" content="@Mark" />
+<meta property="fb:admins" content="100014438376965" />
+<meta name="google-site-verification" content="uxXHtWt7-XyZrPJb9BznXlKOOKklt1D_TAIv1UW8VhM" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Mark"},"dateModified":"2017-05-31T00:00:00+00:00","datePublished":"2017-05-31T00:00:00+00:00","description":"結合防災救災兩階段的資料，建立單一資訊查詢入口；改變系統架構，在平時使用最低資源運作，又可以在災害來臨時期自動擴充，因應大爆量的資料查詢。","headline":"打造災時不會當機的防災資訊系統","image":"https://pdis.nat.gov.tw/assets/imgs/photo-1454789476662-53eb23ba5907.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://pdis.nat.gov.tw/zh-TW/project/emic/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://pdis.nat.gov.tw/zh-TW/images/pdis-logo-final-inverse.png"},"name":"Mark"},"url":"https://pdis.nat.gov.tw/zh-TW/project/emic/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+<title>行⁠政⁠院公⁠共⁠數⁠位創⁠新⁠空⁠間</title>
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/css/swiper.min.css">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/assets/materialize.css">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/assets/main.css">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/fonts/material-design-icons/material-icons.css">
+<link type="application/atom+xml" rel="alternate" href="https://pdis.nat.gov.tw/zh-TW/feed.xml" />
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://use.fontawesome.com/e7b4292f28.js"></script>
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-106951256-1', 'auto');
+  ga('send', 'pageview');
+</script> -->
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106951256-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+  gtag('config', 'UA-106951256-1');
+</script>
+
+
+
+  </head>
+
+  <body class="brown lighten-5">
+
+    
+
+<nav class="transparent z-depth-0" role="navigation">
+  <div class="nav-wrapper container">
+    <!-- button of sidenav -->
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger grey-text text-darken-3"><i class="material-icons">menu</i></a>
+    <!-- Logo -->
+    <a id="logo-container" class="right brand-logo hoverable" style='line-height:0' href="/zh-TW/">
+      <img src="/images/pdis-logo-final-inverse.png" alt="logo" style="height: 64px;">
+    </a>
+    <!-- Menu nav -->
+    <ul class="hide-on-med-and-down">
+      <li>
+  <a href="/zh-TW/contact" class="grey-text text-darken-3">
+    聯絡我們
+  </a>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們怎麼做
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/tools" class='grey-text text-darken-3'>工具</a>
+    </li>
+  </ul>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們做了什麼
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/project" class='grey-text text-darken-3'>專案</a>
+    </li>
+    <li>
+      <a href="/zh-TW/blog" class='grey-text text-darken-3'>部落格</a>
+    </li>
+    <li>
+      <a href="/zh-TW/track" class='grey-text text-darken-3'>工作記錄</a>
+    </li>
+  </ul>
+</li>
+
+<li>
+  <div class="search-wrapper">
+    <input class="search-box" placeholder="Search" value="" onchange="search(this)">
+    <i class="material-icons search-button notranslate" onclick="search(this)">search</i>
+    <div class="search-results"></div>
+  </div>
+</li>
+
+<script>
+  function search(e) {
+    let q = e.parentNode.firstElementChild.value.trim();
+    if (q) window.location.href = "/zh-TW/search/?q=" + q;
+  }
+</script>
+
+<li><a class="tooltipped" data-position="bottom" data-tooltip="zh-TW" href="/zh-TW/project/emic/"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a></li>
+<li><a class="tooltipped" data-position="bottom" data-tooltip="EN" href="/en/project/emic/"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Sidenav -->
+<ul id="nav-mobile" class="sidenav">
+  <li>
+  <a href="/zh-TW/contact" class="grey-text text-darken-3">
+    聯絡我們
+  </a>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們怎麼做
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/tools" class='grey-text text-darken-3'>工具</a>
+    </li>
+  </ul>
+</li>
+
+<li class='drop'>
+  <a class='grey-text text-darken-3'>我們做了什麼
+    <span class="material-icons notranslate" style="vertical-align:middle">expand_more</span>
+  </a>
+  <ul>
+    <li>
+      <a href="/zh-TW/project" class='grey-text text-darken-3'>專案</a>
+    </li>
+    <li>
+      <a href="/zh-TW/blog" class='grey-text text-darken-3'>部落格</a>
+    </li>
+    <li>
+      <a href="/zh-TW/track" class='grey-text text-darken-3'>工作記錄</a>
+    </li>
+  </ul>
+</li>
+
+<li>
+  <div class="search-wrapper">
+    <input class="search-box" placeholder="Search" value="" onchange="search(this)">
+    <i class="material-icons search-button notranslate" onclick="search(this)">search</i>
+    <div class="search-results"></div>
+  </div>
+</li>
+
+<script>
+  function search(e) {
+    let q = e.parentNode.firstElementChild.value.trim();
+    if (q) window.location.href = "/zh-TW/search/?q=" + q;
+  }
+</script>
+
+<li><a class="tooltipped" data-position="bottom" data-tooltip="zh-TW" href="/zh-TW/project/emic/"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a></li>
+<li><a class="tooltipped" data-position="bottom" data-tooltip="EN" href="/en/project/emic/"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a></li>
+</ul>
+
+
+      
+<div class="post-image" style="background:url('/assets/imgs/photo-1454789476662-53eb23ba5907.jpg') center / cover"></div>
+
+
+<div class="container">
+  <div class="section">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">打造災時不會當機的防災資訊系統</h1>
+        <p class="post-desc section container">結合防災救災兩階段的資料，建立單一資訊查詢入口；改變系統架構，在平時使用最低資源運作，又可以在災害來臨時期自動擴充，因應大爆量的資料查詢。</p>
+        <div class="post-meta container">
+          <i class="material-icons tiny">event</i>
+          <time datetime="2017-05-31T00:00:00+00:00" itemprop="datePublished">
+            2017-05-31
+          </time>
+          <ul class="authors">
+            
+            <!-- let nametype = 'name_en' or fallback to 'name' -->
+            
+            
+              
+              
+              <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a href="https://wiselike.tw/#/user/markdai" target="_blank" itemprop="name" class='chip'>
+                  <img src="https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/markdai/800/582_1.png" alt="author">
+                  Mark
+                </a>
+              </li>
+            
+          </ul>
+          <ul class="tags">
+            
+          </ul>
+        </div>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <h2 id="緣起面對汛期現有資訊系統的難處">緣起：面對汛期，現有資訊系統的難處？</h2>
+
+<p>台灣氣候地形多變，常會發生大大小小的天然災害，如何防災應變，是一個國家安全層級的重要議題。特別是每年汛期，一旦發生災害，政府開設各級應變中心時，各級機關頻繁使用資訊系統即時回報災害情況、民生相關企業與設施也使用資訊系統回報各地災損及復原規劃，是以防救災資訊系統的首要功能，就是作為政府決策及採取適當應變措施的資訊輔助工具。然而另一方面，正如先前PDIS參與協作的<a href="https://afabi.pdis.tw">菜價資訊整合平台</a>，原先作為決策輔助的資訊系統，在開放政府的理念下，也必須轉換成整合多元資訊、可公開查詢、民眾易用易懂的資訊平台。</p>
+
+<p>尤其防救災關係著民眾的身家財產，如果能讓民眾透過資訊系統查詢災情資料，不僅是滿足人民知的權利，也可以讓民眾採取適當方法避災離災，降低風險損失，同時減輕政府防救災負擔。</p>
+
+<p>防救災資訊系統有其特色，在災害發生，比如說颱風來襲時，隨著災情的發生使用量來到高峰。但是，在沒有災害發生的時候，系統門庭冷落，這有點像台灣的河川「不雨成旱，一雨成澇」，防救災資訊系統也是這樣「荒溪型」的系統吧。</p>
+
+<p>在現有的系統中，防災與救災，分別由「國家災害防救科技中心（NCDR）」以及「內政部消防署」主責。在災害發生前，民眾可以至 NCDR 所提供的「災害情資網」查詢防災資訊。一旦災害發生，進入防災階段，最新消息就會被公布在消防署所提供的「災害情報站」，這樣的不同階段的兩套系統切換，除非熟悉政府運作，對於一般使用者並不友善，無法直覺取得想要的資訊，因而需要邀集跨部會研商系統如何整合。</p>
+
+<p>主責機關與 PDIS 需要共同面對的問題是，如何結合防災救災兩階段的資料，建立單一資訊查詢入口；以及如何改變系統架構，在平時使用最低資源運作，又可以在災害來臨時期自動擴充，因應大爆量的資料查詢。</p>
+
+<h2 id="前臺一致後臺整合">前臺一致、後臺整合</h2>
+
+<p>在行政院科技會報辦公室的協助下召開多次會議， PDIS 、消防署與 NCDR與各單位以及廠商務實地研討後，逐漸形成確定的方向，為了達到以單一介面提供資訊的目標，消防署與NCDR雙方系統要逐步整合。整體的整合工作規劃，可分為前端「使用者介面」與後端「資料提供」兩大部分。</p>
+
+<p>前端「使用者介面」，要結合原本兩系統各自的優勢，以滿足不同使用者需求：消防署「災害情報站」簡潔條列式文字呈現，並在畫面上劃分區塊，有利於快速查詢資料；NCDR「災害情資網」互動視覺化介面，利用資料與地圖互動呈現，有利於快速瞭解災害影響範圍。因而未來會從如下圖示左邊的兩個系統介面，合併為圖示右邊的系統介面，而在經費許可的前提下，逐漸朝向比較有利於互動的NCDR使用者介面來整合。</p>
+
+<p>然而，NCDR 原系統設計為了擁有良好的資料查詢彈性，因此消耗較多運算資源，恐怕無法承擔汛期的使用高峰。為了可以在汛期時，特別是災害發生中，提供大量民眾快速查詢，甚至因應瞬間的爆量，NCDR與 PDIS 在技術面討論後，決定變更系統架構。採用預先將各種查詢結果儲存為檔案，以硬碟空間換取運算資源的方式，完成效能精進，同時可在高峰期橫向擴充的系統架構。</p>
+
+<p>在後端「資料提供」部分，因為雙方系統需要的資料格式並不完全相同。除了共同訂定分享格式之外，亦強調需要提供可彈性擴充欄位，以確保在資料交換的過程中，不會因為資料正規化的流程，導致資料內容有所遺失。</p>
+
+<figure>
+<img src="/assets/imgs/e8b7b6cec3f2e9da57247fa7f3db60cedff54df7.png" alt="前臺一致、後臺整合" />
+<figcaption>前臺一致、後臺整合</figcaption>
+</figure>
+
+<h2 id="運用雲端技術降低成本提升可用性">運用雲端技術，降低成本、提升可用性</h2>
+
+<p>如同前面所說，防救災資訊系統是個「荒溪型」的系統，災害發生時，系統使用量會突然暴增，沒有災害時，系統幾乎沒有人用。針對這樣的特性，固然可以直接增購伺服器來建置，以便於災情發生時，能夠承受大量負載，但就必須購買非常多的運算資源。然而災害並不是常態，如果投入太多固定的資源，平常卻又處於閒置的狀態，這樣的做法並不經濟，在建置上防救災資訊系統長期就是面臨這樣進退兩難的情況。</p>
+
+<p>PDIS認為業界行之有年的雲端運算技術，非常合適處理這樣的情況。正巧中華電信將推出政府專用的 HiCloud 服務（Hicloud Govcloud Region, HGR），先進行測試，預計到 2017 年 9 月正式推出，而 PDIS 剛好是測試使用者之一。因此 PDIS 就與 NCDR 同仁及廠商合作，在HGR上測試「災害情資網-大眾版」，以確保災害來臨時可以使用雲端資源；另一方面，雲端運算技術並不是中華電信所獨有，測試過程也會注意將來不會依賴於任一廠商的雲端服務。</p>
+
+<p>簡言之，HGR 與常見基礎建設即服務（IaaS）供應商提供可以動態擴充或縮減的運算資源，在災害發生時運用大量資源承載民眾查詢，一般時候使用最小資源維持運作。依照實際使用量進行收費（pay-as-you-go）的方式，使得維運成本預計可以大幅降低，卻同時又可以保障高峰期的系統可用性，防救災資訊系統運用這樣的技術，相信可以符合系統需求，又可以達到成本最低，效率最高的目標。</p>
+
+<figure>
+<img src="/assets/imgs/a9ff40741c06c4a94a8c559ecf08d7d4875bcd05.png" alt="運用雲端技術，降低成本、提升可用性" />
+<figcaption>運用雲端技術，降低成本、提升可用性</figcaption>
+</figure>
+
+<h2 id="結語前後分離因地制宜採用合適資訊技術">結語：前後分離、因地制宜採用合適資訊技術</h2>
+
+<p>整體而言，防救災資訊系統是PDIS小組繼「菜價公開資訊整合平台」之後，再度與相關部會合作，對一個資料來源多元（跨部會）的大型資訊系統進行整合歸劃，同時依然要達成常態性地提供一般民眾查詢的政策目標。因而除了技術上的要求，也必須從使用者角度強化介面的易用性。但不同於「菜價資訊公開整合平台」，現行防救災資訊系統有消防署及NCDR兩個前端，分別於不同階段提供民眾查詢，所以必須先行整併。</p>
+
+<p>其次，防救災資訊系統如同「菜價公開資訊整合平台」一般，需要整合來自多個不同系統的資料，此時「前後分離」就扮演得非常重要的角色——將前端資料呈現（使用者介面）與後端資料供應，兩者分開設計，如此一來可輕易達成資訊共享與交換，資料呈現介面修正與整合，並可使資訊系統保有彈性，才能因應需求改變進而增減功能。</p>
+
+<p>進一步來說，像防救災資訊系統這樣的「荒溪型」的系統，在政府部門中並不罕見，「<a href="https://afabi.pdis.tw/">菜價公開資訊整合平台</a>」也是如此，也就是說如果天災造成菜價波動，系統查詢需求也會短期性地大量增加。但菜價查詢只需要讀取靜態資料，所以運用CDN技術（Content Delivery Network，內容傳遞網路）就能解決流量問題。</p>
+
+<p>防救災資訊系統並不相同，不管是氣象、路況還是水電等等資訊，都必須能動態快速寫入更新，才能因應當下防救災的資訊需求。傳統的方式，必須仰賴自身建置大量伺服器，但運用以「租用」代替「購買」的雲端服務模式，不但能解決此一問題，更有效降低建置維護的成本，甚且由於自行購置有可能規劃與需求產生落差，而雲端服務可以彈性擴充，更能確保服務的品質。</p>
+
+<p>PDIS認為以上這些協作經驗，未來也可以協助面臨類似問題的其他政府資訊系統來改善優化。</p>
+
+<h2 id="相關連結">相關連結</h2>
+
+<ul>
+  <li>
+    <p>2017-02-14 與 Rufus Pollock 討論本案 (<a href="https://sayit.pdis.nat.gov.tw/2017-02-14-open-discussion-with-rufus-pollock">英文逐字紀錄</a>)</p>
+  </li>
+  <li>
+    <p>2017-02-14 雲辦 EMIC 廠商會議 (<a href="https://sayit.pdis.nat.gov.tw/2017-02-14-%E9%9B%B2%E8%BE%A6emic%E5%BB%A0%E5%95%86%E6%9C%83%E8%AD%B0">逐字紀錄</a>)</p>
+  </li>
+  <li>
+    <p>2017-03-02 防災系統資訊整合會議 (<a href="https://sayit.pdis.nat.gov.tw/2017-03-02-%E9%98%B2%E7%81%BD%E7%B3%BB%E7%B5%B1%E8%B3%87%E8%A8%8A%E6%95%B4%E5%90%88%E6%9C%83%E8%AD%B0">逐字紀錄</a>)</p>
+  </li>
+  <li>
+    <p>2017-05-23 究心公益科技來訪 (<a href="https://sayit.pdis.nat.gov.tw/2017-05-23-%E7%A9%B6%E5%BF%83%E5%85%AC%E7%9B%8A%E7%A7%91%E6%8A%80%E4%BE%86%E8%A8%AA">逐字紀錄</a>)</p>
+  </li>
+</ul>
+
+      </div>
+
+      <div class="cc">
+        
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png"></a>（本著作係採用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">創用 CC 姓名標示 4.0 國際 授權條款</a>授權。）
+        
+      </div>
+    </article>
+
+    <div class="navigate row">
+      <div class="col s12 m6">
+        
+        <a href="/zh-TW/project/ray2017/">
+          <div class="card-panel white-text dim" style="background: url('/assets/imgs/background.jpg?raw=true') center / cover">
+            <i class="left medium material-icons">navigate_before</i>
+            <h6>青年學生體檢政府網站數位服務專案</h6>
+          </div>
+        </a>
+        
+      </div>
+      <div class="col s12 m6">
+        
+        <a href="/zh-TW/project/vege-price/">
+          <div class="card-panel white-text dim" style="background: url('/assets/imgs/photo-1488459716781-31db52582fe9.jpg') center / cover">
+            <i class="right medium material-icons">navigate_next</i>
+            <h6>跟菜價有關的資訊通通都放在這裡！</h6>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    
+
+
+<footer class="page-footer grey darken-3 notranslate">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">關於 PDIS</h5>
+        <p class="white-text">我們協助政府部會提升數位服務品質，以創新方式改善和增進公務體系的工作流程、方針規則及使用工具。</p>
+        <p class="white-text">本站除另有標示外，內容以創用 CC BY 4.0 授權條款釋出。</p>
+        <div class='about-logos section'>
+          <a href="//pdis.nat.gov.tw"> <img alt="logo" class="circle hoverable" src="/images/pdis-logo-final-inverse.png" style="width:56px;vertical-align:bottom;"> </a>
+          <a class="white btn-floating btn-large waves-effect waves-circle cyan" href="//www.youtube.com/PdisTwGov" target="_blank"> <i class="red-text fa fa-3x fa-youtube-play"></i> </a>
+          <a class="white btn-floating btn-large waves-effect waves-circle cyan" href="//github.com/pdis/web-jekyll" target="_blank"> <i class="black-text fa fa-3x fa-github"></i> </a>
+          <a class="white btn-floating btn-large waves-effect waves-circle cyan" href="//twitter.com/TaiwanPDIS" target="_blank"> <i class="cyan-text fa fa-3x fa-twitter-square"></i> </a>
+        </div>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">相關連結</h5>
+        <ul>
+          
+          
+          
+            
+            <li><p><a class="white-text" href="https://talk.pdis.nat.gov.tw/">PDIS 討論區</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://github.com/PDIS/web-jekyll">PDIS 網站原始碼</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://github.com/PDIS/tools-manage-sandstorm">Sandstorm Tools</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://github.com/PDIS/swagger_file">API Sketches</a></p></li>
+          
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">資訊公開</h5>
+        <ul>
+          
+          
+          
+            
+            <li><p><a class="white-text" href="https://si.taiwan.gov.tw/">社會創新平臺</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://advisory.yda.gov.tw/">行政院青年諮詢委員會</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="http://join.gov.tw/">公共政策網路參與平臺</a></p></li>
+          
+            
+            <li><p><a class="white-text" href="https://vtaiwan.tw/">數位經濟法規線上討論平台</a></p></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- google translate button -->
+<div id="google_translate_element" class="translate-widget"></div>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/js/swiper.min.js"></script>
+<script src="/js/colcade.js"></script>
+<script src="/js/materialize.min.js"></script>
+<script src="/js/init.js"></script>
+
+  </body>
+
+</html>
