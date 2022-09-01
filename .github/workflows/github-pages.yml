@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
+      #GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
       DEPLOY_USER_NAME: Deploy-GitHub-Action
       DEPLOY_USER_EMAIL: github_action@pdis.tw
 
@@ -79,7 +79,8 @@ jobs:
         ruby: ["2.6"]
 
     env:
-      GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
+      #GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       DEPLOY_USER_NAME: Deploy-GitHub-Action
       DEPLOY_USER_EMAIL: github_action@pdis.tw
       PUBLISH_DIR: ./_site
