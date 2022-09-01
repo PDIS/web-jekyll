@@ -111,7 +111,6 @@ jobs:
           branch: gh-pages
           force: true
           directory: $PUBLISH_DIR
-        run: 'echo $PUBLISH_DIR'
           
         #run: |
         #  cd $PUBLISH_DIR
