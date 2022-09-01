@@ -102,13 +102,24 @@ jobs:
           find _site -name '*html' -exec sed -i 's/tw\/zh-TW\/assets/tw\/assets/g' {} +
           find _site -name '*html' -exec sed -i 's/tw\/en\/assets/tw\/assets/g' {} +
       - name: Deploy to GitHub Page
-        run: |
-          cd $PUBLISH_DIR
-          git init
-          git config --local user.email $DEPLOY_USER_EMAIL
-          git config --local user.name $DEPLOY_USER_NAME
-          git remote add origin https://$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git
-          git checkout -b gh-pages
-          git add --all
-          git commit -m "Deploy $GITHUB_SHA to GitHub Pages"
-          git push origin gh-pages -f
+      - name: GitHub Commit & Push
+        uses: actions-js/push@v1.3
+        with:
+          github_token: $GITHUB_TOKEN
+          author_email: $DEPLOY_USER_EMAIL
+          author_name: DEPLOY_USER_NAME
+          message: "Deploy $GITHUB_SHA to GitHub Pages"
+          branch: gh-pages
+          force: true
+          directory: $PUBLISH_DIR
+          
+        #run: |
+        #  cd $PUBLISH_DIR
+        #  git init
+        #  git config --local user.email $DEPLOY_USER_EMAIL
+        #  git config --local user.name $DEPLOY_USER_NAME
+        #  git remote add origin https://$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git
+        #  git checkout -b gh-pages
+        #  git add --all
+        #  git commit -m "Deploy $GITHUB_SHA to GitHub Pages"
+        #  git push origin gh-pages -f
