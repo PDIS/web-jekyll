@@ -101,8 +101,11 @@ jobs:
           bundle exec jekyll build
           find _site -name '*html' -exec sed -i 's/tw\/zh-TW\/assets/tw\/assets/g' {} +
           find _site -name '*html' -exec sed -i 's/tw\/en\/assets/tw\/assets/g' {} +
-      - name: Deploy to GitHub Page
-        uses: actions-js/push@v1.3
+      - name: Open Web Client Directory
+        working-directory: /home/runner/work/web-jekyll/web-jekyll/_site
+        run: |
+          ls -la
+      - uses: actions-js/push@v1.3
         with:
           github_token: $GITHUB_TOKEN
           author_email: $DEPLOY_USER_EMAIL
