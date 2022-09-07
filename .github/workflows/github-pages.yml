@@ -102,7 +102,7 @@ jobs:
           find _site -name '*html' -exec sed -i 's/tw\/zh-TW\/assets/tw\/assets/g' {} +
           find _site -name '*html' -exec sed -i 's/tw\/en\/assets/tw\/assets/g' {} +
       - name: Open Web Client Directory
-        working-directory: /home/runner/work/web-jekyll/web-jekyll/_site
+        working-directory: $PUBLISH_DIR
         run: |
           ls -la
       - uses: actions-js/push@v1.3
