@@ -106,13 +106,13 @@ jobs:
           ls -la
       - uses: actions-js/push@v1.3
         with:
-          github_token: $GITHUB_TOKEN
-          author_email: $DEPLOY_USER_EMAIL
-          author_name: $DEPLOY_USER_NAME
-          message: 'Deploy $GITHUB_SHA to GitHub Pages'
+          github_token: ${{ env.GITHUB_TOKEN }}
+          author_email: ${{ env.DEPLOY_USER_EMAIL }}
+          author_name: ${{ env.DEPLOY_USER_NAME }}
+          message: 'Deploy ${{ env.GITHUB_SHA }} to GitHub Pages'
           branch: gh-pages
           force: true
-          directory: $PUBLISH_DIR
+          directory: ${{ env.PUBLISH_DIR }}
           
         #run: |
         #  cd $PUBLISH_DIR
