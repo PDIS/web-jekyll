@@ -86,7 +86,6 @@ jobs:
       PUBLISH_DIR: /home/runner/work/web-jekyll/web-jekyll/_site
       ENCRYPT_KEY: ${{ secrets.ENCRYPTED_2FB15357D122_KEY }}
       ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}
-
     steps:
       - uses: actions/checkout@v2
         with:
@@ -102,7 +101,7 @@ jobs:
           find _site -name '*html' -exec sed -i 's/tw\/zh-TW\/assets/tw\/assets/g' {} +
           find _site -name '*html' -exec sed -i 's/tw\/en\/assets/tw\/assets/g' {} +
       - name: Open Web Client Directory
-        working-directory: $PUBLISH_DIR
+        working-directory: ${{ env.PUBLISH_DIR }}
         run: |
           ls -la
       - uses: actions-js/push@v1.3
