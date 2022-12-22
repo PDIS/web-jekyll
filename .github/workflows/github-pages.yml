@@ -87,11 +87,11 @@ jobs:
       ENCRYPT_KEY: ${{ secrets.ENCRYPTED_2FB15357D122_KEY }}
       ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: "recursive"
           ref: ${{ github.ref }}
-      - uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
       - name: Building page
