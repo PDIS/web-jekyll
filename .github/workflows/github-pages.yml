@@ -76,7 +76,7 @@ jobs:
 
     strategy:
       matrix:
-        ruby: ["3.0"]
+        ruby: ["2.7"]
 
     env:
       #GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
