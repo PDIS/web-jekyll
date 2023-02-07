@@ -91,6 +91,8 @@ jobs:
         with:
           submodules: "recursive"
           ref: ${{ github.ref }}
+          persist-credentials: false
+          fetch-depth: 0
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
@@ -104,19 +106,13 @@ jobs:
         working-directory: ${{ env.PUBLISH_DIR }}
         run: |
           ls -la
-      - uses: ./.github/actions/commit-if-change
-        with:
-          commit_user_name: $DEPLOY_USER_NAME
-          commit_user_email: $DEPLOY_USER_EMAIL
-          custom_commit_message: >
-            Commit files to be pushed to gh-pages.
       - uses: actions-js/push@master
         with:
           github_token: ${{ env.GITHUB_TOKEN }}
           author_email: ${{ env.DEPLOY_USER_EMAIL }}
           author_name: ${{ env.DEPLOY_USER_NAME }}
           message: 'Deploy ${{ env.GITHUB_SHA }} to GitHub Pages'
-          branch: gh-pages
+          branch: 'gh-pages'
           force: true
           directory: ${{ env.PUBLISH_DIR }}
 
