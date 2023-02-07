@@ -1,4 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2022-08-29T03:41:17+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">數位部從導入公共程式開始</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E9%83%A8%E5%BE%9E%E5%B0%8E%E5%85%A5%E5%85%AC%E5%85%B1%E7%A8%8B%E5%BC%8F%E9%96%8B%E5%A7%8B/" rel="alternate" type="text/html" title="數位部從導入公共程式開始" /><published>2022-08-25T00:00:00+00:00</published><updated>2022-08-25T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E9%83%A8%E5%BE%9E%E5%B0%8E%E5%85%A5%E5%85%AC%E5%85%B1%E7%A8%8B%E5%BC%8F%E9%96%8B%E5%A7%8B</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E9%83%A8%E5%BE%9E%E5%B0%8E%E5%85%A5%E5%85%AC%E5%85%B1%E7%A8%8B%E5%BC%8F%E9%96%8B%E5%A7%8B/"><![CDATA[<p>近來，台灣面對許多境外干擾，光是八月二日，政府機關網站面臨駭客攻擊，以分散式阻斷服務（DDoS）的流量來看，是過去單日最高流量的二十三倍。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-02-07T17:35:43+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">一組帳號走遍網路的時代來了</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E4%B8%80%E7%B5%84%E5%B8%B3%E8%99%9F%E8%B5%B0%E9%81%8D%E7%B6%B2%E8%B7%AF%E7%9A%84%E6%99%82%E4%BB%A3%E4%BE%86%E4%BA%86/" rel="alternate" type="text/html" title="一組帳號走遍網路的時代來了" /><published>2023-01-12T00:00:00+00:00</published><updated>2023-01-12T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E4%B8%80%E7%B5%84%E5%B8%B3%E8%99%9F%E8%B5%B0%E9%81%8D%E7%B6%B2%E8%B7%AF%E7%9A%84%E6%99%82%E4%BB%A3%E4%BE%86%E4%BA%86</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E4%B8%80%E7%B5%84%E5%B8%B3%E8%99%9F%E8%B5%B0%E9%81%8D%E7%B6%B2%E8%B7%AF%E7%9A%84%E6%99%82%E4%BB%A3%E4%BE%86%E4%BA%86/"><![CDATA[<p>新年伊始，要和大家分享一個好消息：今年一月起，數位發展部已經正式成為國際標準組織 W3C（全球資訊網協會）會員。不只突破過去僅能以民間身份加入國際組織的困境，也是拓展「多元宇宙」的里程碑。</p>
+
+<p>同時，數位部也加入制定和推廣安全便利身分識別標準的 FIDO 聯盟，成為繼2021年內政部加入後的第二個臺灣政府單位會員。</p>
+
+<p>正因為有 W3C 制定標準，才能讓各種網站，能夠在每台手機、平板、以及電腦上正確呈現。換句話說，就算擁有裝置，如果少了它的標準，可能就無法解讀網站的內容。我們將無法順利上網追劇、購買日用品，或透過網站進行任何活動。它對於世界的重要性可見一斑。</p>
+
+<p>不過，如果想進一步透過網站和其他人互動，比如製作影音、發表文章，幾乎都需要先註冊、上傳資料。但是單一網站上的帳號資料，往往無法在不同平台之間共用流通。這不只導致少數大型跨境平台的壟斷獨占，也限制了每個人使用資料的自主權利。</p>
+
+<p>因此，許多社群都已在各自發展「攜碼」方案，才能讓所有人都能自由選擇最適合的創作環境、充份行使資料權利，進而共創出更精彩的作品。不過，勢必要有全球通用的技術規格，才能讓這些解方真正彼此互通。</p>
+
+<p>於是 2022 年七月，W3C 推出了嶄新的分散式身分驗證標準（DIDs），讓我們看到了新世代數位服務的曙光。這套標準，讓每個人都可以不用經過中介服務，就能直接認證彼此的身分標示。</p>
+
+<p>我們不妨把這個身分標示，想像成一本「網路護照」。這本護照可以讓每個人攜帶自己的數位資產；無論是社群貼文、照片或影片，控制這些內容的不再是跨境平台，而是回歸到每位創作者自己身上。</p>
+
+<p>如果說 W3C 提出的，是一套驗證護照的標準，讓眾人擁有自己的數位身分；那麼 FIDO 聯盟負責的，就是在保障這一本護照的安全。</p>
+
+<p>2013 年成立的 FIDO 聯盟，是資訊業界聯合成立的國際非營利組織。他們的初衷，是為了解決認證身份的問題。以往在登入網站服務時，必須鍵入密碼，不只保存不易，也會面臨帳號被盜、身分被冒用等風險。</p>
+
+<p>因此，FIDO 聯盟制定「免密碼登入」的標準，為 W3C 開發的各式護照，再加上安全鎖、配上鑰匙。如此一來，每個人就可以更安心使用自己的護照，在網路的空間遊走。</p>
+
+<p>作為兩大國際組織的會員，數位部會依照臺灣各界的需求，參與制定標準、與世界同步接軌，並且將這些新興標準，即時導入政府機關、民間社群及業界，來實踐「共同在場、攜碼互通」的多元宇宙。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="民主網絡" /><category term="數位產業" /><category term="資通安全" /><summary type="html"><![CDATA[參與制定標準、與世界同步接軌。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/blockchain-3513216_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/blockchain-3513216_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">送麵線上雲端</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E9%80%81%E9%BA%B5%E7%B7%9A%E4%B8%8A%E9%9B%B2%E7%AB%AF/" rel="alternate" type="text/html" title="送麵線上雲端" /><published>2022-12-15T00:00:00+00:00</published><updated>2022-12-15T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E9%80%81%E9%BA%B5%E7%B7%9A%E4%B8%8A%E9%9B%B2%E7%AB%AF</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E9%80%81%E9%BA%B5%E7%B7%9A%E4%B8%8A%E9%9B%B2%E7%AB%AF/"><![CDATA[<p>前幾天，我和產業署同仁一起去板橋的油庫口蚵仔麵線，了解「臺灣雲市集」平台的應用情形。該店經營三十六年，從路邊攤到店面，已經是板橋的老字號小吃店。熱氣蒸騰的麵線、鮮甜飽滿的蚵仔，讓人印象深刻。</p>
+
+<p>老闆說，他們通常早上六點就開始備料，再從早上九點半開店，直到晚上七點。即使顧客絡繹不絕，訓練有素的店員都讓排隊人龍不致停滯，從點餐到結帳，平均五分鐘就可以拿到餐點。</p>
+
+<p>然而，同時要處理現場點餐送餐、接預訂電話、確認外帶外送訂單，還包括「不加香菜」等各種客製化需求，仍然讓店員應接不暇。只用紙筆紀錄和口頭傳話，非常耗時而且容易出錯。</p>
+
+<p>這個問題，透過數位部數位產業署推動的「臺灣雲市集」平臺，找到了有效解方。</p>
+
+<p>「臺灣雲市集」將財政部、內政部及經濟部等跨機關流程，加上精選適合中小企業使用的各類雲端工具和服務，整合成單一平台。</p>
+
+<p>只要符合中小企業認定標準，或有稅籍登記的營利事業，短短十分鐘，就能在雲市集網站完成申請、審核和簽約等所有程序，並直接開始採購數位轉型方案，最高還可以獲得三萬元數位點數補貼。如果不知道怎麼選擇適合的方案，線上還有專家顧問可提供協助。</p>
+
+<p>透過雲市集，油庫口麵線店選用「快一點 Line 點餐客戶服務系統」，提供客人二十四小時線上下單訂購及線上付款。</p>
+
+<p>透過數位化作業，店員不用再接電話，每筆訂單都免去了三分鐘左右的口頭確認時間，不僅有效分擔現場人力，也讓點餐服務流程順暢而且不易出錯。更因為線上點餐系統，接觸到更廣泛的客群，增加了線上團購的消費量，平均每個客人購買的單價提升至少兩倍。此外，透過數據收集，也有助於原料管理，讓進貨成本更精準。</p>
+
+<p>從油庫口麵線店的故事可以看出，開放訂閱制、資料可轉移的雲端服務，是中小企業夥伴重要的數位轉型工具。因此，我們除了透過雲市集，協助更多企業夥伴導入雲端解決方案，也透過「數位雲服務主題式研發補助計畫」，鼓勵資服業者持續創新，為各行各業開發簡單好用的雲端方案。</p>
+
+<p>目前，「臺灣雲市集」已匯集網路開店、行銷推廣、遠距辦公、企業管理、客戶服務、市場分析等十五類雲端解決方案，截至今年十一月，已有超過三萬六千家企業使用。</p>
+
+<p>各行各業都有不同的營運目標。數位部持續協助大家，找到適合的數位工具和雲端服務，讓各種精心打造的服務和產品，都能輕鬆簡單地送到客戶手裡。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位產業" /><summary type="html"><![CDATA[「臺灣雲市集」已有超過三萬六千家企業使用。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/digitization-7580781_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/digitization-7580781_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">臺灣製造 信賴可靠</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E8%87%BA%E7%81%A3%E8%A3%BD%E9%80%A0-%E4%BF%A1%E8%B3%B4%E5%8F%AF%E9%9D%A0/" rel="alternate" type="text/html" title="臺灣製造 信賴可靠" /><published>2022-11-17T00:00:00+00:00</published><updated>2022-11-17T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E8%87%BA%E7%81%A3%E8%A3%BD%E9%80%A0-%E4%BF%A1%E8%B3%B4%E5%8F%AF%E9%9D%A0</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E8%87%BA%E7%81%A3%E8%A3%BD%E9%80%A0-%E4%BF%A1%E8%B3%B4%E5%8F%AF%E9%9D%A0/"><![CDATA[<p>前陣子，美國聯邦通訊委員會（FCC）委員卡爾（Brendan Carr）首次訪臺。在參訪數位部時，他特別指出，臺灣是可信賴的經濟及國家安全合作夥伴，非常期待雙方能深化， 資安相關事務的合作。</p>
+
+<p>卡爾委員的說法其來有自。臺灣在半導體、資通訊製造領域已執世界牛耳，擁有全球最完整的產業供應鏈。而我們處在境外網路攻擊的最前線，更具備豐富的資安實戰經驗。</p>
+
+<p>隨著近期國際情勢急遽變化，各國政府越發關注科技產品的資安風險，例如英國宣布，要在 2027 年之前完全移除華為的 5G 產品。因此，數位部將整合「產業資安」及「資安產業」，打造可信賴的供應鏈。</p>
+
+<p>在強化產業資安方面，今年一月，全球第一個由臺灣產官學研各界共同打造的半導體資安標準「SEMI E187」正式出爐，業者可以藉此確認供應商交出的設備是否安全。為了幫助更多業者運用，十月也發布實務操作指引，輔導業者評估產品是否符合規範。</p>
+
+<p>此外，過去我國業者只能將晶片送往國外實驗室進行安全檢測，如果檢驗沒通過，業者必須修改產品後再送驗，導致成本居高不下。</p>
+
+<p>現在，「晶片安全聯合檢測實驗室」由數位部產業署，聯合學界和業者共同創建，供業者在地檢測，以更低的成本、更快的進入國際市場。</p>
+
+<p>從這些經驗可以看出，資安已經是半導體乃至於各行各業的必要投資；臺灣從兩年前開始推動「六大核心戰略產業」，其中就包括資安卓越產業。</p>
+
+<p>近年來，臺灣新創資安企業在「質」和「量」也出現顯著進展，至今資安新創已成立二十八家，其中來毅數位及博歐科技，還分別獲得近兩年美國投資高峰會 SelectUSA 網路安全領域首獎。</p>
+
+<p>數位部產業署作為各行各業的數位「教練」，也打造了臺灣首座資安實戰基地「沙崙資安服務基地」，協助強化產業資安，同時推廣資安產業。</p>
+
+<p>該資安基地，根據國內外資安事件，模擬設計了十二套攻擊情境。針對這些情境，我們也與國內資安業者協作出防禦對策。團隊不只可以在此運用參與實測，掌握自己產品的優缺點，也可以進一步了解適合的解決方案。</p>
+
+<p>換言之，資安服務基地不只是資安廠商的練習場，也是媒合供需、匯集資安產業商機的平台。</p>
+
+<p>臺灣製造（MIT）一向是品質保證。如今，T 不但代表臺灣，更有信賴可靠（Trustworthiness）之意。透過強化產業資安、發展資安產業，數位部將讓全世界看見：「臺灣製造，就是信賴可靠。」</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位產業" /><category term="資通安全" /><summary type="html"><![CDATA[MIT 一向是品質保證。如今，T 更有信賴可靠（Trustworthiness）之意。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/hands-1947915_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/hands-1947915_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">點子松，打造無限未來</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E9%BB%9E%E5%AD%90%E6%9D%BE-%E6%89%93%E9%80%A0%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86/" rel="alternate" type="text/html" title="點子松，打造無限未來" /><published>2022-10-20T00:00:00+00:00</published><updated>2022-10-20T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E9%BB%9E%E5%AD%90%E6%9D%BE,%E6%89%93%E9%80%A0%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E9%BB%9E%E5%AD%90%E6%9D%BE-%E6%89%93%E9%80%A0%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86/"><![CDATA[<p>數位發展部的主題標籤，為什麼是 #FreeTheFuture（無限未來）？</p>
+
+<p>幾十年前，知名科幻作家吉布森（William Gibson）體驗到剛出現的虛擬實境（VR）技術，有感而發：「未來已經來了，只是還沒有均勻分布。」那時VR尚未成熟，無法成為日常的一部分，但這個體驗已經讓他看到未來。</p>
+
+<p>Free the Future，意思是未來有無限可能，因為數位世界不只能打破時空限制，更讓我們得以和各式各樣的人們交流共創，讓想像中的事物變成現實。</p>
+
+<p>過去幾年，臺灣已經有許多豐碩的全民協力成果。例如為了國內外有志於提升政府數位服務的朋友，「總統盃黑客松」就提供了一個實現好點子的地方，如今已成為臺灣公共創新的里程碑。</p>
+
+<p>數位發展部從籌備時期就在規劃，透過全民共創，讓實體的人際網絡，進一步拓展成「共同在場、攜碼互通」的多元宇宙。「點子松」就是希望透過全民無限的想像力，向未來邁出一步。</p>
+
+<p>有鑒於 6G 技術將在 2040 年左右成熟，屆時相關應用，將形塑未來生活樣貌。而未來，本來就是由每個人的想像集合而成，</p>
+
+<p>因此，今年第一屆點子松以「WeWe Futures: 2040 多元宇宙（Plurality）」為主題，開放個人及團體投稿，也提供虛實共融的沉浸式展演，讓全民透過親身參與，探討我們對於 2040 年的期待。</p>
+
+<p>點子松和其他黑客松有何不同？過去，總統盃黑客松是開放公民許願，由數位高手提出解方並落地執行；點子松則是歡迎社會共創，廣邀全民共同探索未來的可能性。</p>
+
+<p>換句話說，點子松完全開放各種徵件形式，是在黑客松的基礎上，打破過去多以網站應用為主的成果，進一步擴大為全民參與的思考和行動。</p>
+
+<p>「未來新聞」個人賽，歡迎所有個人創作 2040 年可能發生的事件或報導，不限影像、文字或多媒體；「未來原型」團體賽，則鼓勵發展 2040 年的設計概念，包含有形空間商品、無形服務機制或生命體。只要入圍，就會獲得跨領域專家指導，透過延展實境技術輔助，產出概念雛形。</p>
+
+<p>2015 年，吉布森再次體驗 VR 後說：「他們做到了！」這位在網際網路還沒有普及前，就已描繪出數位世界的小說家，看見了他筆下的未來真正到來。</p>
+
+<p>沒有人能準確預測未來，但每個人都能透過想像和創造，把未來的輪廓帶到當下，再透過共創實現。這是點子松的初衷，也是數位部的期許：全民共創，讓未來透過每個人而來臨。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位策略" /><summary type="html"><![CDATA[全民共創，讓未來透過每個人而來臨。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/light-bulbs-1407610_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/light-bulbs-1407610_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">什麼是多元宇宙？</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%80%E9%BA%BC%E6%98%AF%E5%A4%9A%E5%85%83%E5%AE%87%E5%AE%99/" rel="alternate" type="text/html" title="什麼是多元宇宙？" /><published>2022-09-22T00:00:00+00:00</published><updated>2022-09-22T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%80%E9%BA%BC%E6%98%AF%E5%A4%9A%E5%85%83%E5%AE%87%E5%AE%99</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%80%E9%BA%BC%E6%98%AF%E5%A4%9A%E5%85%83%E5%AE%87%E5%AE%99/"><![CDATA[<p>近來，很多朋友對於數位發展部的「多元宇宙科」，感到十分好奇。難道是像科幻作品裡出現過的情節，不同時間線上，存在著多個截然不同的社會？而多元宇宙科是要「管理」這些不同的社會嗎？</p>
+
+<p>這確實是相當有創意的思考。不過，如同數位發展部不辦監理業務，多元宇宙科也不是漫畫裡的「時間變異管理局」。這個科的存在，是為了讓「元宇宙」（metaverse）之間可以互通有無，自由開創新的應用。</p>
+
+<p>目前為人所知的元宇宙，透過 AR（擴增實境）、VR（虛擬實境）等數位科技延伸，讓人能在虛擬環境建構的世界中，以自己的化身出現。然而，目前的虛擬世界，往往只能在特定數位平台內部互動，無形中限縮了創新的可能。</p>
+
+<p>如何打破限制，直接互通？其實，我們的生活中，處處都已在實際應用多元宇宙的作法。</p>
+
+<p>手機門號就是一個很好的例子，不但可以跨電信商通話，更可以隨時「攜碼」，把原有手機門號，轉移到想使用的電信商。這樣的好處是，所有人的選擇都變多了。不用重辦門號、重建所有的聯絡資訊，也可以自由選擇偏好的服務。</p>
+
+<p>然而，目前大型的跨境數位平台並非如此，帳號都僅限於平台內使用。就好比一支手機，只有網內通話的功能，不能打到其他電信商的門號。如要透過不同平台聯繫他人，就必須在每個平台都建立帳號。這就好像大家都必須印好幾張名片，而且每張名片上的資訊無法同步更新。</p>
+
+<p>這樣的限制，無形中扼殺了創新的可能。因為所有帳號都要經過平台許可，也只能分享在單一平台上。而且，平台方控制了每個帳號下的所有互動資料，對隱私和資安都形成風險。</p>
+
+<p>想要自由和其他人聯繫互動，不受中間平台左右，可以運用「端到端加密」的方法。也就是，只有實際參與的端點，可以看到彼此訊息，且互動不會被攔截和側錄。這就是「多元宇宙」的核心概念：所有人都可以自由選擇不同管道，安全地彼此建立連結。</p>
+
+<p>多元宇宙科能做什麼？其實早有先例可循。十幾年前，網路世界中的即時訊息，曾經可以跨平台彼此互通。電子郵件則是最早的互通應用之一，所有人都可以自由寄到其他網域的信箱。</p>
+
+<p>運用適當的工具，彼此互通有無，進而凝聚共識、擴散創新，這是《未來網際網路宣言》的願景，也就是臺灣正在發展的「多元宇宙」。</p>
+
+<p>透過點對點、多中心、分散式架構，數位發展部將持續以互通的理念，來推動反映在地需求的創新應用，為臺灣和世界，打造出無限未來。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="民主網絡" /><summary type="html"><![CDATA[所有人都可以自由選擇不同管道，安全地彼此建立連結。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/team-4200837_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/team-4200837_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">數位部從導入公共程式開始</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E9%83%A8%E5%BE%9E%E5%B0%8E%E5%85%A5%E5%85%AC%E5%85%B1%E7%A8%8B%E5%BC%8F%E9%96%8B%E5%A7%8B/" rel="alternate" type="text/html" title="數位部從導入公共程式開始" /><published>2022-08-25T00:00:00+00:00</published><updated>2022-08-25T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E9%83%A8%E5%BE%9E%E5%B0%8E%E5%85%A5%E5%85%AC%E5%85%B1%E7%A8%8B%E5%BC%8F%E9%96%8B%E5%A7%8B</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E9%83%A8%E5%BE%9E%E5%B0%8E%E5%85%A5%E5%85%AC%E5%85%B1%E7%A8%8B%E5%BC%8F%E9%96%8B%E5%A7%8B/"><![CDATA[<p>近來，台灣面對許多境外干擾，光是八月二日，政府機關網站面臨駭客攻擊，以分散式阻斷服務（DDoS）的流量來看，是過去單日最高流量的二十三倍。</p>
 
 <p>如此高密度的壓力侵擾下，好在各機關資安人員都能調整架構、迅速應變。這也證實了「數位韌性」的重要。</p>
 
@@ -91,104 +195,4 @@
 
 <p>最重要的是，這種「半同步」的討論方法，讓參與者可以用自己喜歡的節奏來「說故事」。青年議題常與自身經歷有關，多元的表達方法，除了讓更多觀點浮現，也淡化了口語表達能力的影響，讓不同生命經驗，都能在會議上平等體現。</p>
 
-<p>由於是線上舉辦，當天不但有身處台灣北部、南部的青年心聲，甚至有柏林留學生熬夜參與全程，會後更表示「這場活動突破了我對『審議』的想像，即使是比較個人的經驗也能安心分享，算是一種『去稜角化』。我在這場討論中看見了同理心。」</p>]]></content><author><name>唐鳳、許恩恩</name></author><category term="blog" /><category term="開放政府" /><category term="青年參與" /><summary type="html"><![CDATA[讓不同生命經驗，都能在會議上平等體現。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/woman-gfe6d9bae1_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/woman-gfe6d9bae1_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">《未來網際網路宣言》如何實現</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%9C%AA%E4%BE%86%E7%B6%B2%E9%9A%9B%E7%B6%B2%E8%B7%AF%E5%AE%A3%E8%A8%80-%E5%A6%82%E4%BD%95%E5%AF%A6%E7%8F%BE/" rel="alternate" type="text/html" title="《未來網際網路宣言》如何實現" /><published>2022-07-28T00:00:00+00:00</published><updated>2022-07-28T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%9C%AA%E4%BE%86%E7%B6%B2%E9%9A%9B%E7%B6%B2%E8%B7%AF%E5%AE%A3%E8%A8%80-%E5%A6%82%E4%BD%95%E5%AF%A6%E7%8F%BE</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%9C%AA%E4%BE%86%E7%B6%B2%E9%9A%9B%E7%B6%B2%E8%B7%AF%E5%AE%A3%E8%A8%80-%E5%A6%82%E4%BD%95%E5%AF%A6%E7%8F%BE/"><![CDATA[<p>「這是最好的時代，也是最壞的時代。」狄更斯《雙城記》開頭這段話，傳頌了將近兩百年，至今仍被頻繁引用。面對即將邁入 web3 的數位世界，這是最貼切不過的形容。</p>
-
-<p>透過網際網路，人與人之間的生命經驗，不斷超越種族、性別、身份地位，用超連結的方式串聯，眾人得以接取共同的資源及服務。</p>
-
-<p>網際網路，已成為連結全球的血脈。伴隨光明而來的陰影，也帶來極大的隱憂。</p>
-
-<p>信仰特定價值的使用者社群，依循跨國平台的便利而找到彼此、形成數位聚落，卻往往被捲入激化對立、敵我分明的行為模式；資訊集中所帶來的權力不對等，也引發集權監控的疑慮。與此同時，極權政體也趁機將民主自由重新定義，成為「規管下的民主」、「圍牆內的自由」，將網際網路扭曲成控制他者的棍棒，指向每個角落。</p>
-
-<h4 id="公民社群力量-驅動新型態治理典範">公民社群力量 驅動新型態治理典範</h4>
-
-<p>此時此刻，正是「數位極權」與「數位民主」的聖盔谷之役。在全球民主陣營奮力抵禦集權與極化的侵襲時，我們化被動為主動，開創出新型態的治理典範。</p>
-
-<p>最廣為人知的，是過去兩年來的防疫成果。以疫情初始的「口罩地圖」為例，當時政府釋出應用程式介面（API），提供各地藥局的即時存量，接著，g0v 公民科技社群運用健保署的開放 API，打造上百種應用，不但緩解民眾的焦慮，也促成「護臺灣，助世界」的良善循環。</p>
-
-<p>同樣的，出入公共場所時記錄聯絡資料的需求，讓「1922 簡訊實聯制」在最短時間內開發佈署。這種迅速、免安裝的設計，也來自 g0v 社群。不但輕鬆完成實聯登記，更能兼顧隱私——任何人只要輸入手機號碼，就可以查到過去 28 天是否曾被疫調人員查詢。</p>
-
-<p>這些改變，是從 2014 年的 318 運動，迎來決定性的開始。我們當時向全世界展示了數位民主的雛型：藉著專業引導與公民科技的增幅，達成有效的直接行動。也因此，在 318 運動告一段落後，行政院積極邀請公民社群，開辦各式平台，讓民眾直接發聲，成為政策創新的驅動力。</p>
-
-<h4 id="數位民主的關鍵全民夥伴關係">數位民主的關鍵：全民夥伴關係</h4>
-
-<p>2016 年起，每個部會都設立了「開放政府聯絡人」，作為跨部會合作的窗口，以及公部門與民眾的溝通橋梁；在公共政策網路參與平台「join.gov.tw」上，任何人都可以發起提議，只要超過 5000 人附議的提案，開放政府聯絡人就會邀集多方利害關係人，舉辦跨部門協作會議，探討如何將這些想法納入政府決策。用這樣的方式，就算是沒有投票權的年輕人，也有機會制定全新的政策。</p>
-
-<p>除了提出政策建言，民間也直接參與共創。已經連續舉辦五年的總統盃黑客松，每次都有數以千計的社會創業家、公務同仁，以及來自數十國的團隊參與，每年最後會選出五個卓越團隊，由總統授獎，並在下個年度獲得政府支持，為數位公共建設做出實質貢獻。</p>
-
-<p>臺灣的經驗證明了：數位民主並非空中樓閣。關鍵在於：政府必須信任人民，在日常生活中隨時提出想法、表達對政策改革的意見。而任何一個國家，都可以採行相同的作法，將政府決策過程對公眾透明，再透過協作工具輔助，讓分散各處的民意，轉化成生生不息的「全民夥伴關係」（People-Public-Private partnerships）。</p>
-
-<h4 id="以建構民主網絡為核心的數位發展策略">以建構「民主網絡」為核心的數位發展策略</h4>
-
-<p>我們這些年的嘗試，不只是單一國家的民主實驗，更是全球夥伴的一致目標。2022 年，我與六十個國家代表簽署《未來網際網路宣言》，將「公民夥伴關係」正式擴大為民主盟友的共同價值。</p>
-
-<p>在宣言中，理念相近的各個國家，共同承諾以多元共融的方式，促進數位經濟的開放互通；並且運用多方利害關係人的治理方式，將網際網路打造成保障人權、自由和互信的韌性建設。</p>
-
-<p>簡單來說，這份宣言不只強調「網路」的多方串連，更重要的是「網際」的分散式架構，是既去中心化、又互相依存的關係——由此可知，數位發展的策略，並不在於發放特許或監理管制，而是在網際網路裡建構「民主網絡」，促成基於共同價值的創新。</p>
-
-<h4 id="以韌性建設與開放思維-迎來最好的時代">以韌性建設與開放思維 迎來最好的時代</h4>
-
-<p>行政院六年來的 DIGI⁺ 計畫，也與宣言的內涵如出一轍。DIGI 分別代表基盤（Digitization）、創新 （Innovation）、治理（Governance）、包容（Inclusion），不僅奠定了數位發展的基礎，也將多元共融的精神涵括其中，讓我們在提升數位服務品質、促進資安韌性與產業發展、迎接跨境數據治理挑戰的同時，也能將我國的 20 種國家語言，納為數位包容的一部分。</p>
-
-<p>今年開始，我們正式提出下階段的願景：「多元宇宙」（Plurality）。如同網際網路是以多元的網路拓樸所組成，社群無分大小，都可以自己設定空間、發起想做的事情，超越場地和時間的限制，讓多元選擇與解方和諧並存、共同創造適合彼此的互動模式。</p>
-
-<p>作為多元社會的延伸，多元宇宙中的各個群體既保持自主，又互相連結。即將成立的數位發展部，也將透過韌性建設與開放思維，拓展「共創」相同願景、「涵融」各方感受的多元宇宙，讓最好的時代，透過「共融」的臺灣模式而來臨。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="開放政府" /><category term="社會創新" /><summary type="html"><![CDATA[以韌性建設與開放思維，迎來最好的時代。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/234696ec-cdbf-4eff-9bbf-a5317e872169.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/234696ec-cdbf-4eff-9bbf-a5317e872169.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">「如何」開放才重要</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E5%A6%82%E4%BD%95-%E9%96%8B%E6%94%BE%E6%89%8D%E9%87%8D%E8%A6%81/" rel="alternate" type="text/html" title="「如何」開放才重要" /><published>2022-07-07T00:00:00+00:00</published><updated>2022-07-07T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E3%80%8C%E5%A6%82%E4%BD%95%E3%80%8D%E9%96%8B%E6%94%BE%E6%89%8D%E9%87%8D%E8%A6%81</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E5%A6%82%E4%BD%95-%E9%96%8B%E6%94%BE%E6%89%8D%E9%87%8D%E8%A6%81/"><![CDATA[<p>臺灣四面環海，溪流與埤塘資源豐富。近年來每到夏季，SUP 立槳、獨木舟等活動盛行，為水面增添繽紛色彩。</p>
-
-<p>今年剛好有兩場開放政府協作會議的主題相近，由同一位提案人李元治先生，在公共政策網路參與平台提出訴求：「請行政院檢討開放公園水域、水庫、漁港等公共設施，鼓勵全民親水並且進行水域安全教育，全面提升國人水性。」</p>
-
-<p>經過第一階段的討論後，五月底，我們針對提案人指名的不同場域，邀請利害關係人線上協作，共同探討如何開放及申請。</p>
-
-<p>熱愛水域活動的朋友，希冀政府落實山海解禁的政策，開放更多「自由」空間讓民眾下水，以營造全民親水的環境。</p>
-
-<p>管理單位則不諱言，多數民眾尚無風險自負的觀念，因此為民眾的「安全」負責，依然是公部門最優先的考量，甚至是包袱。</p>
-
-<p>協作會議讓政府單位聆聽民意，同時也讓民眾瞭解政府部門的權責劃分和運作。</p>
-
-<p>舉例來說，都市內的公園湖泊，並非由中央專責法規管理，而是由各縣市的自治條例所規範，須經議會通過。水庫的管理單位，除經濟部水利署外，還包括農委會、台糖、台電及其他委外經營業者。至於漁港，也有第一類由中央漁業署主責及第二類由各縣市管理的差異。不同的權責機關之間可以協調合作，但無法越俎代庖。</p>
-
-<p>有位民眾在聽完會議簡報後急問：「這是告訴我們，公園內的水域找內政部沒有用，必須要一一去跟縣市政府談嗎？」</p>
-
-<p>「是的。」我們說明：這並不是推諉，而是承認權限與有效性，只要是出席單位的職掌範圍，當知無不言、力求改善。</p>
-
-<p>我們希望將「自由」與「安全」的觀念論戰，落地到不同場域該「如何開放與管理」的對話。因此，設計讓前述管理單位的第一線同仁與民眾逐一探討：開放的對象（人）、流程（事）、季節（時）、範圍（地）和配備（物）。畢竟，協作會議的定位是跨部門的溝通平台，能聚焦爭點並實事求是，才是負責任的做法。</p>
-
-<p>當天參與的民眾和政府單位共同理解到，他們需要合作而非對立，去面對尚未完全能自負遊憩風險的廣大群眾，提供協助與包容。</p>
-
-<p>這場會議再次體現，民眾的多元樣貌，有人希望政府不要管，也有人要求政府管更多；政府也是立體的，中央與地方均權，保障地方自治，才能不走回中央集權的道路。或許，這也和開放水域倡議者的理念，不謀而合。</p>]]></content><author><name>唐鳳、詹壹雯</name></author><category term="blog" /><category term="開放政府" /><category term="協作會議" /><summary type="html"><![CDATA[能聚焦爭點並實事求是，才是負責任的做法。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/beach-2836300_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/beach-2836300_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">海洋國家，開放水域</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%B5%B7%E6%B4%8B%E5%9C%8B%E5%AE%B6-%E9%96%8B%E6%94%BE%E6%B0%B4%E5%9F%9F/" rel="alternate" type="text/html" title="海洋國家，開放水域" /><published>2022-07-06T00:00:00+00:00</published><updated>2022-07-06T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%B5%B7%E6%B4%8B%E5%9C%8B%E5%AE%B6,%E9%96%8B%E6%94%BE%E6%B0%B4%E5%9F%9F</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%B5%B7%E6%B4%8B%E5%9C%8B%E5%AE%B6-%E9%96%8B%E6%94%BE%E6%B0%B4%E5%9F%9F/"><![CDATA[<p>近期，Join 平台有兩則關於開放水域議題的連署案，經票選通過、辦理協作會議。兩則皆由台灣開放水域聯盟李元治先生提案，分別於2022年4月「<a href="https://join.gov.tw/idea/detail/87629654-2f3f-4660-9d2e-1321abcfef52">廢除發展觀光條例36、60條，真正開放水域遊憩活動</a>」及2022年6月「<a href="https://join.gov.tw/idea/detail/9a4e5d11-e7c6-45ef-8510-b7c8f35d064a">請行政院檢討開放公園水域、水庫、漁港等公共設施，鼓勵全民親水並且進行水域安全教育，全面提升國人水性</a>」召開，不僅針對政策面進行討論，也就各個水域的實際執行面分別深入探討。</p>
-
-<p><a href="https://cm.pdis.nat.gov.tw/111/">第一場協作會議</a>辦理在宜蘭外澳遊客中心，我們邀請了多元利害關係人，包括相關業者、玩家、學者專家，管理方如國家公園管理處、國家風景區管理處、宜蘭縣政府、新北市政府、高雄市政府，讓中央及地方的大家能夠同桌交流討論。參與民眾現場向管理單位提出問題與感受，交通部觀光局也表達了「原則開放、例外管理」的立場，希望個別管理單位能夠改善目前民眾使用的限制。我們盤點了各方需求會議最後、探討可能的解法與困境，在協作的過程中，讓開放水域一點一點的前進。</p>
-
-<p><a href="https://cm.pdis.nat.gov.tw/118/">第二場協作會議</a>由於疫情因素，改為線上辦理。民眾希望公園、水庫及漁港可以開放使用，卻也發現這三個地方的主管機關都不盡相同。例如公園是由地方自治條例規範，而水庫可能是水利署、農委會、台糖、台電管轄；漁港分為中央的漁業署主責或由地方各縣市所管理，都需要參與討論。水庫因為地理特性多元，我們更盤點出空照圖來，對多個水庫進行個案討論。</p>
-
-<p>社會大眾對於開放水域相關議題的討論十分踴躍，因此這兩場協作會議都有公開直播，會前也使用了Pol.is數位工具來分析民意，看見支持完全開放、亦或支持適度管理的民眾需求，也檢視了中央及地方政府的權責分配問題。我們希望透過開放政府協作會議，讓玩家與管理單位從「對立」到「對話」，找到兼顧「自由」與「安全」的做法，持續透過橫跨多個部會與地方政府的溝通平台，來改進全民共享的開放水域。</p>]]></content><author><name>唐鳳、周詳</name></author><category term="blog" /><category term="開放政府" /><category term="協作會議" /><summary type="html"><![CDATA[大家一起來親水親海吧！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2022/07/04/20220704-023639_U1004_M774171_8803.jpg" /><media:content medium="image" url="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2022/07/04/20220704-023639_U1004_M774171_8803.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Web3 的靈魂：SBT 憑證</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/Web3-%E7%9A%84%E9%9D%88%E9%AD%82-SBT-%E6%86%91%E8%AD%89/" rel="alternate" type="text/html" title="Web3 的靈魂：SBT 憑證" /><published>2022-06-29T00:00:00+00:00</published><updated>2022-06-29T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/Web3-%E7%9A%84%E9%9D%88%E9%AD%82-SBT-%E6%86%91%E8%AD%89</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/Web3-%E7%9A%84%E9%9D%88%E9%AD%82-SBT-%E6%86%91%E8%AD%89/"><![CDATA[<p>什麼是 SBT（Soulbound tokens）？這個剛剛誕生的 NFT 應用概念，即將改變 web3 生態。在六月中，我邀請了 Vitalik Buterin 擔任我的 <a href="https://www.youtube.com/watch?v=jp1L-DGYnJA">Podcast 節目 #InnoMinds</a> 來賓。這位知名區塊鏈平台「以太坊」的創辦人，在節目中除了提出他對於數位社群以及言論自由的看法，也<a href="https://youtu.be/jp1L-DGYnJA?t=2389">詳細說明了</a>今年五月時，他和 RadicalxChange 創辦人 Glen Weyl、Flashbots 策略師 Puja Ohlhaver 合著的論文《<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763">去中心化社會：尋找 Web3 的靈魂（DeSoc）</a>》中的核心：SBT（靈魂綁定憑證）。</p>
-
-<p>早在今年年初，Vitalik 就已提出靈魂綁定（Soulbound）概念。這個概念來自於線上遊戲《魔獸世界》，有些物品一旦被玩家取得，就成為「靈魂綁定物品」，不能再轉讓或出售給其他玩家。在遊戲中，靈魂綁定的好處，在於避免投機和增加趣味，玩家不能躲起來刷裝備，而是必須充分運用靈魂綁定物品，面對真正的挑戰和任務。</p>
-
-<p>遊戲往往為現實世界提出豐富的創意，那麼剛剛開展的 web3 世界，是否也可能採行同樣的規則？寶物為個別玩家提供優勢，但若要真正取得勝利，則要靠玩家組成的公會，來組隊打怪。正如 DeSoc 論文中所指出，靈魂綁定憑證（Soulbound tokens）同時也是「社群綁定憑證」，也就是團體參與的象徵。</p>
-
-<p>近年來，各種「虛擬幣」和 NFT 的炒作甚囂塵上。然而，只能匿名交易、沒有社群參與的狀態，等於變相鼓勵人性的貪婪，無論是虛擬資產捲款遣逃、帳號被駭事件，或是號稱「空投」實為詐騙的分身攻擊、吸血攻擊等等，至今仍時有所聞。</p>
-
-<p>這篇論文提出這些問題的解方，也就是綁定於個人或組織的「靈魂（Soul）」帳號，而 SBT 則是其中蒐集的徽章，代表社群認可的貢獻紀綠，一旦同意鑄造後，就無法交給別人。</p>
-
-<p>SBT 的獨到之處，是「社群」也可以作為持證的單位，例如「<a href="https://clab.org.tw/en/architecture/social-innovation-lab/">社創中心</a>」的靈魂帳號，可以向不同的進駐團隊發放 SBT，大學也可以向附屬學校發放 SBT。透過各種社會關係的賦予和收受，SBT 成為彼此的認證，而雙方也因為公開交代「說到做到」的過程，提升各自的真實度與互信。</p>
-
-<p>許多線上遊戲，不僅提供單方面使用的寶物，也提供玩家管理公會金庫的投票權。同樣的，「靈魂」累積的 SBT，也反映了共創和參與的權利。這些社會優勢，可能會造成不平等的情況，但 SBT 讓所有參與者都能看到並因此做出調整，進而鼓勵更多元的協作。</p>
-
-<p>最後，如果帳號遺失或被偷走，裡面的 SBT 可以「掛失」，也就是撤回重發。論文裡也提出了更進階的安全機制，例如「社群復原」，可以請各個社群派出代表，來協力恢復帳號。</p>
-
-<p>在與 Vitalik 對談之後，我認為，目前確實有兩個可以試驗的方向。首先是跨境認證的需求：例如從未到過某個國家，沒有當地手機號碼、簽證、證件的外籍人士，如果想遠距參與該地的公眾事務，目前並沒有通用的驗證方式。此時，SBT 就可以透過共享的社群連繫，來彌補認證機制的不足。</p>
-
-<p>另一方面，目前世界各國的身份證明，都是對個人發放，而 SBT 以社群為主體的作法，在各式決策中，就可以避免「拼人頭」的情況發生。在我們經常用來匯集意見的 Pol.is 系統裡，有一個作法就是，將意見分組無論人數多寡，都視為一個單位，任何想要排入公眾議程內的提案，都必須實質說服每個分組，而不是靠湊人頭達到「51% 多數」。</p>
-
-<p>也因此，我很高興看到 SBT 採用相同的精神：鼓勵多元社群互相協作，讓個人身分自群體間交織而成。如此一來，即使是公投等級的大規模投票，也有機會確保意見的涵融共創，讓各方無論聲量大小，都不致淹沒在人群當中。</p>
-
-<p>SBT 的概念讓我們看到，公民科技如何運用創新機制，為民主注入活力。我很期待，接下來能有更多社群提出需求、一起試驗如何落實 SBT，開展去中心化社會的願景，成就「善人之寶，不善人之所保」的多元宇宙（Plurality）。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="社會創新" /><summary type="html"><![CDATA[這個剛剛誕生的 NFT 應用概念，即將改變 web3 生態。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn-cw-english.cwg.tw/article/202206/article-62ba90a0b8fa0.jpg" /><media:content medium="image" url="https://cdn-cw-english.cwg.tw/article/202206/article-62ba90a0b8fa0.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">尋找對立中的交集</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E5%B0%8B%E6%89%BE%E5%B0%8D%E7%AB%8B%E4%B8%AD%E7%9A%84%E4%BA%A4%E9%9B%86/" rel="alternate" type="text/html" title="尋找對立中的交集" /><published>2022-06-07T00:00:00+00:00</published><updated>2022-06-07T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E5%B0%8B%E6%89%BE%E5%B0%8D%E7%AB%8B%E4%B8%AD%E7%9A%84%E4%BA%A4%E9%9B%86</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E5%B0%8B%E6%89%BE%E5%B0%8D%E7%AB%8B%E4%B8%AD%E7%9A%84%E4%BA%A4%E9%9B%86/"><![CDATA[<p>疫情以來，醫療照護人力吃緊，加劇了長年來照護者及受照顧者之間的衝突。「嚴懲五萬名逃逸外勞，縮短逃逸造成的照護空窗期，將家庭看護納入衛福部，保障失能、失智者的受照護權及人權」<a href="https://join.gov.tw/idea/detail/285f0a1c-eaf3-408c-8d29-7225573921d5">連署案</a>由網友發起，經過五千人連署後，選為我們辦公室的<a href="https://cm.pdis.nat.gov.tw/109/">協作會議</a>主題。開放政府的協作過程，需要聆聽各方意見、扮演溝通的橋樑，這在長期衝突的議題中尤其不容易。我們這次與勞動部密切合作，完成這項艱鉅的任務。</p>
-
-<p>這次的提案內容，牽涉許多已經實行中政策，需要勞動部細心協助民眾釐清事實。在協作會議中，我們使用<a href="https://miro.com/app/board/uXjVOST2L2c=/?share_link_id=505761772493">心智圖</a>，整理事前蒐集到的資料，並且即時歸納現場的討論。提案代表在會後與我們分享：「我之前就有去了解協作會議運作的方式，與會的很多人都是第一次用這種方式參與，包括 slido 和心智圖。這次把大家的想像具體化，我覺得這種會議過程是很好的，希望可以繼續追蹤，讓與會者了解更多資訊。」</p>
-
-<p>協作會議的另個特點，是讓各方能透過面對面分享經驗及難處，相互理解。「雇主和勞團和仲介的需求不同。原本大家都各自對立和想像對方，但是來到現場，就會看見每一個需求都是真實的，而且可以聽聽別人的真實處境。」提案代表這麼說。</p>
-
-<p>能促成這樣的討論，帶領小組討論的桌長，絕對功不可沒。每場協作會議都由不同部會的開放政府聯絡人來帶領討論，這次我們邀請到金管會的儒臣、經濟部的依珊、以及陸委會的銀哲。依珊分享她這次帶討論的小技巧：「組內若有人想馬上反駁別人的發言，我有鼓勵他們先寫下來，狀況有改善一些。」依珊也補充：「要更強調給每個人完整的發言時間。」也有與會者分享討論的實況：「第二組的儒臣科長，帶得很好，能把有衝突性的言語，轉換一下，拋給下一個人發言。」討論中不免參雜情緒，要靠思緒清晰小桌長的整理用詞，並找到對的人來回應問題、推進討論。</p>
-
-<p>當然，單靠一場協作會議，不可能完全化解長期以來的衝突。但透過這樣的整理與討論，找到大家都能同意的方向，接下來就能持續的推進。有位與會者跟我們說：「比較意外的是，在這樣的衝突之下，可以達到基本的共識。雖然有限的時間下，共識不深，但是能在原本各自對立的情況下，有一點點交集，也是不容易的。」</p>
-
-<p>我們希望這樣的討論是個起點，透過資料的整理、完整的紀錄，以及大家面對面的溝通與分享經驗，建立政府與民間溝通的橋樑。制定政策，不再只靠政府單方面的構想及執行，而是透過民間的力量，找出對立中的交集，才能確保政策的執行方向，能符合各方的需求。</p>]]></content><author><name>唐鳳、張皓婷</name></author><category term="blog" /><category term="開放政府" /><summary type="html"><![CDATA[看見每一個需求都是真實的，而且可以聽聽別人的真實處境。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/hospice-gc4866b1b9_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/hospice-gc4866b1b9_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>由於是線上舉辦，當天不但有身處台灣北部、南部的青年心聲，甚至有柏林留學生熬夜參與全程，會後更表示「這場活動突破了我對『審議』的想像，即使是比較個人的經驗也能安心分享，算是一種『去稜角化』。我在這場討論中看見了同理心。」</p>]]></content><author><name>唐鳳、許恩恩</name></author><category term="blog" /><category term="開放政府" /><category term="青年參與" /><summary type="html"><![CDATA[讓不同生命經驗，都能在會議上平等體現。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/woman-gfe6d9bae1_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/woman-gfe6d9bae1_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
