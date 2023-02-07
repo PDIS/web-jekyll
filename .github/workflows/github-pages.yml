@@ -16,14 +16,11 @@ permissions:
 jobs:
   Archiving:
     runs-on: ubuntu-latest
-
     env:
-      #GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
       DEPLOY_USER_NAME: Deploy-GitHub-Action
       DEPLOY_USER_EMAIL: github_action@pdis.tw
-
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: ${{ github.ref }}
       - uses: ./.github/actions/archiving-images
@@ -42,9 +39,7 @@ jobs:
 
   Translating:
     runs-on: ubuntu-latest
-
     needs: Archiving
-
     env:
       DEPLOY_USER_NAME: Deploy-GitHub-Action
       DEPLOY_USER_EMAIL: github_action@pdis.tw
@@ -52,12 +47,12 @@ jobs:
       ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}
       GOOGLE_APPLICATION_CREDENTIALS: ./.github/actions/auto-translation/GCP.json
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: ${{ github.ref }}
       - name: Decode Google Cloud transation API Key
         run: |
-          openssl aes-256-cbc -K $ENCRYPT_KEY -iv $ENCRYPT_IV -in GCP.json.enc -out ./.github/actions/auto-translation/GCP.json -d
+          openssl aes-256-cbc -K $ENCRYPT_KEY -iv $ENCRYPT_IV -in GCP.json.enc -out $GOOGLE_APPLICATION_CREDENTIALS -d
       - uses: actions/setup-node@v2
         with:
           node-version: "8"
@@ -72,8 +67,8 @@ jobs:
             Generate follow file:
       - name: Push to remote
         run: |
-          git pull --rebase
-          git push
+          git pull --rebase origin master
+          git push origin master
 
   Building:
     runs-on: ubuntu-latest
@@ -115,60 +110,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
-    # runs-on: ubuntu-latest
-
-    # needs: [Archiving, Translating]
-
-    # strategy:
-    #   matrix:
-    #     ruby: ["2.7"]
-
-    # env:
-    #   #GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
-    #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #   DEPLOY_USER_NAME: Deploy-GitHub-Action
-    #   DEPLOY_USER_EMAIL: github_action@pdis.tw
-    #   PUBLISH_DIR: /home/runner/work/web-jekyll/web-jekyll/_site
-    #   #ENCRYPT_KEY: ${{ secrets.ENCRYPTED_2FB15357D122_KEY }}
-    #   #ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}
-    # steps:
-    #   - uses: actions/checkout@master
-    #     with:
-    #       submodules: "recursive"
-    #       ref: ${{ github.ref }}
-    #       persist-credentials: false
-    #       fetch-depth: 0
-    #   - uses: ruby/setup-ruby@v1
-    #     with:
-    #       ruby-version: ${{ matrix.ruby }}
-    #   - name: Building page
-    #     run: |
-    #       bundle install
-    #       bundle exec jekyll build
-    #       find _site -name '*html' -exec sed -i 's/tw\/zh-TW\/assets/tw\/assets/g' {} +
-    #       find _site -name '*html' -exec sed -i 's/tw\/en\/assets/tw\/assets/g' {} +
-    #   - name: Open Web Client Directory
-    #     working-directory: ${{ env.PUBLISH_DIR }}
-    #     run: |
-    #       ls -la
-    #   - uses: actions-js/push@master
-    #     with:
-    #       github_token: ${{ env.GITHUB_TOKEN }}
-    #       author_email: ${{ env.DEPLOY_USER_EMAIL }}
-    #       author_name: ${{ env.DEPLOY_USER_NAME }}
-    #       message: 'Deploy ${{ github.sha }} to GitHub Pages'
-    #       branch: 'gh-pages'
-    #       force: true
-    #       directory: ${{ env.PUBLISH_DIR }}
-
-        #run: |
-        #  cd $PUBLISH_DIR
-        #  git init
-        #  git config --local user.email $DEPLOY_USER_EMAIL
-        #  git config --local user.name $DEPLOY_USER_NAME
-        #  git remote add origin https://$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git
-        #  git checkout -b gh-pages
-        #  git add --all
-        #  git commit -m "Deploy $GITHUB_SHA to GitHub Pages"
-        #  git push origin gh-pages -f
