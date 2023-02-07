@@ -4,9 +4,7 @@ on:
   schedule:
     - cron: "0 1 * * *"
   push:
-    branches:
-      - master
-      - github-action-migrate
+    branches: [master]
 
 permissions:
   contents: write
@@ -53,7 +51,7 @@ jobs:
       - name: Decode Google Cloud transation API Key
         run: |
           openssl aes-256-cbc -K $ENCRYPT_KEY -iv $ENCRYPT_IV -in GCP.json.enc -out $GOOGLE_APPLICATION_CREDENTIALS -d
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: "8"
       - uses: ./.github/actions/auto-translation
@@ -96,6 +94,11 @@ jobs:
           find _site -name '*html' -exec sed -i 's/tw\/en\/assets/tw\/assets/g' {} +
         env:
           JEKYLL_ENV: production
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
