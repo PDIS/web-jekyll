@@ -87,7 +87,7 @@ jobs:
       ENCRYPT_KEY: ${{ secrets.ENCRYPTED_2FB15357D122_KEY }}
       ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@master
         with:
           submodules: "recursive"
           ref: ${{ github.ref }}
@@ -104,7 +104,13 @@ jobs:
         working-directory: ${{ env.PUBLISH_DIR }}
         run: |
           ls -la
-      - uses: actions-js/push@v1.3
+      - uses: ./.github/actions/commit-if-change
+        with:
+          commit_user_name: $DEPLOY_USER_NAME
+          commit_user_email: $DEPLOY_USER_EMAIL
+          custom_commit_message: >
+            Commit files to be pushed to gh-pages.
+      - uses: actions-js/push@master
         with:
           github_token: ${{ env.GITHUB_TOKEN }}
           author_email: ${{ env.DEPLOY_USER_EMAIL }}
@@ -113,7 +119,7 @@ jobs:
           branch: gh-pages
           force: true
           directory: ${{ env.PUBLISH_DIR }}
-          
+
         #run: |
         #  cd $PUBLISH_DIR
         #  git init
