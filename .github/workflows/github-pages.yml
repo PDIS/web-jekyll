@@ -81,6 +81,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          submodules: "recursive"
+          ref: ${{ github.ref }}
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:

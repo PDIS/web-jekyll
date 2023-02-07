@@ -14,7 +14,7 @@ permalink: /:categories/:title/
 sass:
   style: compressed
 future: true
-exclude: 
+exclude:
   - ".sass-cache/"
   - "package.json"
   - "articles_translate.js"
@@ -22,6 +22,7 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "package-lock.json"
+  - "vendor/"
   - "node_modules/"
   - "GCP.json"
   - "yarn.lock"
@@ -42,7 +43,7 @@ social:
 
 # --------- i18n settings ---------
 languages: ["en", "zh-TW"]
-exclude_from_localizations: 
+exclude_from_localizations:
   - "assets"
   - "CNAME"
   - "fonts"
