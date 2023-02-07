@@ -7,6 +7,12 @@ on:
     branches:
       - master
       - github-action-migrate
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   Archiving:
     runs-on: ubuntu-latest
@@ -69,52 +75,89 @@ jobs:
           git pull --rebase
           git push
 
-  Deploying:
+  Building:
     runs-on: ubuntu-latest
-
     needs: [Archiving, Translating]
-
-    strategy:
-      matrix:
-        ruby: ["2.7"]
-
-    env:
-      #GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      DEPLOY_USER_NAME: Deploy-GitHub-Action
-      DEPLOY_USER_EMAIL: github_action@pdis.tw
-      PUBLISH_DIR: /home/runner/work/web-jekyll/web-jekyll/_site
-      ENCRYPT_KEY: ${{ secrets.ENCRYPTED_2FB15357D122_KEY }}
-      ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}
     steps:
-      - uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          submodules: "recursive"
-          ref: ${{ github.ref }}
-          persist-credentials: false
-          fetch-depth: 0
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: ${{ matrix.ruby }}
-      - name: Building page
+          ruby-version: '2.7' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
         run: |
-          bundle install
-          bundle exec jekyll build
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
           find _site -name '*html' -exec sed -i 's/tw\/zh-TW\/assets/tw\/assets/g' {} +
           find _site -name '*html' -exec sed -i 's/tw\/en\/assets/tw\/assets/g' {} +
-      - name: Open Web Client Directory
-        working-directory: ${{ env.PUBLISH_DIR }}
-        run: |
-          ls -la
-      - uses: actions-js/push@master
-        with:
-          github_token: ${{ env.GITHUB_TOKEN }}
-          author_email: ${{ env.DEPLOY_USER_EMAIL }}
-          author_name: ${{ env.DEPLOY_USER_NAME }}
-          message: 'Deploy ${{ env.GITHUB_SHA }} to GitHub Pages'
-          branch: 'gh-pages'
-          force: true
-          directory: ${{ env.PUBLISH_DIR }}
+        env:
+          JEKYLL_ENV: production
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v1
+
+  Deploying:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: [Archiving, Translating, Building]
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+
+    # runs-on: ubuntu-latest
+
+    # needs: [Archiving, Translating]
+
+    # strategy:
+    #   matrix:
+    #     ruby: ["2.7"]
+
+    # env:
+    #   #GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY_GITHUB_PAGE }}
+    #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #   DEPLOY_USER_NAME: Deploy-GitHub-Action
+    #   DEPLOY_USER_EMAIL: github_action@pdis.tw
+    #   PUBLISH_DIR: /home/runner/work/web-jekyll/web-jekyll/_site
+    #   #ENCRYPT_KEY: ${{ secrets.ENCRYPTED_2FB15357D122_KEY }}
+    #   #ENCRYPT_IV: ${{ secrets.ENCRYPTED_2FB15357D122_IV }}
+    # steps:
+    #   - uses: actions/checkout@master
+    #     with:
+    #       submodules: "recursive"
+    #       ref: ${{ github.ref }}
+    #       persist-credentials: false
+    #       fetch-depth: 0
+    #   - uses: ruby/setup-ruby@v1
+    #     with:
+    #       ruby-version: ${{ matrix.ruby }}
+    #   - name: Building page
+    #     run: |
+    #       bundle install
+    #       bundle exec jekyll build
+    #       find _site -name '*html' -exec sed -i 's/tw\/zh-TW\/assets/tw\/assets/g' {} +
+    #       find _site -name '*html' -exec sed -i 's/tw\/en\/assets/tw\/assets/g' {} +
+    #   - name: Open Web Client Directory
+    #     working-directory: ${{ env.PUBLISH_DIR }}
+    #     run: |
+    #       ls -la
+    #   - uses: actions-js/push@master
+    #     with:
+    #       github_token: ${{ env.GITHUB_TOKEN }}
+    #       author_email: ${{ env.DEPLOY_USER_EMAIL }}
+    #       author_name: ${{ env.DEPLOY_USER_NAME }}
+    #       message: 'Deploy ${{ github.sha }} to GitHub Pages'
+    #       branch: 'gh-pages'
+    #       force: true
+    #       directory: ${{ env.PUBLISH_DIR }}
 
         #run: |
         #  cd $PUBLISH_DIR
