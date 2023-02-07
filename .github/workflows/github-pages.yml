@@ -9,7 +9,7 @@ on:
       - github-action-migrate
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -37,8 +37,8 @@ jobs:
             Archive and Modify follow file:
       - name: Push to remote
         run: |
-          git pull --rebase
-          git push
+          git pull --rebase origin master
+          git push origin master
 
   Translating:
     runs-on: ubuntu-latest
