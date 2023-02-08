@@ -72,7 +72,7 @@ image: /images/pdis-team.jpg
       {% t features.title %}
     </h3>
     <p class="center subtitle">{% t features.subtitle %}</p>
-    <!--   Icon Section   -->
+    <!--   Icon Section   
     <div class="row">
       {% capture features %}{% t features.list %}{% endcapture %}
       {% assign features = features | eval_array %}
@@ -80,7 +80,9 @@ image: /images/pdis-team.jpg
       <div class="col s12 m4">
         <div class="icon-block">
           <h2 class="center {{ page.color }}"><i class="material-icons notranslate">{{ feature.icon }}</i></h2>
+-->
           <!-- <div class="center"><img src="{{ feature.image }}" /></div> -->
+<!--
           <h5 class="center">{{ feature.title }}</h5>
           <p class="light center">{{ feature.content }}</p>
           <div class="center">
@@ -94,6 +96,7 @@ image: /images/pdis-team.jpg
       {% endfor %}
     </div>
   </div>
+-->
 </div>
 
 <div class="blue-grey lighten-5">
