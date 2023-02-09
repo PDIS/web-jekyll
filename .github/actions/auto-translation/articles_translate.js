@@ -1,4 +1,4 @@
-const Translate = require('@google-cloud/translate');
+const {Translate} = require('@google-cloud/translate').v2;
 const yamlFront = require('yaml-front-matter');
 const yaml = require('json2yaml')
 const fs = require('fs');
@@ -20,22 +20,16 @@ async function translateYamlFronts(config, target){
 }
 
 async function translateArticle(text, target){
-    return translate
-    .translate(text, target)
-    .then(results => {
-        return results[0]
-    })
-    .catch(err => {
-        console.error('ERROR:', err);
-    });
+    return translate.translate(text, target)
+    .then(results => results[0])
+    .catch(err => console.error('gcloud err:', err))
 }
 
 async function main() {
     filenames = fs.readdirSync(postsFolder)
-
+    /* go through the first level */
     for (let i = 0; i < filenames.length ; i++) {
-
-        /* check if directories */
+        /* check if it is directories */
         let path = `${postsFolder}/${filenames[i]}`
         if (fs.lstatSync(path).isDirectory()) {
             let dir = filenames[i]
@@ -53,12 +47,12 @@ async function main() {
                     enPost = enPost.replace(/(\|\|)/g, '\n')
                                     .replace(/(\[ )/g, '[')
                                     .replace(/(] \()/g, '](')
-                                    .replace(/(\]\])/g, ']') 
+                                    .replace(/(\]\])/g, ']')
                                     .replace(/\]\(.*\)/g, match => match.toLowerCase())
                     let post_config = await translateYamlFronts(post, 'en')
                     /* copy translated file */
                     fs.writeFileSync(`${enPostsFolder}/${dir}/${sub_file}`, `${post_config}---\n${enPost}`)
-                    console.log(`${sub_file} Done.`)
+                    console.log(`${sub_file} translated in subfolders.`)
                 }
             }
             continue
@@ -76,15 +70,15 @@ async function main() {
 
         enPost = enPost
                 .replace(/(\|\|)/g, '\n').replace(/(\[ )/g, '[')
-                .replace(/(] \()/g, '](').replace(/(\]\])/g,']') 
+                .replace(/(] \()/g, '](').replace(/(\]\])/g,']')
                 .replace(/\]\(.*\)/g, match=>match.toLowerCase())
                 // .replace(/\s+(?=[^(\)]*\))/g,'') // remove space in URL added by translate
 
         let config = await translateYamlFronts(post, 'en')
-        
+
         fs.writeFileSync(`${enPostsFolder}/${filenames[i]}`, config + "---\n" + enPost);
 
-        console.log(filenames[i] + " DONE");
+        console.log(filenames[i] + " translated.");
     }
 }
 

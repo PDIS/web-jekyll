@@ -1,5 +1,5 @@
 name: 'Auto translation'
 description: 'Translate posts automatically by using Google Cloud Translation API'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: articles_translate.js
