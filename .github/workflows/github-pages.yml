@@ -41,21 +41,10 @@ jobs:
     env:
       DEPLOY_USER_NAME: Deploy-GitHub-Action
       DEPLOY_USER_EMAIL: github_action@pdis.tw
-      # ENCRYPT_KEY: ${{ secrets.ENCRYPTED_KEY }}
-      # ENCRYPT_IV: ${{ secrets.ENCRYPTED_IV }}
-      # GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.ENCRYPTED_KEY }}
-      # GOOGLE_APPLICATION_CREDENTIALS: ./.github/actions/auto-translation/GCP.json
     steps:
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.ref }}
-      # - name: Decode Google Cloud transation API Key
-      #   run: |
-      #     openssl version
-      #     openssl aes-256-cbc -nosalt -base64 -p -K $ENCRYPT_KEY -iv $ENCRYPT_IV -in GCP.json.enc -out $GOOGLE_APPLICATION_CREDENTIALS -d
-      # - uses: actions/setup-node@v3
-      #   with:
-      #     node-version: "16"
       - id: 'auth'
         name: 'Authenticate to Google Cloud'
         uses: 'google-github-actions/auth@v1'
@@ -106,17 +95,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-      # - name: Upload artifact
-      #   # Automatically uploads an artifact from the './_site' directory by default
-      #   uses: actions/upload-pages-artifact@v1
-
-  # Deploying:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
-  #   needs: [Archiving, Translating, Building]
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v1

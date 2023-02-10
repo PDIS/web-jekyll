@@ -83,7 +83,7 @@ async function main() {
 }
 
 main().catch(err => {
-    console.error('ERROR:', err);
+    console.error('main err:', err);
 });
 
 
