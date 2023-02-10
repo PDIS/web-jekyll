@@ -43,7 +43,7 @@ jobs:
       DEPLOY_USER_EMAIL: github_action@pdis.tw
       # ENCRYPT_KEY: ${{ secrets.ENCRYPTED_KEY }}
       # ENCRYPT_IV: ${{ secrets.ENCRYPTED_IV }}
-      GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.ENCRYPTED_KEY }}
+      # GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.ENCRYPTED_KEY }}
       # GOOGLE_APPLICATION_CREDENTIALS: ./.github/actions/auto-translation/GCP.json
     steps:
       - uses: actions/checkout@v3
@@ -56,6 +56,11 @@ jobs:
       # - uses: actions/setup-node@v3
       #   with:
       #     node-version: "16"
+      - id: 'auth'
+        name: 'Authenticate to Google Cloud'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          credentials_json: ${{ secrets.ENCRYPTED_KEY }}
       - uses: ./.github/actions/auto-translation
       - uses: ./.github/actions/commit-if-change
         with:
