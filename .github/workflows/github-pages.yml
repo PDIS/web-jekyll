@@ -50,7 +50,7 @@ jobs:
           ref: ${{ github.ref }}
       - name: Decode Google Cloud transation API Key
         run: |
-          openssl aes-256-cbc -P -K $ENCRYPT_KEY -iv $ENCRYPT_IV -in GCP.json.enc -out $GOOGLE_APPLICATION_CREDENTIALS -d
+          openssl aes-256-cbc -p -K $ENCRYPT_KEY -iv $ENCRYPT_IV -in GCP.json.enc -out $GOOGLE_APPLICATION_CREDENTIALS -d
       # - uses: actions/setup-node@v3
       #   with:
       #     node-version: "16"
