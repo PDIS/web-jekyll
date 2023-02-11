@@ -8,4 +8,9 @@ package-lock.json
 GCP.json
 yarn.lock
 vendor/
+
+# un-ignore action's node_modules
 !.github/actions/**/node_modules
+
+# Ignore generated credentials from google-github-actions/auth
+gha-creds-*.json
