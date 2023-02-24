@@ -9,12 +9,12 @@
 7. open browser to `127.0.0.1:4000`
 * check https://jekyllrb.com/docs/installation/windows/#encoding if error occurs
 
-## mac
+## macos
 1. `git clone --recurse-submodules https://github.com/PDIS/web-jekyll`
-2. install rvm & ruby
-3. `bundle install`
-3. run `bundle exec jekyll serve` or `bundle exec jekyll serve --drafts`
-4. open browser to `127.0.0.1:4000`
+2. ~~install rvm & ruby~~ (macos should have ruby preinstalled)
+3. `bundle install --path vendor/bundle` 
+4. run `bundle exec jekyll serve` or `bundle exec jekyll serve --drafts`
+5. open browser to `127.0.0.1:4000`
 
 # 檔案結構 Structure
 ## 單篇文章 Text
