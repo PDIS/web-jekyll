@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-03-16T02:13:08+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">T-Road 與零信任</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/T-Road-%E8%88%87%E9%9B%B6%E4%BF%A1%E4%BB%BB/" rel="alternate" type="text/html" title="T-Road 與零信任" /><published>2023-02-16T00:00:00+00:00</published><updated>2023-02-16T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/T-Road-%E8%88%87%E9%9B%B6%E4%BF%A1%E4%BB%BB</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/T-Road-%E8%88%87%E9%9B%B6%E4%BF%A1%E4%BB%BB/"><![CDATA[<p>日前，我國第一個專責資安的行政法人，國家資通安全研究院（<a href="https://www.nics.nat.gov.tw/">資安院</a>）正式成立，為數位部增添了堅韌的生力軍。無獨有偶，內政部也修正了《<a href="https://www.moi.gov.tw/News_Content.aspx?n=145&amp;s=274867">各機關申請提供戶籍資料及親等關聯資料辦法</a>》。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-03-16T15:21:46+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">讓無人機與信任齊飛</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E8%AE%93%E7%84%A1%E4%BA%BA%E6%A9%9F%E8%88%87%E4%BF%A1%E4%BB%BB%E9%BD%8A%E9%A3%9B/" rel="alternate" type="text/html" title="讓無人機與信任齊飛" /><published>2023-03-16T00:00:00+00:00</published><updated>2023-03-16T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E8%AE%93%E7%84%A1%E4%BA%BA%E6%A9%9F%E8%88%87%E4%BF%A1%E4%BB%BB%E9%BD%8A%E9%A3%9B</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E8%AE%93%E7%84%A1%E4%BA%BA%E6%A9%9F%E8%88%87%E4%BF%A1%E4%BB%BB%E9%BD%8A%E9%A3%9B/"><![CDATA[<p>前陣子，我和電信技術中心（TTC）的同仁們，開始探討轉型的方向。數位部督導的 TTC，近二十年來從攜碼服務、驗測技術到政策智庫，可說是無役不與，對通傳發展貢獻卓著。</p>
+
+<p>近年來，TTC 全力投入資安防護發展，獲得豐碩成果，也讓我們思考，將英文名稱中的「電信（Telecom）」，拓展為「信任科技中心（Trustworthy Technology Center）」，更符合它協助強化數位韌性的核心業務。</p>
+
+<p>而三月一日正式成立的「無人機資安聯合驗測實驗室」，由國科會協助、TTC 聯合國內業者夥伴共同打造，更為「信任科技（Trust Tech）」創下重要的里程碑。</p>
+
+<p>無人機可以突破地形限制，從農林測量到災害救援，已成為重要的輔助工具。因此，政府持續研擬無人機產業發展方案，並結合產官學研能量，成立「臺灣無人機大聯盟」。</p>
+
+<p>然而，無人機被部分有心人士用於攻擊、監視的案例至今時有所聞，不只成為新的資安挑戰，更是重要的國安議題。</p>
+
+<p>今年一月，尚在籌備階段的聯合驗測實驗室，就根據各界專家及產業代表意見，公告《無人機資安保障規範》，內容涵蓋實驗室的三個核心檢測項目，包括製造商資安成熟度、產品資安、以及場域資安。</p>
+
+<p>以第一項製造商資安成熟度為例，如同提供一個「安全設計藍圖」，讓業者可以依循明確的要求。實驗室會查核開發流程、供應鏈、及軟硬體物料清單管理安全，確保無人機開發環境的安全，並正確將安全導入產品功能。</p>
+
+<p>第二項產品資安，則可以視為無人機的「健康檢查」。實驗室就像是健檢中心，好比提供無人機不同安全等級的健檢套餐。能通過的檢測級數越高，安全防護也越完整。實驗室除了為無人機提供健檢，也會分析問題，並且產出完整報告供業者參考。</p>
+
+<p>此外，第三項場域資安，則是強化無人機活動場域的防護，避免受到環境與其他設備影響，例如資料傳輸時受到干擾。就像除了精良的健康檢查，也要注意外在的風險因子，維持良好的生活環境與飲食作息，才能真正確保健康。</p>
+
+<p>因此，實驗室也會依照台灣資通產業標準協會公告的「物聯網場域資安防護評估指引」，透過威脅建模、漏洞檢測、滲透測試及衝擊分析等流程，一併提出場域資安的改善建議。</p>
+
+<p>我們期許 TTC 不只協助主管機關交通部，共同建立國內檢測能量，更要接軌國際資安規範，協助業者成為全球無人機產業的生力軍。數位部和 TTC 也會持續秉持信任科技的精神，確保「易守難攻、堅韌可靠」的資通安全。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="韌性建設" /><category term="資通安全" /><summary type="html"><![CDATA[聯合驗測實驗室，為「信任科技」創下重要的里程碑。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/drone-ttc.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/drone-ttc.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">T-Road 與零信任</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/T-Road-%E8%88%87%E9%9B%B6%E4%BF%A1%E4%BB%BB/" rel="alternate" type="text/html" title="T-Road 與零信任" /><published>2023-02-16T00:00:00+00:00</published><updated>2023-02-16T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/T-Road-%E8%88%87%E9%9B%B6%E4%BF%A1%E4%BB%BB</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/T-Road-%E8%88%87%E9%9B%B6%E4%BF%A1%E4%BB%BB/"><![CDATA[<p>日前，我國第一個專責資安的行政法人，國家資通安全研究院（<a href="https://www.nics.nat.gov.tw/">資安院</a>）正式成立，為數位部增添了堅韌的生力軍。無獨有偶，內政部也修正了《<a href="https://www.moi.gov.tw/News_Content.aspx?n=145&amp;s=274867">各機關申請提供戶籍資料及親等關聯資料辦法</a>》。</p>
 
 <p>這兩件事看似沒有關連，實則為「資安即國安」展開新頁。</p>
 
@@ -181,18 +201,4 @@
 
 <p>比起我們過去所熟知的開放資料，「數據公益」更強調數據的公益性以及數據持有者的主動性，賦予「數據」（nonpersonal data）利他貢獻的價值，更以此建立數位互信關係。</p>
 
-<p>我認為，大家不妨把「數據公益」想像成一張入場券，每個人可以自願、主動提供數據，形塑數位世界的「共融空間」，讓社會變得更好。當每個人都可以是數據的產製者和使用者，在數據的整理和分析中，就可以形成新的共創和協作關係，進而真正連結彼此，開展出數位共好的新型態社會。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="社會創新" /><summary type="html"><![CDATA[形塑數位世界的「共融空間」，讓社會變得更好。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/92214070_1528843037282109_3836225141944090624_n.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/92214070_1528843037282109_3836225141944090624_n.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">強化全民數位韌性</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E5%BC%B7%E5%8C%96%E5%85%A8%E6%B0%91%E6%95%B8%E4%BD%8D%E9%9F%8C%E6%80%A7/" rel="alternate" type="text/html" title="強化全民數位韌性" /><published>2022-08-02T00:00:00+00:00</published><updated>2022-08-02T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E5%BC%B7%E5%8C%96%E5%85%A8%E6%B0%91%E6%95%B8%E4%BD%8D%E9%9F%8C%E6%80%A7</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E5%BC%B7%E5%8C%96%E5%85%A8%E6%B0%91%E6%95%B8%E4%BD%8D%E9%9F%8C%E6%80%A7/"><![CDATA[<p>愛沙尼亞前總統 Toomas Hendrik Ilves 最近訪問台灣，出席凱達格蘭論壇，提出歐美與包括我國在內的亞洲民主國家，應組成「數位民主聯盟」。功能類似北約（NATO），但並非建立在地緣政治，而是建立在對抗威權的共同價值觀上。</p>
-
-<p>事實上，針對這個構想，早在 2022 年 7 月初，<a href="https://www.taiwanplus.com/originals/220708010">Ilves 總統在我主持的 TaiwanPlus 節目中</a>，就慷慨分享了許多「如何強化數位韌性」的具體作法和重要思維。其中，包括愛沙尼亞目前已將政府重要資料，置於境外備份並隨時同步。對於各國政府的運作而言，此堪稱劃時代的嘗試。</p>
-
-<p>這套做法，源自於 2011 年的福島事件。Ilves 總統說，在得知日本政府因為災害失去了部分政府資料後，愛沙尼亞政府開始警覺，並思考該如何因應這種情形。他們除了把重要資料，實體運送到駐外國的大使館之外，也在使館內架設伺服器。Ilves 總統指出，愛沙尼亞政府為此和盧森堡政府接洽，主張這個伺服器也應視同愛沙尼亞的領土，非經許可不得進入、完全獨立，如果國內的任何重要資料有所變更，都會同步更新到大使館中的伺服器。</p>
-
-<p>這不只是值得各國政府借鏡的創新作為，愛沙尼亞政府也精準示範出如何打造「數位韌性」。什麼是韌性（Resilience）？韌性指的是：任何時候遭受到不利的影響，可以快速恢復，並透過完善機制即時應變，甚至從被攻擊的經驗中學習、強化自身體質。由此可知，愛沙尼亞的備份機制，是強化數位韌性的重要基礎建設。</p>
-
-<p>此外，愛沙尼亞、芬蘭、冰島政府共同維運的 X-Road 架構，不採用單一資料庫，而是提供「公共程式」（Public Code）作為資料交換層，避免風險過度集中，保持資料、空間和使用方式的「異質性」。這樣一來，即使其中某部分遭到攻擊，其他節點還是安全無虞。</p>
-
-<p>而「全民協力」也是愛沙尼亞政府給我們的重要啟示。愛沙尼亞早在 1996 年，就讓每個學校都提供電腦，讓學生及早進入數位世界；政府從資料到程式碼全面開放，不但讓數位教育全面普及，也建立全民的數位能力。換句話說，一旦系統出現錯誤，任何人都有機會隨時指認、幫助解決問題。</p>
-
-<p>愛沙尼亞的經驗示範出：「多元異質」和「社會韌性」缺一不可。資料和系統保持多元，是最全面的準備；人民和政府守望相助，是最縝密的防備。</p>
-
-<p>「全民數位韌性」不只是 Ilves 總統和我的對談內容，更是數位發展部籌備工作的核心理念。從寬頻人權到民主防疫，臺灣已經具備良好的韌性基礎。接下來，我們不只將為臺灣打造全民參與的環境，也將為民主聯盟的數位韌性，持續開創新局。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="開放政府" /><summary type="html"><![CDATA[愛沙尼亞的經驗示範出：「多元異質」和「社會韌性」缺一不可。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/20220802.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/20220802.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>我認為，大家不妨把「數據公益」想像成一張入場券，每個人可以自願、主動提供數據，形塑數位世界的「共融空間」，讓社會變得更好。當每個人都可以是數據的產製者和使用者，在數據的整理和分析中，就可以形成新的共創和協作關係，進而真正連結彼此，開展出數位共好的新型態社會。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="社會創新" /><summary type="html"><![CDATA[形塑數位世界的「共融空間」，讓社會變得更好。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/92214070_1528843037282109_3836225141944090624_n.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/92214070_1528843037282109_3836225141944090624_n.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
