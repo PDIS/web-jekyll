@@ -10,6 +10,16 @@
     facebook: https://facebook.com/digitalminister.tw
     instagram: https://www.instagram.com/digitalminister
 ########## 2023 ##########
+練喆明:
+    status: current
+    name: 練喆明
+    name_en: Matthew Lien (BlueT)
+    description: Head of Resilient Architecture 韌性架構總顧問
+    avatar: 'https://en.gravatar.com/userimage/3207161/597aecfb201a166859e45893e2b32f20.png'
+    email: bluet@pdis.nat.gov.tw
+    twitter: https://twitter.com/BlueT
+    facebook: https://www.facebook.com/BlueT.M.Lien
+
 
 ########## 2022 ##########
 葉寧:
@@ -19,7 +29,7 @@
     name_en: Ning Yeh
 黃子維:
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/zach/800/589_1.png'
-    status: former
+    status: current
     name: 黃子維
     name_en: Zach Huang
 薛雅婷:
@@ -39,7 +49,7 @@
     name: 蕭郁溏
 魏守斌:
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/bobby/800/4074_1.png'
-    status: former
+    status: current
     name: 魏守斌
     name_en: Shou-Bin Wei
 李雪津:
