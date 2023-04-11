@@ -25,7 +25,7 @@ memberList:
   <div class="card-panel grey lighten-5 z-depth-1 grid-item">
     <div class="row" style="margin: 0 -1em;">
       <div class="col s4">
-        <img src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}" class="circle responsive-img">
+        <img src="{{ person.avatar | default: site.logo }}" alt="{{ person.name }}" class="circle responsive-img" loading="lazy">
       </div>
       <div class="col s8">
         <h6><span>{{ person.name }}</span> <span lang="en">{{ person.name_en }}</span></h6>
