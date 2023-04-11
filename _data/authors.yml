@@ -4,6 +4,7 @@
     name: 唐鳳
     name_en: Audrey Tang
     description: 行政院資訊長，數位部長，資安院董事長。
+    description_en: Minister of Digital Affairs, Chair of NICS.
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/audreyt/800/574_1.png'
     email: au@pdis.nat.gov.tw
     twitter: https://twitter.com/audreyt
@@ -14,7 +15,8 @@
     status: current
     name: 練喆明
     name_en: Matthew Lien (BlueT)
-    description: Head of Resilient Architecture 韌性架構總顧問
+    description: 韌性架構總顧問
+    description_en: Head of Resilient Architecture
     avatar: 'https://en.gravatar.com/userimage/3207161/597aecfb201a166859e45893e2b32f20.png'
     email: bluet@pdis.nat.gov.tw
     twitter: https://twitter.com/BlueT
@@ -23,7 +25,8 @@
     status: current
     name: 江明宗
     name_en: Finjon Kinag (kiang)
-    description: Head of Application Architecture 應用架構總顧問 / somebody as a nobody, nobody as a somebody
+    description: 應用架構總顧問
+    description_en: Head of Application Architecture / somebody as a nobody, nobody as a somebody
     avatar: 'https://pdis.nat.gov.tw/assets/avatar/kiang.jpg'
     email: kiang@pdis.nat.gov.tw
     twitter: https://twitter.com/finjonkiang
@@ -33,7 +36,8 @@
     status: current
     name: 林克寰
     name_en: Jedi Lin
-    description: Head of Accessibility Design 無障礙設計總顧問
+    description: 無障礙設計總顧問
+    description_en: Head of Accessibility Design
     avatar: 'https://pdis.nat.gov.tw/assets/avatar/jedi.png'
     email: jedi@pdis.nat.gov.tw
     twitter: https://twitter.com/JediLin
@@ -41,7 +45,8 @@
     status: current
     name: 邱慕安
     name_en: Mu-An Chiou
-    description: 設計制度總顧問 Head of Design Systems
+    description: 設計制度總顧問
+    description_en: Head of Design Systems
     avatar: '/assets/avatar/muan.jpg'
     website: https://muan.co/
 
