@@ -37,7 +37,13 @@
     avatar: 'https://pdis.nat.gov.tw/assets/avatar/jedi.png'
     email: jedi@pdis.nat.gov.tw
     twitter: https://twitter.com/JediLin
-
+邱慕安:
+    status: current
+    name: 邱慕安
+    name_en: Mu-An Chiou
+    description: 設計制度總顧問 Head of Design Systems
+    avatar: '/assets/avatar/muan.jpg'
+    website: https://muan.co/
 
 ########## 2022 ##########
 葉寧:
