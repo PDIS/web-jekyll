@@ -420,3 +420,9 @@ img {
 .justify-content-around {
   justify-content: space-around!important;
 }
+
+.btn-with-svg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
