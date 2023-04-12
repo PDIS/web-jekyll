@@ -17,7 +17,7 @@
     name_en: Matthew Lien (BlueT)
     description: 韌性架構總顧問
     description_en: Head of Resilient Architecture
-    avatar: 'https://pdis.nat.gov.tw/assets/avatar/bluet.jpg'
+    avatar: '/assets/avatar/bluet.jpg'
     email: bluet@pdis.nat.gov.tw
     twitter: https://twitter.com/BlueT
     facebook: https://www.facebook.com/BlueT.M.Lien
@@ -29,7 +29,7 @@
     name_en: Finjon Kinag (kiang)
     description: 應用架構總顧問
     description_en: Head of Application Architecture / somebody as a nobody, nobody as a somebody
-    avatar: 'https://pdis.nat.gov.tw/assets/avatar/kiang.jpg'
+    avatar: '/assets/avatar/kiang.jpg'
     website: https://kiang.github.io/
     email: kiang@pdis.nat.gov.tw
     twitter: https://twitter.com/finjonkiang
@@ -42,7 +42,7 @@
     name_en: Jedi Lin
     description: 無障礙設計總顧問
     description_en: Head of Accessibility Design
-    avatar: 'https://pdis.nat.gov.tw/assets/avatar/jedi.png'
+    avatar: '/assets/avatar/jedi.png'
     email: jedi@pdis.nat.gov.tw
     twitter: https://twitter.com/JediLin
     website: https://jedi.org/blog/
