@@ -56,7 +56,15 @@
     description_en: Head of Design Systems
     avatar: '/assets/avatar/muan.jpg'
     website: https://muan.co/
-
+方怡婷:
+    status: current
+    name: 方怡婷
+    name_en: I-Ting Fang
+    description: 資料架構總顧問
+    description_en: Head of Data Architecture
+    avatar: '/assets/avatar/iting.jpg'
+    email: iting.fang@pdis.nat.gov.tw
+    linkedin: https://www.linkedin.com/in/i-ting-fang/
 ########## 2022 ##########
 葉寧:
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/ningyeh/800/676_1.png'
