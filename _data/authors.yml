@@ -65,6 +65,14 @@
     avatar: '/assets/avatar/iting.jpg'
     email: iting.fang@pdis.nat.gov.tw
     linkedin: https://www.linkedin.com/in/i-ting-fang/
+李宥辰:
+    status: current
+    name: 李宥辰
+    name_en: Isac Lee
+    description: 軟體架構總顧問
+    description_en: Head of Software Architecture
+    email: isacl@pdis.nat.gov.tw
+    linkedin: https://www.linkedin.com/in/youchenlee/
 ########## 2022 ##########
 葉寧:
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/ningyeh/800/676_1.png'
