@@ -3,10 +3,11 @@ layout: page
 ---
 
 <style>
-  h1, h2, h3 { font-size: 1em; line-height: 1.6em; margin: 0.5em 0; }
+  h1, h2, h3 { font-size: 1em; line-height: 1.4em; margin: 0.5em 0; }
   h1 { font-size: 1.5em; font-weight: 600; }
   h2 { font-size: 1.3em; }
-  .btn-small { margin: 0.3em }
+  .btn-social { margin: 0.3em; font-size: 0.9em; }
+  .btn-social i { font-size: inherit; }
 </style>
 
 {% assign user = site.data.authors[page.title] %}
@@ -14,10 +15,10 @@ layout: page
   <div class="card">
     <div class="card-panel grey lighten-5 z-depth-1">
       <div class="row">
-        <div class="col s4">
+        <div class="col s8 offset-s2 m4">
           <img src="{{ user.avatar | default: site.logo }}" alt="" class="circle responsive-img">
         </div>
-        <div class="col s8 black-text">
+        <div class="col s12 m8 black-text">
           <h1>
             <div lang="zh-TW">{{ user.name }}</div>
             <div lang="en">{{ user.name_en }}</div>
@@ -28,46 +29,46 @@ layout: page
           </h2>
           <div class="row">
             {% if user.website %}
-              <a href="{{ user.website }}" target="_blank" title="website" class="black-text white btn-flat btn-small waves-effect">
+              <a href="{{ user.website }}" target="_blank" title="website" class="btn-social black-text white btn-flat waves-effect">
                 <i class="left teal-text fa fa-home"></i>
                 <span>網站 Website</span>
               </a>
             {% endif %}
             {% if user.email %}
-              <a href="mailto:{{ user.email }}" target="_blank" title="email" class="black-text white btn-flat btn-small waves-effect">
+              <a href="mailto:{{ user.email }}" target="_blank" title="email" class="btn-social black-text white btn-flat waves-effect">
                 <i class="left orange-text fa fa-envelope"></i>
                 <span>電子信箱 Email</span>
               </a>
             {% endif %}
             {% if user.twitter %}
-              <a href="{{ user.twitter }}" target="_blank" title="twitter" class="black-text white btn-flat btn-small waves-effect">
+              <a href="{{ user.twitter }}" target="_blank" title="twitter" class="btn-social black-text white btn-flat waves-effect">
                 <i class="left cyan-text fa fa-twitter"></i>
                 <span>Twitter</span>  
               </a>
             {% endif %}
             {% if user.linkedin %}
-              <a href="{{ user.linkedin }}" target="_blank" title="linkedin" class="black-text white btn-flat btn-small waves-effect btn-with-svg">
+              <a href="{{ user.linkedin }}" target="_blank" title="linkedin" class="btn-social black-text white btn-flat waves-effect btn-with-svg">
                 <i class="valign-wrapper left">{% include svg_icons/linkedin.html width=16 height=16 %}</i>
                 <span>LinkedIn</span>
               </a>
             {% endif %}
             
             {% if user.mastodon %}
-              <a href="{{ user.mastodon }}" target="_blank" title="mastodon" class="black-text white btn-flat btn-small waves-effect btn-with-svg">
+              <a href="{{ user.mastodon }}" target="_blank" title="mastodon" class="btn-social black-text white btn-flat waves-effect btn-with-svg">
                 <i class="valign-wrapper left">{% include svg_icons/mastodon.html width=16 height=16 %}</i>
                 <span>Mastodon</span>
               </a>
             {% endif %}
 
             {% if user.facebook %}
-              <a href="{{ user.facebook }}" target="_blank" title="facebook" class="black-text white btn-flat btn-small waves-effect">
+              <a href="{{ user.facebook }}" target="_blank" title="facebook" class="btn-social black-text white btn-flat waves-effect">
                 <i class="left blue-text fa fa-facebook"></i>
                 <span>Facebook</span>
               </a>
             {% endif %}
 
             {% if user.instagram %}
-              <a href="{{ user.instagram }}" target="_blank" title="instagram" class="black-text white btn-flat btn-small waves-effect">
+              <a href="{{ user.instagram }}" target="_blank" title="instagram" class="btn-social black-text white btn-flat waves-effect">
                 <i class="left pink-text fa fa-instagram"></i>
                 <span>Instagram</span>
               </a>
