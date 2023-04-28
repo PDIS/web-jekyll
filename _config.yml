@@ -50,6 +50,7 @@ exclude_from_localizations:
   - "images"
   - "favicon.ico"
   - "js"
+  - "info"
 defaultLang: en
 languageNames:
   zh-TW: 繁體中文
