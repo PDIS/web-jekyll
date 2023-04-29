@@ -28,10 +28,15 @@ layout: page
             <div lang="en">{{ user.description_en }}</div>
           </h2>
           <div class="row">
-            {% if user.website %}
-              <a href="{{ user.website_card | default: user.website }}" title="web" class="btn-social black-text white btn-flat waves-effect">
+            {% if user.website_card %}
+              <a href="{{ user.website_card }}" title="web" class="btn-social black-text white btn-flat waves-effect">
                 <i class="left teal-text fa fa-home"></i>
                 <span>聯絡網頁 Web</span>
+              </a>
+            {% elsif user.website %}
+              <a href="{{ user.website }}" title="website" class="btn-social black-text white btn-flat waves-effect">
+                <i class="left teal-text fa fa-home"></i>
+                <span>網站 Website</span>
               </a>
             {% endif %}
             {% if user.email %}
