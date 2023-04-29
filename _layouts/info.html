@@ -29,46 +29,46 @@ layout: page
           </h2>
           <div class="row">
             {% if user.website %}
-              <a href="{{ user.website }}" target="_blank" title="website" class="btn-social black-text white btn-flat waves-effect">
+              <a href="{{ user.website_card | default: user.website }}" title="web" class="btn-social black-text white btn-flat waves-effect">
                 <i class="left teal-text fa fa-home"></i>
-                <span>網站 Website</span>
+                <span>聯絡網頁 Web</span>
               </a>
             {% endif %}
             {% if user.email %}
-              <a href="mailto:{{ user.email }}" target="_blank" title="email" class="btn-social black-text white btn-flat waves-effect">
+              <a href="mailto:{{ user.email }}" title="email" class="btn-social black-text white btn-flat waves-effect">
                 <i class="left orange-text fa fa-envelope"></i>
                 <span>電子信箱 Email</span>
               </a>
             {% endif %}
             {% if user.twitter %}
-              <a href="{{ user.twitter }}" target="_blank" title="twitter" class="btn-social black-text white btn-flat waves-effect">
+              <a href="{{ user.twitter }}" title="twitter" class="btn-social black-text white btn-flat waves-effect">
                 <i class="left cyan-text fa fa-twitter"></i>
                 <span>Twitter</span>  
               </a>
             {% endif %}
             {% if user.linkedin %}
-              <a href="{{ user.linkedin }}" target="_blank" title="linkedin" class="btn-social black-text white btn-flat waves-effect btn-with-svg">
+              <a href="{{ user.linkedin }}" title="linkedin" class="btn-social black-text white btn-flat waves-effect btn-with-svg">
                 <i class="valign-wrapper left">{% include svg_icons/linkedin.html width=16 height=16 %}</i>
                 <span>LinkedIn</span>
               </a>
             {% endif %}
             
             {% if user.mastodon %}
-              <a href="{{ user.mastodon }}" target="_blank" title="mastodon" class="btn-social black-text white btn-flat waves-effect btn-with-svg">
+              <a href="{{ user.mastodon }}" title="mastodon" class="btn-social black-text white btn-flat waves-effect btn-with-svg">
                 <i class="valign-wrapper left">{% include svg_icons/mastodon.html width=16 height=16 %}</i>
                 <span>Mastodon</span>
               </a>
             {% endif %}
 
             {% if user.facebook %}
-              <a href="{{ user.facebook }}" target="_blank" title="facebook" class="btn-social black-text white btn-flat waves-effect">
+              <a href="{{ user.facebook }}" title="facebook" class="btn-social black-text white btn-flat waves-effect">
                 <i class="left blue-text fa fa-facebook"></i>
                 <span>Facebook</span>
               </a>
             {% endif %}
 
             {% if user.instagram %}
-              <a href="{{ user.instagram }}" target="_blank" title="instagram" class="btn-social black-text white btn-flat waves-effect">
+              <a href="{{ user.instagram }}" title="instagram" class="btn-social black-text white btn-flat waves-effect">
                 <i class="left pink-text fa fa-instagram"></i>
                 <span>Instagram</span>
               </a>
