@@ -93,7 +93,7 @@
     name: 薛雅婷
     name_en: Wendy Hsueh
 展銘:
-    description: 我不是長頸鹿  我不是長頸鹿   我不是長頸鹿
+    description_removed: 我不是長頸鹿  我不是長頸鹿   我不是長頸鹿
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/targee/800/588_1.png'
     status: former
     name: "☕️展銘🐘"
@@ -116,7 +116,7 @@
     status: former
     name: 李姿瑩
 賴致翔:
-    description: 浪漫派公務員但是做著很實際的工作
+    description_removed: 浪漫派公務員但是做著很實際的工作
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/chlai/800/576_1.png'
     status: former
     name: 賴致翔
@@ -136,7 +136,7 @@
     name: 貢丸
     name_en: D.Y. Chien
 蔡仲明:
-    description: 資策會派來的台灣社會數位化打手 ._.
+    description_removed: 資策會派來的台灣社會數位化打手 ._.
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/romulus/800/585_1.png'
     status: former
     name: 蔡仲明
@@ -149,13 +149,13 @@
     status: former
     name: 李建平
 林書漾:
-    description: 在公共數位創新空間小組進行一個設計的動作
+    description_removed: 在公共數位創新空間小組進行一個設計的動作
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/shuyanglin/800/605_1.png'
     status: former
     name: 林書漾
     name_en: Shu-Yang Lin
 周紹文:
-    description: 行政院 公共數位創新小組 替代役
+    description_removed: 行政院 公共數位創新小組 替代役
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/john5601/800/580_1.png'
     status: former
     name: 周紹文
@@ -164,7 +164,7 @@
     status: former
     name: 林正東
 Mark:
-    description: 好熱！好熱！
+    description_removed: 好熱！好熱！
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/markdai/800/582_1.png'
     status: former
     name: Mark
@@ -172,14 +172,14 @@ Mark:
     status: former
     name: 簡就可
     name_en: Joke
-    description: 影像顧問、前端工程師
+    description_removed: 影像顧問、前端工程師
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/jokeum/800/581_1.png'
     email: joke@pdis.tw
     facebook: https://facebook.com/jokeum
     twitter: https://twitter.com/jokeum
     instagram: https://www.instagram.com/joke.um/
 張庭瑜:
-    description: 感恩PDIS，讚嘆PDIS
+    description_removed: 感恩PDIS，讚嘆PDIS
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/naxus/800/583_1.png'
     status: former
     name: 張庭瑜
@@ -199,12 +199,12 @@ Mark:
     name: 彭筱婷
     name_en: Sheau-Tyng Peng
 雨蒼:
-    description: 自由軟體工作者、公民記者
+    description_removed: 自由軟體工作者、公民記者
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/billy3321/800/727_1.png'
     status: former
     name: 雨蒼
 李忠和:
-    description: Software Engineer in Backend and Data
+    description_removed: Software Engineer in Backend and Data
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/peterlee/800/727_1.png'
     status: former
     name: 李忠和
@@ -219,7 +219,7 @@ Mark:
     name: 張皓婷
     name_en: Haoting Chang
 莊秉倫:
-    description: 半路出家到資工系研究生，立志成為從機房到 UI/UX 都會的 Full Stack 工程師
+    description_removed: 半路出家到資工系研究生，立志成為從機房到 UI/UX 都會的 Full Stack 工程師
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/bingluen/800/746_1.png'
     status: former
     name: 莊秉倫
@@ -268,7 +268,7 @@ Mark:
     name: 孫蕙英
     name_en: Vivian Sun
 許恩恩:
-    description: 社會運動研究。公民審議。主持溝通技巧。
+    description_removed: 社會運動研究。公民審議。主持溝通技巧。
     avatar: 'https://i.imgur.com/2grxLFV.jpg'
     status: former
     name: 許恩恩
@@ -297,12 +297,12 @@ Fran:
     status: intern
     name: 謝定宇
 許家瑀:
-    description: 一隻魚
+    description_removed: 一隻魚
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/hcy/800/3756_1.png'
     status: intern
     name: 許家瑀
 雅貴:
-    description: 嗨！我是 Juliana
+    description_removed: 嗨！我是 Juliana
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/juliana/800/744_1.png'
     status: intern
     name: 雅貴
@@ -311,7 +311,7 @@ Fran:
     status: intern
     name: 談宇綺
 吳書凡:
-    description: "技能樹亂點的一只大貓🦁️"
+    description_removed: "技能樹亂點的一只大貓🦁️"
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/max0804/800/3763_1.png'
     status: intern
     name: 吳書凡
@@ -328,12 +328,12 @@ FanWenHsuan:
     status: intern
     name: 'Fan, WenHsuan'
 賴力維:
-    description: 業力引爆
+    description_removed: 業力引爆
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/yellow/800/788_1.png'
     status: intern
     name: 賴力維
 陳典佑:
-    description: 一個銘傳資工大二的學生，現在經常在 SITCON 社群活動。
+    description_removed: 一個銘傳資工大二的學生，現在經常在 SITCON 社群活動。
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/yoyo930021/800/3755_1.png'
     status: intern
     name: 陳典佑
