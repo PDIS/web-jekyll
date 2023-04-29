@@ -34,21 +34,21 @@ memberList:
           {% if person.description_en %}<div lang="en">{{ person.description_en }}</div>{% endif %}
         </p>
         <div>
-          {% if person.website %}<a href="{{ person.website }}" target="_blank" title="website" class="white btn-floating btn-flat btn-small waves-effect"><i class="teal-text fa fa-home"></i></a>{% endif %}
-          {% if person.email %}<a href="mailto:{{ person.email }}" target="_blank" title="email" class="white btn-floating btn-flat btn-small waves-effect"><i class="orange-text fa fa-envelope"></i></a>{% endif %}
-          {% if person.twitter %}<a href="{{ person.twitter }}" target="_blank" title="twitter" class="white btn-floating btn-flat btn-small waves-effect"><i class="cyan-text fa fa-twitter"></i></a>{% endif %}
+          {% if person.website %}<a href="{{ person.website }}" title="website" class="white btn-floating btn-flat btn-small waves-effect"><i class="teal-text fa fa-home"></i></a>{% endif %}
+          {% if person.email %}<a href="mailto:{{ person.email }}" title="email" class="white btn-floating btn-flat btn-small waves-effect"><i class="orange-text fa fa-envelope"></i></a>{% endif %}
+          {% if person.twitter %}<a href="{{ person.twitter }}" title="twitter" class="white btn-floating btn-flat btn-small waves-effect"><i class="cyan-text fa fa-twitter"></i></a>{% endif %}
           {% if person.linkedin %}
-            <a href="{{ person.linkedin }}" target="_blank" title="linkedin" class="white btn-floating btn-flat btn-small waves-effect btn-with-svg">
+            <a href="{{ person.linkedin }}" title="linkedin" class="white btn-floating btn-flat btn-small waves-effect btn-with-svg">
               {% include svg_icons/linkedin.html width=16 height=16 %}
             </a>
           {% endif %}
           {% if person.mastodon %}
-            <a href="{{ person.mastodon }}" target="_blank" title="mastodon" class="white btn-floating btn-flat btn-small waves-effect btn-with-svg">
+            <a href="{{ person.mastodon }}" title="mastodon" class="white btn-floating btn-flat btn-small waves-effect btn-with-svg">
               {% include svg_icons/mastodon.html width=16 height=16 %}
             </a>
           {% endif %}
-          {% if person.facebook %}<a href="{{ person.facebook }}" target="_blank" title="facebook" class="white btn-floating btn-flat btn-small waves-effect"><i class="blue-text fa fa-facebook"></i></a>{% endif %}
-          {% if person.instagram %}<a href="{{ person.instagram }}" target="_blank" title="instagram" class="white btn-floating btn-flat btn-small waves-effect"><i class="pink-text fa fa-instagram"></i></a>{% endif %}
+          {% if person.facebook %}<a href="{{ person.facebook }}" title="facebook" class="white btn-floating btn-flat btn-small waves-effect"><i class="blue-text fa fa-facebook"></i></a>{% endif %}
+          {% if person.instagram %}<a href="{{ person.instagram }}" title="instagram" class="white btn-floating btn-flat btn-small waves-effect"><i class="pink-text fa fa-instagram"></i></a>{% endif %}
         </div>
       </div>
     </div>
