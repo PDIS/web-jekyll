@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-05-02T01:31:17+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">十年開放資料，開啟無限未來</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E5%8D%81%E5%B9%B4%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99-%E9%96%8B%E5%95%9F%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86/" rel="alternate" type="text/html" title="十年開放資料，開啟無限未來" /><published>2023-04-13T00:00:00+00:00</published><updated>2023-04-13T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E5%8D%81%E5%B9%B4%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99-%E9%96%8B%E5%95%9F%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E5%8D%81%E5%B9%B4%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99-%E9%96%8B%E5%95%9F%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86/"><![CDATA[<p>今年四月，是臺灣發展開放資料的重要里程碑，是「政府資料開放平臺」上線滿十年的日子。如今，平臺已開放超過五萬五千筆資料集，瀏覽量超過一億一千三百萬次、下載量超過一千九百萬次。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-05-02T14:08:18+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">資料治理有智，數據公益有理</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E8%B3%87%E6%96%99%E6%B2%BB%E7%90%86%E6%9C%89%E6%99%BA-%E6%95%B8%E6%93%9A%E5%85%AC%E7%9B%8A%E6%9C%89%E7%90%86/" rel="alternate" type="text/html" title="資料治理有智，數據公益有理" /><published>2023-05-02T00:00:00+00:00</published><updated>2023-05-02T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E8%B3%87%E6%96%99%E6%B2%BB%E7%90%86%E6%9C%89%E6%99%BA-%E6%95%B8%E6%93%9A%E5%85%AC%E7%9B%8A%E6%9C%89%E7%90%86</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E8%B3%87%E6%96%99%E6%B2%BB%E7%90%86%E6%9C%89%E6%99%BA-%E6%95%B8%E6%93%9A%E5%85%AC%E7%9B%8A%E6%9C%89%E7%90%86/"><![CDATA[<p>本書是繼《政府數位轉型：一本必讀的入門書》之後，數位治理學界與實務界再次攜手共創的智慧結晶。這次作者群聚焦於「政府資料治理」，再度展現出深厚的專業素養。</p>
+
+<p>如果把數位轉型比擬為工業革命，資料正是轉動時代巨輪的新能源；也如能源的開發與運用，攸關產業發展的成敗一樣，資料治理可謂數位轉型的關鍵基石。</p>
+
+<p>今日，隨著影音及語言模型的普及，舉凡翻譯、客服、行銷、創作等各行各業，都受到生成技術的衝擊。猶如精煉技術的躍昇，讓化石燃料擺脫點燈取暖等原始用途，不但煉製出陸海空載具的強大動力，更產生無數塑化產品，進入食衣住行育樂各個生活層面；基礎模型（foundation models）的盛行，促使全球爭相投入資料的應用發展，揮灑出無窮無盡的創意。</p>
+
+<p>然而，正如石化產品引發氣候危機與生態浩劫，以致追求潔淨能源成為世紀挑戰；基礎模型從訓練到應用都與巨量資料息息相關，如果沒有良善的治理基礎，數位生態浩劫可說是迫在眉睫，眼前的互動深偽詐騙只是冰山一角。</p>
+
+<p>有幸的是，國際間正高度關注治理議題，期待法制倫理與技術齊頭並進。今年四月底在日本舉辦的七大工業國（G7）數位技術部長會議，即發表聯合聲明，宣示將促進「以人為本」的公益價值，反對威脅民主、自由、人權的不當應用。聲明呼應了《民主峰會宣言》與《未來網際網路宣言》的精神，指出建構「數據自由流通可信」（Data Free Flow with Trust, DFFT) 的機制，是跨境協作的首要之務。</p>
+
+<p>換句話說，面對基礎模型等快速發展的技術，即便對人權與民主的侵害存有疑慮，「自由流通」仍然是跨境資料治理的首要價值，而非深溝高壘地打造孤島，更不會返祖地透過政府監管，一昧拒卻數據流通，讓先進國家變成「先禁」國家。</p>
+
+<p>聲明提出的「運用創新機會」、「法治」、「正當程序」、「民主主義」、「尊重人權」五大原則，一言以蔽之，就是「以人為本」——堅定捍衛個人做為資料主體的價值與保障。如同家喻戶曉的寓言故事，各國政府如果不能誠懇面對遺落的鐵斧頭，也就不可能得到金銀斧頭的獎賞。</p>
+
+<p>數位部在各界期待下成立，肩負「政府數位服務、資料治理與開放」使命。作為法制與倫理規範的輔佐，我們推動隱私強化技術（PETs）、積極輔導電商及物流業者導入，正是為了降低個資外洩的風險。</p>
+
+<p>而觀察國際趨勢，歐盟近來提倡透隱私強化處理，主動將高應用價值的資料，轉化為無涉個資的資料（即「數據」，non-personal data），以促進各界應用、創造公共利益。</p>
+
+<p>以我國而言，舉凡氣候環境、災害防救、交通運輸、健康醫療、能源管理、社會救助等公益應用，在 data.gov.tw 平臺上都有對應的「高應用價值」主題，啟發源源不絕的創新方案。過去十年，平臺吸引了一億一千三百萬次瀏覽、下載超過一千九百萬次，更透過「總統盃黑客松」等活動，成為全民共創的實踐。</p>
+
+<p>換言之，本書引述的「石油論」怕只說對了一半；石油與礦產是競爭財，然而數據正好相反，具備「非排他性」和「非競爭性」，在健全法制與隱私強化技術打造的治理環境下，更能發揮「反競爭財」（anti-rival good）的特性：越分享價值越高，對個人和世界都有貢獻。</p>
+
+<p>也就是說，只有在自由流通的可信環境裡，歐盟《資料治理法》（Data Governance Act, DGA）提出的「數據公益」（data altruism）理念，才有落實的可能：由各方持有者自願提供數據，帶動社會發展、提升公共服務品質。</p>
+
+<p>隨著基礎模型普及，本書第十章「資料民主化」的願景即將實現，每個人都可望成為生產者和使用者，「資料治理」也一躍成為數位發展的核心議題。相信本書的出版，必定能引領各界，讓資料治理有智有理——惟有集眾人之智，才能連結彼此、促成良善的共創協作關係，成眾人之事，實現有理有節的「數據公益」。是為序。</p>]]></content><author><name>唐鳳</name><email>au@pdis.nat.gov.tw</email></author><category term="blog" /><category term="多元創新" /><summary type="html"><![CDATA[「數據自由流通可信」的機制，是跨境協作的首要之務。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/binary-ga626d4a1f_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/binary-ga626d4a1f_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">十年開放資料，開啟無限未來</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E5%8D%81%E5%B9%B4%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99-%E9%96%8B%E5%95%9F%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86/" rel="alternate" type="text/html" title="十年開放資料，開啟無限未來" /><published>2023-04-13T00:00:00+00:00</published><updated>2023-04-13T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E5%8D%81%E5%B9%B4%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99-%E9%96%8B%E5%95%9F%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E5%8D%81%E5%B9%B4%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99-%E9%96%8B%E5%95%9F%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86/"><![CDATA[<p>今年四月，是臺灣發展開放資料的重要里程碑，是「政府資料開放平臺」上線滿十年的日子。如今，平臺已開放超過五萬五千筆資料集，瀏覽量超過一億一千三百萬次、下載量超過一千九百萬次。</p>
 
 <p>歷年來在開放資料的基礎上，出現了許多解決社會問題的創意應用，例如結合雨量示警的灌溉機制、幫助漁農養殖文蛤而開發的智慧系統，都是近年參賽者在資料應用比賽提出的好點子。</p>
 
@@ -192,26 +216,4 @@
 
 <p>運用適當的工具，彼此互通有無，進而凝聚共識、擴散創新，這是《未來網際網路宣言》的願景，也就是臺灣正在發展的「多元宇宙」。</p>
 
-<p>透過點對點、多中心、分散式架構，數位發展部將持續以互通的理念，來推動反映在地需求的創新應用，為臺灣和世界，打造出無限未來。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="民主網絡" /><summary type="html"><![CDATA[所有人都可以自由選擇不同管道，安全地彼此建立連結。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/team-4200837_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/team-4200837_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">數位部從導入公共程式開始</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E9%83%A8%E5%BE%9E%E5%B0%8E%E5%85%A5%E5%85%AC%E5%85%B1%E7%A8%8B%E5%BC%8F%E9%96%8B%E5%A7%8B/" rel="alternate" type="text/html" title="數位部從導入公共程式開始" /><published>2022-08-25T00:00:00+00:00</published><updated>2022-08-25T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E9%83%A8%E5%BE%9E%E5%B0%8E%E5%85%A5%E5%85%AC%E5%85%B1%E7%A8%8B%E5%BC%8F%E9%96%8B%E5%A7%8B</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E9%83%A8%E5%BE%9E%E5%B0%8E%E5%85%A5%E5%85%AC%E5%85%B1%E7%A8%8B%E5%BC%8F%E9%96%8B%E5%A7%8B/"><![CDATA[<p>近來，台灣面對許多境外干擾，光是八月二日，政府機關網站面臨駭客攻擊，以分散式阻斷服務（DDoS）的流量來看，是過去單日最高流量的二十三倍。</p>
-
-<p>如此高密度的壓力侵擾下，好在各機關資安人員都能調整架構、迅速應變。這也證實了「數位韌性」的重要。</p>
-
-<p>接下來，我們將持續強化自身體質。在近年推行開放授權的成果上，數位發展部將以「公共程式」（public code）作為核心，進一步強化數位韌性。</p>
-
-<p>為什麼關鍵在公共程式？過去雖有自由運用、協作的自由軟體揭起「開放源碼」（open source）運動，鼓勵開發者發表程式碼，如今也成了社會和企業部門顯學。</p>
-
-<p>但唯獨政府機關，礙於組織與法規限制，使自由軟體不易導入；各單位系統也常因規格不一而阻礙互通。如果碰到問題，其他部門很難立刻支援。</p>
-
-<p>為了徹底翻轉僵局，以數位基底拓寬社經發展，歐洲自由軟體基金會（FSFE）二〇一七年起倡議「公共出資，公共程式」（public money, public code）運動，主張「政府架設的系統程式，都應完整公開，並提出明確指引和規格。」</p>
-
-<p>例如，要提升機關官網的數位韌性，我們可以善用公共程式，部署分散式架構，營造服務的「異質性」。即使某部分遭到攻擊，仍然可以透過聯防機制，維護系統的安全可用。</p>
-
-<p>近年來最重要的跨國案例 X-Road，即是愛沙尼亞、芬蘭、冰島政府所共同維運的系統。各國政府都可在本國自由運用，如申請補助、換發駕照等；一旦發現問題，可立即提出修正並回饋到系統中，讓其他單位同步更新。</p>
-
-<p>從 X-Road 便可看出，公共程式就好比跨國鐵路，各國共享相同的軌道、班表，甚至車廂規格，而不同國境內的鐵軌和相關設施，則由該國維運。如果其中一國修復軌道問題，或開發出新零件，也會通報給其他國家，分享經驗、提升品質。</p>
-
-<p>X-Road 開創了政府數位實務的里程碑，讓我們看到，公共程式不只是資安的防護網，更有機會開創共生、共享、共創的民主生態。</p>
-
-<p>為此我也主動提議，將加入 CC0（公眾領域貢獻，指不受著作權限制）的自由軟體，一併加入國際的「<a href="https://standard.publiccode.net/">公共程式標準規範</a>」。如此一來，只要是採用 CC0 授權的資料和內容，都有機會進入各級政府的數位基礎設施。</p>
-
-<p>數位發展部在籌備階段，就已和資服業者探索，如何導入公共程式概念。未來，我們的內容和程式，也會逐步採用 CC0 授權，釋出到公眾領域，進而與民主夥伴共享韌性基礎，共創數位治理典範。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="開放政府" /><summary type="html"><![CDATA[從 X-Road 便可看出，公共程式就好比跨國鐵路。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/rails-gb4c806ad8_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/rails-gb4c806ad8_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>透過點對點、多中心、分散式架構，數位發展部將持續以互通的理念，來推動反映在地需求的創新應用，為臺灣和世界，打造出無限未來。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="民主網絡" /><summary type="html"><![CDATA[所有人都可以自由選擇不同管道，安全地彼此建立連結。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/team-4200837_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/team-4200837_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
