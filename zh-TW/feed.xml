@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-08-02T01:30:13+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">公私聯防，精準打詐</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E5%85%AC%E7%A7%81%E8%81%AF%E9%98%B2-%E7%B2%BE%E6%BA%96%E6%89%93%E8%A9%90/" rel="alternate" type="text/html" title="公私聯防，精準打詐" /><published>2023-07-06T00:00:00+00:00</published><updated>2023-07-06T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E5%85%AC%E7%A7%81%E8%81%AF%E9%98%B2-%E7%B2%BE%E6%BA%96%E6%89%93%E8%A9%90</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E5%85%AC%E7%A7%81%E8%81%AF%E9%98%B2-%E7%B2%BE%E6%BA%96%E6%89%93%E8%A9%90/"><![CDATA[<p>前陣子，行政院核定了「打詐行動綱領一・五」並成立「打詐辦公室」。同時，我接到專欄讀者提出，希望我分享數位部在防制詐騙的實際作為。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-08-02T15:04:17+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">無法壓縮的演算法</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95/" rel="alternate" type="text/html" title="無法壓縮的演算法" /><published>2023-08-03T00:00:00+00:00</published><updated>2023-08-03T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95/"><![CDATA[<p>前些日子，著名科幻雜誌《Clarkesworld》暫時關閉投稿，因為自從生成式 AI 普及後，機器合成的投稿數急遽飆升，讓編輯團隊疲於奔命。「AI 寫科幻小說」聽來頗具後設趣味，卻反映出許多人的擔憂。</p>
+
+<p>如今 AI 服務琳瑯滿目，可以翻譯、繪圖、寫程式，甚至提供靈感，成為各行各業重要幫手。但《Clarkesworld》雜誌的遭遇，正是 AI 衝擊社會的縮影。更嚴重的，則是冒充他人的臉和聲音。這不僅造成財產損失、影響人際互信，一旦受到極權政體與不法之徒利用，更將對民主體制形成重大干擾。</p>
+
+<p>此外，目前最先進的生成式 AI，往往由單一企業訓練，再給所有人使用相同模型。然而，各地文化與價值觀不同，對事物的詮釋往往差異甚鉅。單一來源的模型，不但會偏頗特定群體，也難以適應世界的多元樣貌。</p>
+
+<p>六月時我應邀參與倫敦科技周，這些課題都是熱烈討論的焦點。當時，不分公私部門，各方共識是：AI 絕不能走向集權，應該採用多元豐富的民主模式。換句話說，要兼顧 AI 發展和安全，不能仰賴少數開發者的片面決定。讓<a href="https://fortune.com/2023/06/20/why-picking-citizens-at-random-best-way-to-govern-ai-revolution-tech-politics/">各國公民</a>都有管道積極投入，攜手建立受全球信任的 AI 認驗證機制、共同打造 AI 倫理和使用原則，才能確保可靠、可信任的 AI。</p>
+
+<p>在討論時，我想起我很喜歡的一篇科幻小說，姜峯楠的《虛擬生物的生命周期》。小說描述未來科技公司透過 VR 結合 AI，創造出虛擬生命。兩位主角在培育過程中，逐漸意識到：AI 需要持續關愛和教育，才會真正成長。</p>
+
+<p>「經驗是不能用演算法壓縮的。」主角之一，在反思自己陪伴虛擬生命的歷程時，說了這句銘言：「想創造出在世上生活二十年得來的常識，就必須投入二十年的心力。」</p>
+
+<p>在我看來，這點出了 AI 民主化的方向：惟有大眾持續參與，才能有效形塑共識。因此，我今年與國際非政府組織「集體智慧計畫」（CIP）協力，結合 OpenAI、Anthropic 等業界夥伴發起「對齊大會」專案，透過「<a href="https://ideathon.tw/polis">點子松</a>」讓臺灣成為世界首創透過公民審議，<a href="https://talk.polis.tw/">對齊 AI 價值</a>的場域。</p>
+
+<p>在《虛擬生物的生命周期》的結尾，AI 在主角們耐心陪伴下，不但發展出獨立思考和情感，更建立了深厚的社會連結。我衷心期盼，從對齊大會的嘗試開始，透過毋需壓縮的經驗傳承，能讓下一代 AI 汲取千萬年來全球累積的「眾人智慧」，長成關懷社群福祉的智慧夥伴。</p>]]></content><author><name>唐鳳、彭筱婷、周宜蔓</name></author><category term="blog" /><category term="數位策略" /><category term="民主網絡" /><category term="資通安全" /><summary type="html"><![CDATA[想創造出在世上生活二十年得來的常識，就必須投入二十年的心力。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/20230803.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/20230803.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">公私聯防，精準打詐</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E5%85%AC%E7%A7%81%E8%81%AF%E9%98%B2-%E7%B2%BE%E6%BA%96%E6%89%93%E8%A9%90/" rel="alternate" type="text/html" title="公私聯防，精準打詐" /><published>2023-07-06T00:00:00+00:00</published><updated>2023-07-06T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E5%85%AC%E7%A7%81%E8%81%AF%E9%98%B2-%E7%B2%BE%E6%BA%96%E6%89%93%E8%A9%90</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E5%85%AC%E7%A7%81%E8%81%AF%E9%98%B2-%E7%B2%BE%E6%BA%96%E6%89%93%E8%A9%90/"><![CDATA[<p>前陣子，行政院核定了「打詐行動綱領一・五」並成立「打詐辦公室」。同時，我接到專欄讀者提出，希望我分享數位部在防制詐騙的實際作為。</p>
 
 <p>其實，詐騙不只影響施政與經濟，更嚴重的後果，在於破壞社會互信。</p>
 
@@ -192,24 +206,4 @@
 
 <p>因此，FIDO 聯盟制定「免密碼登入」的標準，為 W3C 開發的各式護照，再加上安全鎖、配上鑰匙。如此一來，每個人就可以更安心使用自己的護照，在網路的空間遊走。</p>
 
-<p>作為兩大國際組織的會員，數位部會依照臺灣各界的需求，參與制定標準、與世界同步接軌，並且將這些新興標準，即時導入政府機關、民間社群及業界，來實踐「共同在場、攜碼互通」的多元宇宙。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="民主網絡" /><category term="數位產業" /><category term="資通安全" /><summary type="html"><![CDATA[參與制定標準、與世界同步接軌。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/blockchain-3513216_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/blockchain-3513216_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">送麵線上雲端</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E9%80%81%E9%BA%B5%E7%B7%9A%E4%B8%8A%E9%9B%B2%E7%AB%AF/" rel="alternate" type="text/html" title="送麵線上雲端" /><published>2022-12-15T00:00:00+00:00</published><updated>2022-12-15T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E9%80%81%E9%BA%B5%E7%B7%9A%E4%B8%8A%E9%9B%B2%E7%AB%AF</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E9%80%81%E9%BA%B5%E7%B7%9A%E4%B8%8A%E9%9B%B2%E7%AB%AF/"><![CDATA[<p>前幾天，我和產業署同仁一起去板橋的油庫口蚵仔麵線，了解「<a href="https://www.tcloud.gov.tw/">臺灣雲市集</a>」平台的應用情形。該店經營三十六年，從路邊攤到店面，已經是板橋的老字號小吃店。熱氣蒸騰的麵線、鮮甜飽滿的蚵仔，讓人印象深刻。</p>
-
-<p>老闆說，他們通常早上六點就開始備料，再從早上九點半開店，直到晚上七點。即使顧客絡繹不絕，訓練有素的店員都讓排隊人龍不致停滯，從點餐到結帳，平均五分鐘就可以拿到餐點。</p>
-
-<p>然而，同時要處理現場點餐送餐、接預訂電話、確認外帶外送訂單，還包括「不加香菜」等各種客製化需求，仍然讓店員應接不暇。只用紙筆紀錄和口頭傳話，非常耗時而且容易出錯。</p>
-
-<p>這個問題，透過數位部數位產業署推動的「臺灣雲市集」平臺，找到了有效解方。</p>
-
-<p>「臺灣雲市集」將財政部、內政部及經濟部等跨機關流程，加上精選適合中小企業使用的各類雲端工具和服務，整合成單一平台。</p>
-
-<p>只要符合中小企業認定標準，或有稅籍登記的營利事業，短短十分鐘，就能在雲市集網站完成申請、審核和簽約等所有程序，並直接開始採購數位轉型方案，最高還可以獲得三萬元數位點數補貼。如果不知道怎麼選擇適合的方案，線上還有專家顧問可提供協助。</p>
-
-<p>透過雲市集，油庫口麵線店選用「快一點 Line 點餐客戶服務系統」，提供客人二十四小時線上下單訂購及線上付款。</p>
-
-<p>透過數位化作業，店員不用再接電話，每筆訂單都免去了三分鐘左右的口頭確認時間，不僅有效分擔現場人力，也讓點餐服務流程順暢而且不易出錯。更因為線上點餐系統，接觸到更廣泛的客群，增加了線上團購的消費量，平均每個客人購買的單價提升至少兩倍。此外，透過數據收集，也有助於原料管理，讓進貨成本更精準。</p>
-
-<p>從油庫口麵線店的故事可以看出，開放訂閱制、資料可轉移的雲端服務，是中小企業夥伴重要的數位轉型工具。因此，我們除了透過雲市集，協助更多企業夥伴導入雲端解決方案，也透過「數位雲服務主題式研發補助計畫」，鼓勵資服業者持續創新，為各行各業開發簡單好用的雲端方案。</p>
-
-<p>目前，「臺灣雲市集」已匯集網路開店、行銷推廣、遠距辦公、企業管理、客戶服務、市場分析等十五類雲端解決方案，截至今年十一月，已有超過三萬六千家企業使用。</p>
-
-<p>各行各業都有不同的營運目標。數位部持續協助大家，找到適合的數位工具和雲端服務，讓各種精心打造的服務和產品，都能輕鬆簡單地送到客戶手裡。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位產業" /><summary type="html"><![CDATA[「臺灣雲市集」已有超過三萬六千家企業使用。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/digitization-7580781_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/digitization-7580781_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>作為兩大國際組織的會員，數位部會依照臺灣各界的需求，參與制定標準、與世界同步接軌，並且將這些新興標準，即時導入政府機關、民間社群及業界，來實踐「共同在場、攜碼互通」的多元宇宙。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="民主網絡" /><category term="數位產業" /><category term="資通安全" /><summary type="html"><![CDATA[參與制定標準、與世界同步接軌。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/blockchain-3513216_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/blockchain-3513216_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
