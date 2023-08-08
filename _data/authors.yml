@@ -345,8 +345,16 @@ yunhuichen:
 黃彥霖:
     name: 黃彥霖
     name_en: 'Mashbean Huang'
-    avatar: 'https://pbs.twimg.com/profile_images/1589255439262560256/fBwswQrY_400x400.jpg'
+    avatar: '/assets/avatar/mashbean.jpg'
 周宜蔓:
     name: 周宜蔓
     name_en: 'Gisele Chou'
-    avatar: 'https://pbs.twimg.com/profile_images/1666378198400266241/lkZ9F6iv_400x400.jpg'
+    avatar: '/assets/avatar/gisele.jpg'
+'E. Glen Weyl':
+    name: 'E. Glen Weyl'
+    name_en: 'E. Glen Weyl'
+    avatar: '/assets/avatar/glen.jpg'
+'Colin Megill':
+    name: 'Colin Megill'
+    name_en: 'Colin Megill'
+    avatar: '/assets/avatar/colin.jpg'
