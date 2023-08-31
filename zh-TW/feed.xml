@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-08-31T01:25:16+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">無法壓縮的演算法</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95/" rel="alternate" type="text/html" title="無法壓縮的演算法" /><published>2023-08-03T00:00:00+00:00</published><updated>2023-08-03T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95/"><![CDATA[<p>前些日子，著名科幻雜誌《Clarkesworld》暫時關閉投稿，因為自從生成式 AI 普及後，機器合成的投稿數急遽飆升，讓編輯團隊疲於奔命。「AI 寫科幻小說」聽來頗具後設趣味，卻反映出許多人的擔憂。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-08-31T23:14:49+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">關鍵在於信任</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB/" rel="alternate" type="text/html" title="關鍵在於信任" /><published>2023-08-31T00:00:00+00:00</published><updated>2023-08-31T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB/"><![CDATA[<p>前陣子，知名開源專案「以太坊」共同創辦人布特林（Vitlaik Buterin）來臺領取就業金卡，取得我國居留身分。我們在「台北的多元宇宙」活動對談時，與會者提出頗有哲學意味的問題：去中心化、無法倚賴政府確認身分的跨境社群裡，究竟誰有資格「證明」每個人的身分呢？</p>
+
+<p>布特林認為，透過人際「社交圖譜」的驗證，是比較接近多元精神的識別方式。例如，由認識的夥伴引薦進入社群，就是一種社交圖譜。</p>
+
+<p>另一種方式則是「生物識別」：透過個人指紋和虹膜辨識等驗證身分，同樣也是現今廣泛應用的作法。由 OpenAI 創辦人奧特曼（Sam Altman） 共同發起、七月底正式啟動的加密貨幣「世界幣」，就是最近出現應用生物識別的大膽嘗試。</p>
+
+<p>要取得世界幣，得先透過名為「the Orb」的球體掃描虹膜，進行身分認證。這套機制的設計初衷，是避免生成式 AI 冒充人類，但要如何同時維持敏感資料離線儲存，又能實現去中心化的驗證，是世界幣面臨的重大挑戰。</p>
+
+<p>布特林就認為，即使世界幣運用生物識別，試圖透過加密技術避免隱私侵害，個資外洩和惡意使用的風險，依然存在。</p>
+
+<p>而另一種社交圖譜的識別方式，是以社交圈來驗證一個人的身分，但凡運用個人資料，都會牽涉到當事人的許可。布特林的提醒，讓我想起今年六月 RadicalxChange 基金會發布的報告《資料聯盟和託管代理人》。</p>
+
+<p>這份報告的核心概念，是個人資料的「脈絡邊界」，也就是特定社交圖譜裡產生的意義，往往會涉及許多人的隱私，因此不應該在原始目的外直接使用。唯有在當事人知情同意下，轉化為非個資數據（non-personal data）、完整保護脈絡邊界，才能自由流通、安心運用。</p>
+
+<p>報告指出，數據的社會價值，遠大於個資作為商品的價格。因此，最有保障的運作方式，是將資料持有者和數據使用者聚集成聯盟，再透過受信任的第三方，確保個資轉化為數據時的公正可信。此時，提供保障的「隱私強化技術」，就是最重要的防線。</p>
+
+<p>延續今年「<a href="https://www.data-sports.tw/">運動數據公益平台</a>」的示範基礎，數位部會接著推出《數據公益運作指引》和《隱私強化技術應用指引》，提供應用方式與技術細節。在我看來，這不僅有機會成為新的跨境數位認證方式，更將開拓出數據運用的公益生態。</p>
+
+<p>因為，不論身分認證或是數據運用，關鍵都在於「信任」。先有人與人的互信，跨境身分才有意義、數據才能發揮價值。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="多元創新" /><summary type="html"><![CDATA[最有保障的運作方式，是將資料持有者和數據使用者聚集成聯盟。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/key-2471007_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/key-2471007_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">無法壓縮的演算法</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95/" rel="alternate" type="text/html" title="無法壓縮的演算法" /><published>2023-08-03T00:00:00+00:00</published><updated>2023-08-03T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95/"><![CDATA[<p>前些日子，著名科幻雜誌《Clarkesworld》暫時關閉投稿，因為自從生成式 AI 普及後，機器合成的投稿數急遽飆升，讓編輯團隊疲於奔命。「AI 寫科幻小說」聽來頗具後設趣味，卻反映出許多人的擔憂。</p>
 
 <p>如今 AI 服務琳瑯滿目，可以翻譯、繪圖、寫程式，甚至提供靈感，成為各行各業重要幫手。但《Clarkesworld》雜誌的遭遇，正是 AI 衝擊社會的縮影。更嚴重的，則是冒充他人的臉和聲音。這不僅造成財產損失、影響人際互信，一旦受到極權政體與不法之徒利用，更將對民主體制形成重大干擾。</p>
 
@@ -186,24 +204,4 @@
 
 <p>T-Road 提供了滴水不漏的安全通道，「零信任」則補足了嚴密的守門機制。因此，從數位部的 MyData 平臺開始，今年底前，T-Road 管理體系將全面導入三重驗證的零信任制度。而廣納資安專業人才、有效整合產學研資源的資安院，就是協助各機關導入零信任的制度工程夥伴。</p>
 
-<p>除了協助各機關強化資安措施，資安院也會運用公共程式（Public Code），開發共通系統、協助各部會針對重大資安事件進行聯防，從「永不信任，持續驗證」的零信任架構開始，打造「永不停止，持續精進」的全民數位韌性。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位政府" /><category term="資通安全" /><summary type="html"><![CDATA[對身分、設備、行為模式進行三重驗證，即使機關首長也不例外。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/security-2168233_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/security-2168233_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">一組帳號走遍網路的時代來了</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E4%B8%80%E7%B5%84%E5%B8%B3%E8%99%9F%E8%B5%B0%E9%81%8D%E7%B6%B2%E8%B7%AF%E7%9A%84%E6%99%82%E4%BB%A3%E4%BE%86%E4%BA%86/" rel="alternate" type="text/html" title="一組帳號走遍網路的時代來了" /><published>2023-01-12T00:00:00+00:00</published><updated>2023-01-12T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E4%B8%80%E7%B5%84%E5%B8%B3%E8%99%9F%E8%B5%B0%E9%81%8D%E7%B6%B2%E8%B7%AF%E7%9A%84%E6%99%82%E4%BB%A3%E4%BE%86%E4%BA%86</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E4%B8%80%E7%B5%84%E5%B8%B3%E8%99%9F%E8%B5%B0%E9%81%8D%E7%B6%B2%E8%B7%AF%E7%9A%84%E6%99%82%E4%BB%A3%E4%BE%86%E4%BA%86/"><![CDATA[<p>新年伊始，要和大家分享一個好消息：今年一月起，數位發展部已經正式成為國際標準組織 W3C（全球資訊網協會）會員。不只突破過去僅能以民間身份加入國際組織的困境，也是拓展「多元宇宙」的里程碑。</p>
-
-<p>同時，數位部也加入制定和推廣安全便利身分識別標準的 FIDO 聯盟，成為繼2021年內政部加入後的第二個臺灣政府單位會員。</p>
-
-<p>正因為有 W3C 制定標準，才能讓各種網站，能夠在每台手機、平板、以及電腦上正確呈現。換句話說，就算擁有裝置，如果少了它的標準，可能就無法解讀網站的內容。我們將無法順利上網追劇、購買日用品，或透過網站進行任何活動。它對於世界的重要性可見一斑。</p>
-
-<p>不過，如果想進一步透過網站和其他人互動，比如製作影音、發表文章，幾乎都需要先註冊、上傳資料。但是單一網站上的帳號資料，往往無法在不同平台之間共用流通。這不只導致少數大型跨境平台的壟斷獨占，也限制了每個人使用資料的自主權利。</p>
-
-<p>因此，許多社群都已在各自發展「攜碼」方案，才能讓所有人都能自由選擇最適合的創作環境、充份行使資料權利，進而共創出更精彩的作品。不過，勢必要有全球通用的技術規格，才能讓這些解方真正彼此互通。</p>
-
-<p>於是 2022 年七月，W3C 推出了嶄新的分散式身分驗證標準（DIDs），讓我們看到了新世代數位服務的曙光。這套標準，讓每個人都可以不用經過中介服務，就能直接認證彼此的身分標示。</p>
-
-<p>我們不妨把這個身分標示，想像成一本「網路護照」。這本護照可以讓每個人攜帶自己的數位資產；無論是社群貼文、照片或影片，控制這些內容的不再是跨境平台，而是回歸到每位創作者自己身上。</p>
-
-<p>如果說 W3C 提出的，是一套驗證護照的標準，讓眾人擁有自己的數位身分；那麼 FIDO 聯盟負責的，就是在保障這一本護照的安全。</p>
-
-<p>2013 年成立的 FIDO 聯盟，是資訊業界聯合成立的國際非營利組織。他們的初衷，是為了解決認證身份的問題。以往在登入網站服務時，必須鍵入密碼，不只保存不易，也會面臨帳號被盜、身分被冒用等風險。</p>
-
-<p>因此，FIDO 聯盟制定「免密碼登入」的標準，為 W3C 開發的各式護照，再加上安全鎖、配上鑰匙。如此一來，每個人就可以更安心使用自己的護照，在網路的空間遊走。</p>
-
-<p>作為兩大國際組織的會員，數位部會依照臺灣各界的需求，參與制定標準、與世界同步接軌，並且將這些新興標準，即時導入政府機關、民間社群及業界，來實踐「共同在場、攜碼互通」的多元宇宙。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="民主網絡" /><category term="數位產業" /><category term="資通安全" /><summary type="html"><![CDATA[參與制定標準、與世界同步接軌。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/blockchain-3513216_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/blockchain-3513216_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>除了協助各機關強化資安措施，資安院也會運用公共程式（Public Code），開發共通系統、協助各部會針對重大資安事件進行聯防，從「永不信任，持續驗證」的零信任架構開始，打造「永不停止，持續精進」的全民數位韌性。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位政府" /><category term="資通安全" /><summary type="html"><![CDATA[對身分、設備、行為模式進行三重驗證，即使機關首長也不例外。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/security-2168233_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/security-2168233_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
