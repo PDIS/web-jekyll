@@ -342,6 +342,10 @@ yunhuichen:
     status: intern
     name: yunhuichen
 ########## contributors ##########
+劉澄真:
+    name: 劉澄真
+    name_en: 'Rosalind Liu'
+    avatar: '/assets/avatar/rosalind.jpg'
 黃彥霖:
     name: 黃彥霖
     name_en: 'Mashbean Huang'
