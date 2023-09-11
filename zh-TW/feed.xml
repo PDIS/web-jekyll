@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-09-11T01:25:59+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">關鍵在於信任</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB/" rel="alternate" type="text/html" title="關鍵在於信任" /><published>2023-08-31T00:00:00+00:00</published><updated>2023-08-31T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB/"><![CDATA[<p>前陣子，知名開源專案「以太坊」共同創辦人布特林（Vitlaik Buterin）來臺領取就業金卡，取得我國居留身分。我們在「台北的多元宇宙」活動對談時，與會者提出頗有哲學意味的問題：去中心化、無法倚賴政府確認身分的跨境社群裡，究竟誰有資格「證明」每個人的身分呢？</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-09-11T11:11:38+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">數位民主，AI 時代</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E6%B0%91%E4%B8%BB-AI-%E6%99%82%E4%BB%A3/" rel="alternate" type="text/html" title="數位民主，AI 時代" /><published>2023-09-15T00:00:00+00:00</published><updated>2023-09-15T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E6%B0%91%E4%B8%BB-AI-%E6%99%82%E4%BB%A3</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E6%B0%91%E4%B8%BB-AI-%E6%99%82%E4%BB%A3/"><![CDATA[<p>大家當地時間好。我是唐鳳，臺灣數位部長，也是國家資通安全研究院董事長。</p>
+
+<p>能在 SITRA 的線上活動發表專題演講，是我莫大的榮幸。這場匯聚眾多先進思想的活動，之所以特別重要，是因為它與國際民主日緊密相連——這是我們加倍努力的絕佳時機，來為全民提供富有同理心、有效且快速回應的治理。</p>
+
+<p>毫無疑問，民主正面臨前所未有的挑戰，來自於試圖利用 AI 的威權主義者，意圖破壞、削弱我們自由開放的社會。這些操作形式多樣，但最險惡的那些，是直接針對我們的信任基礎，污染建立在聯合國世界人權宣言第 19 條——言論和表達自由權——之上的社交平台。</p>
+
+<p>2016 年，我們見證了公眾溝通的轉折點。值得尊敬的美聯社風格指南，宣布「Internet」一詞不再大寫，象徵它的普遍使用。不幸的是，網路的無所不在，也為專門操縱人心的行業，開闢了大規模蒐集個資、顛覆隱私常規的道路，使許多人陷入極端化的孤立之地。今年完全互動化的深偽影音，更進一步玷染了線上互動，為前所未有的大規模詐騙和操縱打開大門。</p>
+
+<p>因此，民主正處於低潮。專制主義崛起，利用精心設計的審查和電子系統來監控。事實上，全球網路自由已經連續 12 年下滑。如此今只有十億人生活在民主制度的保護下，而超過兩倍的人口在專制統治下掙扎。</p>
+
+<p>俗話說，硬幣總有兩面。雖然某些新興技術有利於威權政體，但也有些能用來振興民主。要對抗線上危害，最有效的解決方案是什麼呢？答案在於「多元宇宙（Plurality）」，也就是促進多元協作的技術，來增加民主的頻寬。Polis 就是這種精神很好的例子。</p>
+
+<p>2015 年，臺灣開始與 Polis 的合作，當時 Uber 和共享經濟新創事業正席捲全球。對創新和利潤的追求，與計程車司機的生計衝突，引發了法律訴訟和抗爭。這種衝突在臺灣也同樣激烈，幸好我們有 Polis 來追溯發展路線，並從激烈的網路辯論中，提煉出共同的智慧。</p>
+
+<p>Polis 精妙之處在於，參與者和意見都在同一頁面上，透過視覺化的方式呈現各群體有分裂的程度。儘管最初的意見相當極端，但 Polis 始終能促進共同觀點、彌合分歧。Polis 不僅提供民主意見輸入的視覺映射，更能產出即時更新的互動報告。</p>
+
+<p>這樣的應用，涵蓋各種具國際影響力的問題。臺灣已經兩次透過 Polis 與像芬蘭這樣的民主國家合作。首次是在 2019 年貿易緊張局勢升溫之際，當時有人擔心臺灣會被捲入爭端，而被排除在經濟整合之外。通過「AIT@40 數位對話」，我們在印太區域，凝聚了如何增加臺美在防衛、經濟和民間交流方面的想法，隨後在臺美雙方迅速獲得實現。</p>
+
+<p>在 2020 年，臺灣探索了保護隱私的接觸追蹤等各種防疫措施，也再次獲得了全球的積極參與。值得注意的是，這不僅限於 Polis 意見調查——我們攜手創造解決方案。在確認哪些方案符合社會價值後，全球的公民黑客通過黑客松活動，來實現這些想法。</p>
+
+<p>今年，臺灣將 Polis 推向了全新的層次。為應對 AI 的迅速普及，數位部已加入集體智慧計畫（CIP.org），推出「<a href="https://cip.org/alignmentassemblies">對齊大會</a>」（Alignment Assemblies）。其他合作夥伴包括 OpenAI、Anthropic、GovLab 以及 GETTING-Plurality 研究網絡。我們的目標，是讓全民有機會貢獻於 AI 安全和永續發展，以及識別和減輕這項新興技術帶來的風險。</p>
+
+<p>今年七月，我們通過 Polis 與全民共創，探索 AI 未來民主化的議題，為八、九月的面對面審議工作坊設定議程。記錄將很快發布為開放資料，以訓練與臺灣獨特經驗契合的 AI 語言模型。</p>
+
+<p>為了確保對齊大會能呈現真實的聲音，polis.tw（由資安院 PDIS 團隊維運）新增了兩項功能。首先，我們擴展了 Polis，整合受信任的外部登入系統，來確保參與者的真實性。</p>
+
+<p>此外，在 AI Objectives Institute 協助下，這裡展示的「<a href="https://www.talktothe.city/">我城對話</a>」網站，提供了即時的 AI 輔助摘要、翻譯和互動。這個聊天室，賦予每個人與多元意見群體進行細膩對話的能力，加深跨文化的理解和同理心。</p>
+
+<p>現在，請看<a href="https://talk.polis.tw/">這張圖片</a>——每個點都代表某個意見，在黑暗背景上如星辰閃耀。整體的反思形成了星座，為對齊議題指明方向。對許多參與者來說，這是他們首次在審議的脈絡下與 AI 互動。這不是單獨的對話，而是不斷演變的集體討論，以公共利益為目標。</p>
+
+<p>在 AI 治理方面，臺灣堅信民主模式——而非純技術的方式——是解決影響全球倫理和政治難題的最佳答案。實務上，專家沒辦法預見到所有的應用情境和影響。如同氣候變遷議題，我們需要全面的統計數據，來了解可能的損害，包括過度依賴、情感影響，以及資訊操弄。</p>
+
+<p>不同於氣候變遷，與 AI 的互動是極度個人化的。所有的指標，都必須以高度保護隱私的方式來共享。最安全的運作方式，是由資料持有者和研究人員組成聯盟，透過值得信賴的數據公益運作者，來確保關於損害和偏好的非個資數據，都能進行安全的處理和匯總。</p>
+
+<p>由於有零知識證明、隱私強化技術，以及由 SITRA 推動、符合 GDPR 規範的 Polis 版本，全球的「對齊大會」完全可以實現。一步一步地，讓我們在 AI 應用的邊界上達成共識，並引領其持續的發展，讓各地互相串連的集會，能夠針對各自的政治和監管環境，提供明確的指導方針。</p>
+
+<p>最後，我誠摯邀請大家參與規模化的 Polis 對話，並在集體智慧領域裡，採用開創性的倡議，來減輕社會風險，同時保障人權和民主，讓後代也能受益。透過全民的合作、好奇心、勇氣和遠見，我們可以為全球治理勾畫出永續的審議道路，共創無限未來。</p>
+
+<p>感謝您的聆聽，也祝 SITRA 這場令人振奮的線上活動成功，大家生生不息，繁榮昌盛！</p>]]></content><author><name>唐鳳</name><email>au@pdis.nat.gov.tw</email></author><category term="blog" /><category term="民主網絡" /><category term="數位策略" /><summary type="html"><![CDATA[對許多參與者來說，這是他們首次在審議的脈絡下與 AI 互動。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/2023-09-11.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/2023-09-11.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">關鍵在於信任</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB/" rel="alternate" type="text/html" title="關鍵在於信任" /><published>2023-08-31T00:00:00+00:00</published><updated>2023-08-31T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB/"><![CDATA[<p>前陣子，知名開源專案「以太坊」共同創辦人布特林（Vitlaik Buterin）來臺領取就業金卡，取得我國居留身分。我們在「台北的多元宇宙」活動對談時，與會者提出頗有哲學意味的問題：去中心化、無法倚賴政府確認身分的跨境社群裡，究竟誰有資格「證明」每個人的身分呢？</p>
 
 <p>布特林認為，透過人際「社交圖譜」的驗證，是比較接近多元精神的識別方式。例如，由認識的夥伴引薦進入社群，就是一種社交圖譜。</p>
 
@@ -184,24 +222,4 @@
 
 <p>因此，實驗室也會依照台灣資通產業標準協會公告的「物聯網場域資安防護評估指引」，透過威脅建模、漏洞檢測、滲透測試及衝擊分析等流程，一併提出場域資安的改善建議。</p>
 
-<p>我們期許 TTC 不只協助主管機關交通部，共同建立國內檢測能量，更要接軌國際資安規範，協助業者成為全球無人機產業的生力軍。數位部和 TTC 也會持續秉持信任科技的精神，確保「易守難攻、堅韌可靠」的資通安全。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="韌性建設" /><category term="資通安全" /><summary type="html"><![CDATA[聯合驗測實驗室，為「信任科技」創下重要的里程碑。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/drone-ttc.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/drone-ttc.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">T-Road 與零信任</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/T-Road-%E8%88%87%E9%9B%B6%E4%BF%A1%E4%BB%BB/" rel="alternate" type="text/html" title="T-Road 與零信任" /><published>2023-02-16T00:00:00+00:00</published><updated>2023-02-16T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/T-Road-%E8%88%87%E9%9B%B6%E4%BF%A1%E4%BB%BB</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/T-Road-%E8%88%87%E9%9B%B6%E4%BF%A1%E4%BB%BB/"><![CDATA[<p>日前，我國第一個專責資安的行政法人，國家資通安全研究院（<a href="https://www.nics.nat.gov.tw/">資安院</a>）正式成立，為數位部增添了堅韌的生力軍。無獨有偶，內政部也修正了《<a href="https://www.moi.gov.tw/News_Content.aspx?n=145&amp;s=274867">各機關申請提供戶籍資料及親等關聯資料辦法</a>》。</p>
-
-<p>這兩件事看似沒有關連，實則為「資安即國安」展開新頁。</p>
-
-<p>有鑒於光碟、隨身碟等資料交換方式，易遭不法複製、遺失遭竊、無法追蹤，因此從去年年底起，內政部不再透過這些方式，提供戶籍資料給申請單位。也就是說，任何機關申請調閱戶籍資料，都只能透過政府網際服務網（GSN）進行。</p>
-
-<p>參考內政部的經驗，所有涉及全國個資的公務機關，都會在今明兩年導入「跨機關資料傳輸專屬通道（T-Road）」。T-Road 傳輸全程以機關憑證加密，不與外部服務網段連通，為資安提供更嚴密的保障。</p>
-
-<p>在此基礎上，我們接下來的重點政策，就是將「零信任」制度，結合 T-Road 網路傳輸管理體系，全面導入到資通安全最高等級的公務機關。</p>
-
-<p>傳統資安架構的基礎，是區分內外網權限，用防火牆保護內網。最常見的作法，是管理者必須進入內網、輸入帳號密碼，才能登入後臺。</p>
-
-<p>不過，將防護只寄託在防火牆和帳密，就像是整棟大樓只仰賴一扇防盜門和密碼鎖。無論戒備多森嚴，有心人只要盜用密碼、通過門禁，便能進入各個樓層，在每個房間任意移動，造成嚴重後果。</p>
-
-<p>「零信任」的核心概念，是「永不信任，持續驗證」：任何人無論何時何地，進入任何房間，都必須對身分、設備、行為模式進行三重驗證，即使機關首長也不例外。如此一來，即使攻擊方僥倖闖進大廳，也無法獲取其他資料，因為每道門的三重驗證都不盡相同。</p>
-
-<p>從這些特點可以看出：對於需要大量傳輸、和其他單位往來頻繁的資訊系統，零信任可以防止有心人在收發兩端竊取資料。完整的身分驗證軌跡、不可否認的傳輸紀錄，更能有效偵測出監守自盜的異常行為。</p>
-
-<p>T-Road 提供了滴水不漏的安全通道，「零信任」則補足了嚴密的守門機制。因此，從數位部的 MyData 平臺開始，今年底前，T-Road 管理體系將全面導入三重驗證的零信任制度。而廣納資安專業人才、有效整合產學研資源的資安院，就是協助各機關導入零信任的制度工程夥伴。</p>
-
-<p>除了協助各機關強化資安措施，資安院也會運用公共程式（Public Code），開發共通系統、協助各部會針對重大資安事件進行聯防，從「永不信任，持續驗證」的零信任架構開始，打造「永不停止，持續精進」的全民數位韌性。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位政府" /><category term="資通安全" /><summary type="html"><![CDATA[對身分、設備、行為模式進行三重驗證，即使機關首長也不例外。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/security-2168233_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/security-2168233_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>我們期許 TTC 不只協助主管機關交通部，共同建立國內檢測能量，更要接軌國際資安規範，協助業者成為全球無人機產業的生力軍。數位部和 TTC 也會持續秉持信任科技的精神，確保「易守難攻、堅韌可靠」的資通安全。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="韌性建設" /><category term="資通安全" /><summary type="html"><![CDATA[聯合驗測實驗室，為「信任科技」創下重要的里程碑。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/drone-ttc.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/drone-ttc.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
