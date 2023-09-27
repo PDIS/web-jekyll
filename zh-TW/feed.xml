@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-09-27T01:26:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">數位民主，AI 時代</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E6%B0%91%E4%B8%BB-AI-%E6%99%82%E4%BB%A3/" rel="alternate" type="text/html" title="數位民主，AI 時代" /><published>2023-09-15T00:00:00+00:00</published><updated>2023-09-15T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E6%B0%91%E4%B8%BB-AI-%E6%99%82%E4%BB%A3</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E6%B0%91%E4%B8%BB-AI-%E6%99%82%E4%BB%A3/"><![CDATA[<p>大家當地時間好。我是唐鳳，臺灣數位部長，也是國家資通安全研究院董事長。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-09-27T15:09:36+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">穿越挑戰，以達星辰</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E7%A9%BF%E8%B6%8A%E6%8C%91%E6%88%B0-%E4%BB%A5%E9%81%94%E6%98%9F%E8%BE%B0/" rel="alternate" type="text/html" title="穿越挑戰，以達星辰" /><published>2023-09-28T00:00:00+00:00</published><updated>2023-09-28T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E7%A9%BF%E8%B6%8A%E6%8C%91%E6%88%B0%EF%BC%8C%E4%BB%A5%E9%81%94%E6%98%9F%E8%BE%B0</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E7%A9%BF%E8%B6%8A%E6%8C%91%E6%88%B0-%E4%BB%A5%E9%81%94%E6%98%9F%E8%BE%B0/"><![CDATA[<p>前些日子，我和 Signal 基金會總裁惠特克（Meredith Whittaker）在公視英語影音平台 Taiwan Plus 的節目視訊對談，有很多深刻的體會。</p>
+
+<p>Signal 是一個開放源碼的通訊軟體App，採用端到端加密技術。惠特克特別指出，該App不只無法側錄訊息，甚至每位使用者的「詮釋資料」，也就是可以間接辨識出個資的內容，也都徹底加密。換句話說，Signal 基金會無法取得任何個資，而如果任何人有疑慮，都可以一起確認、修正公開的程式碼。</p>
+
+<p>作為《時代雜誌》AI 百大影響力人物之一，惠特克對於網路產業有獨到的見解。她認為，少數跨境平臺已形成壟斷式循環。他們先擁有龐大的基礎設施，投入大量資金訓練 AI 進行精準投放，再透過廣告技術搜集巨量個資，獲利後再持續調整 AI 模型，如此不斷運用個資盈利。</p>
+
+<p>因此 Signal 作為非營利組織，堅持核心理念，以「確保有意義的通訊隱私始終存在」，希望打破這樣的壟斷式循環。</p>
+
+<p>「我們所航行的路途，皆以心中的北極星為指引。」對於發展前景，惠特克下了富有詩意的註解，也顯示出現況道阻且長。因為壟斷式循環，不只影響個人隱私安全，也造成產業創新的阻礙。</p>
+
+<p>曾有歐洲電信業者統計，少數跨境平臺產生的流量，佔了網際網路流量的百分之五十五，導致電信業必須不斷額外擴充資源和基礎建設，才能維持正常運作。長此以往，難免壓縮到個人與中小事業的網路自主權。</p>
+
+<p>人才和創意，是臺灣面對未來關鍵十年最重要的優勢。要避免少數業者壟斷資源，網路頻寬就是最核心的「數位公共建設」，讓人才無後顧之憂，有效發揮創意、開創新的事業模式。也因此，今年九月，數位部產業署推動的全國 5G 專頻專網，已正式開始商轉。</p>
+
+<p>其中最關鍵的是，由十三家產業公協會夥伴成立的「5G 垂直產業應用推動小組」，與數產署透過公開評選，遴選出三十三個實際應用案例，包括電視台運用 XR （涵蓋虛擬、擴增、混合三種延展實境）的即時異地虛實共訪、高雄展覽館的 5G 展演專網系統等，落地實證十五個月，幫助各行各業夥伴加速數位升級。</p>
+
+<p>“Per aspera ad astra” 這句拉丁諺語，意指「穿越挑戰，以達星辰」，這是我和惠特克對談後腦中浮現的話，也是我認為對於產業數位轉型的最好形容。從 5G 建設開始，我們會繼續開拓航道，讓每顆存在心中的北極星，都能成為最耀眼的星辰。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位產業" /><summary type="html"><![CDATA[壟斷式循環，不只影響個人隱私安全，也造成產業創新的阻礙。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/north-star-2869817_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/north-star-2869817_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">數位民主，AI 時代</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E6%B0%91%E4%B8%BB-AI-%E6%99%82%E4%BB%A3/" rel="alternate" type="text/html" title="數位民主，AI 時代" /><published>2023-09-15T00:00:00+00:00</published><updated>2023-09-15T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E6%B0%91%E4%B8%BB-AI-%E6%99%82%E4%BB%A3</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E6%B0%91%E4%B8%BB-AI-%E6%99%82%E4%BB%A3/"><![CDATA[<p>大家當地時間好。我是唐鳳，臺灣數位部長，也是國家資通安全研究院董事長。</p>
 
 <p>非常榮幸能在 SITRA 的線上活動發表專題演講，探討如何塑造技術來支持、而非削弱，民主制度。這場匯聚眾多先進思想的活動，之所以特別重要，是因為它與國際民主日緊密相連——此時是我們加倍努力的絕佳契機，來共同擘畫富有同理心、有效、快速回應全民需求的治理方式。</p>
 
@@ -204,24 +220,4 @@
 
 <p>感謝各位——祝生生不息，繁榮昌盛！</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e0iHsN0XoWs" frameborder="0" allowfullscreen=""></iframe>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位韌性" /><summary type="html"><![CDATA[彰顯跨越意識形態鴻溝的聲音，揭示一目瞭然的共同價值。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/20230330.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/20230330.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">讓無人機與信任齊飛</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E8%AE%93%E7%84%A1%E4%BA%BA%E6%A9%9F%E8%88%87%E4%BF%A1%E4%BB%BB%E9%BD%8A%E9%A3%9B/" rel="alternate" type="text/html" title="讓無人機與信任齊飛" /><published>2023-03-16T00:00:00+00:00</published><updated>2023-03-16T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E8%AE%93%E7%84%A1%E4%BA%BA%E6%A9%9F%E8%88%87%E4%BF%A1%E4%BB%BB%E9%BD%8A%E9%A3%9B</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E8%AE%93%E7%84%A1%E4%BA%BA%E6%A9%9F%E8%88%87%E4%BF%A1%E4%BB%BB%E9%BD%8A%E9%A3%9B/"><![CDATA[<p>前陣子，我和電信技術中心（TTC）的同仁們，開始探討轉型的方向。數位部督導的 TTC，近二十年來從攜碼服務、驗測技術到政策智庫，可說是無役不與，對通傳發展貢獻卓著。</p>
-
-<p>近年來，TTC 全力投入資安防護發展，獲得豐碩成果，也讓我們思考，將英文名稱中的「Telecom」，拓展為「Trusted」，更符合它協助強化數位韌性的核心業務。</p>
-
-<p>而三月一日正式成立的「無人機資安聯合驗測實驗室」，由國科會協助、TTC 聯合國內業者夥伴共同打造，更為「信任科技（Trust Tech）」創下重要的里程碑。</p>
-
-<p>無人機可以突破地形限制，從農林測量到災害救援，已成為重要的輔助工具。因此，政府持續研擬無人機產業發展方案，並結合產官學研能量，成立「臺灣無人機大聯盟」。</p>
-
-<p>然而，無人機被部分有心人士用於攻擊、監視的案例至今時有所聞，不只成為新的資安挑戰，更是重要的國安議題。</p>
-
-<p>今年一月，尚在籌備階段的聯合驗測實驗室，就根據各界專家及產業代表意見，公告《無人機資安保障規範》，內容涵蓋實驗室的三個核心檢測項目，包括製造商資安成熟度、產品資安、以及場域資安。</p>
-
-<p>以第一項製造商資安成熟度為例，如同提供一個「安全設計藍圖」，讓業者可以依循明確的要求。實驗室會查核開發流程、供應鏈、及軟硬體物料清單管理安全，確保無人機開發環境的安全，並正確將安全導入產品功能。</p>
-
-<p>第二項產品資安，則可以視為無人機的「健康檢查」。實驗室就像是健檢中心，好比提供無人機不同安全等級的健檢套餐。能通過的檢測級數越高，安全防護也越完整。實驗室除了為無人機提供健檢，也會分析問題，並且產出完整報告供業者參考。</p>
-
-<p>此外，第三項場域資安，則是強化無人機活動場域的防護，避免受到環境與其他設備影響，例如資料傳輸時受到干擾。就像除了精良的健康檢查，也要注意外在的風險因子，維持良好的生活環境與飲食作息，才能真正確保健康。</p>
-
-<p>因此，實驗室也會依照台灣資通產業標準協會公告的「物聯網場域資安防護評估指引」，透過威脅建模、漏洞檢測、滲透測試及衝擊分析等流程，一併提出場域資安的改善建議。</p>
-
-<p>我們期許 TTC 不只協助主管機關交通部，共同建立國內檢測能量，更要接軌國際資安規範，協助業者成為全球無人機產業的生力軍。數位部和 TTC 也會持續秉持信任科技的精神，確保「易守難攻、堅韌可靠」的資通安全。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="韌性建設" /><category term="資通安全" /><summary type="html"><![CDATA[聯合驗測實驗室，為「信任科技」創下重要的里程碑。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/drone-ttc.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/drone-ttc.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e0iHsN0XoWs" frameborder="0" allowfullscreen=""></iframe>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位韌性" /><summary type="html"><![CDATA[彰顯跨越意識形態鴻溝的聲音，揭示一目瞭然的共同價值。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/20230330.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/20230330.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
