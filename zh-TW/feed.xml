@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-11-22T01:29:40+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">守護資訊完整 網路才有自由</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E5%AE%88%E8%AD%B7%E8%B3%87%E8%A8%8A%E5%AE%8C%E6%95%B4-%E7%B6%B2%E8%B7%AF%E6%89%8D%E6%9C%89%E8%87%AA%E7%94%B1/" rel="alternate" type="text/html" title="守護資訊完整 網路才有自由" /><published>2023-11-02T00:00:00+00:00</published><updated>2023-11-02T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E5%AE%88%E8%AD%B7%E8%B3%87%E8%A8%8A%E5%AE%8C%E6%95%B4-%E7%B6%B2%E8%B7%AF%E6%89%8D%E6%9C%89%E8%87%AA%E7%94%B1</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E5%AE%88%E8%AD%B7%E8%B3%87%E8%A8%8A%E5%AE%8C%E6%95%B4-%E7%B6%B2%E8%B7%AF%E6%89%8D%E6%9C%89%E8%87%AA%E7%94%B1/"><![CDATA[<p>國慶連假時我自費赴日，參加在京都舉行的聯合國網路治理論壇（IGF）。從 2006 年至今，IGF 是聯合國關於數位政策的主要會議，今年有來自 178 國的六千多人現場參加。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-11-22T15:09:58+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">昔日回響，未來之聲</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2/" rel="alternate" type="text/html" title="昔日回響，未來之聲" /><published>2023-11-23T00:00:00+00:00</published><updated>2023-11-23T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2/"><![CDATA[<p>你聽過披頭四的新歌了嗎？日前，這個已有兩名成員去世的傳奇樂團，發布最新單曲〈Now And Then（暫譯：此時彼刻）〉。披頭四成員保羅麥卡尼說，是 AI 讓這一切變得可能。</p>
+
+<p>當年，約翰藍儂在家裡用鋼琴自彈自唱，用錄音帶隨手錄下。在他遇刺後多年來，團員們一直試圖重製這首歌，但由於音質太過模糊，只能擱置。直到近年技術成熟，成功辨別歌聲與琴聲，終於為披頭四劃下感傷而充滿詩意的句點。</p>
+
+<p>聽著約翰藍儂的歌聲時，我想起同樣英年早逝的資安泰斗、數位憑證機構 Let’s Encrypt 共同創辦人彼得．埃克斯利（Peter Eckersley）。近年來，埃克斯利觀察到，雖然 AI 快速進化，但也逐漸危害人類社會，因此他在去年創立 AI 目標研究院（The AI Objectives Institute, AOI），希望 AI 能「幫助人類變得更好」。</p>
+
+<p>然而，就在籌備如火如荼進行時，埃克斯利罹癌驟逝。所幸 AOI 在各方支持下，持續推動許多實驗和研究至今。其中一個前導計畫，是「我城對談（Talk to the City）」。</p>
+
+<p>「我城對談」運用 AI，將留言、影片、會議發言等資料，區分成各種主題。除了完整呈現所有人的發言，AI 也能學習發言者的思考模式，成為可供對話的語言模型，讓更多人有機會，了解不同意見者的觀點和看法。</p>
+
+<p>先前，數位部點子松就曾運用這個機制，將 AI 審議工作坊的參與者整理出「AI 倫理」、「政府使用資料和 AI」等主題。沒有參與工作坊的人，除了理解參與者的不同立場，還能繼續和 AI「對談」，找出不同意見的交集，進而做出符合各方共識，又不致損害任何人的決策。</p>
+
+<p>「此時彼刻」和「我城對談」的經驗讓世界看到，AI 如何超越時間和生死，將不可能變為可能：解散超過 50 年的樂團，也能發布新歌；重要討論在結束後，仍然可以持續開展。由此可見，如果將 AI 妥善打造成數位基礎建設，確實有機會「幫助人類變得更好」。</p>
+
+<p>也因此，我們將從「政府資料開放平臺」開始導入 AI 公共程式，讓使用者更容易找到所需的開放資料、回饋修正建議，並且以各縣市政府的 1999 服務專線為優先案例，在四年內協助有意願的單位，減輕公務同仁的行政負擔，也提升民眾取用公共服務的便利度。</p>
+
+<p>不久的將來，AI 不會只是此時彼刻偶爾使用的數位工具。透過開源協作和社會驗測，我們逐步推動負責任的 AI，成為你我共創無限未來的基石。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="民主網絡" /><category term="多元創新" /><category term="數位策略" /><summary type="html"><![CDATA[如果將 AI 妥善打造成數位基礎建設，確實有機會「幫助人類變得更好」。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/beatles-5364078_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/beatles-5364078_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">守護資訊完整 網路才有自由</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E5%AE%88%E8%AD%B7%E8%B3%87%E8%A8%8A%E5%AE%8C%E6%95%B4-%E7%B6%B2%E8%B7%AF%E6%89%8D%E6%9C%89%E8%87%AA%E7%94%B1/" rel="alternate" type="text/html" title="守護資訊完整 網路才有自由" /><published>2023-11-02T00:00:00+00:00</published><updated>2023-11-02T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E5%AE%88%E8%AD%B7%E8%B3%87%E8%A8%8A%E5%AE%8C%E6%95%B4-%E7%B6%B2%E8%B7%AF%E6%89%8D%E6%9C%89%E8%87%AA%E7%94%B1</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E5%AE%88%E8%AD%B7%E8%B3%87%E8%A8%8A%E5%AE%8C%E6%95%B4-%E7%B6%B2%E8%B7%AF%E6%89%8D%E6%9C%89%E8%87%AA%E7%94%B1/"><![CDATA[<p>國慶連假時我自費赴日，參加在京都舉行的聯合國網路治理論壇（IGF）。從 2006 年至今，IGF 是聯合國關於數位政策的主要會議，今年有來自 178 國的六千多人現場參加。</p>
 
 <p>我首先參與的場次，是「網際網路未來宣言（DFI）：共同行動」。DFI 是我擔任政委時，在 2022 年四月代表臺灣，與全球六十多國所簽署的協定，共同承諾將網際網路打造成保障人權、自由和互信的韌性建設。</p>
 
@@ -190,24 +206,4 @@
 
 <p>也就是說，只有在自由流通的可信環境裡，歐盟《資料治理法》（Data Governance Act, DGA）提出的「數據公益」（data altruism）理念，才有落實的可能：由各方持有者自願提供數據，帶動社會發展、提升公共服務品質。</p>
 
-<p>隨著基礎模型普及，本書第十章「資料民主化」的願景即將實現，每個人都可望成為生產者和使用者，「資料治理」也一躍成為數位發展的核心議題。相信本書的出版，必定能引領各界，讓資料治理有智有理——惟有集眾人之智，才能連結彼此、促成良善的共創協作關係，成眾人之事，實現有理有節的「數據公益」。是為序。</p>]]></content><author><name>唐鳳</name><email>au@pdis.nat.gov.tw</email></author><category term="blog" /><category term="多元創新" /><summary type="html"><![CDATA[「數據自由流通可信」的機制，是跨境協作的首要之務。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/binary-ga626d4a1f_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/binary-ga626d4a1f_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">十年開放資料，開啟無限未來</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E5%8D%81%E5%B9%B4%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99-%E9%96%8B%E5%95%9F%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86/" rel="alternate" type="text/html" title="十年開放資料，開啟無限未來" /><published>2023-04-13T00:00:00+00:00</published><updated>2023-04-13T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E5%8D%81%E5%B9%B4%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99-%E9%96%8B%E5%95%9F%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E5%8D%81%E5%B9%B4%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99-%E9%96%8B%E5%95%9F%E7%84%A1%E9%99%90%E6%9C%AA%E4%BE%86/"><![CDATA[<p>今年四月，是臺灣發展開放資料的重要里程碑，是「政府資料開放平臺」上線滿十年的日子。如今，平臺已開放超過五萬五千筆資料集，瀏覽量超過一億一千三百萬次、下載量超過一千九百萬次。</p>
-
-<p>歷年來在開放資料的基礎上，出現了許多解決社會問題的創意應用，例如結合雨量示警的灌溉機制、幫助漁農養殖文蛤而開發的智慧系統，都是近年參賽者在資料應用比賽提出的好點子。</p>
-
-<p>支撐這些點子成功的關鍵，就是各機關持續釋出的各類「高應用價值」資料。</p>
-
-<p>過去，許多富含公益價值的高價值應用資料，如氣象觀測和救災資源等，往往礙於法規限制和運算限制，無法輕易對外釋出。十年來，政府持續排除萬難，將資料提供大眾使用。</p>
-
-<p>例如，中央氣象局在二〇二二年公布的「氣象資源創新應用方案」，開放法人、企業申請高精度的氣象資料和資源，不只讓氣象預報有機會變得更精準，後續發展出個別場域的氣象、海流等分析，也可以提供漁業和航運等產業進一步應用。</p>
-
-<p>此案例完整呈現了，高價值應用資料有機會連結不同產業和專業。數位部也在徵求各部會和大眾意見後，在政府資料開放平臺，開設了「高應用價值主題專區」。</p>
-
-<p>有別於過去以業務或機關作為分類依據，我們根據社會價值和資料內容區分「主題」，首先歸類出氣候環境、災害防救、交通運輸、健康醫療、能源管理、社會救助等六項資料集。主題式的規劃，不只有助於查找資料，也能讓不同資料的關聯一覽無遺，激發更多協作。</p>
-
-<p>以「氣候環境」資料集為例，就可以為淨零轉型作出貢獻。「淨零」的目標，是讓人為造成的溫室氣體排放極小化，並且透過負碳技術、森林碳匯等方法抵銷排放。呼應二〇二一年聯合國《格拉斯哥氣候協定》，臺灣也在去年三月提出「二〇五〇淨零排放路徑」，並在今年正式施行《氣候變遷因應法》。</p>
-
-<p>今年總統盃黑客松國際松的主題，「#FreeTheFuture: Open, Digital &amp; Green」，結合了民主溝通、資料應用，以及達成淨零碳排三大主軸，就是跨領域資料交互使用的最佳機會。</p>
-
-<p>地球的自然資源，往往因為人類過度利用，留給後代的越來越少，因此被視為競爭財。但開放資料正好相反，它是一種「反競爭財（anti-rival good）」，越分享，價值就越高，對自己和世界都有貢獻。</p>
-
-<p>數位部將持續開放和促進公益性的資料和數據應用，協助稀缺的地球資源獲得永續利用，也歡迎更多朋友加入我們的行列。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="多元創新" /><summary type="html"><![CDATA[促進公益性的資料和數據應用，協助稀缺的地球資源獲得永續利用。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/earth-gab4518d56_1920.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/earth-gab4518d56_1920.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>隨著基礎模型普及，本書第十章「資料民主化」的願景即將實現，每個人都可望成為生產者和使用者，「資料治理」也一躍成為數位發展的核心議題。相信本書的出版，必定能引領各界，讓資料治理有智有理——惟有集眾人之智，才能連結彼此、促成良善的共創協作關係，成眾人之事，實現有理有節的「數據公益」。是為序。</p>]]></content><author><name>唐鳳</name><email>au@pdis.nat.gov.tw</email></author><category term="blog" /><category term="多元創新" /><summary type="html"><![CDATA[「數據自由流通可信」的機制，是跨境協作的首要之務。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/binary-ga626d4a1f_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/binary-ga626d4a1f_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
