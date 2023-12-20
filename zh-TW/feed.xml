@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-12-20T16:57:13+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">「超智慧對齊」能打造更安全 AI？</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E8%B6%85%E6%99%BA%E6%85%A7%E5%B0%8D%E9%BD%8A-%E8%83%BD%E6%89%93%E9%80%A0%E6%9B%B4%E5%AE%89%E5%85%A8-AI/" rel="alternate" type="text/html" title="「超智慧對齊」能打造更安全 AI？" /><published>2023-12-21T00:00:00+00:00</published><updated>2023-12-21T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E3%80%8C%E8%B6%85%E6%99%BA%E6%85%A7%E5%B0%8D%E9%BD%8A%E3%80%8D%E8%83%BD%E6%89%93%E9%80%A0%E6%9B%B4%E5%AE%89%E5%85%A8-AI%EF%BC%9F</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E8%B6%85%E6%99%BA%E6%85%A7%E5%B0%8D%E9%BD%8A-%E8%83%BD%E6%89%93%E9%80%A0%E6%9B%B4%E5%AE%89%E5%85%A8-AI/"><![CDATA[<p>近期黃仁勳預言，未來五年內，AI 會追上人類。剛回鍋的 OpenAI 執行長奧特曼也強調，AI 開發不會停。但其聯合創辦人蘇茨克維卻擔憂，次世代的 AI 可能帶來重大社會風險。他所領導的「超智慧對齊」（<a href="https://openai.com/blog/introducing-superalignment">Superalignment</a>）專案，就是為此而生。</p>
-
-<p>對我來說，所謂超智慧對齊，就是「自動化對齊」，讓 AI 能持續符合人類的期待。要瞭解這個概念，我們需要先理解製作 AI 的兩個步驟，分別是預訓練與微調。</p>
-
-<p>「預訓練」是取得巨量資料之後，將它壓縮成一份模型，之後在輸入要求時，就會依照原始資料的共同性，來產生答案。好比說，模型會注意到人臉的共同性，如輪廓與顏色，收到指令後，便重新畫一張人臉出來。但遇到訓練資料不足之處，就可能產生似是而非的答案，也就是所謂的「AI 幻覺」。</p>
-
-<p>「微調」則是透過獎懲機制，讓模型學會人類較能接受哪些答案。舉例來說，模型應該拒絕捏造、有害的回答，給出透明、充分揭露信心水準的答案。如果訓練資料裡沒有提供相關材料，AI 也應該如實說明。</p>
-
-<p>而「超智慧對齊」，指的就是運用現有的 AI 系統，來協助人類完成大部分的微調工作。</p>
-
-<p>打個比方：審理複雜的專利侵權案時，法官本人未必是領域專家，但只要交由兩造的專業律師針對事件辯論，法官判斷論點是否合乎法規即可。超智慧對齊的原理，就是將人類放在類似法官的位置。</p>
-
-<p>展望未來，甚至只要共筆一份「憲法式 AI」文件，就能讓 AI 自動對齊這些準則——「集體智慧計畫」與 Anthropic 已經<a href="https://www.anthropic.com/index/collective-constitutional-ai-aligning-a-language-model-with-public-input">做出了示範</a>。例如以《世界人權宣言》訓練的小型 AI，就能對齊次世代的大型 AI，讓後者更接近人們期待的樣子。</p>
-
-<p>作為政策制定者，我們的工作就是透過政策以及政府投資，對市場給出訊號。近期剛開幕的 AI 評測中心，就揭櫫了 AI 應該要符合的十大要點，分別是安全、彈性、準確、當責、隱私、可解釋、公平、透明、可靠、資安。如果在這十件事上背道而馳，雖然不會馬上禁用，但政府不鼓勵部署。</p>
-
-<p>在 2016 年入閣之前，我曾協助蘋果 Siri 團隊六年的時間，當時團隊最注重的，就是準確、無害。我認為，隨著對齊技術的成熟，頻頻出現幻覺的 AI 系統，將不會再獲得投資人的青睞。</p>
-
-<p>這就像 1980 年代，人類發現冰箱用的冷媒會破壞臭氧層，各國便迅速簽定了《蒙特婁議定書》，彼此約定停用期限。這對出資者就是很明確的訊號：如果再不迅速調整的話，其他競品很快就會取而代之。反之，當市場上出現更穩定、安全的 AI 供消費者使用，投資和消費就會引導業界，不至於走上歧途。</p>]]></content><author><name>唐鳳、江殷年</name></author><category term="blog" /><category term="數位產業" /><summary type="html"><![CDATA[頻頻出現幻覺的 AI 系統，將不會再獲得投資人的青睞。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/steampunk-3169877_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/steampunk-3169877_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">昔日回響，未來之聲</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2/" rel="alternate" type="text/html" title="昔日回響，未來之聲" /><published>2023-11-23T00:00:00+00:00</published><updated>2023-11-23T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2/"><![CDATA[<p>你聽過披頭四的新歌了嗎？日前，這個已有兩名成員去世的傳奇樂團，發布最新單曲〈Now And Then（暫譯：此時彼刻）〉。披頭四成員保羅麥卡尼說，是 AI 讓這一切變得可能。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2023-12-20T17:03:25+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">昔日回響，未來之聲</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2/" rel="alternate" type="text/html" title="昔日回響，未來之聲" /><published>2023-11-23T00:00:00+00:00</published><updated>2023-11-23T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2/"><![CDATA[<p>你聽過披頭四的新歌了嗎？日前，這個已有兩名成員去世的傳奇樂團，發布最新單曲〈Now And Then（暫譯：此時彼刻）〉。披頭四成員保羅麥卡尼說，是 AI 讓這一切變得可能。</p>
 
 <p>當年，約翰藍儂在家裡用鋼琴自彈自唱，用錄音帶隨手錄下。在他遇刺後多年來，團員們一直試圖重製這首歌，但由於音質太過模糊，只能擱置。直到近年技術成熟，成功辨別歌聲與琴聲，終於為披頭四劃下感傷而充滿詩意的句點。</p>
 
@@ -200,4 +182,28 @@
 
 <p>此外，我們也會導入「T-Road 跨機關資料傳輸專屬通道」，全程以機關憑證加密，不與外部服務網段連通。平時透過 T-Road 關閉傳輸介面，等到發放作業啟動、主管機關與個資專責機關確認取用範圍後，才能開通 T-Road 介面傳輸。如此一來，未來執行發放作業時，各級機關都可確保個資安全。</p>
 
-<p>日前普發現金領取人數已突破兩千萬，其中超過九百萬人透過官網線上領取。數位部將與各部會持續協作、打造更多省力安心的公共程式，讓民眾能用多元方式，獲取便利服務。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位政府" /><summary type="html"><![CDATA[未來要如何妥善運用這個結合身分驗證、資訊流及金流的機制呢？]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/technology-5348129_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/technology-5348129_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>日前普發現金領取人數已突破兩千萬，其中超過九百萬人透過官網線上領取。數位部將與各部會持續協作、打造更多省力安心的公共程式，讓民眾能用多元方式，獲取便利服務。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位政府" /><summary type="html"><![CDATA[未來要如何妥善運用這個結合身分驗證、資訊流及金流的機制呢？]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/technology-5348129_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/technology-5348129_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">資料治理有智，數據公益有理</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E8%B3%87%E6%96%99%E6%B2%BB%E7%90%86%E6%9C%89%E6%99%BA-%E6%95%B8%E6%93%9A%E5%85%AC%E7%9B%8A%E6%9C%89%E7%90%86/" rel="alternate" type="text/html" title="資料治理有智，數據公益有理" /><published>2023-05-02T00:00:00+00:00</published><updated>2023-05-02T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E8%B3%87%E6%96%99%E6%B2%BB%E7%90%86%E6%9C%89%E6%99%BA-%E6%95%B8%E6%93%9A%E5%85%AC%E7%9B%8A%E6%9C%89%E7%90%86</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E8%B3%87%E6%96%99%E6%B2%BB%E7%90%86%E6%9C%89%E6%99%BA-%E6%95%B8%E6%93%9A%E5%85%AC%E7%9B%8A%E6%9C%89%E7%90%86/"><![CDATA[<p>本書是繼《政府數位轉型：一本必讀的入門書》之後，數位治理學界與實務界再次攜手共創的智慧結晶。這次作者群聚焦於「政府資料治理」，再度展現出深厚的專業素養。</p>
+
+<p>如果把數位轉型比擬為工業革命，資料正是轉動時代巨輪的新能源；也如能源的開發與運用，攸關產業發展的成敗一樣，資料治理可謂數位轉型的關鍵基石。</p>
+
+<p>今日，隨著影音及語言模型的普及，舉凡翻譯、客服、行銷、創作等各行各業，都受到生成技術的衝擊。猶如精煉技術的躍昇，讓化石燃料擺脫點燈取暖等原始用途，不但煉製出陸海空載具的強大動力，更產生無數塑化產品，進入食衣住行育樂各個生活層面；基礎模型（foundation models）的盛行，促使全球爭相投入資料的應用發展，揮灑出無窮無盡的創意。</p>
+
+<p>然而，正如石化產品引發氣候危機與生態浩劫，以致追求潔淨能源成為世紀挑戰；基礎模型從訓練到應用都與巨量資料息息相關，如果沒有良善的治理基礎，數位生態浩劫可說是迫在眉睫，眼前的互動深偽詐騙只是冰山一角。</p>
+
+<p>有幸的是，國際間正高度關注治理議題，期待法制倫理與技術齊頭並進。今年四月底在日本舉辦的七大工業國（G7）數位技術部長會議，即發表聯合聲明，宣示將促進「以人為本」的公益價值，反對威脅民主、自由、人權的不當應用。聲明呼應了《民主峰會宣言》與《未來網際網路宣言》的精神，指出建構「數據自由流通可信」（Data Free Flow with Trust, DFFT) 的機制，是跨境協作的首要之務。</p>
+
+<p>換句話說，面對基礎模型等快速發展的技術，即便對人權與民主的侵害存有疑慮，「自由流通」仍然是跨境資料治理的首要價值，而非深溝高壘地打造孤島，更不會返祖地透過政府監管，一昧拒卻數據流通，讓先進國家變成「先禁」國家。</p>
+
+<p>聲明提出的「運用創新機會」、「法治」、「正當程序」、「民主主義」、「尊重人權」五大原則，一言以蔽之，就是「以人為本」——堅定捍衛個人做為資料主體的價值與保障。如同家喻戶曉的寓言故事，各國政府如果不能誠懇面對遺落的鐵斧頭，也就不可能得到金銀斧頭的獎賞。</p>
+
+<p>數位部在各界期待下成立，肩負「政府數位服務、資料治理與開放」使命。作為法制與倫理規範的輔佐，我們推動隱私強化技術（PETs）、積極輔導電商及物流業者導入，正是為了降低個資外洩的風險。</p>
+
+<p>而觀察國際趨勢，歐盟近來提倡透過隱私強化處理，主動將高應用價值的資料，轉化為無涉個資的資料（即「數據」，non-personal data），以促進各界應用、創造公共利益。</p>
+
+<p>以我國而言，舉凡氣候環境、災害防救、交通運輸、健康醫療、能源管理、社會救助等公益應用，在 data.gov.tw 平臺上都有對應的「高應用價值」主題，啟發源源不絕的創新方案。過去十年，平臺吸引了一億一千三百萬次瀏覽、下載超過一千九百萬次，更透過「總統盃黑客松」等活動，成為全民共創的實踐。</p>
+
+<p>換言之，本書引述的「石油論」怕只說對了一半；石油與礦產是競爭財，然而數據正好相反，具備「非排他性」和「非競爭性」，在健全法制與隱私強化技術打造的治理環境下，更能發揮「反競爭財」（anti-rival good）的特性：越分享價值越高，對個人和世界都有貢獻。</p>
+
+<p>也就是說，只有在自由流通的可信環境裡，歐盟《資料治理法》（Data Governance Act, DGA）提出的「數據公益」（data altruism）理念，才有落實的可能：由各方持有者自願提供數據，帶動社會發展、提升公共服務品質。</p>
+
+<p>隨著基礎模型普及，本書第十章「資料民主化」的願景即將實現，每個人都可望成為生產者和使用者，「資料治理」也一躍成為數位發展的核心議題。相信本書的出版，必定能引領各界，讓資料治理有智有理——惟有集眾人之智，才能連結彼此、促成良善的共創協作關係，成眾人之事，實現有理有節的「數據公益」。是為序。</p>]]></content><author><name>唐鳳</name><email>au@pdis.nat.gov.tw</email></author><category term="blog" /><category term="多元創新" /><summary type="html"><![CDATA[「數據自由流通可信」的機制，是跨境協作的首要之務。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/binary-ga626d4a1f_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/binary-ga626d4a1f_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
