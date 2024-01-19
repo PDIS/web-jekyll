@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2024-01-19T01:29:21+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">「超智慧對齊」能打造更安全 AI？</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E8%B6%85%E6%99%BA%E6%85%A7%E5%B0%8D%E9%BD%8A-%E8%83%BD%E6%89%93%E9%80%A0%E6%9B%B4%E5%AE%89%E5%85%A8-AI/" rel="alternate" type="text/html" title="「超智慧對齊」能打造更安全 AI？" /><published>2023-12-21T00:00:00+00:00</published><updated>2023-12-21T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E3%80%8C%E8%B6%85%E6%99%BA%E6%85%A7%E5%B0%8D%E9%BD%8A%E3%80%8D%E8%83%BD%E6%89%93%E9%80%A0%E6%9B%B4%E5%AE%89%E5%85%A8-AI%EF%BC%9F</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E8%B6%85%E6%99%BA%E6%85%A7%E5%B0%8D%E9%BD%8A-%E8%83%BD%E6%89%93%E9%80%A0%E6%9B%B4%E5%AE%89%E5%85%A8-AI/"><![CDATA[<p>近期黃仁勳預言，未來五年內，AI 會追上人類。剛回鍋的 OpenAI 執行長奧特曼也強調，AI 開發不會停。但其聯合創辦人蘇茨克維卻擔憂，次世代的 AI 可能帶來重大社會風險。他所領導的「超智慧對齊」（<a href="https://openai.com/blog/introducing-superalignment">Superalignment</a>）專案，就是為此而生。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2024-01-19T15:21:09+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">AI 調適</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/AI-%E8%AA%BF%E9%81%A9/" rel="alternate" type="text/html" title="AI 調適" /><published>2024-01-18T00:00:00+00:00</published><updated>2024-01-18T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/AI-%E8%AA%BF%E9%81%A9</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/AI-%E8%AA%BF%E9%81%A9/"><![CDATA[<p>談到 AI 治理，除了相關立法外，我想強調的是「超前部署」的 AI 調適機制。</p>
+
+<p>為什麼要超前部署？</p>
+
+<p>好比數年前科技會報辦公室和我曾拍過影片，用便宜的手機、筆電，來深偽（deepfake）我自己的影像，來告訴大眾深偽技術有多容易。</p>
+
+<p>這樣一來，在還沒有發生大規模損害時，就可以早一步來防治，也同時提前讓大眾瞭解如何因應風險。</p>
+
+<p>而所謂 AI 調適機制，背後就有兩個超前部署的方向：一是透過全民參與，迅速發現新的危害；二是在發現後，如何快速告知從業人員，並且在危害的邊界前訂定界線，引導業者往安全的方向開發。</p>
+
+<p>因為 AI 是通用技術，在實驗室的研發階段難以評測所有可能的危害，所以應該要有系統性的方式，透過至少每半年一次的審議，來瞭解實際部署時，對社會的影響。</p>
+
+<p>但，這代表評估危害的標準跟定義，就綁在一小群人身上嗎？</p>
+
+<p>並不盡然。我們可以採取兩種做法，第一種是「自願通報」，也就是任何人發現有潛在危害，都有一個地方可以舉手發言，並跟其他處境類似的人討論。第二，我們可以採用「隨機抽樣」的方式，在確定人口比例後，進行分層抽樣電訪。不過，這種傳統的民意調查方法也有其缺陷，通常只能問選擇題，無法進一步詢問開放性的問題。</p>
+
+<p>為了因應這個挑戰，我們可以運用「審議式調查」模式，結合審議討論和隨機抽樣，邀請全國具有統計代表性的幾百人，甚至上千人一起分組加入視訊會議，彼此腦力激盪。如此一來，既可以深入討論，也讓更多民眾都有機會參與。</p>
+
+<p>我期待，根本還沒使用 AI，或是剛剛受到影響的人，都有機會透過審議的過程，先瞭解有這一件事，而且放在自己的生活情境當中想一想：如果親朋好友，甚至公司開始運用先進的生成式 AI 時，各方要如何因應？如此，我們才能超前部署，即時回應社會的需求。</p>]]></content><author><name>唐鳳、江殷年</name></author><category term="blog" /><category term="民主網絡" /><category term="數位產業" /><summary type="html"><![CDATA[評估危害的標準跟定義，就綁在一小群人身上嗎？]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/boat-1834397_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/boat-1834397_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">「超智慧對齊」能打造更安全 AI？</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E8%B6%85%E6%99%BA%E6%85%A7%E5%B0%8D%E9%BD%8A-%E8%83%BD%E6%89%93%E9%80%A0%E6%9B%B4%E5%AE%89%E5%85%A8-AI/" rel="alternate" type="text/html" title="「超智慧對齊」能打造更安全 AI？" /><published>2023-12-21T00:00:00+00:00</published><updated>2023-12-21T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E3%80%8C%E8%B6%85%E6%99%BA%E6%85%A7%E5%B0%8D%E9%BD%8A%E3%80%8D%E8%83%BD%E6%89%93%E9%80%A0%E6%9B%B4%E5%AE%89%E5%85%A8-AI%EF%BC%9F</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E8%B6%85%E6%99%BA%E6%85%A7%E5%B0%8D%E9%BD%8A-%E8%83%BD%E6%89%93%E9%80%A0%E6%9B%B4%E5%AE%89%E5%85%A8-AI/"><![CDATA[<p>近期黃仁勳預言，未來五年內，AI 會追上人類。剛回鍋的 OpenAI 執行長奧特曼也強調，AI 開發不會停。但其聯合創辦人蘇茨克維卻擔憂，次世代的 AI 可能帶來重大社會風險。他所領導的「超智慧對齊」（<a href="https://openai.com/blog/introducing-superalignment">Superalignment</a>）專案，就是為此而生。</p>
 
 <p>對我來說，所謂超智慧對齊，就是「自動化對齊」，讓 AI 能持續符合人類的期待。要瞭解這個概念，我們需要先理解製作 AI 的兩個步驟，分別是預訓練與微調。</p>
 
@@ -184,20 +202,4 @@
 
 <p>這個作法體現了 5G 廣連結、低延遲的特性。一千多個訊號的設定，不僅讓訊號深入現場角落，也將網路連線延遲時間從原本平均一秒，大幅降低到零點一秒，讓現場表演和聲光體驗完美結合。</p>
 
-<p>從一分鐘的電話，到零點一秒的低延遲率，我們持續提升網路品質，讓 5G 應用成為大眾生活的好幫手，也成為產業向前走的新動力。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="韌性建設" /><category term="資源管理" /><category term="數位產業" /><summary type="html"><![CDATA[5G 遠距診療平台即時傳輸醫學影像，讓遠端的專科醫師判讀。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/nature-g62a81da2f_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/nature-g62a81da2f_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">數位公共建設，全民共享</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E5%85%AC%E5%85%B1%E5%BB%BA%E8%A8%AD-%E5%85%A8%E6%B0%91%E5%85%B1%E4%BA%AB/" rel="alternate" type="text/html" title="數位公共建設，全民共享" /><published>2023-05-11T00:00:00+00:00</published><updated>2023-05-11T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E5%85%AC%E5%85%B1%E5%BB%BA%E8%A8%AD%EF%BC%8C%E5%85%A8%E6%B0%91%E5%85%B1%E4%BA%AB</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%95%B8%E4%BD%8D%E5%85%AC%E5%85%B1%E5%BB%BA%E8%A8%AD-%E5%85%A8%E6%B0%91%E5%85%B1%E4%BA%AB/"><![CDATA[<p>法國參議院副議長李察（Alain Richard），在四月底帶領參議院友臺小組來臺參訪數位部。法國各黨派議員最好奇的，是要如何設計制度，才能順利推展數位服務？我說，這是跨部會日積月累的成果，目前進行中的「全民共享普發現金」，就是最好的例子。</p>
-
-<p>普發現金政策，建立在三倍券、五倍券的基礎上。以領取通路為例，數位券消費滿額後可以選擇領取現金，當時只有部分銀行的自動櫃員機（ATM）支援。這次我們推動更多行庫加入，全國涵蓋率超過八成，服務四百多萬民眾，直接在 ATM 領取六千元。</p>
-
-<p>對於不方便實體領取的朋友，也可以到官網線上登記，讓現金直接匯入本人帳戶。2021 年建立的「孩童家庭防疫補貼」系統，既能確保孩童與領取人的監護關係，也能讓領取人自行決定匯入哪個帳戶，具有「免去繁瑣手續、補貼即刻入帳」的優點，成為這次普發現金的核心架構。</p>
-
-<p>在系統啟動前，國家資通安全研究院的同仁，已全面檢測資安弱點、確保傳輸全程加密，取用資料必須獲得授權並留下紀錄。個資不但受到嚴密保護，更將在專案執行結束後一個月，全部刪除。</p>
-
-<p>此次發放對象，包含持永久居留證等外籍人士，因此普發現金網站以雙語架構建置，避免語言能力造成阻礙；網站正式上線前，也已完成無障礙檢測及修正，確保符合無障礙標章的ＡＡ等級規範。</p>
-
-<p>這些作法不但確實讓網站更易使用，也照顧身心障礙朋友的需求。即使民眾在忙碌通勤途中以手機進入系統，也都能體驗清晰易懂、不易出錯的使用流程。</p>
-
-<p>而順利普發告一段落，未來要如何妥善運用這個結合身分驗證、資訊流及金流的機制呢？我們規劃將此機制拓展為「數位公共建設」，提供各級政府機關辦理發放作業使用；基於公共程式（public code）的精神，也將程式碼提供各機關加值運用，加速系統建置效率。</p>
-
-<p>此外，我們也會導入「T-Road 跨機關資料傳輸專屬通道」，全程以機關憑證加密，不與外部服務網段連通。平時透過 T-Road 關閉傳輸介面，等到發放作業啟動、主管機關與個資專責機關確認取用範圍後，才能開通 T-Road 介面傳輸。如此一來，未來執行發放作業時，各級機關都可確保個資安全。</p>
-
-<p>日前普發現金領取人數已突破兩千萬，其中超過九百萬人透過官網線上領取。數位部將與各部會持續協作、打造更多省力安心的公共程式，讓民眾能用多元方式，獲取便利服務。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位政府" /><summary type="html"><![CDATA[未來要如何妥善運用這個結合身分驗證、資訊流及金流的機制呢？]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/technology-5348129_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/technology-5348129_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>從一分鐘的電話，到零點一秒的低延遲率，我們持續提升網路品質，讓 5G 應用成為大眾生活的好幫手，也成為產業向前走的新動力。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="韌性建設" /><category term="資源管理" /><category term="數位產業" /><summary type="html"><![CDATA[5G 遠距診療平台即時傳輸醫學影像，讓遠端的專科醫師判讀。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/nature-g62a81da2f_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/nature-g62a81da2f_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
