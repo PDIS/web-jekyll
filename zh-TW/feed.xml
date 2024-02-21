@@ -1,26 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2024-02-21T22:12:59+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">窩心，該翻成焦慮還是貼心？</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E7%AA%A9%E5%BF%83-%E8%A9%B2%E7%BF%BB%E6%88%90%E7%84%A6%E6%85%AE%E9%82%84%E6%98%AF%E8%B2%BC%E5%BF%83/" rel="alternate" type="text/html" title="窩心，該翻成焦慮還是貼心？" /><published>2024-02-22T00:00:00+00:00</published><updated>2024-02-22T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E7%AA%A9%E5%BF%83-%E8%A9%B2%E7%BF%BB%E6%88%90%E7%84%A6%E6%85%AE%E9%82%84%E6%98%AF%E8%B2%BC%E5%BF%83</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E7%AA%A9%E5%BF%83-%E8%A9%B2%E7%BF%BB%E6%88%90%E7%84%A6%E6%85%AE%E9%82%84%E6%98%AF%E8%B2%BC%E5%BF%83/"><![CDATA[<p>「他讓我很窩心」這句話，你會怎麼翻譯？用 Meta Llama 2 的語言模型來翻，會翻成「He made me feel very nervous.」</p>
-
-<p>「窩心」在臺灣的用法是令人感到溫暖、感動，而「nervous」的英文意思是焦慮、緊張，兩者意思完全相反。</p>
-
-<p>但如果是我國的 TAIDE 模型，就會準確翻譯成「He made me feel very touched.」</p>
-
-<p>AI 評測中心的十個項目，其中有一項是「準確性」。AI 模型如果缺乏準確性，就有可能造成誤解，甚至影響到工作和生活。</p>
-
-<p>例如，在醫療領域，翻譯不準確可能會導致誤診或延誤治療；在金融領域，可能會造成交易損失；在法律領域，則可能導致訴訟糾紛。</p>
-
-<p>其次，如果我們沒有符合文化環境的語言模型，或是在國外的語言模型，要進入我們市場的時候，沒有準確性的評測能力，那就有可能讓他國的語言模型，用最便宜的方式，隨意應付過去、進入市場被大眾使用，造成不利影響。</p>
-
-<p>最後，「準確性」的標準，究竟要以誰為準呢？這也是許多人的疑惑。AI 評測中心並不會自己憑空發明標準答案，而是依據有規範效力的來源，例如國家教育研究院等權威教育機構，作為準確性的依據。</p>
-
-<p>回到一開始的例子，Llama 2 一開始訓練的資料裡面，顯然「窩心」是不舒服的意思的原始資料比較多，它才會選擇這樣翻譯。要說它錯誤嗎？也不能說錯誤，只是沒有符合臺灣的準確性要求。</p>
-
-<p>因此選擇準確性要對標的單位很重要，再往下延伸的話，準確性也必須考慮各行各業的需求，在應用語言模型時，也必須根據行業的溝通規則，給予二次的調校與對齊。</p>
-
-<p>比方在各行各業裡，都有我們俗稱的「行話」，意即行業內的「自訂」詞彙，而這些詞彙在同產業的人都一聽就能夠理解，但在行外的人，可就不一定知道；也可能因為行業別的關係，產生同樣的詞語，卻代表著天差地遠的意思。</p>
-
-<p>舉例來說，律師事務所、公部門所寫的公文，都有非常明確的行話用法，而這些專有詞彙，外人不一定都看得懂。這時，我們就需要在行業內建構資料集，來微調先前訓練過的 AI 模型，進一步對齊。</p>
-
-<p>當各行各業都能自由微調翻譯模型時，文字翻譯工作者，就轉變為擔任最後校稿，以及調教模型的任務，這可能是這兩三年內就會發生的事情。</p>]]></content><author><name>唐鳳、陳書榕</name></author><category term="blog" /><category term="數位產業" /><summary type="html"><![CDATA[在應用語言模型時，也必須根據行業的溝通規則，給予二次的調校與對齊。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/sew-517026_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/sew-517026_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AI 調適</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/AI-%E8%AA%BF%E9%81%A9/" rel="alternate" type="text/html" title="AI 調適" /><published>2024-01-18T00:00:00+00:00</published><updated>2024-01-18T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/AI-%E8%AA%BF%E9%81%A9</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/AI-%E8%AA%BF%E9%81%A9/"><![CDATA[<p>談到 AI 治理，除了相關立法外，我想強調的是「超前部署」的 AI 調適機制。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2024-02-21T22:18:16+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">AI 調適</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/AI-%E8%AA%BF%E9%81%A9/" rel="alternate" type="text/html" title="AI 調適" /><published>2024-01-18T00:00:00+00:00</published><updated>2024-01-18T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/AI-%E8%AA%BF%E9%81%A9</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/AI-%E8%AA%BF%E9%81%A9/"><![CDATA[<p>談到 AI 治理，除了相關立法外，我想強調的是「超前部署」的 AI 調適機制。</p>
 
 <p>為什麼要超前部署？</p>
 
@@ -204,4 +182,24 @@
 
 <p>數位部推動的公私聯防機制，也運用在虛擬帳戶上。銀行一旦發現虛擬帳戶涉及違法，即可透過聯防平台通報金管會，再由數位部依法進行稽查。針對違法金流，我們則與金管會協力，建立第三方支付查詢系統，在最短時間內，協助有關單位獲得相關的帳戶資訊。</p>
 
-<p>數位部打詐的目標，是建立韌性防護網，不只在末端抓漏，更要從源頭阻絕。我們會持續分享具體作法和執行成果，也歡迎讀者提出意見，讓政策變得更完善。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位產業" /><category term="數位政府" /><summary type="html"><![CDATA[不只在末端抓漏，更要從源頭阻絕。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/hands-1947915_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/hands-1947915_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>數位部打詐的目標，是建立韌性防護網，不只在末端抓漏，更要從源頭阻絕。我們會持續分享具體作法和執行成果，也歡迎讀者提出意見，讓政策變得更完善。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="數位產業" /><category term="數位政府" /><summary type="html"><![CDATA[不只在末端抓漏，更要從源頭阻絕。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/hands-1947915_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/hands-1947915_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">一通標高三千公尺的電話</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E4%B8%80%E9%80%9A%E6%A8%99%E9%AB%98%E4%B8%89%E5%8D%83%E5%85%AC%E5%B0%BA%E7%9A%84%E9%9B%BB%E8%A9%B1/" rel="alternate" type="text/html" title="一通標高三千公尺的電話" /><published>2023-06-08T00:00:00+00:00</published><updated>2023-06-08T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E4%B8%80%E9%80%9A%E6%A8%99%E9%AB%98%E4%B8%89%E5%8D%83%E5%85%AC%E5%B0%BA%E7%9A%84%E9%9B%BB%E8%A9%B1</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E4%B8%80%E9%80%9A%E6%A8%99%E9%AB%98%E4%B8%89%E5%8D%83%E5%85%AC%E5%B0%BA%E7%9A%84%E9%9B%BB%E8%A9%B1/"><![CDATA[<p>在瞬息萬變的網路世界，「秒讀」、「秒回」是很多人習以為常的行為模式。不過，數位部的同仁，必須定期撥打直到最後一秒才能掛斷的「一分鐘電話」。</p>
+
+<p>這一分鐘的電話，是確保各地通訊品質的重要一步。檢測人員抵達當地，工程師會連線後抓取就近的基地台訊號，再連結業者系統端，進行一百次反應測試，確認網路暢通。最後一通電話，必須通話一分鐘不中斷。網路和語音通話兩項都要達標，才算通過檢測。</p>
+
+<p>相較起十分鐘內完成的檢測，更費時的是到達檢測點。五月時，數位部同仁和各電信業者，就分別前往大霸尖山上的九九山莊、和標高三千三百公尺的中霸山屋，以及太平山上的翠峰山屋等指定區域，進行山林通訊量測。</p>
+
+<p>這些長途跋涉的努力，不只是為了讓山友和遊客擁有快速便利的通訊品質，更是為了提升各地數位韌性、透過網路解決生活問題。</p>
+
+<p>舉例來說，台灣高山林立又幅員遼闊，如果山區有緊急醫療需求，往往囿於交通而影響就醫。因此，數位部支持電信業者開發 5G 遠距診療平台，即時傳輸醫學影像，讓遠端的專科醫師判讀。</p>
+
+<p>以許多部落深入山區的南投縣仁愛鄉為例，衛生所醫師透過視訊，讓皮膚科醫師從遠端看到患者病灶，讓病因判斷更加準確。這套系統目前已運用在十二個縣市、三十五個鄉鎮，服務超過三萬人次。</p>
+
+<p>這種「網路代替馬路」的方式，有效滿足生活需求，是數位部持續推動 5G 應用的初衷。因此，我們以「降低成本」、「應用開放」與「簡化程序」三大方向為核心，在六月公告設置使用管理辦法，正式開放各界申請 5G 專頻專網。</p>
+
+<p>為了鼓勵更多產業使用，數位產業署聯合十三家公協會組成推動小組，包括旅遊觀光、文化展演、民生與製造等，提出專頻專網服務、與應用方案的產業藍圖，也持續參與和支持創新應用。</p>
+
+<p>例如，舞鈴劇團《VALO 二部曲-島嶼》沉浸體驗版，在數位部、電信業者及資策會提供技術支援下，讓國家戲劇院四層樓的空間內布滿 5G 訊號，控制一千二百個光源載體。觀眾配戴 5G 手環後，就能和舞者同樣置身在奇幻世界中，還可以即時互動。</p>
+
+<p>這個作法體現了 5G 廣連結、低延遲的特性。一千多個訊號的設定，不僅讓訊號深入現場角落，也將網路連線延遲時間從原本平均一秒，大幅降低到零點一秒，讓現場表演和聲光體驗完美結合。</p>
+
+<p>從一分鐘的電話，到零點一秒的低延遲率，我們持續提升網路品質，讓 5G 應用成為大眾生活的好幫手，也成為產業向前走的新動力。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="韌性建設" /><category term="資源管理" /><category term="數位產業" /><summary type="html"><![CDATA[5G 遠距診療平台即時傳輸醫學影像，讓遠端的專科醫師判讀。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/nature-g62a81da2f_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/nature-g62a81da2f_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
