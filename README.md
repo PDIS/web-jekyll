@@ -1,5 +1,5 @@
 # 建置環境 Development
-## windows
+## Windows
 1. `git clone --recurse-submodules https://github.com/PDIS/web-jekyll`
 2. install Ruby `choco install ruby`
 3. install RubyInstaller Devkit `ridk install` (3 - MSYS2 and MINGW development toolchain)
@@ -9,7 +9,7 @@
 7. open browser to `127.0.0.1:4000`
 * check https://jekyllrb.com/docs/installation/windows/#encoding if error occurs
 
-## macos
+## macOS
 1. `git clone --recurse-submodules https://github.com/PDIS/web-jekyll`
 2. ~~install rvm & ruby~~ (macos should have ruby preinstalled)
 3. `bundle install --path vendor/bundle` 
