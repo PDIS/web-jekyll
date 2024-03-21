@@ -43,7 +43,7 @@
 <script>
   function search(e) {
     let q = e.parentNode.firstElementChild.value.trim();
-    if (q) window.location.href = "{{ 'search' | relative_url }}/?q=" + q;
+    if (q) window.location.href = "{{ 'search' | relative_url }}/?q=" + encodeURIComponent(q);
   }
 </script>
 
