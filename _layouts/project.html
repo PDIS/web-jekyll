@@ -27,7 +27,7 @@ layout: default
                 {% assign author = site.data.authors[author_name] %}
               {% endunless %}
               <li itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <a href="{{ author.wiselike | default: '/contact' }}" target="_blank" itemprop="name" class='chip'>
+                <a href="{{ author.wiselike | default: '/contact' }}" target="_blank" rel="noopener noreferrer" itemprop="name" class='chip'>
                   <img src="{{ author.avatar | default: site.logo }}" alt="author">
                   {{ author[nametype] | default: author_name }}
                 </a>

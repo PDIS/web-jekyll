@@ -129,15 +129,15 @@ document.addEventListener('DOMContentLoaded', function(){
             {% for link in item %}
               {% case link[0] %}
                 {% when "Youtube" %}
-                <a href='{{link[1]}}' target="_blank" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating red"><i class="material-icons">videocam</i></a>
+                <a href='{{link[1]}}' target="_blank" rel="noopener noreferrer" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating red"><i class="material-icons">videocam</i></a>
                 {% when "Transcript" %}
-                <a href='{{link[1]}}' target="_blank" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating cyan"><i class="material-icons">edit</i></a>
+                <a href='{{link[1]}}' target="_blank" rel="noopener noreferrer" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating cyan"><i class="material-icons">edit</i></a>
                 {% when "Docs" %}
-                <a href='{{link[1]}}' target="_blank" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating lime"><i class="material-icons">book</i></a>
+                <a href='{{link[1]}}' target="_blank" rel="noopener noreferrer" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating lime"><i class="material-icons">book</i></a>
                 {% when "Board" %}
-                <a href='{{link[1]}}' target="_blank" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating amber"><i class="material-icons">dashboard</i></a>
+                <a href='{{link[1]}}' target="_blank" rel="noopener noreferrer" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating amber"><i class="material-icons">dashboard</i></a>
                 {% else %}
-                <a href='{{link[1]}}' target="_blank" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating"><i class="material-icons">link</i></a>
+                <a href='{{link[1]}}' target="_blank" rel="noopener noreferrer" data-position="top" data-tooltip="{{link[0]}}" class="waves-effect waves-light tooltipped btn-large btn-floating"><i class="material-icons">link</i></a>
               {% endcase %}
             {% endfor %}
           {% endfor %}
