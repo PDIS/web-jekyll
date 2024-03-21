@@ -117,12 +117,13 @@
 <script>
   function search(e) {
     let q = e.parentNode.firstElementChild.value.trim();
-    if (q) window.location.href = "/en/search/?q=" + q;
+    if (q) window.location.href = "/en/search/?q=" + encodeURIComponent(q);
   }
 </script>
 
 <li><a class="tooltipped" data-position="bottom" data-tooltip="zh-TW" href="/zh-TW/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2/"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a></li>
 <li><a class="tooltipped" data-position="bottom" data-tooltip="EN" href="/en/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2/"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a></li>
+
     </ul>
   </div>
 </nav>
@@ -174,12 +175,13 @@
 <script>
   function search(e) {
     let q = e.parentNode.firstElementChild.value.trim();
-    if (q) window.location.href = "/en/search/?q=" + q;
+    if (q) window.location.href = "/en/search/?q=" + encodeURIComponent(q);
   }
 </script>
 
 <li><a class="tooltipped" data-position="bottom" data-tooltip="zh-TW" href="/zh-TW/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2/"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a></li>
 <li><a class="tooltipped" data-position="bottom" data-tooltip="EN" href="/en/blog/%E6%98%94%E6%97%A5%E5%9B%9E%E9%9F%BF-%E6%9C%AA%E4%BE%86%E4%B9%8B%E8%81%B2/"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a></li>
+
 </ul>
 
 

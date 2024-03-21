@@ -117,12 +117,13 @@
 <script>
   function search(e) {
     let q = e.parentNode.firstElementChild.value.trim();
-    if (q) window.location.href = "/zh-TW/search/?q=" + q;
+    if (q) window.location.href = "/zh-TW/search/?q=" + encodeURIComponent(q);
   }
 </script>
 
 <li><a class="tooltipped" data-position="bottom" data-tooltip="zh-TW" href="/zh-TW/blog/%E5%B1%95%E6%9C%9B-2022-%E6%95%B8%E4%BD%8D%E7%9B%9F%E5%8F%8B-%E6%8C%BA%E8%BA%AB%E8%80%8C%E5%87%BA/"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a></li>
 <li><a class="tooltipped" data-position="bottom" data-tooltip="EN" href="/en/blog/%E5%B1%95%E6%9C%9B-2022-%E6%95%B8%E4%BD%8D%E7%9B%9F%E5%8F%8B-%E6%8C%BA%E8%BA%AB%E8%80%8C%E5%87%BA/"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a></li>
+
     </ul>
   </div>
 </nav>
@@ -174,12 +175,13 @@
 <script>
   function search(e) {
     let q = e.parentNode.firstElementChild.value.trim();
-    if (q) window.location.href = "/zh-TW/search/?q=" + q;
+    if (q) window.location.href = "/zh-TW/search/?q=" + encodeURIComponent(q);
   }
 </script>
 
 <li><a class="tooltipped" data-position="bottom" data-tooltip="zh-TW" href="/zh-TW/blog/%E5%B1%95%E6%9C%9B-2022-%E6%95%B8%E4%BD%8D%E7%9B%9F%E5%8F%8B-%E6%8C%BA%E8%BA%AB%E8%80%8C%E5%87%BA/"><span class="flag-icon flag-icon-tw flag-icon-squared"></span></a></li>
 <li><a class="tooltipped" data-position="bottom" data-tooltip="EN" href="/en/blog/%E5%B1%95%E6%9C%9B-2022-%E6%95%B8%E4%BD%8D%E7%9B%9F%E5%8F%8B-%E6%8C%BA%E8%BA%AB%E8%80%8C%E5%87%BA/"><span class="flag-icon flag-icon-us flag-icon-squared"></span></a></li>
+
 </ul>
 
 
