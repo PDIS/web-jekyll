@@ -1,4 +1,4 @@
-// Copyright 2022 Google LLC
+// Copyright 2023 Google LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -22,10 +22,11 @@ import "google/api/client.proto";
 import "google/api/field_behavior.proto";
 import "google/api/resource.proto";
 import "google/longrunning/operations.proto";
+import "google/protobuf/empty.proto";
 import "google/protobuf/field_mask.proto";
 
 option csharp_namespace = "Google.Cloud.ApiKeys.V2";
-option go_package = "google.golang.org/genproto/googleapis/api/apikeys/v2;apikeys";
+option go_package = "cloud.google.com/go/apikeys/apiv2/apikeyspb;apikeyspb";
 option java_multiple_files = true;
 option java_outer_classname = "ApiKeysProto";
 option java_package = "com.google.api.apikeys.v2";

@@ -1,4 +1,4 @@
-// Copyright 2015 Google LLC
+// Copyright 2023 Google LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,6 +15,8 @@
 syntax = "proto3";
 
 package google.api;
+
+import "google/api/policy.proto";
 
 option go_package = "google.golang.org/genproto/googleapis/api/serviceconfig;serviceconfig";
 option java_multiple_files = true;
@@ -33,4 +35,7 @@ message Control {
   // feature (like quota and billing) will be enabled. The recommended value for
   // most services is servicecontrol.googleapis.com
   string environment = 1;
+
+  // Defines policies applying to the API methods of the service.
+  repeated MethodPolicy method_policies = 4;
 }
