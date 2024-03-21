@@ -337,7 +337,7 @@
 
 <script>
   function switchpage(e) {
-    let q = e.value
+    let q = encodeURIComponent(e.value)
     if (q > 1) {
       window.location.href = "/en/blog" + `/page${q}/`
     }
