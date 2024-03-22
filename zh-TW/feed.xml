@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2024-03-22T01:24:56+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">民主峰會：促進尊重人權的創新</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%B0%91%E4%B8%BB%E5%B3%B0%E6%9C%83-%E4%BF%83%E9%80%B2%E5%B0%8A%E9%87%8D%E4%BA%BA%E6%AC%8A%E7%9A%84%E5%89%B5%E6%96%B0/" rel="alternate" type="text/html" title="民主峰會：促進尊重人權的創新" /><published>2024-03-18T00:00:00+00:00</published><updated>2024-03-18T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%B0%91%E4%B8%BB%E5%B3%B0%E6%9C%83-%E4%BF%83%E9%80%B2%E5%B0%8A%E9%87%8D%E4%BA%BA%E6%AC%8A%E7%9A%84%E5%89%B5%E6%96%B0</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%B0%91%E4%B8%BB%E5%B3%B0%E6%9C%83-%E4%BF%83%E9%80%B2%E5%B0%8A%E9%87%8D%E4%BA%BA%E6%AC%8A%E7%9A%84%E5%89%B5%E6%96%B0/"><![CDATA[<p>各位當地時間好。我是唐鳳，臺灣的數位部長。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2024-03-22T16:00:32+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">以 AI 治 AI</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%A5-AI-%E6%B2%BB-AI/" rel="alternate" type="text/html" title="以 AI 治 AI" /><published>2024-03-21T00:00:00+00:00</published><updated>2024-03-21T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%A5-AI-%E6%B2%BB-AI</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%A5-AI-%E6%B2%BB-AI/"><![CDATA[<p>過去，一頁式詐騙電商網站盛行，但這類型網站 2022 年下架數量還不到三千件。在數位發展部成立後，透過技術攔阻，2023 年下架數量擴增到三萬多件，等於每天將近百件。</p>
+
+<p>以往詐騙集團打電話，用的是真人，只能一對一，要假冒名人，可能還需要先訓練模仿。但當 AI 技術愈發成熟，詐騙也被「賦能」了。</p>
+
+<p>兩年前，deepfake（深偽）技術出現，為了幫眾人先打預防針，我請演員來 deepfake 我自己，拍了一部影片。因為五官相似，如果不另外說明，觀眾只會覺得唐鳳造型變了，不會知道那其實是另外一個人。</p>
+
+<p>該影片的製作，並不需要先進設備或高昂費用，使用的都是公開可得的技術，只要一台筆電、用十二個小時就能完成，不是什麼大工程。</p>
+
+<p>如今，詐騙集團已經利用 AI 在通訊軟體上跟人交流，除了用文字，還有聲音，甚至開視訊影像，讓人產生和名人對話的錯覺，進而上當。</p>
+
+<p>因為 AI 能同時與幾萬個人聊天，一下子就讓許多人受騙，造成嚴重危害。</p>
+
+<p>數位部「以 AI 制 AI」，開發出「詐騙樣態分析」、「防詐雷達」等技術，平均每天掃出上千筆可疑廣告、電商商品，提供給大型平臺做複查跟處理，以及給電商進行預防性下架。</p>
+
+<p>立院去年也通過《證券投資信託及顧問法》修正案，讓平台負起連帶責任：當有被害人指證，是因為看到該平台廣告而受騙，而且該則廣告有接獲檢舉通知、卻未在二十四小時內下架時，被害人被騙多少，平台就要負連帶損害賠償責任。</p>
+
+<p>詐騙集團之於我們，是攻擊和防守的兩方力道抗衡。隨著影音合成技術日新月異、越來越容易引人上當，我們得用更難偽造的事情，來提高詐騙廣告上架的難度。</p>
+
+<p>防詐最好的方式就是「真實」。什麼能代表一個人的真實身份？我們的解法，是難以偽造的「數位簽章」。</p>
+
+<p>自然人憑證、工商憑證、組織及團體憑證，這些憑證雖然在國內行之有年，但在修法前，並沒有推定為本人親簽的效力。這次《電子簽章法》的修法，就是希望讓「數位簽章」效力等同印鑑證明，獨一無二、不能被仿冒。</p>
+
+<p>未來，要在大型平台上架投資廣告，必須使用數位簽章，證明為本人或真有名人授權，才能用其名義作廣告。</p>
+
+<p>而當一則廣告被檢舉為可疑、遭到撤銷，當事人想要再度上架，就得用新的名字，但詐騙犯不可能一直去戶政事務所改名。</p>
+
+<p>進入 AI 世代，眼見不再為憑。防守方也必須主動出擊，才能以 AI 治 AI。</p>]]></content><author><name>唐鳳</name><email>au@pdis.nat.gov.tw</email></author><category term="blog" /><category term="數位產業" /><summary type="html"><![CDATA[讓「數位簽章」效力等同印鑑證明，獨一無二、不能被仿冒。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/key-hole-1262417_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/key-hole-1262417_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">民主峰會：促進尊重人權的創新</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E6%B0%91%E4%B8%BB%E5%B3%B0%E6%9C%83-%E4%BF%83%E9%80%B2%E5%B0%8A%E9%87%8D%E4%BA%BA%E6%AC%8A%E7%9A%84%E5%89%B5%E6%96%B0/" rel="alternate" type="text/html" title="民主峰會：促進尊重人權的創新" /><published>2024-03-18T00:00:00+00:00</published><updated>2024-03-18T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E6%B0%91%E4%B8%BB%E5%B3%B0%E6%9C%83-%E4%BF%83%E9%80%B2%E5%B0%8A%E9%87%8D%E4%BA%BA%E6%AC%8A%E7%9A%84%E5%89%B5%E6%96%B0</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E6%B0%91%E4%B8%BB%E5%B3%B0%E6%9C%83-%E4%BF%83%E9%80%B2%E5%B0%8A%E9%87%8D%E4%BA%BA%E6%AC%8A%E7%9A%84%E5%89%B5%E6%96%B0/"><![CDATA[<p>各位當地時間好。我是唐鳳，臺灣的數位部長。</p>
 
 <p>能夠再次在民主峰會上代表臺灣，我感到無比榮幸。面對 AI 和新興科技所帶來的挑戰，全球理念相近的盟友第三度齊聚一堂，具有重大意義。我們共同面對的問題是：如何在民主社會裡，促進尊重人權的創新？</p>
 
@@ -194,18 +220,4 @@
 
 <p>延續今年「<a href="https://www.data-sports.tw/">運動數據公益平台</a>」的示範基礎，數位部會接著推出《<a href="https://join.gov.tw/policies/detail/ada473f2-7a4b-42ca-984b-740da54e6915">數據公益運作指引</a>》和《<a href="https://hackmd.io/@petworks/rJ-UOh9Rn">隱私強化技術應用指引</a>》，提供應用方式與技術細節。在我看來，這不僅有機會成為新的跨境數位認證方式，更將開拓出數據運用的公益生態。</p>
 
-<p>因為，不論身分認證或是數據運用，關鍵都在於「信任」。先有人與人的互信，跨境身分才有意義、數據才能發揮價值。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="多元創新" /><summary type="html"><![CDATA[最有保障的運作方式，是將資料持有者和數據使用者聚集成聯盟。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/key-2471007_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/key-2471007_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">無法壓縮的演算法</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95/" rel="alternate" type="text/html" title="無法壓縮的演算法" /><published>2023-08-03T00:00:00+00:00</published><updated>2023-08-03T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E7%84%A1%E6%B3%95%E5%A3%93%E7%B8%AE%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95/"><![CDATA[<p>前些日子，著名科幻雜誌《Clarkesworld》暫時關閉投稿，因為自從生成式 AI 普及後，機器合成的投稿數急遽飆升，讓編輯團隊疲於奔命。「AI 寫科幻小說」聽來頗具後設趣味，卻反映出許多人的擔憂。</p>
-
-<p>如今 AI 服務琳瑯滿目，可以翻譯、繪圖、寫程式，甚至提供靈感，成為各行各業重要幫手。但《Clarkesworld》雜誌的遭遇，正是 AI 衝擊社會的縮影。更嚴重的，則是冒充他人的臉和聲音。這不僅造成財產損失、影響人際互信，一旦受到極權政體與不法之徒利用，更將對民主體制形成重大干擾。</p>
-
-<p>此外，目前最先進的生成式 AI，往往由單一企業訓練，再給所有人使用相同模型。然而，各地文化與價值觀不同，對事物的詮釋往往差異甚鉅。單一來源的模型，不但會偏頗特定群體，也難以適應世界的多元樣貌。</p>
-
-<p>六月時我應邀參與倫敦科技周，這些課題都是熱烈討論的焦點。當時，不分公私部門，各方共識是：AI 絕不能走向集權，應該採用多元豐富的民主模式。換句話說，要兼顧 AI 發展和安全，不能仰賴少數開發者的片面決定。讓<a href="https://fortune.com/2023/06/20/why-picking-citizens-at-random-best-way-to-govern-ai-revolution-tech-politics/">各國公民</a>都有管道積極投入，攜手建立受全球信任的 AI 認驗證機制、共同打造 AI 倫理和使用原則，才能確保可靠、可信任的 AI。</p>
-
-<p>在討論時，我想起我很喜歡的一篇科幻小說，姜峯楠的《虛擬生物的生命周期》。小說描述未來科技公司透過 VR 結合 AI，創造出虛擬生命。兩位主角在培育過程中，逐漸意識到：AI 需要持續關愛和教育，才會真正成長。</p>
-
-<p>「經驗是不能用演算法壓縮的。」主角之一，在反思自己陪伴虛擬生命的歷程時，說了這句銘言：「想創造出在世上生活二十年得來的常識，就必須投入二十年的心力。」</p>
-
-<p>在我看來，這點出了 AI 民主化的方向：惟有大眾持續參與，才能有效形塑共識。因此，我今年與國際非政府組織「集體智慧計畫」（CIP）協力，結合 OpenAI、Anthropic 等業界夥伴發起「對齊大會」專案，透過「<a href="https://ideathon.tw/polis">點子松</a>」讓臺灣成為世界首創透過公民審議，<a href="https://talk.polis.tw/">對齊 AI 價值</a>的場域。</p>
-
-<p>在《虛擬生物的生命周期》的結尾，AI 在主角們耐心陪伴下，不但發展出獨立思考和情感，更建立了深厚的社會連結。我衷心期盼，從對齊大會的嘗試開始，透過毋需壓縮的經驗傳承，能讓下一代 AI 汲取千萬年來全球累積的「<a href="https://cip.org/research/democratizing-ai">眾人智慧</a>」，長成關懷社群福祉的智慧夥伴。</p>]]></content><author><name>唐鳳、彭筱婷、周宜蔓、黃彥霖</name></author><category term="blog" /><category term="數位策略" /><category term="民主網絡" /><category term="資通安全" /><summary type="html"><![CDATA[想創造出在世上生活二十年得來的常識，就必須投入二十年的心力。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/20230803.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/20230803.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>因為，不論身分認證或是數據運用，關鍵都在於「信任」。先有人與人的互信，跨境身分才有意義、數據才能發揮價值。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="多元創新" /><summary type="html"><![CDATA[最有保障的運作方式，是將資料持有者和數據使用者聚集成聯盟。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/key-2471007_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/key-2471007_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
