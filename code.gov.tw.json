@@ -24,7 +24,12 @@
     }
   ],
   "provider": "行政院公共數位創新空間（PDIS）",
-  "contact": "行政院公共數位創新空間（PDIS）\nopensource@pdis.nat.gov.tw",
+  "contact": [
+    {
+      "fullname": "行政院公共數位創新空間（PDIS）",
+      "address": "opensource@pdis.nat.gov.tw"
+    }
+  ],
   "created_at": "2017-09-05",
   "updated_at": "2024-03-21"
 }
