@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2024-04-19T01:27:01+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">以 AI 治 AI</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%A5-AI-%E6%B2%BB-AI/" rel="alternate" type="text/html" title="以 AI 治 AI" /><published>2024-03-21T00:00:00+00:00</published><updated>2024-03-21T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%A5-AI-%E6%B2%BB-AI</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%A5-AI-%E6%B2%BB-AI/"><![CDATA[<p>過去，一頁式詐騙電商網站盛行，但這類型網站 2022 年下架數量還不到三千件。在數位發展部成立後，透過技術攔阻，2023 年下架數量擴增到三萬多件，等於每天將近百件。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW"><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://pdis.nat.gov.tw/zh-TW/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pdis.nat.gov.tw/zh-TW/" rel="alternate" type="text/html" hreflang="zh-TW" /><updated>2024-04-19T20:46:59+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/feed.xml</id><author><name>PDIS</name></author><entry><title type="html">AI 的成「人」之路</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/AI-%E7%9A%84%E6%88%90-%E4%BA%BA-%E4%B9%8B%E8%B7%AF/" rel="alternate" type="text/html" title="AI 的成「人」之路" /><published>2024-04-18T00:00:00+00:00</published><updated>2024-04-18T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/AI-%E7%9A%84%E6%88%90%E3%80%8C%E4%BA%BA%E3%80%8D%E4%B9%8B%E8%B7%AF</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/AI-%E7%9A%84%E6%88%90-%E4%BA%BA-%E4%B9%8B%E8%B7%AF/"><![CDATA[<p>生成式 AI 之所以讓人驚艷，卻也令人擔心，都是因為它能越來越像「人」。</p>
+
+<p>舉例來說，只要拿幾張照片，就能合成出 360 度都看不出破綻的一張人臉。</p>
+
+<p>或是錄下講幾句話的聲音，只要短短十五秒，就能採集到聲紋模型，接著就能用相同的口吻說話，騙倒親朋好友。</p>
+
+<p>要用 AI 模仿真人，除了外貌、聲音外，也包括在網路上的行為。</p>
+
+<p>比如，在哪些地方按讚？常在哪裡留言？而除了主動打字、主動拍照來提供這些資訊，也有許多網站或 App，可以只靠注意力在哪個頁面上停留比較久，就模擬出使用者的喜好。</p>
+
+<p>這樣訓練出來的 AI 模型，只要稍加變化，就能在網路世界裡，化身成千千萬萬個不同的「虛擬人」。好比說有篇熱門文章，底下留言上千則，乍看下討論熱烈，但其實往往是同一個 AI 系統合成的不同分身，營造特定情緒，甚至藉此激化對立。</p>
+
+<p>這些留言不同於以往的罐頭訊息，一看就知道是假的。如今有了生成式 AI，每個帳號有不同的大頭照，還能加好友，會打卡、拍照，如真人般的生活史，待特定時機需要操作時，再蜂擁到某處留言。</p>
+
+<p>而要讓這些「虛擬人」更融入人類世界，仍需真人出馬，對它們進行「對齊微調」（alignment tuning），就是教小孩一樣，告訴他們哪些回答更受到我們認可，哪些不是，才能讓 AI 的反應更向人類靠攏。</p>
+
+<p>擬真的 AI，是詐騙的利器；同時也是生產力與創造性的最佳助手。工具是相同的，而其行為良善與否，端看是誰在使用。</p>
+
+<p>去年年底，我在「超智慧對齊」這篇專欄裡，提到的自動對齊技術「憲法式 AI」，如今已經開源，任何人都可以自由運用。只要讓一群人寫下「AI 如何回答比較好」的原則文件，不同屬性、文化的人會有不同的偏好，就像不同國家的風俗民情，人民會有不同的認知一樣。</p>
+
+<p>例如，新聞業對於一個問題，會希望 AI 追求來源的真實性，如果沒有足夠證據支持，寧可 AI 系統說他不知道，不要回覆幻想出來的答案。</p>
+
+<p>但是，對於一群科幻小說作家，要求的可能就完全相反，反而會希望 AI 盡可能地有創意，就算是瞎掰也沒有關係，只要看起來引人入勝就好。</p>
+
+<p>因此，兩種「憲法」訓練出來的 AI，反應方式就會截然不同。不會有一套 AI 系統能放諸四海皆準，唯有透過對齊微調的方式，才能讓 AI 系統更靠近使用者，更能像「人」地互動。</p>]]></content><author><name>唐鳳、方歆婷</name></author><category term="blog" /><category term="數位產業" /><summary type="html"><![CDATA[擬真的 AI，是詐騙的利器；同時也是生產力與創造性的最佳助手。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/piano-7303732_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/piano-7303732_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">以 AI 治 AI</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%A5-AI-%E6%B2%BB-AI/" rel="alternate" type="text/html" title="以 AI 治 AI" /><published>2024-03-21T00:00:00+00:00</published><updated>2024-03-21T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%A5-AI-%E6%B2%BB-AI</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E4%BB%A5-AI-%E6%B2%BB-AI/"><![CDATA[<p>過去，一頁式詐騙電商網站盛行，但這類型網站 2022 年下架數量還不到三千件。在數位發展部成立後，透過技術攔阻，2023 年下架數量擴增到三萬多件，等於每天將近百件。</p>
 
 <p>以往詐騙集團打電話，用的是真人，只能一對一，要假冒名人，可能還需要先訓練模仿。但當 AI 技術愈發成熟，詐騙也被「賦能」了。</p>
 
@@ -202,22 +226,4 @@
 
 <p>感謝您的聆聽，也祝 SITRA 這場令人振奮的活動成功，大家生生不息，繁榮昌盛！</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z6wLJ_lDsks" frameborder="0" allowfullscreen=""></iframe>]]></content><author><name>唐鳳、劉澄真、薛雅婷</name></author><category term="blog" /><category term="民主網絡" /><category term="數位策略" /><summary type="html"><![CDATA[對許多參與者來說，這是首次在審議的脈絡下與 AI 互動。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/2023-09-11.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/2023-09-11.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">關鍵在於信任</title><link href="https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB/" rel="alternate" type="text/html" title="關鍵在於信任" /><published>2023-08-31T00:00:00+00:00</published><updated>2023-08-31T00:00:00+00:00</updated><id>https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB</id><content type="html" xml:base="https://pdis.nat.gov.tw/zh-TW/blog/%E9%97%9C%E9%8D%B5%E5%9C%A8%E6%96%BC%E4%BF%A1%E4%BB%BB/"><![CDATA[<p>前陣子，知名開源專案「以太坊」共同創辦人布特林（Vitalik Buterin）來臺領取就業金卡，取得我國居留身分。我們在「台北的多元宇宙」活動對談時，與會者提出頗有哲學意味的問題：去中心化、無法倚賴政府確認身分的跨境社群裡，究竟誰有資格「證明」每個人的身分呢？</p>
-
-<p>布特林認為，透過人際「社交圖譜」的驗證，是比較接近多元精神的識別方式。例如，由認識的夥伴引薦進入社群，就是一種社交圖譜。</p>
-
-<p>另一種方式則是「生物識別」：透過個人指紋和虹膜辨識等驗證身分，同樣也是現今廣泛應用的作法。由 OpenAI 創辦人奧特曼（Sam Altman） 共同發起、七月底正式啟動的加密貨幣「世界幣」，就是最近出現應用生物識別的大膽嘗試。</p>
-
-<p>要取得世界幣，得先透過名為「the Orb」的球體掃描虹膜，進行身分認證。這套機制的設計初衷，是避免生成式 AI 冒充人類，但要如何同時維持敏感資料離線儲存，又能實現去中心化的驗證，是世界幣面臨的重大挑戰。</p>
-
-<p>布特林就認為，即使世界幣運用生物識別，試圖透過加密技術避免隱私侵害，個資外洩和惡意使用的風險，依然存在。</p>
-
-<p>而另一種社交圖譜的識別方式，是以社交圈來驗證一個人的身分，但凡運用個人資料，都會牽涉到當事人的許可。布特林的提醒，讓我想起今年六月 RadicalxChange 基金會發布的報告《資料聯盟和託管代理人》。</p>
-
-<p>這份報告的核心概念，是個人資料的「脈絡邊界」，也就是特定社交圖譜裡產生的意義，往往會涉及許多人的隱私，因此不應該在原始目的外直接使用。唯有在當事人知情同意下，轉化為非個資數據（non-personal data）、完整保護脈絡邊界，才能自由流通、安心運用。</p>
-
-<p>報告指出，數據的社會價值，遠大於個資作為商品的價格。因此，最有保障的運作方式，是將資料持有者和數據使用者聚集成聯盟，再透過受信任的第三方，確保個資轉化為數據時的公正可信。此時，提供保障的「隱私強化技術」，就是最重要的防線。</p>
-
-<p>延續今年「<a href="https://www.data-sports.tw/">運動數據公益平台</a>」的示範基礎，數位部會接著推出《<a href="https://join.gov.tw/policies/detail/ada473f2-7a4b-42ca-984b-740da54e6915">數據公益運作指引</a>》和《<a href="https://hackmd.io/@petworks/rJ-UOh9Rn">隱私強化技術應用指引</a>》，提供應用方式與技術細節。在我看來，這不僅有機會成為新的跨境數位認證方式，更將開拓出數據運用的公益生態。</p>
-
-<p>因為，不論身分認證或是數據運用，關鍵都在於「信任」。先有人與人的互信，跨境身分才有意義、數據才能發揮價值。</p>]]></content><author><name>唐鳳、彭筱婷</name></author><category term="blog" /><category term="多元創新" /><summary type="html"><![CDATA[最有保障的運作方式，是將資料持有者和數據使用者聚集成聯盟。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/key-2471007_1280.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/key-2471007_1280.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z6wLJ_lDsks" frameborder="0" allowfullscreen=""></iframe>]]></content><author><name>唐鳳、劉澄真、薛雅婷</name></author><category term="blog" /><category term="民主網絡" /><category term="數位策略" /><summary type="html"><![CDATA[對許多參與者來說，這是首次在審議的脈絡下與 AI 互動。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/2023-09-11.jpg" /><media:content medium="image" url="https://pdis.nat.gov.tw/zh-TW/assets/imgs/2023-09-11.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
