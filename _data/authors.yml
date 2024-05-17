@@ -45,14 +45,10 @@
     linkedin: https://tw.linkedin.com/in/jedilin/
     phone_card: 0975-774-779
 邱慕安:
-    status: current
+    status: former
     name: 邱慕安
     name_en: Mu-An Chiou
-    description: 設計制度總顧問
-    description_en: Head of Design Systems
     avatar: '/assets/avatar/muan.jpg'
-    website: https://github.com/muan
-    email: muan@pdis.nat.gov.tw
 方怡婷:
     status: current
     name: 方怡婷
@@ -78,7 +74,7 @@
     name_en: Ning Yeh
 黃子維:
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/zach/800/589_1.png'
-    status: current
+    status: former
     name: 黃子維
     name_en: Zach Huang
 薛雅婷:
@@ -98,7 +94,7 @@
     name: 蕭郁溏
 魏守斌:
     avatar: 'https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/bobby/800/4074_1.png'
-    status: current
+    status: former
     name: 魏守斌
     name_en: Shou-Bin Wei
 李雪津:
