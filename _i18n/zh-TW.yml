@@ -67,7 +67,7 @@ tools:
       title: 人物誌
       content: 人物誌（Personas）是虛構出現實中的個人形象，用於描述目標受中的特定族群。透過把這個人物以及相似人群的行為、行動與喜好繪製成「人物角色」，就能以這個人物角色理解這群人。以建立人物角色的方式展現人物的特徵，就不會失去這個人物之所以成為該人物的細節。
         這樣的角色扮演有助於確保工作始終專注在使用者上，而不是對他們相應群體的抽象描述。
-      link: http://diytoolkit.org/tools/personas-2/
+      link: https://diy-toolkit.org/tools/personas/
     - image: /assets/imgs/3ac47f8f3a63361a1664d066aa7b38d7a9ffb244_2_1380x974.png
       title: 使用者體驗旅程
       content: 使用者體驗旅程（User Journeys）是展示人們如何與服務逐步進行互動的過程。透過使用者體驗旅程，工作團隊可以確定服務流程上的問題點，以確認新的點子可以改善哪些部分。
