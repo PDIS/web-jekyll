@@ -31,19 +31,17 @@
     instagram: https://www.instagram.com/finjon_kiang/
     linkedin: https://tw.linkedin.com/in/finjonkiang/
 林克寰:
-    status: current
+    status: former
     name: 林克寰
     name_en: Jedi Lin
-    description: 無障礙設計總顧問
-    description_en: Head of Accessibility Design
+#    description: 無障礙設計總顧問
+#    description_en: Head of Accessibility Design
     avatar: '/assets/avatar/jedi.webp'
-    email: jedi@pdis.nat.gov.tw
-    twitter: https://twitter.com/JediLin
     website: https://jedi.org/blog/
-    website_card: https://jedi.org/pdis/
+#    website_card: https://jedi.org/pdis/
     mastodon: https://g0v.social/@jedi
     linkedin: https://tw.linkedin.com/in/jedilin/
-    phone_card: 0975-774-779
+#    phone_card: 0975-xxx-xxx
 邱慕安:
     status: former
     name: 邱慕安
