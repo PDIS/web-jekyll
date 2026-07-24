@@ -21,8 +21,8 @@
     status: former
     name: 江明宗
     name_en: Finjon Kinag (kiang)
-    description: 應用架構總顧問
-    description_en: Head of Application Architecture / somebody as a nobody, nobody as a somebody
+#    description: 應用架構總顧問
+#    description_en: Head of Application Architecture / somebody as a nobody, nobody as a somebody
     avatar: '/assets/avatar/kiang.jpg'
     website: https://kiang.github.io/
     email: kiang@pdis.nat.gov.tw
